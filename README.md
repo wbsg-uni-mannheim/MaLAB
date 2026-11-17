@@ -1,5 +1,7 @@
 # MaLab: Mannheim Legal Agent Benchmark
 
+Website: https://wbsg-uni-mannheim.github.io/MaLab/
+
 MaLab evaluates how LLM agents solve German legal cases. Each case has its own
 pass/fail criteria for the individual legal requirements, derived from the
 published reference solution. A committee of LLM judges applies these criteria
