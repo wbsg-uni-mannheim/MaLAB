@@ -2584,8 +2584,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td>64.1</td>
                                 <td>67.3</td>
                                 <td>76.1</td>
-                                <td>&ndash;</td>
-                                <td>&ndash;</td>
+                                <td>66.8</td>
+                                <td>75.2</td>
                             </tr>
                             <tr>
                                 <td class="has-text-left">gpt-5.6-terra</td>
@@ -2593,8 +2593,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td>58.0</td>
                                 <td>60.0</td>
                                 <td>64.1</td>
-                                <td>&ndash;</td>
-                                <td>&ndash;</td>
+                                <td>50.9</td>
+                                <td>63.9</td>
                             </tr>
                             <tr>
                                 <td class="has-text-left">deepseek-v4-pro</td>
@@ -2602,8 +2602,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td>50.7</td>
                                 <td>47.4</td>
                                 <td>58.2</td>
-                                <td>&ndash;</td>
-                                <td>&ndash;</td>
+                                <td>29.6</td>
+                                <td>42.4</td>
                             </tr>
                             <tr>
                                 <td class="has-text-left" rowspan="3">OpenCode</td>
@@ -2612,8 +2612,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td>74.2</td>
                                 <td>72.1</td>
                                 <td>76.5</td>
-                                <td>&ndash;</td>
-                                <td>&ndash;</td>
+                                <td>71.4</td>
+                                <td>80.7</td>
                             </tr>
                             <tr>
                                 <td class="has-text-left">gpt-5.6-terra</td>
@@ -2621,8 +2621,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td>58.4</td>
                                 <td>60.2</td>
                                 <td>68.4</td>
-                                <td>&ndash;</td>
-                                <td>&ndash;</td>
+                                <td>49.0</td>
+                                <td>60.6</td>
                             </tr>
                             <tr>
                                 <td class="has-text-left">deepseek-v4-pro</td>
@@ -2630,8 +2630,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td>59.1</td>
                                 <td>57.3</td>
                                 <td>70.5</td>
-                                <td>&ndash;</td>
-                                <td>&ndash;</td>
+                                <td>43.8</td>
+                                <td>60.9</td>
                             </tr>
                             <tr>
                                 <td class="has-text-left" rowspan="3">Codex CLI</td>
@@ -2640,8 +2640,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td>69.7</td>
                                 <td>70.7</td>
                                 <td>79.1</td>
-                                <td>&ndash;</td>
-                                <td>&ndash;</td>
+                                <td>65.7</td>
+                                <td>75.7</td>
                             </tr>
                             <tr>
                                 <td class="has-text-left">gpt-5.6-sol + web search</td>
@@ -2658,8 +2658,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td>81.1</td>
                                 <td>82.4</td>
                                 <td><b>88.6</b></td>
-                                <td>79.9</td>
-                                <td><b>89.4</b></td>
+                                <td>81.1</td>
+                                <td><b>90.0</b></td>
                             </tr>
                             <tr>
                                 <td class="has-text-left" rowspan="1">Claude Code</td>
@@ -2676,7 +2676,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                 </div>
                 <p class="footer-note">
                         15 cases per area of law, same metrics as above. The criminal law
-                        runs of the other eight systems are still in progress.
+                        run of Codex with web search is being repeated with the sites of
+                        published solutions blocked.
                     </p>
                 <div class="content is-size-6" style="margin-top: 1rem">
                     <p>
@@ -2688,7 +2689,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                         <b>Claude Opus 5.5 keeps its level.</b> It reaches 84.0 in public
                         law, 82.9 in civil law and 82.0 in criminal law, close to its 85.1
                         in the first examination. GPT-6 Astra matches it in civil law
-                        (82.4), is close in criminal law (79.9), but drops to 77.9 in
+                        (82.4) and criminal law (81.1), but drops to 77.9 in
                         public law. The public law cases are original Bavarian
                         exam cases and also require Bavarian state law, such as the
                         Bavarian building code.
@@ -2699,8 +2700,9 @@ Feel free to create any notes as you see fit. However only the required delivera
                         examination. Working in several steps helps more than in the first
                         examination. In public law, gpt-5.6-sol in OpenCode scores 10.8
                         points above its single call, compared with 2.5 points in the first
-                        examination. deepseek-v4-pro gains 8.1 points in public law and 9.9
-                        points in civil law. gpt-5.6-terra gains almost nothing.
+                        examination. deepseek-v4-pro gains 8.1 points in public law, 9.9
+                        points in civil law and 14.2 points in criminal law, where its
+                        single call reaches only 29.6. gpt-5.6-terra gains almost nothing.
                     </p>
                     <p>
                         <b>Web access helps again.</b> Codex with gpt-5.6-sol gains 6.4
@@ -3330,9 +3332,9 @@ Feel free to create any notes as you see fit. However only the required delivera
                             delivered to users.
                         </li>
                         <li>
-                            <b>Criminal law in the second examination.</b> The runs of
-                            the remaining eight systems on the 15 criminal law
-                            cases will complete the private test set.
+                            <b>Criminal law with web search.</b> Codex with web search
+                            found published solutions to four criminal law cases. We
+                            repeat this run with these sites blocked.
                         </li>
                         <li>
                             <b>Rubric weights.</b> Following the legal review, we will
