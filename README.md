@@ -1,13 +1,13 @@
-# MaLab: Mannheim Legal Agent Benchmark
+# MaLAB: Mannheim Legal Agent Benchmark
 
 Website: https://wbsg-uni-mannheim.github.io/MaLab/
 
-MaLab evaluates how LLM agents solve German legal cases. Each case has its own
+MaLAB evaluates how LLM agents solve German legal cases. Each case has its own
 pass/fail criteria for the individual legal requirements, derived from the
 published reference solution. A committee of LLM judges applies these criteria
 without seeing the reference solution.
 
-This repository contains the public part of MaLab: the 45 cases of the First
+This repository contains the public part of MaLAB: the 45 cases of the First
 State Examination with their rubrics, the answers and frozen-judge scores of
 ten systems, the pipeline code and the project website. The private test set
 of the Second State Examination is not part of this repository.
