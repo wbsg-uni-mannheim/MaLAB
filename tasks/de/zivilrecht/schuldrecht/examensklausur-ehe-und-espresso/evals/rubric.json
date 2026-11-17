@@ -1,0 +1,2321 @@
+{
+  "schema_version": "0.2",
+  "generated_at": "2026-07-30T21:07:31.582266+00:00",
+  "review_status": "generated_calibrated_needs_human_review",
+  "language": "Deutsch",
+  "task_title": "Examensklausur: Ehe und Espresso",
+  "outline": [
+    {
+      "id": "F1",
+      "label": "Aufgabe 1",
+      "children": [
+        {
+          "id": "F1.I",
+          "label": "Anspruch der F gegen N aus §§ 687 Abs. 2 S. 1, 678 BGB",
+          "children": []
+        },
+        {
+          "id": "F1.II",
+          "label": "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "children": [
+            {
+              "id": "F1.II.1",
+              "label": "Rechtsgutsverletzung",
+              "children": [
+                {
+                  "id": "F1.II.1.a",
+                  "label": "(Mit-)Eigentum",
+                  "children": [
+                    {
+                      "id": "F1.II.1.a.aa",
+                      "label": "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung",
+                      "children": [
+                        {
+                          "id": "F1.II.1.a.aa.1",
+                          "label": "Dingliche Wirkung des § 1357 Abs. 1 S. 2 BGB",
+                          "children": [
+                            {
+                              "id": "F1.II.1.a.aa.1.a",
+                              "label": "Voraussetzungen des § 1357 Abs. 1 BGB",
+                              "children": []
+                            },
+                            {
+                              "id": "F1.II.1.a.aa.1.b",
+                              "label": "Wirkung des Verbraucherwiderrufs",
+                              "children": []
+                            },
+                            {
+                              "id": "F1.II.1.a.aa.1.c",
+                              "label": "Anwendbarkeit des § 1357 BGB auf Verfügungen",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "F1.II.1.a.aa.2",
+                          "label": "Rechtsgeschäftliche Vertretung der F",
+                          "children": [
+                            {
+                              "id": "F1.II.1.a.aa.2.a",
+                              "label": "Geschäft für den, den es angeht",
+                              "children": []
+                            },
+                            {
+                              "id": "F1.II.1.a.aa.2.b",
+                              "label": "Abweichende Beurteilung aufgrund der Natur des Verpflichtungsgeschäfts",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "F1.II.1.a.bb",
+                      "label": "Dingliche Rechtslage durch vollständige Kaufpreiszahlung",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "F1.II.1.b",
+                  "label": "(Berechtigter) Mitbesitz",
+                  "children": [
+                    {
+                      "id": "F1.II.1.b.aa",
+                      "label": "Besitzrecht",
+                      "children": [
+                        {
+                          "id": "F1.II.1.b.aa.1",
+                          "label": "§ 1357 Abs. 1 S. 2 BGB",
+                          "children": []
+                        },
+                        {
+                          "id": "F1.II.1.b.aa.2",
+                          "label": "§ 1353 BGB",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "F1.II.1.b.bb",
+                      "label": "Keine Sachherrschaft aus §§ 1353, 1357 Abs. 1 S. 2 BGB",
+                      "children": []
+                    },
+                    {
+                      "id": "F1.II.1.b.cc",
+                      "label": "Mitbesitz aus tatsächlicher Haushaltszugehörigkeit",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "F1.II.2",
+              "label": "Rechtswidrigkeit, Verschulden",
+              "children": []
+            },
+            {
+              "id": "F1.II.3",
+              "label": "Haftungsausfüllender Tatbestand",
+              "children": []
+            },
+            {
+              "id": "F1.II.4",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "F1.III",
+          "label": "Anspruch der F gegen N aus § 823 Abs. 2 BGB i.V.m. § 858 Abs. 1 BGB und § 303 StGB",
+          "children": []
+        },
+        {
+          "id": "F1.IV",
+          "label": "Anspruch der F gegen N aus § 826 BGB",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "label": "Aufgabe 2",
+      "children": [
+        {
+          "id": "F2.I",
+          "label": "Anspruch der F gegen B aus § 985 BGB",
+          "children": [
+            {
+              "id": "F2.I.1",
+              "label": "(Mit-)Eigentum der F",
+              "children": [
+                {
+                  "id": "F2.I.1.a",
+                  "label": "Rechtsgeschäftlicher Eigentumsübergang, § 929 S. 1 BGB",
+                  "children": []
+                },
+                {
+                  "id": "F2.I.1.b",
+                  "label": "Eigentumsübergang nach §§ 929 S. 1, 932 BGB",
+                  "children": [
+                    {
+                      "id": "F2.I.1.b.aa",
+                      "label": "Voraussetzungen des § 932 BGB",
+                      "children": []
+                    },
+                    {
+                      "id": "F2.I.1.b.bb",
+                      "label": "Ausschluss des gutgläubigen Erwerbs nach § 1369 Abs. 1 BGB und § 935 Abs. 1 S. 1 BGB",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "F2.I.1.c",
+                  "label": "Zwischenergebnis",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "F2.I.2",
+              "label": "Besitz der B",
+              "children": []
+            },
+            {
+              "id": "F2.I.3",
+              "label": "Kein Recht zum Besitz",
+              "children": [
+                {
+                  "id": "F2.I.3.a",
+                  "label": "Anwendung des § 1369 Abs. 1 BGB auf Haushaltsgegenstände im Miteigentum",
+                  "children": []
+                },
+                {
+                  "id": "F2.I.3.b",
+                  "label": "Keine Einschränkung durch subjektive Voraussetzungen",
+                  "children": []
+                },
+                {
+                  "id": "F2.I.3.c",
+                  "label": "Zwischenergebnis",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "F2.I.4",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "F2.II",
+          "label": "Anspruch der F gegen B aus § 1007 BGB",
+          "children": []
+        },
+        {
+          "id": "F2.III",
+          "label": "Anspruch der F gegen B aus § 861 Abs. 1 BGB",
+          "children": []
+        },
+        {
+          "id": "F2.IV",
+          "label": "Anspruch der F gegen B aus §§ 823 Abs. 1, 249 Abs. 1 BGB",
+          "children": []
+        },
+        {
+          "id": "F2.V",
+          "label": "Anspruch der F gegen B aus § 812 Abs. 1 S. 1 Var. 2 BGB",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "label": "Aufgabe 3",
+      "children": [
+        {
+          "id": "F3.I",
+          "label": "Besitzentziehung durch verbotene Eigenmacht",
+          "children": []
+        },
+        {
+          "id": "F3.II",
+          "label": "Kein Erlöschen gem. § 864 Abs. 2 BGB (analog)",
+          "children": []
+        },
+        {
+          "id": "F3.III",
+          "label": "Ergebnis",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "Ü",
+      "label": "Übergreifend",
+      "children": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "C-001",
+      "criticality": 1,
+      "title": "Fremdes Geschäft bei bloßer Sachzerstörung",
+      "match_criteria": "ERFÜLLT, wenn die Antwort erkennt, dass umstritten ist, ob die bloße Zerstörung der Espresso-Maschine durch N ein fremdes Geschäft im Sinne von § 687 Abs. 2 S. 1 BGB ist, und die Frage wegen des anderweitigen Scheiterns des GoA-Anspruchs offenlässt. NICHT ERFÜLLT, wenn sie die Fremdheit ohne Problembewusstsein bejaht oder den Streit für entscheidungserheblich hält.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-001"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-001"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "F1.I",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus §§ 687 Abs. 2 S. 1, 678 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-002",
+      "criticality": 3,
+      "title": "Haftungsbegrenzung des minderjährigen N",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den Anspruch der F gegen den 17-jährigen N aus §§ 687 Abs. 2 S. 1, 678 BGB wegen § 682 BGB verneint, weil der beschränkt geschäftsfähige Geschäftsführer nur nach den Vorschriften über unerlaubte Handlungen verantwortlich ist. NICHT ERFÜLLT, wenn sie den GoA-Anspruch bejaht oder § 682 BGB übergeht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-002",
+        "A-003"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-002",
+        "K-FACT-004"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.I",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus §§ 687 Abs. 2 S. 1, 678 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-003",
+      "criticality": 1,
+      "title": "Wirksamer Kaufvertrag mit der E-GmbH",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den Kaufvertrag über die Espresso-Maschine zwischen M und der durch den bevollmächtigten A vertretenen E-GmbH als wirksam behandelt. NICHT ERFÜLLT, wenn sie einen Vertrag mit A persönlich annimmt oder die Vertretungsmacht des A beziehungsweise die Wirksamkeit des Vertrags ohne Tatsachengrundlage verneint.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-004"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-003",
+        "K-FACT-001",
+        "K-ADV-002"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F1.II.1.a.aa.1.a",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung",
+          "Dingliche Wirkung des § 1357 Abs. 1 S. 2 BGB",
+          "Voraussetzungen des § 1357 Abs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-004",
+      "criticality": 2,
+      "title": "Eigentumsvorbehalt und Anwartschaft des M",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die Übereignung an M wegen der offenen Restzahlung als nach §§ 929 S. 1, 158 Abs. 1 BGB aufschiebend bedingt einordnet und M bis zur vollständigen Zahlung nur ein Anwartschaftsrecht zuspricht. NICHT ERFÜLLT, wenn sie M bereits nach Übergabe oder Anzahlung als unbedingten Eigentümer behandelt oder ihm bis zur Restzahlung jede dingliche Erwerbsposition abspricht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-005",
+        "A-006"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-004",
+        "K-FACT-002",
+        "K-FACT-003",
+        "K-ADV-003"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.1.a.aa",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung"
+        ]
+      }
+    },
+    {
+      "id": "C-005",
+      "criticality": 2,
+      "title": "Familiärer Bezug des Maschinenkaufs",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den Kauf überwiegend dem familiären Lebensbedarf nach § 1357 Abs. 1 BGB zuordnet, weil die Maschine den alltäglichen Kaffeebedarf beider Ehegatten decken sollte; der Espressokonsum des M im Arbeitszimmer ändert daran nichts. NICHT ERFÜLLT, wenn sie den Kauf allein wegen des Arbeitszimmers ausschließlich der beruflichen oder persönlichen Sphäre des M zuweist.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-008"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-006",
+        "K-FACT-005",
+        "K-ADV-004"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.1.a.aa.1.a",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung",
+          "Dingliche Wirkung des § 1357 Abs. 1 S. 2 BGB",
+          "Voraussetzungen des § 1357 Abs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-006",
+      "criticality": 1,
+      "title": "Kurzfristige Kreditierung bei § 1357 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den einmonatigen Zahlungsaufschub für die Restschuld unter Eigentumsvorbehalt nicht als Ausschlussgrund für § 1357 Abs. 1 BGB behandelt, weil kein langfristiges Ratengeschäft mit wiederkehrenden Zahlungspflichten vorliegt. NICHT ERFÜLLT, wenn sie jedes kreditierende Element ohne Differenzierung aus § 1357 BGB ausschließt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-009"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-007",
+        "K-FACT-007",
+        "K-ADV-006"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.1.a.aa.1.a",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung",
+          "Dingliche Wirkung des § 1357 Abs. 1 S. 2 BGB",
+          "Voraussetzungen des § 1357 Abs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-007",
+      "criticality": 2,
+      "title": "Angemessenheit nach äußerem Lebenszuschnitt",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die Angemessenheit nach § 1357 Abs. 1 BGB anhand des nach außen erkennbaren Lebenszuschnitts beurteilt und den Kaufpreis von 2.500 Euro wegen Gründerzeitvilla, wohlhabender Wohngegend und Luxusfahrzeugen trotz der tatsächlichen Verschuldung als angemessen einordnet. NICHT ERFÜLLT, wenn sie allein auf die interne Vermögenslage abstellt oder die sichtbaren Wohlstandsmerkmale nicht rechtlich mit der Angemessenheit verknüpft.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-007",
+        "A-010",
+        "A-011"
+      ],
+      "review_notes": [
+        "Der abstrakte Maßstab wurde in die fallbezogene Anwendung integriert."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-005",
+        "K-DOC-008",
+        "K-FACT-006",
+        "K-ADV-005"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.1.a.aa.1.a",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung",
+          "Dingliche Wirkung des § 1357 Abs. 1 S. 2 BGB",
+          "Voraussetzungen des § 1357 Abs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-008",
+      "criticality": 2,
+      "title": "Widerrufsrecht des M",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den vor der Villa geschlossenen Kaufvertrag als außerhalb von Geschäftsräumen geschlossenen Verbrauchervertrag einordnet und M deshalb ein Widerrufsrecht nach §§ 312b Abs. 1 S. 1, 312g Abs. 1 Var. 1 BGB zuspricht. NICHT ERFÜLLT, wenn sie den Vertrag als in Geschäftsräumen geschlossen behandelt oder das Widerrufsrecht ohne tragfähigen Grund verneint.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-012"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-009",
+        "K-FACT-008",
+        "K-ADV-007"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.1.a.aa.1.b",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung",
+          "Dingliche Wirkung des § 1357 Abs. 1 S. 2 BGB",
+          "Wirkung des Verbraucherwiderrufs"
+        ]
+      }
+    },
+    {
+      "id": "C-009",
+      "criticality": 2,
+      "title": "Widerrufsberechtigung der F",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die Mitberechtigung der F nach § 1357 Abs. 1 S. 2 BGB auf das sekundäre Gestaltungsrecht zum Verbraucherwiderruf erstreckt und F grundsätzlich ein eigenes Widerrufsrecht zuspricht. NICHT ERFÜLLT, wenn sie F allein deshalb jedes Widerrufsrecht abspricht, weil nur M den Vertrag geschlossen hat.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-013"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-010",
+        "K-FACT-009",
+        "K-ADV-008"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "rule_statement",
+        "outline_id": "F1.II.1.a.aa.1.b",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung",
+          "Dingliche Wirkung des § 1357 Abs. 1 S. 2 BGB",
+          "Wirkung des Verbraucherwiderrufs"
+        ]
+      }
+    },
+    {
+      "id": "C-010",
+      "criticality": 2,
+      "title": "Einzelbefugnis der F zum Widerruf",
+      "match_criteria": "ERFÜLLT, wenn die Antwort F trotz des entgegenstehenden Willens des M zur selbstständigen Widerrufserklärung für befugt hält und eine gemeinschaftliche Ausübung entsprechend § 351 BGB mangels planwidriger Regelungslücke ablehnt. NICHT ERFÜLLT, wenn sie die Zustimmung oder eine gleichlautende Erklärung des M verlangt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-014",
+        "A-015"
+      ],
+      "review_notes": [
+        "Die Ablehnung der §-351-Analogie ist der tragende Grund der Einzelbefugnis."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-011",
+        "K-DOC-012",
+        "K-FACT-010",
+        "K-ADV-009"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "F1.II.1.a.aa.1.b",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung",
+          "Dingliche Wirkung des § 1357 Abs. 1 S. 2 BGB",
+          "Wirkung des Verbraucherwiderrufs"
+        ]
+      }
+    },
+    {
+      "id": "C-011",
+      "criticality": 2,
+      "title": "Zurechnung des Fristbeginns und verspäteter Widerruf",
+      "match_criteria": "ERFÜLLT, wenn die Antwort F den mit Übergabe an den ordnungsgemäß belehrten M eingetretenen Fristbeginn nach § 356 Abs. 2 Nr. 1 Buchst. a, Abs. 3 S. 1 BGB zurechnet und den erst drei Wochen später erklärten Widerruf als verspätet behandelt. NICHT ERFÜLLT, wenn sie für F eine neue Frist ab Rückkehr oder eigener Kenntnis beginnen lässt oder den Widerruf als fristgerecht ansieht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-016",
+        "A-017"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-013",
+        "K-DOC-014",
+        "K-FACT-011",
+        "K-FACT-012",
+        "K-ADV-010"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.1.a.aa.1.b",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung",
+          "Dingliche Wirkung des § 1357 Abs. 1 S. 2 BGB",
+          "Wirkung des Verbraucherwiderrufs"
+        ]
+      }
+    },
+    {
+      "id": "C-012",
+      "criticality": 2,
+      "title": "Keine dingliche Wirkung des § 1357 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort einen gesetzlichen dinglichen Miterwerb der F allein kraft § 1357 Abs. 1 S. 2 BGB ablehnt, weil die Norm nur schuldrechtlich wirkt und ein Miterwerb die selbstständige Vermögensverwaltung nach §§ 1363 Abs. 2 S. 1, 1364 BGB unterlaufen würde. NICHT ERFÜLLT, wenn sie aus der Schlüsselgewalt unmittelbar ein Anwartschaftsrecht oder Miteigentum der F ableitet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-019"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-016",
+        "K-FACT-013",
+        "K-ADV-012"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "F1.II.1.a.aa.1.c",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung",
+          "Dingliche Wirkung des § 1357 Abs. 1 S. 2 BGB",
+          "Anwendbarkeit des § 1357 BGB auf Verfügungen"
+        ]
+      }
+    },
+    {
+      "id": "C-013",
+      "criticality": 2,
+      "title": "Keine offene Stellvertretung für F",
+      "match_criteria": "ERFÜLLT, wenn die Antwort feststellt, dass M bei der dinglichen Einigung weder ausdrücklich noch nach den erkennbaren Umständen im Namen der F handelte, sodass ein regulärer Miterwerb der F am Offenkundigkeitsprinzip des § 164 Abs. 1 BGB scheitert. NICHT ERFÜLLT, wenn sie ohne Sachverhaltsgrundlage ein offenes Vertreterhandeln für F annimmt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-020"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-017",
+        "K-FACT-014",
+        "K-ADV-013"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.1.a.aa.2",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung",
+          "Rechtsgeschäftliche Vertretung der F"
+        ]
+      }
+    },
+    {
+      "id": "C-014",
+      "criticality": 2,
+      "title": "Kein verdecktes Geschäft für F",
+      "match_criteria": "ERFÜLLT, wenn die Antwort ein verdecktes Geschäft für den, den es angeht, auf dinglicher Ebene ablehnt, weil die Anzahlung von 500 Euro, die offene Restschuld und der Eigentumsvorbehalt keinen sofortigen Leistungsaustausch ohne Kreditierung darstellen. NICHT ERFÜLLT, wenn sie trotz der offenen Restschuld ohne Begründung ein neutrales Bargeschäft des täglichen Lebens annimmt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-021"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-018",
+        "K-FACT-015",
+        "K-ADV-014"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.1.a.aa.2.a",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung",
+          "Rechtsgeschäftliche Vertretung der F",
+          "Geschäft für den, den es angeht"
+        ]
+      }
+    },
+    {
+      "id": "C-015",
+      "criticality": 1,
+      "title": "Keine Erweiterung wegen Haushaltscharakters",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den Haushaltscharakter der Espresso-Maschine nicht genügen lässt, um die Voraussetzungen des Geschäfts für den, den es angeht, zu erweitern und die fehlende dingliche Wirkung des § 1357 BGB zu umgehen. NICHT ERFÜLLT, wenn sie allein aus der Haushaltszugehörigkeit einen verdeckten rechtsgeschäftlichen Miterwerb der F folgert.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-022"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-019",
+        "K-FACT-016",
+        "K-ADV-015"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "F1.II.1.a.aa.2.b",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung",
+          "Rechtsgeschäftliche Vertretung der F",
+          "Abweichende Beurteilung aufgrund der Natur des Verpflichtungsgeschäfts"
+        ]
+      }
+    },
+    {
+      "id": "C-016",
+      "criticality": 1,
+      "title": "Kein Anwartschaftsrecht der F",
+      "match_criteria": "ERFÜLLT, wenn die Antwort folgert, dass vor vollständiger Kaufpreiszahlung nur M, nicht aber F, ein Anwartschaftsrecht an der Espresso-Maschine besaß. NICHT ERFÜLLT, wenn sie F aufgrund von § 1357 BGB, offener Stellvertretung oder eines Geschäfts für den, den es angeht, ein Anwartschaftsrecht zuspricht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-023"
+      ],
+      "review_notes": [
+        "Eigenständiges dingliches Zwischenergebnis nach C-012 bis C-015.",
+        "2026-08-21 Revision kaskaden: Kriterium setzt die Entscheidung von C-012 voraus. Reine Reportangabe, ohne Einfluss auf die Bewertung."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-020"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F1.II.1.a.aa",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage vor vollständiger Kaufpreiszahlung"
+        ]
+      },
+      "depends_on": [
+        "C-012"
+      ]
+    },
+    {
+      "id": "C-017",
+      "criticality": 2,
+      "title": "Alleineigentum des M bei der Zerstörung",
+      "match_criteria": "ERFÜLLT, wenn die Antwort feststellt, dass M mit vollständiger Kaufpreiszahlung Alleineigentümer wurde und F mangels späterer Übereignung eines Miteigentumsanteils bei der Zerstörung nicht Eigentümerin war. NICHT ERFÜLLT, wenn sie trotz vollständiger Zahlung Eigentum der E-GmbH oder ohne zusätzlichen Übertragungsakt Miteigentum der F annimmt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-024",
+        "A-025",
+        "A-026"
+      ],
+      "review_notes": [
+        "2026-08-21 Revision kaskaden: Kriterium setzt die Entscheidung von C-016 voraus. Reine Reportangabe, ohne Einfluss auf die Bewertung."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-021",
+        "K-DOC-022",
+        "K-FACT-017",
+        "K-ADV-016"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F1.II.1.a.bb",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Mit-)Eigentum",
+          "Dingliche Rechtslage durch vollständige Kaufpreiszahlung"
+        ]
+      },
+      "depends_on": [
+        "C-016"
+      ]
+    },
+    {
+      "id": "C-018",
+      "criticality": 2,
+      "title": "Recht der F zum Mitbesitz",
+      "match_criteria": "ERFÜLLT, wenn die Antwort F ein Recht zum Mitbesitz an der als Haushaltsgegenstand angeschafften Espresso-Maschine zuspricht und dieses entweder auf ihre Mitberechtigung nach § 1357 Abs. 1 S. 2 BGB oder auf die eheliche Lebensgemeinschaft nach § 1353 BGB stützt. NICHT ERFÜLLT, wenn sie F trotz der Haushaltszugehörigkeit jedes Recht zum Mitbesitz abspricht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-028",
+        "A-029"
+      ],
+      "review_notes": [
+        "Beide in der Lösung genannten Anknüpfungen werden akzeptiert.",
+        "2026-08-21 Revision kaskaden: Kriterium setzt die Entscheidung von C-017 voraus. Reine Reportangabe, ohne Einfluss auf die Bewertung."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-024",
+        "K-FACT-019"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.1.b.aa",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Berechtigter) Mitbesitz",
+          "Besitzrecht"
+        ]
+      },
+      "depends_on": [
+        "C-017"
+      ]
+    },
+    {
+      "id": "C-019",
+      "criticality": 2,
+      "title": "Tatsächlicher Mitbesitz der F",
+      "match_criteria": "ERFÜLLT, wenn die Antwort ein bloßes Recht zum Besitz von tatsächlicher Sachherrschaft unterscheidet und den tatsächlichen Mitbesitz der F aus der Einordnung der Maschine in den gemeinsamen Haushalt ableitet; ihre Rückgabeabsicht darf den Besitzwillen nicht ausschließen. NICHT ERFÜLLT, wenn sie aus dem Besitzrecht automatisch Besitz folgert oder F wegen ihrer Rückgabeabsicht beziehungsweise anfänglichen Abwesenheit jede Sachherrschaft abspricht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-030",
+        "A-031",
+        "A-032"
+      ],
+      "review_notes": [
+        "Die genannten Tatsachen dienen derselben Besitzanwendung."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-025",
+        "K-DOC-026",
+        "K-DOC-027",
+        "K-FACT-018"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.1.b.cc",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Berechtigter) Mitbesitz",
+          "Mitbesitz aus tatsächlicher Haushaltszugehörigkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-020",
+      "criticality": 2,
+      "title": "Berechtigter Mitbesitz als sonstiges Recht",
+      "match_criteria": "ERFÜLLT, wenn die Antwort F im Zeitpunkt der Zerstörung als berechtigte unmittelbare Fremdmitbesitzerin für den Eigentümer M einordnet und diesen berechtigten Mitbesitz als sonstiges Recht im Sinne von § 823 Abs. 1 BGB behandelt. NICHT ERFÜLLT, wenn sie F als Eigentümerin, Besitzdienerin oder unberechtigte beziehungsweise besitzlose Person behandelt oder berechtigten Mitbesitz generell vom Schutz des § 823 Abs. 1 BGB ausschließt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-027",
+        "A-033"
+      ],
+      "review_notes": [
+        "Die abstrakte Schutzqualität wurde mit Fs Besitzstellung verbunden.",
+        "2026-08-21 Revision kaskaden: Kriterium setzt die Entscheidung von C-017 voraus. Reine Reportangabe, ohne Einfluss auf die Bewertung."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-023",
+        "K-DOC-028"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.1.b",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Berechtigter) Mitbesitz"
+        ]
+      },
+      "depends_on": [
+        "C-017"
+      ]
+    },
+    {
+      "id": "C-021",
+      "criticality": 2,
+      "title": "Verletzung des berechtigten Mitbesitzes",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die vollständige Zerstörung der Espresso-Maschine durch N als Verletzung des berechtigten Mitbesitzes der F einordnet, weil dadurch ihre besitzrechtlich geschützte Nutzungsmöglichkeit aufgehoben wurde. NICHT ERFÜLLT, wenn sie allein wegen fehlenden Eigentums der F jede Verletzung ihrer Besitzposition verneint oder die Zerstörung M zurechnet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-034"
+      ],
+      "review_notes": [
+        "Die routinemäßige Rechtswidrigkeitsfeststellung wird nicht gesondert bepunktet.",
+        "2026-08-21 Revision kaskaden: Kriterium setzt die Entscheidung von C-017 voraus. Reine Reportangabe, ohne Einfluss auf die Bewertung."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-029",
+        "K-FACT-020",
+        "K-ADV-018"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.1.b.cc",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtsgutsverletzung",
+          "(Berechtigter) Mitbesitz",
+          "Mitbesitz aus tatsächlicher Haushaltszugehörigkeit"
+        ]
+      },
+      "depends_on": [
+        "C-017"
+      ]
+    },
+    {
+      "id": "C-022",
+      "criticality": 2,
+      "title": "Zivilrechtliche Deliktsfähigkeit des N",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die zivilrechtliche Verantwortlichkeit des 17-jährigen N nach seiner Einsichtsfähigkeit gemäß § 828 Abs. 3 BGB beurteilt und klarstellt, dass die Steuerungsunfähigkeit nach § 3 S. 1 a.E. JGG weder die Deliktsfähigkeit noch die Schutzgesetzhaftung automatisch ausschließt. NICHT ERFÜLLT, wenn sie aus der jugendstrafrechtlichen Steuerungsunfähigkeit ohne Weiteres zivilrechtliche Deliktsunfähigkeit folgert.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-036",
+        "A-037",
+        "A-047"
+      ],
+      "review_notes": [
+        "Die identische Verantwortlichkeitsfrage wird nur einmal geprüft."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-030",
+        "K-FACT-021",
+        "K-ADV-019"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.2",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtswidrigkeit, Verschulden"
+        ]
+      }
+    },
+    {
+      "id": "C-023",
+      "criticality": 1,
+      "title": "Vorsatz des N",
+      "match_criteria": "ERFÜLLT, wenn die Antwort aus der neidbedingten gezielten Zerstörung der Espresso-Maschine vorsätzliches Handeln des N ableitet. NICHT ERFÜLLT, wenn sie ohne Tatsachengrundlage nur Fahrlässigkeit annimmt oder wegen § 3 JGG jeden zivilrechtlichen Vorsatz verneint.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-038"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-031",
+        "K-FACT-022",
+        "K-ADV-020"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.2",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Rechtswidrigkeit, Verschulden"
+        ]
+      }
+    },
+    {
+      "id": "C-024",
+      "criticality": 3,
+      "title": "Kein Substanzersatz aus § 823 Abs. 1 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den Anspruch der F gegen N auf Ersatz des Substanzschadens aus § 823 Abs. 1 BGB verneint, weil ihr berechtigter Mitbesitz nur das eigene Nutzungsinteresse schützt, während der Sachwertverlust dem Eigentümer M zugewiesen ist. NICHT ERFÜLLT, wenn sie F als bloßer Mitbesitzerin Ersatz des Sachwertverlusts zuspricht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-039",
+        "A-040",
+        "A-041",
+        "A-042"
+      ],
+      "review_notes": [
+        "Schutzumfang und Anspruchsergebnis bilden dieselbe Schadenszuordnung.",
+        "2026-08-21 Revision kaskaden: Kriterium setzt die Entscheidung von C-017 voraus. Reine Reportangabe, ohne Einfluss auf die Bewertung."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-032",
+        "K-DOC-033",
+        "K-FACT-023",
+        "K-ADV-021"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F1.II.3",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 1 BGB",
+          "Haftungsausfüllender Tatbestand"
+        ]
+      },
+      "depends_on": [
+        "C-017"
+      ]
+    },
+    {
+      "id": "C-025",
+      "criticality": 1,
+      "title": "Kein Substanzersatz über § 858 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort § 858 Abs. 1 BGB als Schutzgesetz zugunsten unmittelbarer Besitzer anerkennt, einen Anspruch der F aus § 823 Abs. 2 BGB auf Ersatz des Substanzschadens aber ablehnt, weil dieser außerhalb des besitzschutzrechtlichen Schutzzwecks liegt. NICHT ERFÜLLT, wenn sie aus dem Mitbesitz ohne Schutzzweckprüfung Ersatz des Sachwerts herleitet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-043",
+        "A-044",
+        "A-045"
+      ],
+      "review_notes": [
+        "2026-08-21 Revision kaskaden: Kriterium setzt die Entscheidung von C-017 voraus. Reine Reportangabe, ohne Einfluss auf die Bewertung."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-034",
+        "K-FACT-024",
+        "K-ADV-022"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F1.III",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 2 BGB i.V.m. § 858 Abs. 1 BGB und § 303 StGB"
+        ]
+      },
+      "depends_on": [
+        "C-017"
+      ]
+    },
+    {
+      "id": "C-026",
+      "criticality": 1,
+      "title": "Kein Substanzersatz über § 303 StGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort einen Anspruch der F aus § 823 Abs. 2 BGB in Verbindung mit § 303 StGB verneint, weil § 303 StGB das Eigentum schützt und F bei der Zerstörung nicht Eigentümerin war. NICHT ERFÜLLT, wenn sie bloßen Mitbesitz in den persönlichen Schutzbereich des § 303 StGB einbezieht oder F über diese Norm Ersatz des Sachwerts zuspricht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-046",
+        "A-048"
+      ],
+      "review_notes": [
+        "2026-08-21 Revision kaskaden: Kriterium setzt die Entscheidung von C-017 voraus. Reine Reportangabe, ohne Einfluss auf die Bewertung."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-035",
+        "K-ADV-023"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F1.III",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 823 Abs. 2 BGB i.V.m. § 858 Abs. 1 BGB und § 303 StGB"
+        ]
+      },
+      "depends_on": [
+        "C-017"
+      ]
+    },
+    {
+      "id": "C-027",
+      "criticality": 1,
+      "title": "Kein Substanzersatz aus § 826 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort auch bei unterstellter vorsätzlicher sittenwidriger Schädigung einen Anspruch der F aus § 826 BGB auf Ersatz des Substanzschadens verneint, weil gegenüber F nur ihr eigenes Nutzungsinteresse und nicht das Eigentümerinteresse des M betroffen ist. NICHT ERFÜLLT, wenn sie F über § 826 BGB den fremden Sachwertverlust zuspricht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-049",
+        "A-050"
+      ],
+      "review_notes": [
+        "2026-08-21 Revision kaskaden: Kriterium setzt die Entscheidung von C-017 voraus. Reine Reportangabe, ohne Einfluss auf die Bewertung."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-036",
+        "K-FACT-026",
+        "K-ADV-024"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F1.IV",
+        "station_path": [
+          "Aufgabe 1",
+          "Anspruch der F gegen N aus § 826 BGB"
+        ]
+      },
+      "depends_on": [
+        "C-017"
+      ]
+    },
+    {
+      "id": "C-028",
+      "criticality": 1,
+      "title": "Vorgegebenes Miteigentum in Aufgabe 2",
+      "match_criteria": "ERFÜLLT, wenn die Antwort entsprechend dem Bearbeitungsvermerk zugrunde legt, dass F vor der Veräußerung an B Miteigentümerin der Espresso-Maschine war. NICHT ERFÜLLT, wenn sie die Eigentumslage aus Aufgabe 1 überträgt und M auch in Aufgabe 2 als Alleineigentümer behandelt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-051"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-037",
+        "K-FACT-027",
+        "K-ADV-025"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F2.I.1",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "(Mit-)Eigentum der F"
+        ]
+      }
+    },
+    {
+      "id": "C-029",
+      "criticality": 2,
+      "title": "Einigung auf Alleineigentum der B",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die dinglichen Erklärungen von M und B nach §§ 133, 157 BGB dahin auslegt, dass B Alleineigentum an der gesamten Espresso-Maschine und nicht nur den Miteigentumsanteil des M erwerben sollte. NICHT ERFÜLLT, wenn sie ohne Anhaltspunkt lediglich eine Übertragung des Anteils des M annimmt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-052"
+      ],
+      "review_notes": [
+        "Die unstreitige Übergabe wird nicht eigenständig bepunktet."
+      ],
+      "candidate_ids_merged": [
+        "K-FACT-028"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F2.I.1.a",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "(Mit-)Eigentum der F",
+          "Rechtsgeschäftlicher Eigentumsübergang, § 929 S. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-030",
+      "criticality": 2,
+      "title": "Kein Erwerb vom Berechtigten",
+      "match_criteria": "ERFÜLLT, wenn die Antwort einen Erwerb des Alleineigentums der B unmittelbar nach § 929 S. 1 BGB verneint, weil über den gemeinschaftlichen Gegenstand nach § 747 S. 2 BGB nur F und M gemeinsam verfügen konnten und F M weder vorher noch nachträglich nach § 185 BGB ermächtigt hatte. NICHT ERFÜLLT, wenn sie M allein aufgrund seines Miteigentums zur Übertragung der ganzen Maschine für berechtigt hält.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-054",
+        "A-055",
+        "A-056"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-FACT-029"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F2.I.1.a",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "(Mit-)Eigentum der F",
+          "Rechtsgeschäftlicher Eigentumsübergang, § 929 S. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-031",
+      "criticality": 2,
+      "title": "Nachforschungspflicht wegen Unterwertverkaufs",
+      "match_criteria": "ERFÜLLT, wenn die Antwort das Verhältnis von 500 Euro Kaufpreis zu 2.000 Euro objektivem Wert als auffälligen Umstand wertet, der nach § 932 Abs. 2 BGB grundsätzlich Nachforschungen zur Berechtigung des M gebot, während Kleinanzeigen und Luxuscharakter allein nicht genügen. NICHT ERFÜLLT, wenn sie das Preis-Wert-Missverhältnis ignoriert oder allein aus der Vertriebsform grobe Fahrlässigkeit folgert.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-057",
+        "A-058",
+        "A-059"
+      ],
+      "review_notes": [
+        "Die gegenläufigen Indizien gehören zu derselben Gutgläubigkeitsanwendung."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-039",
+        "K-DOC-040",
+        "K-FACT-030",
+        "K-ADV-027"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F2.I.1.b.aa",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "(Mit-)Eigentum der F",
+          "Eigentumsübergang nach §§ 929 S. 1, 932 BGB",
+          "Voraussetzungen des § 932 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-033",
+      "criticality": 3,
+      "title": "Abhandenkommen und Ausschluss gutgläubigen Erwerbs",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den unfreiwilligen Verlust des unmittelbaren Mitbesitzes der zugleich miteigentumsberechtigten F als Abhandenkommen nach § 935 Abs. 1 S. 1 BGB einordnet, deshalb den gutgläubigen Erwerb der B ausschließt und das Miteigentum der F fortbestehen lässt. NICHT ERFÜLLT, wenn sie wegen des freiwilligen Besitzverlusts des M § 935 BGB insgesamt verneint oder B Alleineigentum zuspricht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-063",
+        "A-064",
+        "A-065",
+        "A-067"
+      ],
+      "review_notes": [
+        "Fortbestehendes Miteigentum ist die unmittelbare Folge des § 935 BGB."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-043",
+        "K-DOC-044",
+        "K-DOC-046",
+        "K-FACT-033",
+        "K-ADV-029"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F2.I.1.b.bb",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "(Mit-)Eigentum der F",
+          "Eigentumsübergang nach §§ 929 S. 1, 932 BGB",
+          "Ausschluss des gutgläubigen Erwerbs nach § 1369 Abs. 1 BGB und § 935 Abs. 1 S. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-034",
+      "criticality": 1,
+      "title": "Unmittelbarer Besitz der B",
+      "match_criteria": "ERFÜLLT, wenn die Antwort B nach der Übergabe der Espresso-Maschine als unmittelbare Besitzerin gemäß § 854 Abs. 1 BGB und damit als richtige Anspruchsgegnerin des § 985 BGB einordnet. NICHT ERFÜLLT, wenn sie den unmittelbaren Besitz weiterhin M zurechnet oder B ohne Tatsachengrundlage nur mittelbaren Besitz zuspricht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-068"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-047",
+        "K-ADV-031"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F2.I.2",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "Besitz der B"
+        ]
+      }
+    },
+    {
+      "id": "C-035",
+      "criticality": 3,
+      "title": "Anwendung des § 1369 BGB bei Miteigentum",
+      "match_criteria": "ERFÜLLT, wenn die Antwort § 1369 Abs. 1 BGB auf den Verkauf der im Miteigentum stehenden Haushaltsmaschine anwendet und entweder eine koordinierte Verfügung annimmt, bei der der Anteil des M unmittelbar § 1369 BGB unterfällt und eine isolierte Übertragung des anderen Anteils nach § 139 BGB ausscheidet, oder die Verfügung über die ganze Sache nach § 747 S. 2 BGB mit extensiver beziehungsweise analoger Anwendung des § 1369 BGB erfasst. NICHT ERFÜLLT, wenn sie § 1369 BGB allein wegen des Miteigentums ausschließt oder einen Weg nur bezeichnet, ohne ihn auf den Verkauf anzuwenden.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-070"
+      ],
+      "review_notes": [
+        "Beide in der Lösung ausdrücklich zugelassenen Konstruktionen sind gleichwertig."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-048",
+        "K-FACT-034",
+        "K-ADV-032"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "F2.I.3.a",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "Kein Recht zum Besitz",
+          "Anwendung des § 1369 Abs. 1 BGB auf Haushaltsgegenstände im Miteigentum"
+        ]
+      }
+    },
+    {
+      "id": "C-036",
+      "criticality": 2,
+      "title": "Fehlende Zustimmung nach § 1369 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort feststellt, dass F weder in die nach § 1369 BGB relevante Verpflichtung des M gegenüber B eingewilligt noch das Geschäft nachträglich genehmigt hatte. NICHT ERFÜLLT, wenn sie aus gemeinsamer Nutzung, Miteigentum oder Schweigen der F eine Zustimmung ableitet oder eine Zustimmung erfindet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-071"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-049",
+        "K-FACT-035"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F2.I.3.a",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "Kein Recht zum Besitz",
+          "Anwendung des § 1369 Abs. 1 BGB auf Haushaltsgegenstände im Miteigentum"
+        ]
+      }
+    },
+    {
+      "id": "C-037",
+      "criticality": 2,
+      "title": "Vorrang des § 1369 BGB vor § 1357 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort § 1369 BGB als speziellere Regelung gegenüber § 1357 Abs. 1 S. 2 BGB behandelt und deshalb ausschließt, dass M die fehlende Zustimmung der F über die Schlüsselgewalt ersetzen konnte. NICHT ERFÜLLT, wenn sie den Verkauf trotz fehlender Zustimmung allein über § 1357 BGB für F verbindlich macht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-072"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-050",
+        "K-FACT-036"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "rule_statement",
+        "outline_id": "F2.I.3.a",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "Kein Recht zum Besitz",
+          "Anwendung des § 1369 Abs. 1 BGB auf Haushaltsgegenstände im Miteigentum"
+        ]
+      }
+    },
+    {
+      "id": "C-038",
+      "criticality": 1,
+      "title": "Kenntnis vom Haushaltscharakter",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den Streit über eine teleologische Beschränkung des § 1369 Abs. 1 BGB auf Fälle positiver Kenntnis von der Haushaltszugehörigkeit offenlässt, weil B den Charakter der Espresso-Maschine als Haushaltsgegenstand kannte. NICHT ERFÜLLT, wenn sie § 1369 BGB wegen angeblich fehlender Kenntnis der B vom Haushaltscharakter verneint.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-073"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-051",
+        "K-FACT-037",
+        "K-ADV-034"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "F2.I.3.b",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "Kein Recht zum Besitz",
+          "Keine Einschränkung durch subjektive Voraussetzungen"
+        ]
+      }
+    },
+    {
+      "id": "C-039",
+      "criticality": 2,
+      "title": "Unkenntnis der Ehe bei § 1369 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die fehlende Kenntnis der B von der Ehe des M wegen des absoluten Charakters der Beschränkung aus § 1369 BGB für unbeachtlich hält. NICHT ERFÜLLT, wenn sie B wegen der behaupteten Ledigkeit, des abgelegten Eherings oder des Kaufbelegs einen gutgläubigen Wegerwerb der Beschränkung gestattet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-074"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-052",
+        "K-FACT-038",
+        "K-ADV-035"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "rule_statement",
+        "outline_id": "F2.I.3.b",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "Kein Recht zum Besitz",
+          "Keine Einschränkung durch subjektive Voraussetzungen"
+        ]
+      }
+    },
+    {
+      "id": "C-040",
+      "criticality": 2,
+      "title": "Nichtigkeit des Kaufvertrags M–B",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den ohne Zustimmung der F geschlossenen Kaufvertrag zwischen M und B gemäß §§ 1369 Abs. 1, 3, 1366 Abs. 4 BGB als endgültig unwirksam beziehungsweise nichtig behandelt. NICHT ERFÜLLT, wenn sie den Kaufvertrag als wirksam ansieht oder ausschließlich die dingliche Verfügung beanstandet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-075"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-053",
+        "K-FACT-039"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F2.I.3.c",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "Kein Recht zum Besitz",
+          "Zwischenergebnis"
+        ]
+      }
+    },
+    {
+      "id": "C-041",
+      "criticality": 2,
+      "title": "Kein Recht der B zum Besitz",
+      "match_criteria": "ERFÜLLT, wenn die Antwort B gegenüber F ein Recht zum Besitz nach § 986 Abs. 1 S. 1 BGB abspricht, weil der Kaufvertrag M–B unwirksam ist und F daraus nicht nach § 1357 Abs. 1 S. 2 BGB mitverpflichtet wurde. NICHT ERFÜLLT, wenn sie B allein aufgrund des Vertrags mit M ein gegenüber F wirkendes Besitzrecht zuerkennt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-069",
+        "A-076",
+        "A-077"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-054",
+        "K-FACT-040",
+        "K-ADV-036"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F2.I.3.c",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "Kein Recht zum Besitz",
+          "Zwischenergebnis"
+        ]
+      }
+    },
+    {
+      "id": "C-042",
+      "criticality": 3,
+      "title": "Herausgabe an beide Miteigentümer",
+      "match_criteria": "ERFÜLLT, wenn die Antwort F gegen B aus § 985 BGB in Verbindung mit §§ 1011, 432 BGB einen Anspruch auf Herausgabe der Espresso-Maschine an F und M zuspricht. NICHT ERFÜLLT, wenn sie den Anspruch trotz fortbestehenden Miteigentums und fehlenden Besitzrechts der B verneint oder F ohne Begründung Herausgabe ausschließlich an sich selbst zuspricht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-078",
+        "A-079"
+      ],
+      "review_notes": [
+        "Die Leistung an alle Teilhaber ist eigenständig grading-würdig."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-055",
+        "K-FACT-041",
+        "K-ADV-037"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F2.I.4",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "Ergebnis"
+        ]
+      }
+    },
+    {
+      "id": "C-043",
+      "criticality": 1,
+      "title": "Kein Anspruch aus § 1007 Abs. 1 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort einen Herausgabeanspruch der F gegen B aus § 1007 Abs. 1 BGB wegen der Gutgläubigkeit der B verneint. NICHT ERFÜLLT, wenn sie den Anspruch trotz der festgestellten Gutgläubigkeit bejaht oder für § 1007 Abs. 1 BGB allein auf das Abhandenkommen abstellt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-080"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-056",
+        "K-FACT-042",
+        "K-ADV-038"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F2.II",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 1007 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-044",
+      "criticality": 2,
+      "title": "Anspruch aus § 1007 Abs. 2 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort F gegen B einen Herausgabeanspruch aus § 1007 Abs. 2 S. 1 BGB zuspricht, weil F frühere Mitbesitzerin war, ihr die Maschine abhandenkam, B kein Eigentum erwarb und B ihr gegenüber kein Besitzrecht hat. NICHT ERFÜLLT, wenn sie den Anspruch allein wegen der Gutgläubigkeit der B oder des früheren Mitbesitzes des M verneint.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-081"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-057",
+        "K-FACT-043",
+        "K-ADV-039"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F2.II",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 1007 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-045",
+      "criticality": 2,
+      "title": "Fehlerhafter Alleinbesitz des M",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die vollständige und dauerhafte Entziehung des Mitbesitzes der F durch M als verbotene Eigenmacht und den dadurch erlangten Alleinbesitz als fehlerhaft einordnet; § 866 BGB steht nicht entgegen, weil er zwischen Mitbesitzern nur Störungen, nicht vollständige Entziehungen ausschließt. NICHT ERFÜLLT, wenn sie die Besitzentziehung wegen § 866 BGB für rechtmäßig hält.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-082",
+        "A-083",
+        "A-084"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-058",
+        "K-FACT-044"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F2.III",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 861 Abs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-046",
+      "criticality": 1,
+      "title": "Kein Anspruch aus § 861 BGB gegen B",
+      "match_criteria": "ERFÜLLT, wenn die Antwort einen Anspruch der F gegen B aus § 861 Abs. 1 BGB verneint, weil B gutgläubig war und ihr die Fehlerhaftigkeit des von M erlangten Besitzes nach § 858 Abs. 2 S. 2 BGB nicht zugerechnet wird. NICHT ERFÜLLT, wenn sie die Besitzfehlerhaftigkeit des M ohne Prüfung der Gutgläubigkeit auf B fortwirken lässt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-085",
+        "A-086"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-059",
+        "K-FACT-045"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F2.III",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 861 Abs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-048",
+      "criticality": 1,
+      "title": "Vorrang der Leistungsbeziehung M–B",
+      "match_criteria": "ERFÜLLT, wenn die Antwort einen Anspruch der F gegen B aus § 812 Abs. 1 S. 1 Var. 2 BGB verneint, weil die Leistungsbeziehung zwischen M und B Vorrang hat und das Abhandenkommen der Maschine keine Durchbrechung dieses Vorrangs rechtfertigt. NICHT ERFÜLLT, wenn sie F ohne Beachtung der Leistungsbeziehung eine Eingriffskondiktion gegen B zuspricht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-088",
+        "A-089"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-061",
+        "K-FACT-047",
+        "K-ADV-042"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F2.V",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 812 Abs. 1 S. 1 Var. 2 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-049",
+      "criticality": 2,
+      "title": "Verbotene Eigenmacht der F in Aufgabe 3",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die nächtliche Wegnahme der Espresso-Maschine vom Grundstück der B als vollständige Besitzentziehung ohne den Willen der B und damit als verbotene Eigenmacht nach § 858 Abs. 1 BGB einordnet, die grundsätzlich § 861 Abs. 1 BGB eröffnet. NICHT ERFÜLLT, wenn sie mangels Eigentums der B oder wegen des früheren Prozesserfolgs der F bereits Besitzentziehung oder verbotene Eigenmacht verneint.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-090",
+        "A-091",
+        "A-092"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-062",
+        "K-FACT-048"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F3.I",
+        "station_path": [
+          "Aufgabe 3",
+          "Besitzentziehung durch verbotene Eigenmacht"
+        ]
+      }
+    },
+    {
+      "id": "C-051",
+      "criticality": 2,
+      "title": "Keine unmittelbare Anwendung des § 864 Abs. 2 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort berücksichtigt, dass das Herausgabeurteil zugunsten der F wegen beiderseitigen Rechtsmittelverzichts bereits vor der Wegnahme rechtskräftig war, und deshalb § 864 Abs. 2 BGB nicht unmittelbar anwendet, dessen Wortlaut eine erst nach der verbotenen Eigenmacht erfolgende rechtskräftige Feststellung verlangt. NICHT ERFÜLLT, wenn sie § 864 Abs. 2 BGB unmittelbar anwendet oder die zeitliche Reihenfolge vertauscht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-094",
+        "A-095"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-064",
+        "K-DOC-065",
+        "K-FACT-050",
+        "K-FACT-051",
+        "K-ADV-044"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F3.II",
+        "station_path": [
+          "Aufgabe 3",
+          "Kein Erlöschen gem. § 864 Abs. 2 BGB (analog)"
+        ]
+      }
+    },
+    {
+      "id": "C-052",
+      "criticality": 2,
+      "title": "Planwidrige Lücke bei vorbestehendem Titel",
+      "match_criteria": "ERFÜLLT, wenn die Antwort für die bereits vor der verbotenen Eigenmacht rechtskräftig festgestellte Besitzberechtigung eine planwidrige Regelungslücke bei § 864 Abs. 2 BGB bejaht, weil diese Konstellation gesetzlich nicht bedacht wurde. NICHT ERFÜLLT, wenn sie eine Analogie allein mit dem Wortlaut verwirft, ohne die planwidrige Unvollständigkeit zu prüfen.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-096"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-066",
+        "K-FACT-052",
+        "K-ADV-045"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F3.II",
+        "station_path": [
+          "Aufgabe 3",
+          "Kein Erlöschen gem. § 864 Abs. 2 BGB (analog)"
+        ]
+      }
+    },
+    {
+      "id": "C-053",
+      "criticality": 3,
+      "title": "Keine Analogie zu § 864 Abs. 2 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort trotz der Regelungslücke eine Analogie mangels vergleichbarer Interessenlage ablehnt, weil sie titulierte Berechtigte zur verbotenen Selbstvollstreckung ermuntern und den durch §§ 858 ff. BGB geschützten Rechtsfrieden gefährden würde; der Anspruch der B aus § 861 Abs. 1 BGB bleibt daher bestehen. NICHT ERFÜLLT, wenn sie den Anspruch wegen des früheren Urteils analog § 864 Abs. 2 BGB erlöschen lässt oder die Selbstvollstreckungsgefahr nicht behandelt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-097",
+        "A-098",
+        "A-100",
+        "A-101",
+        "A-102"
+      ],
+      "review_notes": [
+        "Die tragenden Analogiegründe und ihre Anspruchsfolge bilden eine Proposition."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-067",
+        "K-DOC-069",
+        "K-FACT-053",
+        "K-ADV-046"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "F3.II",
+        "station_path": [
+          "Aufgabe 3",
+          "Kein Erlöschen gem. § 864 Abs. 2 BGB (analog)"
+        ]
+      }
+    },
+    {
+      "id": "C-032",
+      "criticality": 2,
+      "title": "Gutgläubigkeit wegen erfolgloser hypothetischer Nachforschung",
+      "match_criteria": "ERFÜLLT, wenn die Antwort bei der Prüfung der Gutgläubigkeit der B nach § 932 Abs. 2 BGB den Einwand rechtmäßigen Alternativverhaltens für beachtlich hält und daraus folgert, dass B gutgläubig war, weil gebotene Nachforschungen die fehlende Alleinberechtigung des M nicht aufgedeckt hätten; als fallbezogener Umstand genügt insbesondere der auf M ausgestellte Kaufbeleg. NICHT ERFÜLLT, wenn die Antwort den Einwand rechtmäßigen Alternativverhaltens nicht berücksichtigt, allein aus der unterlassenen Nachforschung grobe Fahrlässigkeit ableitet oder trotz der hypothetisch erfolglosen Nachforschung die Gutgläubigkeit der B verneint.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-060",
+        "A-061",
+        "A-062"
+      ],
+      "review_notes": [],
+      "refinement_note": "Die nicht in der Musterlösung enthaltene Anforderung, M hätte wahrheitswidrig seine Ledigkeit behauptet, wurde entfernt. Erhalten bleiben der entscheidende Einwand rechtmäßigen Alternativverhaltens, die hypothetisch erfolglose Nachforschung und die daraus folgende Gutgläubigkeit der B.",
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "F2.I.1.b.aa",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus § 985 BGB",
+          "(Mit-)Eigentum der F",
+          "Eigentumsübergang nach §§ 929 S. 1, 932 BGB",
+          "Voraussetzungen des § 932 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-047",
+      "criticality": 1,
+      "title": "Verneinung des deliktischen Anspruchs wegen der EBV-Sperrwirkung",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den Anspruch der F gegen B aus §§ 823 Abs. 1, 249 Abs. 1 BGB verneint und dies mit der Sperrwirkung des Eigentümer-Besitzer-Verhältnisses unter Bezugnahme auf § 992 BGB begründet. Eine bloße Überschrift ohne diese rechtliche Begründung genügt nicht. NICHT ERFÜLLT, wenn die Antwort den Anspruch bejaht, die Sperrwirkung des Eigentümer-Besitzer-Verhältnisses nicht als Ablehnungsgrund nennt oder einen allgemeinen deliktischen Herausgabe- beziehungsweise Wiederherstellungsanspruch ohne Beachtung des Eigentümer-Besitzer-Verhältnisses annimmt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-087"
+      ],
+      "review_notes": [],
+      "refinement_note": "Die zusätzliche Forderung nach einer ausdrücklichen Prüfung und Verneinung sämtlicher Voraussetzungen einer Durchbrechung nach § 992 BGB wurde gestrichen, weil die Musterlösung nur die anspruchsverneinende EBV-Sperrwirkung unter Bezugnahme auf § 992 BGB enthält.",
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F2.IV",
+        "station_path": [
+          "Aufgabe 2",
+          "Anspruch der F gegen B aus §§ 823 Abs. 1, 249 Abs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-050",
+      "criticality": 2,
+      "title": "Keine Rechtfertigung der Selbstvollstreckung durch den Herausgabetitel",
+      "match_criteria": "ERFÜLLT, wenn die Antwort bei Aufgabe 3 im Zusammenhang mit dem possessorischen Anspruch der B deutlich macht, dass der bereits zugunsten der F bestehende rechtskräftige Herausgabetitel die eigenmächtige Wegnahme der Espresso-Maschine nicht rechtfertigt, weil eine solche Selbstvollstreckung das gerichtliche Vollstreckungsverfahren umgeht und dem Schutz des Rechtsfriedens widerspricht. NICHT ERFÜLLT, wenn die Antwort den Titel als Erlaubnis zur privaten Wegnahme behandelt oder die Umgehung des Vollstreckungsverfahrens als rechtlich unschädlich ansieht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-093"
+      ],
+      "review_notes": [],
+      "refinement_note": "Das zuvor gebündelte Kriterium wurde auf die eigenständige und in der Musterlösung ausdrücklich erörterte Bedeutung des vorbestehenden Herausgabetitels konzentriert. Eine wörtliche Aussage, F hätte den Titel vollstrecken müssen, wird nicht mehr verlangt; ausreichend ist die tragende Erwägung, dass private Selbstvollstreckung das Vollstreckungsverfahren umgeht und den Rechtsfrieden beeinträchtigt.",
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "F3.I",
+        "station_path": [
+          "Aufgabe 3",
+          "Besitzentziehung durch verbotene Eigenmacht"
+        ]
+      }
+    }
+  ],
+  "validation_warnings": [
+    "Revision 2026-08-21 (kaskaden): C-016 bis C-027 tragen depends_on und bilden eine dreistufige Kette unter C-012 (dingliche Wirkung des § 1357 BGB). Nur Reporting; Verdikte und Pass-Rate bleiben unverändert."
+  ],
+  "provenance": {
+    "source": "evals/rubric.generated.broad-final.json",
+    "provider": "openai",
+    "model": "gpt-5.6-sol",
+    "candidate_roles": [
+      "doctrine",
+      "fact_grounding",
+      "adversary"
+    ],
+    "calibration": {
+      "enabled": true,
+      "mode": "committee",
+      "judge_model": null,
+      "judge_reasoning_effort": null,
+      "committee": [
+        {
+          "name": "luna",
+          "model": "gpt-5.6-luna",
+          "api_base": "https://api.openai.com/v1",
+          "reasoning_effort": "medium",
+          "parallel": 8
+        },
+        {
+          "name": "terra",
+          "model": "gpt-5.6-terra",
+          "api_base": "https://api.openai.com/v1",
+          "reasoning_effort": "medium",
+          "parallel": 8
+        },
+        {
+          "name": "gemini-3.6-flash",
+          "model": "google/gemini-3.6-flash",
+          "api_base": "https://openrouter.ai/api/v1",
+          "reasoning_effort": null,
+          "parallel": 4
+        }
+      ],
+      "votes": 3,
+      "max_rounds": 3
+    }
+  }
+}

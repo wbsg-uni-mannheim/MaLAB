@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1",
+  "study_id": "de-core-45-first-exam",
+  "title": "LAB-EU German First State Exam Core Study (45 cases)",
+  "language": "de",
+  "exam_level": "first_state_exam",
+  "status": "frozen",
+  "frozen_at": "2026-07-31",
+  "taskset": "studies/de-core-45/taskset.jsonl",
+  "n_tasks": 45,
+  "subject_distribution": {
+    "oeffentliches_recht": 15,
+    "strafrecht": 15,
+    "zivilrecht": 15
+  },
+  "rubric_file": "evals/rubric.json",
+  "rubric_commit": "848d532f6f53fc5e48420a97603ba17c7ed82349",
+  "system_prompt": "prompts/harness/study_system_prompt.txt",
+  "arms": [
+    {
+      "id": "baseline",
+      "harness": "baseline-single-call",
+      "runner": "scripts/run_baseline_taskset.py",
+      "tools": false
+    },
+    {
+      "id": "agent",
+      "harness": "opencode",
+      "runner": "scripts/run_opencode_taskset.py",
+      "sandbox": [
+        "docker",
+        "bwrap"
+      ],
+      "tools": true,
+      "sandbox_note": "docker on workstations, bwrap on cluster nodes; the run manifest records which profile produced each run."
+    }
+  ],
+  "evaluation": {
+    "content_scale": "boolean_per_criterion",
+    "style_scale": "boolean_per_eligible_criterion",
+    "aggregate_content_and_style": false,
+    "judge_committee": "configs/judge-committee-professor-pilot.json"
+  },
+  "prompts": {
+    "baseline": "prompts/harness/solve_task_baseline.txt",
+    "agent": "prompts/harness/solve_task.txt",
+    "workbench": "prompts/harness/study_system_prompt.txt",
+    "note": "The two automated arms use their own task templates; only the manual workbench condition uses study_system_prompt.txt. The three texts carry the same substantive instructions (language, self-contained deliverable, Gutachtenstil, controlling case law, precise citations) but differ in wording, and only the baseline forbids preamble/meta commentary because its entire response is saved as the deliverable."
+  }
+}

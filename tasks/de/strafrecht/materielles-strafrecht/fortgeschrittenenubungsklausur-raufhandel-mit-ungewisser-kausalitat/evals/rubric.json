@@ -1,0 +1,2075 @@
+{
+  "schema_version": "0.2",
+  "generated_at": "2026-07-31T10:36:52.203058+00:00",
+  "review_status": "generated_calibrated_needs_human_review",
+  "language": "Deutsch",
+  "task_title": "Fortgeschrittenenübungsklausur: Raufhandel mit ungewisser Kausalität",
+  "outline": [
+    {
+      "id": "A",
+      "label": "Strafbarkeit von R",
+      "children": [
+        {
+          "id": "A.I",
+          "label": "§ 223 Abs. 1 StGB gegenüber T",
+          "children": [
+            {
+              "id": "A.I.1",
+              "label": "Tatbestand",
+              "children": []
+            },
+            {
+              "id": "A.I.2",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "A.II",
+          "label": "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T",
+          "children": [
+            {
+              "id": "A.II.1",
+              "label": "Tatentschluss",
+              "children": []
+            },
+            {
+              "id": "A.II.2",
+              "label": "Unmittelbares Ansetzen",
+              "children": []
+            },
+            {
+              "id": "A.II.3",
+              "label": "Rechtswidrigkeit",
+              "children": []
+            },
+            {
+              "id": "A.II.4",
+              "label": "Schuld",
+              "children": []
+            },
+            {
+              "id": "A.II.5",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "A.III",
+          "label": "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber S",
+          "children": []
+        },
+        {
+          "id": "A.IV",
+          "label": "§ 231 Abs. 1 StGB",
+          "children": [
+            {
+              "id": "A.IV.1",
+              "label": "Objektiver Tatbestand",
+              "children": []
+            },
+            {
+              "id": "A.IV.2",
+              "label": "Subjektiver Tatbestand",
+              "children": []
+            },
+            {
+              "id": "A.IV.3",
+              "label": "Objektive Bedingung der Strafbarkeit",
+              "children": [],
+              "derived_label": true
+            },
+            {
+              "id": "A.IV.4",
+              "label": "Rechtswidrigkeit",
+              "children": []
+            },
+            {
+              "id": "A.IV.5",
+              "label": "Schuld",
+              "children": []
+            },
+            {
+              "id": "A.IV.6",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "A.V",
+          "label": "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 26 StGB",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "label": "Strafbarkeit von S",
+      "children": [
+        {
+          "id": "B.I",
+          "label": "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T",
+          "children": []
+        },
+        {
+          "id": "B.II",
+          "label": "§ 231 Abs. 1 StGB",
+          "children": [
+            {
+              "id": "B.II.1",
+              "label": "Tatbestand",
+              "children": []
+            },
+            {
+              "id": "B.II.2",
+              "label": "Objektive Bedingung der Strafbarkeit",
+              "children": []
+            },
+            {
+              "id": "B.II.3",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "Strafbarkeit von T",
+      "children": [
+        {
+          "id": "C.I",
+          "label": "§§ 223 Abs. 1, 224 Abs. 1 Nr. 2, 22, 23 Abs. 1 StGB gegenüber R und S",
+          "children": [
+            {
+              "id": "C.I.1",
+              "label": "Tatentschluss",
+              "children": []
+            },
+            {
+              "id": "C.I.2",
+              "label": "Unmittelbares Ansetzen",
+              "children": []
+            },
+            {
+              "id": "C.I.3",
+              "label": "Rechtswidrigkeit",
+              "children": [
+                {
+                  "id": "C.I.3.a",
+                  "label": "Einwilligung",
+                  "children": []
+                },
+                {
+                  "id": "C.I.3.b",
+                  "label": "Notwehr",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "C.I.4",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "C.II",
+          "label": "§ 231 Abs. 1 StGB",
+          "children": [
+            {
+              "id": "C.II.1",
+              "label": "Objektiver Tatbestand",
+              "children": []
+            },
+            {
+              "id": "C.II.2",
+              "label": "Objektive Bedingung der Strafbarkeit",
+              "children": []
+            },
+            {
+              "id": "C.II.3",
+              "label": "Rechtswidrigkeit",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "label": "Gesamtergebnis",
+      "children": []
+    },
+    {
+      "id": "Ü",
+      "label": "Übergreifend",
+      "children": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "C-007",
+      "criticality": 2,
+      "title": "Werkzeugvorsatz der R",
+      "match_criteria": "ERFÜLLT, wenn die Antwort im Tatentschluss der R gegenüber T feststellt, dass R die Vase bewusst zum Einschlagen auf T einsetzen wollte, und diesen vorgestellten Einsatz nach der fallbezogen begründeten Einordnung der Vase als gefährliches Werkzeug § 224 Abs. 1 Nr. 2 StGB zuordnet. Eine zusätzliche formelhafte Aussage, R habe alle gefahrbegründenden Umstände gekannt und gewollt, ist nicht erforderlich, wenn die Verbindung zwischen ihrem beabsichtigten Vaseneinsatz und der Qualifikation eindeutig hergestellt wird. Bei vertretbarer Ablehnung der Werkzeugeigenschaft ist die Qualifikation folgerichtig zu verneinen. NICHT ERFÜLLT, wenn lediglich die objektive Werkzeugeigenschaft, der tatsächliche Vaseneinsatz oder die Norm genannt wird, ohne den von R beabsichtigten Einsatz gegen T mit der Qualifikation zu verbinden, oder wenn der nicht zuordenbare Schlag gegen Ss Ohr als Vorstellung der R unterstellt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-012",
+        "A-013"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Das frühere Kriterium verlangte eine ausdrückliche Feststellung zu Kenntnis und Willen hinsichtlich sämtlicher gefahrbegründender Umstände, die die Musterlösung bei R nicht in dieser Form enthält. Maßgeblich ist nun die dort tatsächlich hergestellte Verbindung zwischen Rs beabsichtigtem Einschlagen mit der Vase und § 224 Abs. 1 Nr. 2 StGB; eine bloße Normnennung genügt weiterhin nicht.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.II.1",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T",
+          "Tatentschluss"
+        ]
+      }
+    },
+    {
+      "id": "C-021",
+      "criticality": 1,
+      "title": "Haupttat des S für Rs Anstiftung",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die von S vorsätzlich begangene versuchte gefährliche Körperverletzung gegenüber T als taugliche Haupttat der Anstiftung nach § 26 StGB behandelt; eine Vollendung ist dafür nicht erforderlich. Die Rechtswidrigkeit muss nicht im Abschnitt zur Anstiftung erneut geprüft werden, wenn aus der Antwort eindeutig hervorgeht, dass T vor dem von R und S begonnenen Angriff nicht eingewilligt hatte beziehungsweise der Angriff von R und S rechtswidrig war. Auf dem ausdrücklich zugelassenen alternativen Kausalitätspfad kann die Haupttat als vollendete gefährliche Körperverletzung behandelt werden. NICHT ERFÜLLT, wenn eine Haupttat allein wegen fehlender Vollendung ausgeschlossen, eine Tat einer anderen Person oder gegen ein anderes Opfer zugrunde gelegt oder Ss Angriff trotz der gegenteiligen Feststellungen als gerechtfertigt behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-041"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Das Kriterium war hinsichtlich einer gesonderten Rechtswidrigkeitsprüfung bei S missverständlich. Die Musterlösung stellt die fehlende Einwilligung des T ausdrücklich für den Angriff von R und S fest und bezeichnet deren Angriff außerdem als rechtswidrig; diese eindeutige, objektgleiche Feststellung darf für die Haupttat herangezogen werden.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.V",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 26 StGB"
+        ]
+      }
+    },
+    {
+      "id": "C-041",
+      "criticality": 2,
+      "title": "Erforderlichkeit von Ts Gegenwehr",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die gerichtliche Feststellung, T habe nur das getan, was man in dieser Lage zum Eigenschutz für nötig erachten durfte, aufgreift und daraus folgert, dass seine Gegenwehr zur Abwehr des Angriffs geeignet und erforderlich war. NICHT ERFÜLLT, wenn die Erforderlichkeit ohne Bezug zu dieser Feststellung lediglich behauptet oder ohne Sachverhaltsgrundlage wegen eines vermeintlich milderen gleich wirksamen Mittels, einer Fluchtpflicht oder einer allgemeinen Verhältnismäßigkeitsprüfung verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-069"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Die frühere Fassung verlangte die ausdrückliche Formel vom relativ mildesten gleich wirksamen Mittel, obwohl die Musterlösung die Erforderlichkeit unmittelbar aus der verbindlichen gerichtlichen Feststellung ableitet. Das Kriterium prüft nun diese tragende Fallanwendung, ohne eine bestimmte Formulierung vorzuschreiben.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "C.I.3.b",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nr. 2, 22, 23 Abs. 1 StGB gegenüber R und S",
+          "Rechtswidrigkeit",
+          "Notwehr"
+        ]
+      }
+    },
+    {
+      "id": "C-001",
+      "criticality": 1,
+      "title": "Misshandlungsqualität der blauen Flecke des T",
+      "match_criteria": "ERFÜLLT, wenn die Antwort das fehlende Schmerz- und Störempfinden des T aufgreift und die großflächigen blauen Flecke nach § 223 Abs. 1 Alt. 1 StGB entweder wegen der mehr als unerheblichen Beeinträchtigung der körperlichen Unversehrtheit beziehungsweise der Schmerzhaftigkeit für eine Maßstabsperson als körperliche Misshandlung einordnet oder mit der ausdrücklich zugelassenen Gegenansicht unter Anwendung eines subjektiven Schmerzmaßstabs ablehnt. NICHT ERFÜLLT, wenn das fehlende Schmerzempfinden übergangen oder ein Ergebnis ohne rechtlichen Maßstab und Fallanwendung behauptet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-001",
+        "A-002"
+      ],
+      "review_notes": [
+        "Bei Ablehnung der Misshandlung werden Gesundheitsschädigung und Versuch gesondert geprüft.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-001",
+        "K-FACT-001",
+        "K-ADV-001"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "A.I.1",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§ 223 Abs. 1 StGB gegenüber T",
+          "Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-002",
+      "criticality": 2,
+      "title": "Blaue Flecke als Gesundheitsschädigung",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die großflächigen blauen Flecke des T als nachteilige Veränderung seiner körperlichen Verfassung und damit als Gesundheitsschädigung nach § 223 Abs. 1 Alt. 2 StGB einordnet. NICHT ERFÜLLT, wenn sie die Gesundheitsschädigung wegen des fehlenden Schmerz- oder Störempfindens verneint oder diese Tatbestandsalternative nicht auf die Blutergüsse bezieht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-003"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-002",
+        "K-FACT-002",
+        "K-ADV-002"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.I.1",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§ 223 Abs. 1 StGB gegenüber T",
+          "Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-003",
+      "criticality": 3,
+      "title": "Kausalität der R für Ts Verletzungen",
+      "match_criteria": "ERFÜLLT, wenn die Antwort bei einer vollendeten Körperverletzung der R zum Nachteil des T nach der Conditio-sine-qua-non-Formel und in dubio pro reo die Kausalität verneint: Kein Treffer ist zuordenbar; auch Schläge Dritter oder Stöße des T am Inventar kommen als Ursachen der blauen Flecke in Betracht, und § 25 Abs. 2 StGB beseitigt diese Alternativen nicht. Ebenfalls ERFÜLLT ist die zugelassene Gegenposition, wenn sie diese Beweisunsicherheit ausdrücklich würdigt, dennoch mindestens einen durch R oder S verursachten Bluterguss begründet und ihn R über eigenes Handeln oder § 25 Abs. 2 StGB zurechnet. NICHT ERFÜLLT, wenn ohne Behandlung der Unaufklärbarkeit eine Vollendung angenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-004",
+        "A-005",
+        "A-006",
+        "A-007"
+      ],
+      "review_notes": [
+        "Der alternative Vollendungspfad verlangt eine ausdrückliche Beweiswürdigung.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-003",
+        "K-FACT-003",
+        "K-ADV-003"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "A.I.1",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§ 223 Abs. 1 StGB gegenüber T",
+          "Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-004",
+      "criticality": 2,
+      "title": "Körperverletzungsvorsatz der R gegenüber T",
+      "match_criteria": "ERFÜLLT, wenn die Antwort aus Rs Aufforderung, T eine „Tracht Prügel“ zu verpassen, und ihrem anschließenden Zuschlagen folgert, dass R T zumindest blaue Flecke oder vergleichbare körperliche Beeinträchtigungen zufügen wollte. NICHT ERFÜLLT, wenn Rs Körperverletzungsvorsatz verneint oder allein aus dem nicht gewollten Gehörverlust auf fehlenden Vorsatz geschlossen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-010"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-006",
+        "K-FACT-005",
+        "K-ADV-007"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.II.1",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T",
+          "Tatentschluss"
+        ]
+      }
+    },
+    {
+      "id": "C-005",
+      "criticality": 2,
+      "title": "Blechvase als gefährliches Werkzeug",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die Werkzeugeigenschaft nach objektiver Beschaffenheit und konkreter Verwendung beurteilt und die relativ große Blechvase trotz ihres geringen Gewichts wegen der Verstärkung wuchtiger Hiebe als erheblich verletzungsgeeignet einordnet. Ebenfalls ERFÜLLT ist die ausdrücklich zugelassene Ablehnung, wenn sie anhand des geringen Gewichts und einer konkret nicht erheblich verletzungsgeeigneten Einsatzweise begründet wird. NICHT ERFÜLLT, wenn die Vase ohne Prüfung ihrer Beschaffenheit und konkreten Verwendung automatisch als gefährlich oder ungefährlich behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-011",
+        "A-012"
+      ],
+      "review_notes": [
+        "Die gewählte Einordnung ist bei R, S und T folgerichtig fortzuführen.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-007",
+        "K-FACT-006",
+        "K-ADV-008"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.II.1",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T",
+          "Tatentschluss"
+        ]
+      }
+    },
+    {
+      "id": "C-006",
+      "criticality": 1,
+      "title": "Keine Täterzuordnung des Vasenschlags gegen Ss Ohr",
+      "match_criteria": "ERFÜLLT, wenn die Antwort berücksichtigt, dass der zum Gehörschaden des S führende Vasenschlag keinem bestimmten Beteiligten zugeordnet werden kann und daher nicht als konkrete Einsatzweise gerade der R, des S oder des T unterstellt werden darf. NICHT ERFÜLLT, wenn sie R, S oder T ohne Beweis als Ausführenden dieses Ohrschlags bezeichnet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-013"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-008",
+        "K-FACT-007",
+        "K-ADV-009"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.II.1",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T",
+          "Tatentschluss"
+        ]
+      }
+    },
+    {
+      "id": "C-008",
+      "criticality": 2,
+      "title": "Gemeinschaftlicher Tatentschluss der R",
+      "match_criteria": "ERFÜLLT, wenn die Antwort § 224 Abs. 1 Nr. 4 StGB bei R daraus ableitet, dass mindestens zwei Beteiligte am Tatort bewusst zusammenwirken und T mehreren Gegnern gegenübersteht: R forderte S zum gemeinsamen Verprügeln des T auf, und beide gingen nach diesem Plan vor. NICHT ERFÜLLT, wenn nur die Anwesenheit mehrerer Personen genügt, Mittäterschaft als zwingende Voraussetzung verlangt oder das Zusammenwirken nicht auf R und S gegen T bezogen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-014",
+        "A-015"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-010",
+        "K-FACT-009",
+        "K-ADV-011"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.II.1",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T",
+          "Tatentschluss"
+        ]
+      }
+    },
+    {
+      "id": "C-009",
+      "criticality": 1,
+      "title": "Lebensgefährdende Behandlung durch R",
+      "match_criteria": "ERFÜLLT, wenn die Antwort § 224 Abs. 1 Nr. 5 StGB bei R mangels einer ihr im Tatentschluss zurechenbaren konkret oder abstrakt-generell lebensgefährlichen Verwendung der leichten Vase verneint. Ebenfalls ERFÜLLT ist die ausdrücklich zugelassene Bejahung, wenn eine nach dem gewählten Maßstab lebensgefährliche konkrete Verwendung der Vase fallbezogen begründet und als von Rs Tatentschluss umfasst dargelegt wird. NICHT ERFÜLLT, wenn allein der eingetretene Gehörschaden zur Bejahung verwendet oder der Gefährlichkeitsmaßstab nicht erkennbar angewandt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-016"
+      ],
+      "review_notes": [
+        "Die Bejahung verlangt eine R zurechenbare vorgestellte Verwendungsweise.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-011",
+        "K-FACT-010",
+        "K-ADV-012"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "A.II.1",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T",
+          "Tatentschluss"
+        ]
+      }
+    },
+    {
+      "id": "C-010",
+      "criticality": 2,
+      "title": "Ausführungsbeginn der R",
+      "match_criteria": "ERFÜLLT, wenn die Antwort auf dem Referenzpfad in Rs begonnenen Faustschlägen, ihrem Zusammenwirken mit S und ihrem Vaseneinsatz ein unmittelbares Ansetzen zum strafbaren Versuch nach §§ 22, 23 Abs. 1, 224 Abs. 2 StGB erkennt. Die Qualifikationen nach § 224 Abs. 1 Nrn. 2 und 4 sind entsprechend der zuvor gewählten Einordnung zu behandeln. Auf dem ausdrücklich zugelassenen Vollendungspfad genügt die Einordnung dieser Handlungen als tatbestandsmäßige Ausführung; eine zusätzliche Versuchsprüfung ist dann nicht erforderlich. NICHT ERFÜLLT, wenn nur Rs vorherige Aufforderung als Ausführungsbeginn gilt oder trotz der Schläge bloße Vorbereitung angenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-009",
+        "A-018"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-012",
+        "K-FACT-011",
+        "K-ADV-013"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.II.2",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T",
+          "Unmittelbares Ansetzen"
+        ]
+      }
+    },
+    {
+      "id": "C-011",
+      "criticality": 2,
+      "title": "Keine Einwilligung des T in den Angriff",
+      "match_criteria": "ERFÜLLT, wenn die Antwort eine Einwilligung des T in die Körperverletzungshandlungen von R und S verneint, weil T vor dem überraschenden Angriff keine ausdrückliche oder konkludente Zustimmung erklärt hatte und sich erst anschließend wehrte. NICHT ERFÜLLT, wenn Ts spätere Gegenwehr als vorherige oder rückwirkende Einwilligung in den Angriff von R und S behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-019"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-013",
+        "K-FACT-012",
+        "K-ADV-014"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.II.3",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T",
+          "Rechtswidrigkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-012",
+      "criticality": 1,
+      "title": "Natürliche Handlungseinheit bei R",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die in engem räumlich-zeitlichem Zusammenhang gegen T ausgeführten Faust- und Vasenschläge der R als einen einheitlichen, iterativ verwirklichten Körperverletzungsvorgang in natürlicher Handlungseinheit behandelt. NICHT ERFÜLLT, wenn ohne Begründung jeder Schlag als selbstständige Tat oder als gesonderter, erst über § 52 StGB verbundener Versuch gewertet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-022"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-014",
+        "K-FACT-013",
+        "K-ADV-015"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "A.II",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T"
+        ]
+      }
+    },
+    {
+      "id": "C-013",
+      "criticality": 2,
+      "title": "Von R und S verübter Angriff",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den von mehreren verübten Angriff nach § 231 Abs. 1 Alt. 2 StGB als unmittelbar auf die Verletzung eines anderen gerichtetes Verhalten mindestens zweier Personen mit einheitlichem Angriffswillen erfasst und diese Voraussetzungen aus dem gemeinsamen Plan sowie den begonnenen Faustschlägen von R und S gegen T ableitet. NICHT ERFÜLLT, wenn der Angriff mangels nachgewiesenen Verletzungserfolgs verneint oder der einheitliche Angriffswille nicht auf R und S gegen T bezogen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-025",
+        "A-026"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-015",
+        "K-FACT-017",
+        "K-ADV-016"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.IV.1",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§ 231 Abs. 1 StGB",
+          "Objektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-014",
+      "criticality": 3,
+      "title": "Vorliegen einer Schlägerei",
+      "match_criteria": "ERFÜLLT, wenn die Antwort eine Schlägerei nach § 231 Abs. 1 Alt. 1 StGB als wechselseitige tätliche Auseinandersetzung von mindestens drei Personen erfasst, keinen Nachweis vollendeter Verletzungen verlangt und T trotz seiner Notwehr mitzählt, weil er aktiv in Trutzwehr handelte. Ebenfalls ERFÜLLT ist die zugelassene Gegenposition, wenn T wegen seiner Notwehr nicht mitgezählt, die Schlägerei aber mit dem aktiven Eintritt weiterer Personen begründet und die ungeklärte zeitliche Beziehung zwischen deren Eintritt und Ss Gehörschaden ausdrücklich problematisiert wird. NICHT ERFÜLLT, wenn wegen ungeklärter Treffer keine Schlägerei angenommen oder ohne Begründung auf drei tätige Personen verzichtet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-027",
+        "A-028",
+        "A-029",
+        "A-030"
+      ],
+      "review_notes": [
+        "Der Alternativweg darf keinen nicht festgestellten zeitlichen Ablauf erfinden.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-016",
+        "K-FACT-018",
+        "K-ADV-017"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "A.IV.1",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§ 231 Abs. 1 StGB",
+          "Objektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-015",
+      "criticality": 2,
+      "title": "Aktive Beteiligung der R nach § 231 StGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort Rs Beteiligung nach § 231 Abs. 1 StGB aus ihrer Anwesenheit am Tatort und ihrer aktiven Mitwirkung durch Faust- und Vasenschläge am Fortgang des Angriffs beziehungsweise der Schlägerei ableitet. NICHT ERFÜLLT, wenn bloße Anwesenheit oder nur die vorherige Initiierung genügen soll oder trotz der Tätlichkeiten eine Beteiligung verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-031"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-017",
+        "K-FACT-019",
+        "K-ADV-018"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.IV.1",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§ 231 Abs. 1 StGB",
+          "Objektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-016",
+      "criticality": 2,
+      "title": "Beteiligungsvorsatz der R nach § 231 StGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort aus Rs eigenem Plan, T gemeinsam mit S zu verprügeln, und ihrer aktiven Mitwirkung ableitet, dass R den Angriff beziehungsweise die Schlägerei und ihre Beteiligung daran wissentlich und willentlich erfasste. NICHT ERFÜLLT, wenn dieser Beteiligungsvorsatz ohne Tatsachengrundlage verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-032"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-018",
+        "K-ADV-019"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.IV.2",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§ 231 Abs. 1 StGB",
+          "Subjektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-017",
+      "criticality": 2,
+      "title": "Schwere Folge als objektive Strafbarkeitsbedingung",
+      "match_criteria": "ERFÜLLT, wenn die Antwort Tod oder eine Verletzung nach § 226 StGB bei § 231 Abs. 1 StGB als objektive Bedingung der Strafbarkeit behandelt und deshalb keinen Vorsatz hinsichtlich des Gehörverlusts des S verlangt. NICHT ERFÜLLT, wenn der Gehörverlust als vorsatzbedürftiges Merkmal behandelt oder § 231 StGB wegen fehlender Erwartung beziehungsweise Vorhersehbarkeit der schweren Folge verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-033",
+        "A-034"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-019",
+        "K-FACT-021",
+        "K-ADV-020"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "rule_statement",
+        "outline_id": "A.IV.3",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§ 231 Abs. 1 StGB",
+          "Objektive Bedingung der Strafbarkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-018",
+      "criticality": 2,
+      "title": "Gehörverlust des S nach § 226 StGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den irreversiblen Gehörschaden des S als Verlust des Gehörs nach § 226 Abs. 1 Nr. 1 StGB einordnet, weil dauerhaft weniger als zehn Prozent der normalen Hörfähigkeit verbleiben und selbst operativ höchstens ein Prozent wiederhergestellt werden kann. NICHT ERFÜLLT, wenn wegen des Resthörvermögens oder der Operationsmöglichkeit kein Gehörverlust angenommen oder vollständige Taubheit verlangt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-035",
+        "A-036",
+        "A-037"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-020",
+        "K-FACT-022",
+        "K-ADV-021"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.IV.3",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§ 231 Abs. 1 StGB",
+          "Objektive Bedingung der Strafbarkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-019",
+      "criticality": 2,
+      "title": "Raufhandelsspezifischer Zusammenhang der schweren Folge",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den durch Fremdeinwirkung mit der im Handgemenge wechselnden Vase verursachten Gehörverlust des S als Realisierung eines typischen Risikos des Angriffs beziehungsweise der Schlägerei einordnet und für § 231 StGB keine Identifizierung des konkreten Schlagenden verlangt. NICHT ERFÜLLT, wenn die schwere Folge allein wegen des unbekannten Schlagenden ausgeschlossen oder ohne Verbindung zur spezifischen Gefahr der gewaltsamen Auseinandersetzung zugerechnet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-038"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-021",
+        "K-FACT-023",
+        "K-ADV-022"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.IV.3",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§ 231 Abs. 1 StGB",
+          "Objektive Bedingung der Strafbarkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-020",
+      "criticality": 1,
+      "title": "Keine Einwilligung in § 231 StGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort erklärt, dass in § 231 StGB wegen des Schutzes der Allgemeinheit vor der generellen Gefahr von Schlägereien nicht wirksam eingewilligt werden kann und deshalb weder die Zustimmung einzelner Beteiligter noch die Einordnung als „Privatangelegenheit“ Rs Rechtswidrigkeit beseitigt. NICHT ERFÜLLT, wenn § 231 StGB wegen einer Zustimmung zur Prügelei oder ihres privaten Charakters für unanwendbar gehalten wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-039"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-022",
+        "K-FACT-024",
+        "K-ADV-023"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "rule_statement",
+        "outline_id": "A.IV.4",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§ 231 Abs. 1 StGB",
+          "Rechtswidrigkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-022",
+      "criticality": 2,
+      "title": "Bestimmen des S durch R",
+      "match_criteria": "ERFÜLLT, wenn die Antwort ein Bestimmen nach § 26 StGB darin sieht, dass R mit der Aufforderung, gemeinsam zu T zu gehen und ihm eine „Tracht Prügel“ zu verpassen, den Tatentschluss des S erstmals hervorrief. NICHT ERFÜLLT, wenn S ohne Tatsachengrundlage als bereits fest entschlossen behandelt oder das Hervorrufen seines Tatentschlusses nicht geprüft wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-042"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-FACT-026",
+        "K-ADV-025"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.V",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 26 StGB"
+        ]
+      }
+    },
+    {
+      "id": "C-023",
+      "criticality": 1,
+      "title": "Subsidiarität von Rs Anstiftung",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die Anstiftung der R zur gefährlichen Körperverletzung des S gegen T hinter Rs eigener täterschaftlicher Beteiligung an derselben Tat materiell subsidiär zurücktreten lässt. NICHT ERFÜLLT, wenn R wegen derselben Körperverletzung selbstständig nebeneinander als Täterin und Anstifterin bestraft oder die Anstiftung als vorrangige Beteiligungsform behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-043"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-024",
+        "K-FACT-027",
+        "K-ADV-026"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "A.V",
+        "station_path": [
+          "Strafbarkeit von R",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 26 StGB"
+        ]
+      }
+    },
+    {
+      "id": "C-024",
+      "criticality": 2,
+      "title": "Kausalität des S für Ts Verletzungen",
+      "match_criteria": "ERFÜLLT, wenn die Antwort eine vollendete Körperverletzung des S zum Nachteil des T in dubio pro reo verneint, weil kein Schlag des S sicher einem blauen Fleck zugeordnet werden kann und auch andere Raufende oder Stöße am Inventar als Ursachen möglich sind. Ebenfalls ERFÜLLT ist die zugelassene Gegenposition, wenn sie diese Beweisunsicherheit ausdrücklich würdigt, dennoch mindestens einen durch R oder S verursachten Bluterguss begründet und ihn S über eigenes Handeln oder den gemeinsamen Tatplan zurechnet. NICHT ERFÜLLT, wenn ohne Behandlung der Unaufklärbarkeit eine Vollendung angenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-045"
+      ],
+      "review_notes": [
+        "Der alternative Vollendungspfad verlangt eine ausdrückliche Beweiswürdigung.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-025",
+        "K-FACT-028",
+        "K-ADV-027"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "B.I",
+        "station_path": [
+          "Strafbarkeit von S",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T"
+        ]
+      }
+    },
+    {
+      "id": "C-025",
+      "criticality": 2,
+      "title": "Körperverletzungsvorsatz des S gegenüber T",
+      "match_criteria": "ERFÜLLT, wenn die Antwort aus Ss Annahme von Rs Vorschlag, seinem Herantreten mit geballten Fäusten und seinen Schlägen folgert, dass S T jedenfalls blaue Flecke oder vergleichbare körperliche Beeinträchtigungen zufügen wollte. NICHT ERFÜLLT, wenn Ss Körperverletzungsvorsatz wegen des nicht vorausgesehenen Gehörverlusts verneint oder nur Fahrlässigkeit angenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-046"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-026",
+        "K-FACT-029",
+        "K-ADV-028"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.I",
+        "station_path": [
+          "Strafbarkeit von S",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T"
+        ]
+      }
+    },
+    {
+      "id": "C-026",
+      "criticality": 2,
+      "title": "Werkzeugvorsatz des S",
+      "match_criteria": "ERFÜLLT, wenn die Antwort bei Bejahung der Werkzeugeigenschaft aus Ss bewusstem Einsatz der relativ großen Blechvase zur Verstärkung seiner wuchtigen Hiebe ableitet, dass sein Tatentschluss § 224 Abs. 1 Nr. 2 StGB umfasste. Bei vertretbarer Ablehnung der Werkzeugeigenschaft ist die Qualifikation folgerichtig zu verneinen. NICHT ERFÜLLT, wenn nur die Norm genannt oder Ss Kenntnis und Wille nicht auf seine vorgestellte konkrete Einsatzweise bezogen werden.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-047"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-027",
+        "K-FACT-030",
+        "K-ADV-029"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.I",
+        "station_path": [
+          "Strafbarkeit von S",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T"
+        ]
+      }
+    },
+    {
+      "id": "C-027",
+      "criticality": 2,
+      "title": "Gemeinschaftlicher Tatentschluss des S",
+      "match_criteria": "ERFÜLLT, wenn die Antwort § 224 Abs. 1 Nr. 4 StGB bei S aus seiner Annahme des gemeinsamen Angriffsplans und dem bewussten Zusammenwirken mit R am Tatort gegen T ableitet. NICHT ERFÜLLT, wenn S als allein handelnder Angreifer behandelt oder die Qualifikation lediglich auf später anwesende, nicht in den Tatplan einbezogene Personen gestützt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-048"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-028",
+        "K-FACT-031",
+        "K-ADV-030"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.I",
+        "station_path": [
+          "Strafbarkeit von S",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nrn. 2 und 4, 22, 23 Abs. 1 StGB gegenüber T"
+        ]
+      }
+    },
+    {
+      "id": "C-029",
+      "criticality": 2,
+      "title": "Aktive Beteiligung des S nach § 231 StGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort Ss objektive Beteiligung nach § 231 Abs. 1 StGB aus seinen Faust- und Vasenschlägen innerhalb des gemeinsamen Angriffs beziehungsweise der Schlägerei ableitet. NICHT ERFÜLLT, wenn S nur als später Geschädigter behandelt, seine aktive Mitwirkung übergangen oder ein von ihm verursachter Verletzungserfolg verlangt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-051"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-030",
+        "K-FACT-033",
+        "K-ADV-032"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.II.1",
+        "station_path": [
+          "Strafbarkeit von S",
+          "§ 231 Abs. 1 StGB",
+          "Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-030",
+      "criticality": 1,
+      "title": "Beteiligungsvorsatz des S nach § 231 StGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort aus Ss bewusster Annahme des Angriffsplans und seiner aktiven Mitwirkung folgert, dass er den Angriff beziehungsweise die Schlägerei und seine Beteiligung daran wissentlich und willentlich erfasste. NICHT ERFÜLLT, wenn dieser Beteiligungsvorsatz ohne Tatsachengrundlage verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-052"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-031",
+        "K-FACT-034",
+        "K-ADV-033"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.II.1",
+        "station_path": [
+          "Strafbarkeit von S",
+          "§ 231 Abs. 1 StGB",
+          "Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-031",
+      "criticality": 3,
+      "title": "Eigene schwere Folge des S bei § 231 StGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort problematisiert, dass der durch Fremdeinwirkung verursachte Gehörverlust beim Beteiligten S selbst eintrat, und eine anerkannte Position anwendet: Nach der bevorzugten Ansicht ist S nicht nach § 231 Abs. 1 StGB strafbar, weil die erleichterte Zurechnung keine Strafbarkeit aufgrund der eigenen Verletzung begründet und die schwere Folge bei einer anderen Person eintreten muss. Nach der ausdrücklich akzeptierten herrschenden Ansicht ist S strafbar, weil § 231 StGB die abstrakte Allgemeingefahr sanktioniert und die schwere Folge auch beim Beteiligten selbst genügen kann. NICHT ERFÜLLT, wenn die Selbstbetroffenheit übergangen oder nur ein Ergebnis ohne den jeweiligen Zurechnungs- beziehungsweise Schutzzweckgedanken genannt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-053",
+        "A-054",
+        "A-055",
+        "A-083"
+      ],
+      "review_notes": [
+        "Nach der herrschenden Ansicht kann die Selbstschädigung strafzumessungsrechtlich berücksichtigt werden.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-032",
+        "K-FACT-035",
+        "K-ADV-034"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "B.II.2",
+        "station_path": [
+          "Strafbarkeit von S",
+          "§ 231 Abs. 1 StGB",
+          "Objektive Bedingung der Strafbarkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-032",
+      "criticality": 1,
+      "title": "Keine vollendete Körperverletzung des T an R",
+      "match_criteria": "ERFÜLLT, wenn die Antwort eine vollendete Körperverletzung des T zum Nachteil der R mangels Nachweises verneint, dass ein Faust- oder Vasenschlag des T einen blauen Fleck oder sonstigen Verletzungserfolg der R verursacht hat. NICHT ERFÜLLT, wenn T ohne zuordenbaren Treffer eine vollendete Körperverletzung der R zugerechnet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-056"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-033"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "C.I",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nr. 2, 22, 23 Abs. 1 StGB gegenüber R und S"
+        ]
+      }
+    },
+    {
+      "id": "C-033",
+      "criticality": 2,
+      "title": "Keine vollendete Körperverletzung des T an S",
+      "match_criteria": "ERFÜLLT, wenn die Antwort eine vollendete Körperverletzung des T zum Nachteil des S mangels Nachweises verneint, dass gerade eine Handlung des T die blauen Flecke oder den Gehörverlust des S verursacht hat. NICHT ERFÜLLT, wenn T aufgrund seiner bloßen Beteiligung der Gehörverlust oder ein anderer Verletzungserfolg des S als vollendete Körperverletzung zugerechnet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-056"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-034"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "C.I",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nr. 2, 22, 23 Abs. 1 StGB gegenüber R und S"
+        ]
+      }
+    },
+    {
+      "id": "C-034",
+      "criticality": 1,
+      "title": "Körperverletzungsvorsatz des T gegenüber R",
+      "match_criteria": "ERFÜLLT, wenn die Antwort aus Ts aktiver Gegenwehr und seinen Schlägen folgert, dass er R zumindest körperlich misshandeln wollte, auch wenn dieser Vorsatz einem Verteidigungszweck diente. NICHT ERFÜLLT, wenn wegen der Notwehrlage bereits der Tatentschluss gegenüber R verneint und Vorsatz mit Rechtswidrigkeit vermengt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-057"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-035"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "C.I.1",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nr. 2, 22, 23 Abs. 1 StGB gegenüber R und S",
+          "Tatentschluss"
+        ]
+      }
+    },
+    {
+      "id": "C-035",
+      "criticality": 1,
+      "title": "Körperverletzungsvorsatz des T gegenüber S",
+      "match_criteria": "ERFÜLLT, wenn die Antwort aus Ts aktiver Gegenwehr und seinen Schlägen folgert, dass er S zumindest körperlich misshandeln wollte, auch wenn dieser Vorsatz einem Verteidigungszweck diente. NICHT ERFÜLLT, wenn wegen der Notwehrlage bereits der Tatentschluss gegenüber S verneint und Vorsatz mit Rechtswidrigkeit vermengt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-057"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-036"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "C.I.1",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nr. 2, 22, 23 Abs. 1 StGB gegenüber R und S",
+          "Tatentschluss"
+        ]
+      }
+    },
+    {
+      "id": "C-037",
+      "criticality": 1,
+      "title": "Keine gemeinschaftliche Körperverletzung durch T",
+      "match_criteria": "ERFÜLLT, wenn die Antwort § 224 Abs. 1 Nr. 4 StGB bei T verneint, weil er allein gegen R und S handelte und nicht bewusst mit einer weiteren Person gegen dasselbe Opfer zusammenwirkte. NICHT ERFÜLLT, wenn die bloße Mehrzahl seiner Gegner oder die Anwesenheit weiterer Raufender als gemeinschaftliche Begehung durch T behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-059"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-038",
+        "K-FACT-039",
+        "K-ADV-038"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "C.I.1",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nr. 2, 22, 23 Abs. 1 StGB gegenüber R und S",
+          "Tatentschluss"
+        ]
+      }
+    },
+    {
+      "id": "C-038",
+      "criticality": 2,
+      "title": "Unmittelbares Ansetzen des T",
+      "match_criteria": "ERFÜLLT, wenn die Antwort in Ts tatsächlich begonnenen Faustschlägen und seinem Vaseneinsatz ein unmittelbares Ansetzen zum strafbaren Versuch der gefährlichen Körperverletzung nach §§ 22, 23 Abs. 1, 224 Abs. 2 StGB erkennt; § 224 Abs. 1 Nr. 2 ist entsprechend der gewählten Werkzeugeinordnung zu behandeln. NICHT ERFÜLLT, wenn trotz der Ausführungshandlungen nur Vorbereitung angenommen oder das unmittelbare Ansetzen wegen der späteren Rechtfertigung verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-009",
+        "A-060"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-039",
+        "K-FACT-040",
+        "K-ADV-039"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "C.I.2",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nr. 2, 22, 23 Abs. 1 StGB gegenüber R und S",
+          "Unmittelbares Ansetzen"
+        ]
+      }
+    },
+    {
+      "id": "C-039",
+      "criticality": 2,
+      "title": "Einwilligung von R und S in Ts Gegenwehr",
+      "match_criteria": "ERFÜLLT, wenn die Antwort eine vor Ts Gegenwehr erklärte Einwilligung von R und S verneint, weil R nur T eine „Tracht Prügel“ verpassen wollte, beide von der Gegenwehr überrascht waren und ihre spätere Erklärung, die blauen Flecke hätten nicht geschmerzt oder gestört, keine vorherige Zustimmung ersetzt; die Sittenwidrigkeit nach § 228 StGB darf dann offenbleiben. Ebenfalls ERFÜLLT ist die zugelassene Gegenposition, wenn aus dem begonnenen Angriff trotz der gegenläufigen Indizien konkret eine vorherige konkludente Zustimmung hergeleitet und deren Wirksamkeit nach § 228 StGB anhand der ex ante bestehenden Gefahr schwerer Gesundheitsschäden geprüft wird. NICHT ERFÜLLT, wenn die bloße Gefährlichkeit oder die nachträgliche Äußerung automatisch als Einwilligung genügt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-062",
+        "A-063",
+        "A-064",
+        "A-065",
+        "A-066",
+        "A-067"
+      ],
+      "review_notes": [
+        "Der alternative Einwilligungspfad muss § 228 StGB anwenden.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-040",
+        "K-ADV-040"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "C.I.3.a",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nr. 2, 22, 23 Abs. 1 StGB gegenüber R und S",
+          "Rechtswidrigkeit",
+          "Einwilligung"
+        ]
+      }
+    },
+    {
+      "id": "C-040",
+      "criticality": 2,
+      "title": "Notwehrlage des T bei seinen Körperverletzungshandlungen",
+      "match_criteria": "ERFÜLLT, wenn die Antwort feststellt, dass die ohne Vorwarnung begonnenen und während des pausenlosen Handgemenges fortdauernden Schläge von R und S einen gegenwärtigen rechtswidrigen Angriff auf Ts körperliche Integrität nach § 32 Abs. 2 StGB bildeten. NICHT ERFÜLLT, wenn der Angriff wegen Ts späterer Gegenwehr als rechtmäßig oder während seiner Gegenwehr als beendet behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-068"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-041",
+        "K-FACT-044",
+        "K-ADV-041"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "C.I.3.b",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nr. 2, 22, 23 Abs. 1 StGB gegenüber R und S",
+          "Rechtswidrigkeit",
+          "Notwehr"
+        ]
+      }
+    },
+    {
+      "id": "C-042",
+      "criticality": 1,
+      "title": "Zulässige Trutzwehr des T",
+      "match_criteria": "ERFÜLLT, wenn die Antwort erkennt, dass § 32 StGB T nicht auf passive Schutzwehr beschränkte und seine aktiven Faust- und Vasenschläge grundsätzlich als Trutzwehr der Angriffsabwehr dienen konnten. NICHT ERFÜLLT, wenn die Notwehr allein deshalb verneint wird, weil T selbst aktiv zurückschlug.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-070"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-043",
+        "K-FACT-046",
+        "K-ADV-043"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "rule_statement",
+        "outline_id": "C.I.3.b",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nr. 2, 22, 23 Abs. 1 StGB gegenüber R und S",
+          "Rechtswidrigkeit",
+          "Notwehr"
+        ]
+      }
+    },
+    {
+      "id": "C-043",
+      "criticality": 1,
+      "title": "Gebotenheit von Ts Verteidigung",
+      "match_criteria": "ERFÜLLT, wenn die Antwort Ts Verteidigung als geboten behandelt, weil T den Angriff nicht provozierte und keine sonstigen Anhaltspunkte für eine sozialethische Einschränkung seiner Notwehrbefugnis bestehen. NICHT ERFÜLLT, wenn ohne Tatsachengrundlage eine Notwehrprovokation, eine Ausweichpflicht oder eine sonstige Einschränkung angenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-071"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-044",
+        "K-FACT-047",
+        "K-ADV-044"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "C.I.3.b",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nr. 2, 22, 23 Abs. 1 StGB gegenüber R und S",
+          "Rechtswidrigkeit",
+          "Notwehr"
+        ]
+      }
+    },
+    {
+      "id": "C-044",
+      "criticality": 1,
+      "title": "Subjektives Notwehrelement des T",
+      "match_criteria": "ERFÜLLT, wenn die Antwort aus Ts Handeln zum Selbstschutz ableitet, dass er den Angriff von R und S erkannte und im Bewusstsein der Notwehrlage sowie mit Verteidigungswillen handelte. NICHT ERFÜLLT, wenn ohne Sachverhaltsgrund ein ausschließliches Rache- oder Angriffsmotiv angenommen oder das subjektive Rechtfertigungselement verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-072"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-045",
+        "K-FACT-048",
+        "K-ADV-045"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "C.I.3.b",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§§ 223 Abs. 1, 224 Abs. 1 Nr. 2, 22, 23 Abs. 1 StGB gegenüber R und S",
+          "Rechtswidrigkeit",
+          "Notwehr"
+        ]
+      }
+    },
+    {
+      "id": "C-045",
+      "criticality": 1,
+      "title": "T nicht Teil der angreifenden Personenmehrheit",
+      "match_criteria": "ERFÜLLT, wenn die Antwort § 231 Abs. 1 Alt. 2 StGB bei T verneint, weil nur R und S mit einheitlichem Angriffswillen gegen T vorgingen und T als Angegriffener nicht Teil dieser gegen eine andere Person gerichteten Personenmehrheit war. NICHT ERFÜLLT, wenn Ts Gegenwehr als Beitritt zu dem gegen ihn selbst gerichteten Angriff behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-074"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-046",
+        "K-FACT-050",
+        "K-ADV-046"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "C.II.1",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§ 231 Abs. 1 StGB",
+          "Objektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-046",
+      "criticality": 2,
+      "title": "Objektive Beteiligung des T an der Schlägerei",
+      "match_criteria": "ERFÜLLT, wenn die Antwort T aufgrund seiner aktiven Faust- und Vasenschläge in Trutzwehr objektiv als Beteiligten der Schlägerei nach § 231 Abs. 1 Alt. 1 StGB behandelt, obwohl seine Handlungen gerechtfertigt sein können. NICHT ERFÜLLT, wenn die objektive Beteiligung bereits wegen der Notwehrlage verneint oder nur Ts Anwesenheit angeführt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-075"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-047",
+        "K-FACT-051",
+        "K-ADV-047"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "C.II.1",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§ 231 Abs. 1 StGB",
+          "Objektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-047",
+      "criticality": 1,
+      "title": "Beteiligungsvorsatz des T nach § 231 StGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort aus Ts bewusstem aktiven Eingreifen ableitet, dass er die tätliche Auseinandersetzung und seine Beteiligung daran wissentlich und willentlich erfasste. NICHT ERFÜLLT, wenn der Beteiligungsvorsatz wegen Ts Verteidigungszwecks oder seiner fehlenden Vorstellung vom Gehörverlust verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-076"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-048",
+        "K-FACT-052",
+        "K-ADV-048"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "C.II.1",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§ 231 Abs. 1 StGB",
+          "Objektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-048",
+      "criticality": 2,
+      "title": "Schwere Folge in Ts Prüfung nach § 231 StGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort bei Ts möglicher Strafbarkeit nach § 231 Abs. 1 StGB den durch die Schlägerei verursachten dauerhaften Gehörverlust des S als objektive Bedingung der Strafbarkeit berücksichtigt, obwohl nicht feststeht, wer den Vasenschlag ausführte. NICHT ERFÜLLT, wenn die schwere Folge in Ts Prüfung nur bei einem von T persönlich verursachten Gehörverlust anerkannt oder vollständig ausgelassen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-077"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-049",
+        "K-FACT-053"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "C.II.2",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§ 231 Abs. 1 StGB",
+          "Objektive Bedingung der Strafbarkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-049",
+      "criticality": 3,
+      "title": "Rechtfertigungsmaßstab für Ts gesamte Beteiligung",
+      "match_criteria": "ERFÜLLT, wenn die Antwort bei § 231 Abs. 2 und § 32 StGB verlangt, dass sämtliche Beteiligungsakte des T von der Notwehrbefugnis gedeckt waren, und klarstellt, dass die Rechtfertigung einzelner Schläge eine spätere freiwillige Beteiligung nach Angriffsende nicht automatisch rechtfertigen würde. Ebenfalls ERFÜLLT ist die ausdrücklich zugelassene Einordnung des § 231 Abs. 2 StGB als Tatbestandsausschluss, sofern derselbe Maßstab auf das gesamte Beteiligungsverhalten angewandt wird. NICHT ERFÜLLT, wenn eine einzelne Notwehrhandlung ohne Prüfung des weiteren Verhaltens genügt oder Rechtfertigung bei § 231 StGB generell ausgeschlossen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-078"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-FACT-054",
+        "K-ADV-049"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "rule_statement",
+        "outline_id": "C.II.3",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§ 231 Abs. 1 StGB",
+          "Rechtswidrigkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-050",
+      "criticality": 3,
+      "title": "Durchgehende Rechtfertigung von Ts Beteiligung",
+      "match_criteria": "ERFÜLLT, wenn die Antwort aus der kurzen, dichten und pausenlosen Auseinandersetzung folgert, dass der Angriff von R und S während Ts gesamter Beteiligung fortdauerte und keine spätere Phase freiwilligen Weiterkämpfens nach Angriffsende feststellbar ist; Ts Beteiligung nach § 231 StGB ist daher gerechtfertigt. NICHT ERFÜLLT, wenn ohne Tatsachengrundlage eine ungedeckte spätere Beteiligungsphase angenommen oder T trotz der durchgehenden Notwehrlage nach § 231 StGB bestraft wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-079",
+        "A-080"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-FACT-055",
+        "K-ADV-050"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "C.II.3",
+        "station_path": [
+          "Strafbarkeit von T",
+          "§ 231 Abs. 1 StGB",
+          "Rechtswidrigkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-051",
+      "criticality": 1,
+      "title": "Tateinheit bei R",
+      "match_criteria": "ERFÜLLT, wenn die Antwort Rs gefährliche Körperverletzung zum Nachteil des T und ihre Strafbarkeit nach § 231 Abs. 1 StGB als tateinheitlich nach § 52 Abs. 1 StGB behandelt. Auf dem Referenzpfad betrifft dies die versuchte, auf dem ausdrücklich zugelassenen Kausalitätspfad die vollendete gefährliche Körperverletzung. NICHT ERFÜLLT, wenn ohne Begründung Tatmehrheit angenommen, eines der Delikte vollständig verdrängt oder die zurücktretende Anstiftung statt der täterschaftlichen Körperverletzung in das Konkurrenzverhältnis eingestellt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-081"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-051",
+        "K-FACT-056",
+        "K-ADV-051"
+      ],
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "D",
+        "station_path": [
+          "Gesamtergebnis"
+        ]
+      }
+    }
+  ],
+  "validation_warnings": [
+    "Long criterion for manual bundling review: C-007 (915 characters)"
+  ],
+  "provenance": {
+    "source": "evals/rubric.generated.json",
+    "provider": "openai",
+    "model": "gpt-5.6-sol",
+    "candidate_roles": [
+      "doctrine",
+      "fact_grounding",
+      "adversary"
+    ],
+    "calibration": {
+      "enabled": true,
+      "mode": "committee",
+      "judge_model": null,
+      "judge_reasoning_effort": null,
+      "committee": [
+        {
+          "name": "luna",
+          "model": "gpt-5.6-luna",
+          "api_base": "https://api.openai.com/v1",
+          "reasoning_effort": "medium",
+          "parallel": 8
+        },
+        {
+          "name": "terra",
+          "model": "gpt-5.6-terra",
+          "api_base": "https://api.openai.com/v1",
+          "reasoning_effort": "medium",
+          "parallel": 8
+        },
+        {
+          "name": "gemini-3.6-flash",
+          "model": "google/gemini-3.6-flash",
+          "api_base": "https://openrouter.ai/api/v1",
+          "reasoning_effort": null,
+          "parallel": 4
+        }
+      ],
+      "votes": 3,
+      "max_rounds": 2
+    }
+  }
+}

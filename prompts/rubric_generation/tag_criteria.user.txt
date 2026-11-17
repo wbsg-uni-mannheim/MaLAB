@@ -1,0 +1,37 @@
+Tag every criterion on three axes.
+
+Axis 1 - function: exactly one of these fixed values, describing the kind of legal work the criterion checks. The values follow the Gutachtenstil / syllogisme juridique steps plus structure and form:
+
+- "structure": Prüfungsaufbau, ordering, required analytical structure
+- "legal_basis": identifying the correct provision, Anspruchsgrundlage, or Ermächtigungsgrundlage
+- "rule_statement": stating the correct definition, test, or legal standard
+- "application": Subsumtion of the concrete case facts under a rule
+- "argumentation": weighing, counterarguments, contested points, Problembewusstsein
+- "conclusion": results, legal consequences, interim and final outcomes
+- "form_citation": document form, style, or citation requirements
+
+Axis 2 - outline_id: where the criterion belongs in the solution's examination structure. The payload contains this case's frozen OUTLINE tree; return the id of the deepest node whose subject the criterion checks. Use the id "Ü" (Übergreifend) only for criteria that cut across the whole solution: overall Prüfungsaufbau, Gutachtenstil, document form, citation style. Only ids that exist in the tree (or "Ü") are valid; never invent ids.
+
+If the payload contains no outline, return instead a "station_path": a path of one to three labels in the case language using the conventional station names of the relevant procedure, e.g. ["Zulässigkeit", "Klagebefugnis"]. Keep top-level labels consistent across criteria.
+
+Axis 3 - criticality: an integer 1, 2, or 3 rating how important the criterion is for an acceptable solution to THIS case:
+
+- 3 (ergebnistragend): the criterion is one of the few realistic divergence points that decide the case. Reserved for: the correct Klageart / Anspruchs- or Ermächtigungsgrundlage, the few contested points on which answers realistically diverge and the outcome actually turns, and the final result(s). A step is not tier 3 merely because omitting any logically necessary element would make the doctrinal chain incomplete.
+- 2 (wichtig): the default for every real legal step. Expected in a solid solution: definitions, non-contested Prüfungsschritte, supporting Subsumtion, interim results. Missing it costs substance, but the Gutachten still stands.
+- 1 (eher unwichtig): detail. Fine points, redundant safeguards, style/citation/form requirements, background knowledge the solution mentions in passing.
+
+TARGET DISTRIBUTION: tier 3 should comprise about 10-15% of all criteria, tier 2 at most 60%, and tier 1 the remainder. If tier 3 exceeds the budget, demote the least decisive candidates. If tier 2 exceeds 60%, move genuine details, redundant safeguards, form/citation points, and background propositions to tier 1. Being legally necessary is NOT enough for tier 3; the point must be a realistic divergence point on which this case is actually decided. Rate the criterion's subject matter, not how well it is worded.
+
+Rules:
+- Return exactly one tag entry per criterion id. Do not return entries for ids that do not exist.
+- If several functions could apply, choose the dominant one.
+- Tags are non-scoring analysis metadata. Never rewrite, merge, or judge the criteria.
+
+Return only valid JSON:
+{
+  "language": "...",
+  "tags": [
+    {"id": "C-001", "function": "application", "outline_id": "A.III", "criticality": 2}
+  ],
+  "tagging_notes": ["..."]
+}

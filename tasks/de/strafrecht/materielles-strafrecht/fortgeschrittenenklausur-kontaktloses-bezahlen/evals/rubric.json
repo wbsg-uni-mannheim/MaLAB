@@ -1,0 +1,1747 @@
+{
+  "schema_version": "0.2",
+  "generated_at": "2026-07-30T20:41:12.143053+00:00",
+  "review_status": "generated_calibrated_needs_human_review",
+  "language": "Deutsch",
+  "task_title": "Fortgeschrittenenklausur: Kontaktloses Bezahlen",
+  "outline": [
+    {
+      "id": "A",
+      "label": "Erster Handlungsabschnitt: Das Einstecken der EC-Karte",
+      "children": [
+        {
+          "id": "A.I",
+          "label": "Diebstahl der EC-Karte gem. § 242 Abs. 1 StGB",
+          "children": [
+            {
+              "id": "A.I.1",
+              "label": "Tatbestandsmäßigkeit",
+              "children": []
+            },
+            {
+              "id": "A.I.2",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "A.II",
+          "label": "Unterschlagung der EC-Karte gem. § 246 Abs. 1 StGB",
+          "children": []
+        },
+        {
+          "id": "A.III",
+          "label": "Ergebnis zum ersten Handlungsabschnitt",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "label": "Zweiter Handlungsabschnitt: Im Supermarkt",
+      "children": [
+        {
+          "id": "B.I",
+          "label": "Betrug ggü. K zu Lasten der R-GmbH gem. § 263 Abs. 1 StGB",
+          "children": [
+            {
+              "id": "B.I.1",
+              "label": "Tatbestandsmäßigkeit",
+              "children": [
+                {
+                  "id": "B.I.1.a",
+                  "label": "Objektiver Tatbestand",
+                  "children": [
+                    {
+                      "id": "B.I.1.a.aa",
+                      "label": "Täuschung",
+                      "children": []
+                    },
+                    {
+                      "id": "B.I.1.a.bb",
+                      "label": "Irrtum",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "B.I.1.b",
+                  "label": "Zwischenergebnis",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "B.I.2",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "B.II",
+          "label": "Computerbetrug gem. § 263a Abs. 1 Var. 3 StGB",
+          "children": [
+            {
+              "id": "B.II.1",
+              "label": "Tatbestandsmäßigkeit",
+              "children": [
+                {
+                  "id": "B.II.1.a",
+                  "label": "Objektiver Tatbestand",
+                  "children": [
+                    {
+                      "id": "B.II.1.a.aa",
+                      "label": "Verwendung von Daten",
+                      "children": []
+                    },
+                    {
+                      "id": "B.II.1.a.bb",
+                      "label": "Unbefugt",
+                      "children": [
+                        {
+                          "id": "B.II.1.a.bb.1",
+                          "label": "Vertragsspezifische/subjektivierende Auslegung",
+                          "children": []
+                        },
+                        {
+                          "id": "B.II.1.a.bb.2",
+                          "label": "Computerspezifische Auslegung",
+                          "children": []
+                        },
+                        {
+                          "id": "B.II.1.a.bb.3",
+                          "label": "Betrugsspezifische Auffassung",
+                          "children": []
+                        },
+                        {
+                          "id": "B.II.1.a.bb.4",
+                          "label": "Streitentscheid",
+                          "children": []
+                        },
+                        {
+                          "id": "B.II.1.a.bb.5",
+                          "label": "Zwischenergebnis",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "B.II.1.a.cc",
+                      "label": "Beeinflussung des Ergebnisses eines Datenverarbeitungsvorgangs",
+                      "children": []
+                    },
+                    {
+                      "id": "B.II.1.a.dd",
+                      "label": "Vermögensschaden",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "B.II.1.b",
+                  "label": "Subjektiver Tatbestand",
+                  "children": [
+                    {
+                      "id": "B.II.1.b.aa",
+                      "label": "Vorsatz",
+                      "children": []
+                    },
+                    {
+                      "id": "B.II.1.b.bb",
+                      "label": "Absicht rechtswidriger und stoffgleicher Bereicherung",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "B.II.2",
+              "label": "Rechtswidrigkeit und Schuld",
+              "children": []
+            },
+            {
+              "id": "B.II.3",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "B.III",
+          "label": "Fälschung beweiserheblicher Daten gem. § 269 Abs. 1 StGB i.V.m. § 270 StGB",
+          "children": [
+            {
+              "id": "B.III.1",
+              "label": "Tatbestandsmäßigkeit",
+              "children": [
+                {
+                  "id": "B.III.1.a",
+                  "label": "Objektiver Tatbestand",
+                  "children": [
+                    {
+                      "id": "B.III.1.a.aa",
+                      "label": "Veränderung oder Speicherung beweiserheblicher Daten",
+                      "children": []
+                    },
+                    {
+                      "id": "B.III.1.a.bb",
+                      "label": "Dadurch Herstellung einer unechten Datenurkunde",
+                      "children": [
+                        {
+                          "id": "B.III.1.a.bb.1",
+                          "label": "Ansicht des OLG Hamm",
+                          "children": []
+                        },
+                        {
+                          "id": "B.III.1.a.bb.2",
+                          "label": "Kritik der Literatur",
+                          "children": []
+                        },
+                        {
+                          "id": "B.III.1.a.bb.3",
+                          "label": "Stellungnahme",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "B.III.1.b",
+                  "label": "Zwischenergebnis",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "B.III.2",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "B.IV",
+          "label": "Urkundenunterdrückung gem. § 274 Abs. 1 Nr. 2 StGB",
+          "children": [
+            {
+              "id": "B.IV.1",
+              "label": "Tatbestandsmäßigkeit",
+              "children": [
+                {
+                  "id": "B.IV.1.a",
+                  "label": "Objektiver Tatbestand",
+                  "children": []
+                },
+                {
+                  "id": "B.IV.1.b",
+                  "label": "Subjektiver Tatbestand",
+                  "children": [
+                    {
+                      "id": "B.IV.1.b.aa",
+                      "label": "Vorsatz",
+                      "children": []
+                    },
+                    {
+                      "id": "B.IV.1.b.bb",
+                      "label": "Nachteilzufügungsabsicht",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "B.IV.2",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "B.V",
+          "label": "Missbrauch von Scheck- und Kreditkarten gem. § 266b Abs. 1 StGB",
+          "children": []
+        },
+        {
+          "id": "B.VI",
+          "label": "Datenveränderung gem. § 303a Abs. 1 StGB",
+          "children": [
+            {
+              "id": "B.VI.1",
+              "label": "Tatbestandsmäßigkeit",
+              "children": []
+            },
+            {
+              "id": "B.VI.2",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "B.VII",
+          "label": "Unterschlagung gem. § 246 Abs. 1 StGB",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "Gesamtergebnis",
+      "label": "Gesamtergebnis",
+      "children": []
+    },
+    {
+      "id": "Ü",
+      "label": "Übergreifend",
+      "children": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "C-001",
+      "criticality": 1,
+      "title": "Beweglichkeit der EC-Karte",
+      "match_criteria": "ERFÜLLT, wenn die EC-Karte bei § 242 Abs. 1 oder § 246 Abs. 1 StGB als bewegliche Sache eingeordnet wird, weil sie ein körperlicher und fortschaffbarer Gegenstand ist. NICHT ERFÜLLT, wenn ihre Sachqualität oder Beweglichkeit wegen ihrer elektronischen Funktion verneint oder das Merkmal übergangen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-001"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-001",
+        "K-ADV-001"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.I.1",
+        "station_path": [
+          "Erster Handlungsabschnitt: Das Einstecken der EC-Karte",
+          "Diebstahl der EC-Karte gem. § 242 Abs. 1 StGB",
+          "Tatbestandsmäßigkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-002",
+      "criticality": 1,
+      "title": "Fremdheit der EC-Karte",
+      "match_criteria": "ERFÜLLT, wenn die auf V ausgestellte und von A gefundene EC-Karte für A als fremd eingeordnet wird, weil sie jedenfalls nicht in seinem Alleineigentum stand. NICHT ERFÜLLT, wenn die Karte als eigene Sache des A behandelt oder ihre Fremdheit ohne tragfähigen Grund verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-002"
+      ],
+      "review_notes": [
+        "Das im Sachverhalt nicht belegte Alleineigentum der Sparkasse wird nicht verlangt."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-002"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.I.1",
+        "station_path": [
+          "Erster Handlungsabschnitt: Das Einstecken der EC-Karte",
+          "Diebstahl der EC-Karte gem. § 242 Abs. 1 StGB",
+          "Tatbestandsmäßigkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-003",
+      "criticality": 2,
+      "title": "Kein fortbestehender Gewahrsam des V",
+      "match_criteria": "ERFÜLLT, wenn bei § 242 Abs. 1 StGB die Wegnahme als Bruch fremden und Begründung neuen Gewahrsams geprüft und ein fortbestehender Gewahrsam des V verneint wird: V hatte den öffentlich zugänglichen Park verlassen, kannte den Verlustort nicht und besaß keine tatsächliche Zugriffsmöglichkeit; ein allgemeiner Rückerlangungswille genügte nicht. NICHT ERFÜLLT, wenn allein aus Eigentum oder Herrschaftswillen Gewahrsam des V hergeleitet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-003",
+        "A-004"
+      ],
+      "review_notes": [
+        "Die aggregierten Wegnahmekandidaten wurden nach Gewahrsamsinhabern aufgeteilt."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-003",
+        "K-FACT-001",
+        "K-ADV-002"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.I.1",
+        "station_path": [
+          "Erster Handlungsabschnitt: Das Einstecken der EC-Karte",
+          "Diebstahl der EC-Karte gem. § 242 Abs. 1 StGB",
+          "Tatbestandsmäßigkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-004",
+      "criticality": 2,
+      "title": "Kein Gewahrsam eines Dritten und keine Wegnahme",
+      "match_criteria": "ERFÜLLT, wenn bei § 242 Abs. 1 StGB auch Gewahrsam eines Dritten verneint wird, weil die Karte im öffentlich zugänglichen Park keiner fremden räumlichen Herrschaftssphäre zugeordnet war, und deshalb mangels Bruchs fremden Gewahrsams kein Diebstahl durch das Einstecken angenommen wird. NICHT ERFÜLLT, wenn ohne Sachverhaltsgrundlage Gewahrsam eines Parkbetreibers, der Stadt, der Sparkasse oder eines sonstigen Dritten angenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-005",
+        "A-006"
+      ],
+      "review_notes": [
+        "Die aggregierten Wegnahmekandidaten wurden nach Gewahrsamsinhabern aufgeteilt."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-003",
+        "K-FACT-001",
+        "K-ADV-003"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.I.1",
+        "station_path": [
+          "Erster Handlungsabschnitt: Das Einstecken der EC-Karte",
+          "Diebstahl der EC-Karte gem. § 242 Abs. 1 StGB",
+          "Tatbestandsmäßigkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-005",
+      "criticality": 2,
+      "title": "Keine Unterschlagung beim Einstecken",
+      "match_criteria": "ERFÜLLT, wenn eine nach außen manifestierte Zueignung der EC-Karte beim Einstecken nach § 246 Abs. 1 StGB verneint wird, weil A sie zu diesem Zeitpunkt bei der Sparkasse abgeben wollte und dieser feste Rückführungswille den Vorsatz dauernder Enteignung ausschloss. NICHT ERFÜLLT, wenn das bloße Einstecken trotz des Rückgabewillens als Unterschlagung behandelt oder der Rückführungswille nicht mit dem fehlenden Enteignungsvorsatz verknüpft wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-007",
+        "A-008",
+        "A-009"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-004",
+        "K-FACT-002",
+        "K-ADV-004"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "A.II",
+        "station_path": [
+          "Erster Handlungsabschnitt: Das Einstecken der EC-Karte",
+          "Unterschlagung der EC-Karte gem. § 246 Abs. 1 StGB"
+        ]
+      }
+    },
+    {
+      "id": "C-007",
+      "criticality": 1,
+      "title": "Keine Unterschlagung der Waren",
+      "match_criteria": "ERFÜLLT, wenn eine Unterschlagung der Lebensmittel und Getränke verneint wird, weil K sie als Ladenvertreter der R-GmbH wirksam an A übereignete und sie danach für A nicht fremd waren. NICHT ERFÜLLT, wenn die Waren trotz des Eigentumsübergangs als fremd behandelt oder allein wegen des Kartenmissbrauchs eine unwirksame Übereignung unterstellt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-064"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-006",
+        "K-FACT-038",
+        "K-ADV-006"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.VII",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Unterschlagung gem. § 246 Abs. 1 StGB"
+        ]
+      }
+    },
+    {
+      "id": "C-008",
+      "criticality": 2,
+      "title": "Täuschungsgehalt gegenüber K",
+      "match_criteria": "ERFÜLLT, wenn bei § 263 Abs. 1 StGB der Erklärungswert des Karteneinsatzes normativ bestimmt wird: Entweder erklärte A durch das Vorhalten der auf V ausgestellten, persönlich gebundenen Karte konkludent seine Kartenberechtigung oder Bevollmächtigung; oder die Täuschung wird wegen des von der Nutzungsberechtigung unabhängigen Forderungserwerbs der R-GmbH und der daraus folgenden Risikoverteilung verneint. NICHT ERFÜLLT, wenn eine Position ohne Bestimmung des konkreten Erklärungsgehalts und ohne fallbezogene Begründung behauptet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-010",
+        "A-011"
+      ],
+      "review_notes": [
+        "Beide ausdrücklich zugelassenen Auffassungen werden anerkannt."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-007",
+        "K-FACT-003",
+        "K-ADV-007"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "B.I.1.a.aa",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Betrug ggü. K zu Lasten der R-GmbH gem. § 263 Abs. 1 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand",
+          "Täuschung"
+        ]
+      }
+    },
+    {
+      "id": "C-009",
+      "criticality": 2,
+      "title": "Irrtum des Kassierers K",
+      "match_criteria": "ERFÜLLT, wenn als mögliche menschliche Fehlvorstellung allein ein Irrtum des Kassierers K geprüft wird und entweder verneint wird, weil K für den einredefreien Forderungserwerb der R-GmbH keine Vorstellung über As Berechtigung benötigte, oder als sachgedankliches Mitbewusstsein bejaht wird, dass A die Karte berechtigt verwende. NICHT ERFÜLLT, wenn einem Computersystem ein Irrtum zugeschrieben oder der Irrtum des K ohne Prüfung seines Vorstellungsbilds behauptet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-012",
+        "A-013",
+        "A-014"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-008",
+        "K-FACT-004",
+        "K-ADV-008"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "B.I.1.a.bb",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Betrug ggü. K zu Lasten der R-GmbH gem. § 263 Abs. 1 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand",
+          "Irrtum"
+        ]
+      }
+    },
+    {
+      "id": "C-010",
+      "criticality": 1,
+      "title": "Vermögensverfügung bei angenommenem Irrtum",
+      "match_criteria": "ERFÜLLT, wenn bei Bejahung oder hilfsweiser Unterstellung eines Irrtums die Vermögensverfügung darin gesehen wird, dass K als Ladenvertreter der R-GmbH Besitz und Eigentum an den Waren auf A übertrug. Bei endgültiger Verneinung eines Irrtums ist das Kriterium auch ohne weitere Verfügungsprüfung erfüllt. NICHT ERFÜLLT, wenn bei angenommenem Irrtum die elektronische Autorisierung als menschliche Verfügung des K behandelt oder keine Verfügung über Vermögen der R-GmbH bestimmt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-015"
+      ],
+      "review_notes": [
+        "Bedingte Folge der ausdrücklich zugelassenen Irrtumsannahme."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-009",
+        "K-FACT-005",
+        "K-ADV-009"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.I.1.b",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Betrug ggü. K zu Lasten der R-GmbH gem. § 263 Abs. 1 StGB",
+          "Tatbestandsmäßigkeit",
+          "Zwischenergebnis"
+        ]
+      }
+    },
+    {
+      "id": "C-011",
+      "criticality": 1,
+      "title": "Kein Betrugsschaden der R-GmbH",
+      "match_criteria": "ERFÜLLT, wenn bei angenommenem Irrtum ein Schaden der R-GmbH nach Gesamtsaldierung verneint wird, weil ihr Warenverlust durch die infolge der Autorisierung entstandene einredefreie Forderung gegen die Sparkasse vollständig ausgeglichen wurde. Bei endgültiger Verneinung eines Irrtums ist das Kriterium auch ohne Hilfsprüfung erfüllt. NICHT ERFÜLLT, wenn trotz der vollwertigen Forderung der Warenwert als Schaden der R-GmbH angesetzt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-016",
+        "A-019"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-010",
+        "K-FACT-006",
+        "K-ADV-010"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.I.1.b",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Betrug ggü. K zu Lasten der R-GmbH gem. § 263 Abs. 1 StGB",
+          "Tatbestandsmäßigkeit",
+          "Zwischenergebnis"
+        ]
+      }
+    },
+    {
+      "id": "C-012",
+      "criticality": 1,
+      "title": "Keine unmittelbare Schädigung von Sparkasse oder V durch K",
+      "match_criteria": "ERFÜLLT, wenn bei Prüfung eines Betrugs zulasten der Sparkasse oder des V erkannt wird, dass ein möglicher Schaden nicht unmittelbar aus der Warenübertragung durch K, sondern allenfalls aus dem computergestützten Autorisierungs- und Zahlungsvorgang folgt. Wird wegen fehlenden Irrtums kein solcher Dreiecksbetrug geprüft, ist das Kriterium ebenfalls erfüllt. NICHT ERFÜLLT, wenn die Warenverfügung ohne Unmittelbarkeitsprüfung als unmittelbare Ursache eines Schadens bei Sparkasse oder V behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-017"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-011",
+        "K-FACT-007",
+        "K-ADV-011"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.I.1.b",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Betrug ggü. K zu Lasten der R-GmbH gem. § 263 Abs. 1 StGB",
+          "Tatbestandsmäßigkeit",
+          "Zwischenergebnis"
+        ]
+      }
+    },
+    {
+      "id": "C-013",
+      "criticality": 1,
+      "title": "Fehlendes Näheverhältnis beim Dreiecksbetrug",
+      "match_criteria": "ERFÜLLT, wenn ein geprüfter Dreiecksbetrug zulasten der Sparkasse oder des V daran scheitert, dass K weder zu Verfügungen über deren Vermögen ermächtigt war noch in ihrem Lager stand. Wird wegen fehlenden Irrtums kein Dreiecksbetrug geprüft, ist das Kriterium ebenfalls erfüllt. NICHT ERFÜLLT, wenn K ohne Sachverhaltsgrundlage als Verfügungsbefugter, Vertreter oder Lagerangehöriger der Sparkasse oder des V behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-018"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-012",
+        "K-FACT-008",
+        "K-ADV-012"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.I.1.b",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Betrug ggü. K zu Lasten der R-GmbH gem. § 263 Abs. 1 StGB",
+          "Tatbestandsmäßigkeit",
+          "Zwischenergebnis"
+        ]
+      }
+    },
+    {
+      "id": "C-014",
+      "criticality": 2,
+      "title": "Verwendung von Kartendaten",
+      "match_criteria": "ERFÜLLT, wenn bei § 263a Abs. 1 Var. 3 StGB eine Verwendung codierter Daten bejaht wird, weil A durch das Vorhalten der EC-Karte insbesondere Kartennummer und Gültigkeitsdatum zur Vervollständigung und Übermittlung der Autorisierungsanfrage einsetzte. NICHT ERFÜLLT, wenn nur die körperliche Karte betrachtet, die Datenverwendung verneint oder keine in den Zahlungsvorgang eingebrachten Informationen benannt werden.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-020",
+        "A-021"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-013",
+        "K-FACT-009",
+        "K-ADV-013"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.II.1.a.aa",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Computerbetrug gem. § 263a Abs. 1 Var. 3 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand",
+          "Verwendung von Daten"
+        ]
+      }
+    },
+    {
+      "id": "C-015",
+      "criticality": 2,
+      "title": "Subjektivierende Auslegung von unbefugt",
+      "match_criteria": "ERFÜLLT, wenn die subjektivierende beziehungsweise vertragsspezifische Auslegung dahin wiedergegeben wird, dass eine Datenverwendung bei Widerspruch zum tatsächlichen oder mutmaßlichen Willen des Berechtigten unbefugt ist, und As Karteneinsatz danach als unbefugt bewertet wird, weil weder V noch die Sparkasse zugestimmt hatten. NICHT ERFÜLLT, wenn die Ansicht nur benannt, mit einem technischen Kontrollmaßstab verwechselt oder nicht auf A, V und die Sparkasse angewandt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-022",
+        "A-023"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-014",
+        "K-FACT-010",
+        "K-ADV-014"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.II.1.a.bb.1",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Computerbetrug gem. § 263a Abs. 1 Var. 3 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand",
+          "Unbefugt",
+          "Vertragsspezifische/subjektivierende Auslegung"
+        ]
+      }
+    },
+    {
+      "id": "C-016",
+      "criticality": 3,
+      "title": "Computerspezifische Auslegung von unbefugt",
+      "match_criteria": "ERFÜLLT, wenn die computerspezifische Auslegung eine irreguläre Überwindung eines programmierten Kontrollmechanismus verlangt und As Datenverwendung mangels Prüfung seiner persönlichen Berechtigung danach als nicht unbefugt einordnet. Die Antwort muss diesen Ansatz entweder mit der Abhängigkeit von technischen Schutzmaßnahmen und den legitimen Gründen für den PIN-Verzicht ablehnen oder ihn ausdrücklich übernehmen und deshalb § 263a StGB am Merkmal unbefugt scheitern lassen. NICHT ERFÜLLT, wenn eine nicht vorhandene PIN- oder Identitätsprüfung erfunden oder keine fallbezogene Bewertung vorgenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-024",
+        "A-025",
+        "A-028",
+        "A-029",
+        "A-032"
+      ],
+      "review_notes": [
+        "Die computerspezifische Gegenlösung ist ausdrücklich zugelassen."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-015",
+        "K-DOC-018",
+        "K-FACT-011",
+        "K-FACT-014",
+        "K-ADV-015",
+        "K-ADV-018"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "B.II.1.a.bb.2",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Computerbetrug gem. § 263a Abs. 1 Var. 3 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand",
+          "Unbefugt",
+          "Computerspezifische Auslegung"
+        ]
+      }
+    },
+    {
+      "id": "C-017",
+      "criticality": 2,
+      "title": "Ablehnung der subjektivierenden Auslegung",
+      "match_criteria": "ERFÜLLT, wenn die subjektivierende Auslegung mit dem tragenden Einwand abgelehnt wird, dass § 263a StGB parallel zu § 263 StGB täuschungsähnliches Verhalten erfassen soll und nicht jeden Verstoß gegen den Berechtigtenwillen oder jedes bloß vertragswidrige Verhalten kriminalisieren darf. NICHT ERFÜLLT, wenn der entgegenstehende Wille ohne Auseinandersetzung mit der Betrugsparallelität als allein ausreichender Maßstab übernommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [],
+      "derived_from_atoms": [
+        "A-027"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-017",
+        "K-FACT-013",
+        "K-ADV-017"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "B.II.1.a.bb.4",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Computerbetrug gem. § 263a Abs. 1 Var. 3 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand",
+          "Unbefugt",
+          "Streitentscheid"
+        ]
+      }
+    },
+    {
+      "id": "C-018",
+      "criticality": 2,
+      "title": "Betrugsspezifische Täuschungsäquivalenz",
+      "match_criteria": "ERFÜLLT, wenn bei Anwendung der betrugsspezifischen Auslegung geprüft wird, ob der Karteneinsatz gegenüber einer natürlichen Person Täuschungscharakter hätte: Entweder erklärt die Vorlage der auf V ausgestellten, persönlich gebundenen Karte gegenüber einem hypothetischen Bankangestellten As Berechtigung oder Bevollmächtigung; oder ein nur die programmierten Kriterien prüfender Bankangestellter kontrollierte keine persönliche Berechtigung, sodass Täuschungsäquivalenz fehlt. Wird § 263a StGB ausschließlich nach der computerspezifischen Ansicht entschieden, ist dieses Kriterium ebenfalls erfüllt. NICHT ERFÜLLT, wenn bei betrugsspezifischer Prüfung nur ein Ansichtsetikett oder Ergebnis genannt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-026",
+        "A-030",
+        "A-031",
+        "A-032"
+      ],
+      "review_notes": [
+        "Beide betrugsspezifischen Konkretisierungen sind ausdrücklich zugelassen."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-016",
+        "K-DOC-019",
+        "K-FACT-012",
+        "K-FACT-015",
+        "K-ADV-016",
+        "K-ADV-019"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.II.1.a.bb.3",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Computerbetrug gem. § 263a Abs. 1 Var. 3 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand",
+          "Unbefugt",
+          "Betrugsspezifische Auffassung"
+        ]
+      }
+    },
+    {
+      "id": "C-019",
+      "criticality": 2,
+      "title": "Beeinflussung des Datenverarbeitungsergebnisses",
+      "match_criteria": "ERFÜLLT, wenn A die Beeinflussung eines Datenverarbeitungsergebnisses zugerechnet wird, weil sein Karteneinsatz die Autorisierungsanfrage mit den Kontodaten des V vervollständigte und ihre Übermittlung beziehungsweise Verarbeitung im Zahlungssystem der Sparkasse auslöste. NICHT ERFÜLLT, wenn die Autorisierung als von As Karteneinsatz unabhängiger Vorgang oder allein die Warenübergabe als beeinflusstes Datenverarbeitungsergebnis behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-033"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-020",
+        "K-FACT-016",
+        "K-ADV-020"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.II.1.a.cc",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Computerbetrug gem. § 263a Abs. 1 Var. 3 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand",
+          "Beeinflussung des Ergebnisses eines Datenverarbeitungsvorgangs"
+        ]
+      }
+    },
+    {
+      "id": "C-020",
+      "criticality": 2,
+      "title": "Vermögensschaden der Sparkasse",
+      "match_criteria": "ERFÜLLT, wenn der Schaden der Sparkasse damit begründet wird, dass die Autorisierung der R-GmbH eine einredefreie Forderung in Höhe des Rechnungsbetrags verschaffte, die Sparkasse diese erfüllen musste und wegen des nicht autorisierten Zahlungsvorgangs ohne starke Kundenauthentifizierung keinen entsprechenden Aufwendungsersatzanspruch gegen V hatte. NICHT ERFÜLLT, wenn der Forderungserwerb der R-GmbH, die endgültige Risikotragung der Sparkasse oder die fehlende Regressmöglichkeit gegenüber V übergangen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-034",
+        "A-035"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-021",
+        "K-FACT-017",
+        "K-FACT-018",
+        "K-ADV-021"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.II.1.a.dd",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Computerbetrug gem. § 263a Abs. 1 Var. 3 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand",
+          "Vermögensschaden"
+        ]
+      }
+    },
+    {
+      "id": "C-021",
+      "criticality": 1,
+      "title": "Gefährdungsschaden des V",
+      "match_criteria": "ERFÜLLT, wenn die vorläufige Belastung des Kontos von V als Gefährdungsschaden eingeordnet wird, weil V trotz seines Erstattungsanspruchs nach § 675u BGB selbst tätig werden und den nicht autorisierten Zahlungsvorgang anzeigen musste. NICHT ERFÜLLT, wenn ein endgültiger Verlust des V behauptet oder wegen der späteren Gutschrift jede gegenwärtige Vermögensgefährdung ohne Würdigung des erforderlichen Tätigwerdens verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-036"
+      ],
+      "review_notes": [
+        "Das von der Lösung offengelassene Verhältnis zum Bankschaden wird nicht verlangt."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-022",
+        "K-FACT-019",
+        "K-ADV-022"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.II.1.a.dd",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Computerbetrug gem. § 263a Abs. 1 Var. 3 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand",
+          "Vermögensschaden"
+        ]
+      }
+    },
+    {
+      "id": "C-022",
+      "criticality": 2,
+      "title": "Vorsatz beim Computerbetrug",
+      "match_criteria": "ERFÜLLT, wenn As Vorsatz hinsichtlich Datenverwendung, Datenverarbeitung und Vermögensschädigung aufgrund einer Parallelwertung in der Laiensphäre bejaht wird: A wusste, dass er die fremde Karte nicht verwenden durfte und dadurch Datenverarbeitung sowie eine Vermögensbelastung auslöste; technische oder zivilrechtliche Detailkenntnisse waren nicht erforderlich. NICHT ERFÜLLT, wenn der Vorsatz allein wegen fehlender Kenntnis des genauen NFC-, Bank- oder Erstattungsablaufs verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-037"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-023",
+        "K-FACT-020",
+        "K-ADV-023"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.II.1.b.aa",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Computerbetrug gem. § 263a Abs. 1 Var. 3 StGB",
+          "Tatbestandsmäßigkeit",
+          "Subjektiver Tatbestand",
+          "Vorsatz"
+        ]
+      }
+    },
+    {
+      "id": "C-023",
+      "criticality": 2,
+      "title": "Angestrebter Vermögensvorteil",
+      "match_criteria": "ERFÜLLT, wenn als von A erstrebter eigennütziger Vermögensvorteil Besitz und Eigentum an den ausgewählten Lebensmitteln und Getränken bestimmt werden. NICHT ERFÜLLT, wenn allein der Gebrauch der EC-Karte oder die Forderung der R-GmbH gegen die Sparkasse als eigener Vermögensvorteil des A behandelt oder kein konkreter Bereicherungsgegenstand benannt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-038"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-024",
+        "K-FACT-021",
+        "K-ADV-024"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.II.1.b.bb",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Computerbetrug gem. § 263a Abs. 1 Var. 3 StGB",
+          "Tatbestandsmäßigkeit",
+          "Subjektiver Tatbestand",
+          "Absicht rechtswidriger und stoffgleicher Bereicherung"
+        ]
+      }
+    },
+    {
+      "id": "C-024",
+      "criticality": 3,
+      "title": "Stoffgleichheit beim Computerbetrug",
+      "match_criteria": "ERFÜLLT, wenn die Stoffgleichheit entweder bejaht wird, weil As Warenerhalt und der Schaden der Sparkasse als Kehrseiten desselben einheitlichen Bezahlvorgangs behandelt werden, oder verneint wird, weil der Schaden aus dem Vermögen der Sparkasse stammt, die Waren aber aus dem Vermögen der R-GmbH. Bei Verneinung muss § 263a StGB ausscheiden; auf eine Drittbereicherung der R-GmbH darf nicht ausgewichen werden, weil deren Forderung rechtmäßig und einredefrei ist. NICHT ERFÜLLT, wenn die verschiedenen Vermögen nicht ausgewertet oder die Drittbereicherung rechtsfehlerhaft als rechtswidrig behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-040",
+        "A-042"
+      ],
+      "review_notes": [
+        "Beide ausdrücklich zugelassenen Stoffgleichheitslösungen werden anerkannt."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-025",
+        "K-FACT-022",
+        "K-ADV-025",
+        "K-ADV-026"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "B.II.1.b.bb",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Computerbetrug gem. § 263a Abs. 1 Var. 3 StGB",
+          "Tatbestandsmäßigkeit",
+          "Subjektiver Tatbestand",
+          "Absicht rechtswidriger und stoffgleicher Bereicherung"
+        ]
+      }
+    },
+    {
+      "id": "C-025",
+      "criticality": 1,
+      "title": "Strafantrag beim geringwertigen Computerbetrug",
+      "match_criteria": "ERFÜLLT, wenn bei Bejahung des Computerbetruges wegen des geringwertigen Rechnungsbetrags das Strafantragserfordernis aus §§ 263a Abs. 2, 263 Abs. 4 StGB in Verbindung mit § 248a StGB erkannt und aufgrund der Sachverhaltsangabe als erfüllt behandelt wird. Wird § 263a StGB nach einer zugelassenen Ansicht verneint, ist das Kriterium auch ohne Antragsprüfung erfüllt. NICHT ERFÜLLT, wenn bei bejahtem geringwertigem Computerbetrug das Antragserfordernis übergangen oder ein fehlender Strafantrag behauptet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-065"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-041",
+        "K-FACT-039",
+        "K-ADV-027"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "Gesamtergebnis",
+        "station_path": [
+          "Gesamtergebnis"
+        ]
+      }
+    },
+    {
+      "id": "C-026",
+      "criticality": 2,
+      "title": "Beweiserheblichkeit der Autorisierungsdaten",
+      "match_criteria": "ERFÜLLT, wenn die Datensätze der Autorisierungsanfrage bei §§ 269 Abs. 1, 270 StGB als beweiserheblich eingeordnet werden, weil sie den elektronischen Zahlungsvorgang dem Konto des berechtigten Karteninhabers V zuordnen sollen. NICHT ERFÜLLT, wenn die Beweisbestimmung ohne Würdigung dieser Kontozuordnungsfunktion verneint oder nur mit technischer Verarbeitbarkeit begründet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-043"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-026",
+        "K-FACT-023",
+        "K-ADV-028"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.III.1.a.aa",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Fälschung beweiserheblicher Daten gem. § 269 Abs. 1 StGB i.V.m. § 270 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand",
+          "Veränderung oder Speicherung beweiserheblicher Daten"
+        ]
+      }
+    },
+    {
+      "id": "C-027",
+      "criticality": 1,
+      "title": "Speicherung der Autorisierungsdaten",
+      "match_criteria": "ERFÜLLT, wenn bei § 269 Abs. 1 StGB eine zumindest vorübergehende Speicherung der Autorisierungsdaten bejaht wird, weil die Anfrage für ihre Erstellung und Übermittlung an das Zahlungssystem der Sparkasse zwischengespeichert werden musste. NICHT ERFÜLLT, wenn eine Speicherung allein wegen der anschließenden elektronischen Weiterleitung verneint oder mit einer anderen Buchung verwechselt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-044"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-027",
+        "K-FACT-024",
+        "K-ADV-029"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.III.1.a.aa",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Fälschung beweiserheblicher Daten gem. § 269 Abs. 1 StGB i.V.m. § 270 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand",
+          "Veränderung oder Speicherung beweiserheblicher Daten"
+        ]
+      }
+    },
+    {
+      "id": "C-028",
+      "criticality": 3,
+      "title": "Unechte Datenurkunde und Ausstellerzuordnung",
+      "match_criteria": "ERFÜLLT, wenn geprüft wird, ob bei gedachter Verkörperung scheinbarer und tatsächlicher Aussteller auseinanderfallen. Vertretbar ist die Verneinung, weil der Transfer ohne PIN keine V zurechenbare Erklärung enthält und die R-GmbH erkennbare sowie tatsächliche Ausstellerin ist. Vertretbar ist auch V als scheinbarer und A als tatsächlicher Aussteller wegen der persönlichen Kartenbindung; dann müssen bei A Vorsatz, Täuschungs- oder Beeinflussungsabsicht, Rechtswidrigkeit und Schuld bejaht werden. NICHT ERFÜLLT, wenn bloße inhaltliche Unrichtigkeit genügt oder die Strafbarkeit ohne Ausstellervergleich beziehungsweise subjektiven Tatbestand bejaht wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-045",
+        "A-046",
+        "A-047",
+        "A-048"
+      ],
+      "review_notes": [
+        "Beide ausdrücklich zugelassenen Ausstellerkonzeptionen werden anerkannt."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-028",
+        "K-DOC-029",
+        "K-FACT-025",
+        "K-FACT-026",
+        "K-FACT-027",
+        "K-ADV-030",
+        "K-ADV-031"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "B.III.1.a.bb.3",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Fälschung beweiserheblicher Daten gem. § 269 Abs. 1 StGB i.V.m. § 270 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand",
+          "Dadurch Herstellung einer unechten Datenurkunde",
+          "Stellungnahme"
+        ]
+      }
+    },
+    {
+      "id": "C-029",
+      "criticality": 2,
+      "title": "Veränderung der Zahlungsdatensätze",
+      "match_criteria": "ERFÜLLT, wenn bei § 274 Abs. 1 Nr. 2 StGB erkannt wird, dass der Zahlungsvorgang im System der Sparkasse den verfügbaren Verfügungsrahmen sowie Anzahl und Gesamtvolumen der für künftige PIN-Verzichte relevanten Zahlungen aktualisierte. NICHT ERFÜLLT, wenn jede Datenveränderung verneint oder ausschließlich auf die unveränderten Kartendaten abgestellt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-049"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-030",
+        "K-FACT-028",
+        "K-ADV-032"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.IV.1.a",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Urkundenunterdrückung gem. § 274 Abs. 1 Nr. 2 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-030",
+      "criticality": 2,
+      "title": "Beweiserheblichkeit der aktualisierten Zahlungsdaten",
+      "match_criteria": "ERFÜLLT, wenn die aktualisierten Zahlungsdatensätze bei § 274 Abs. 1 Nr. 2 StGB als beweiserheblich eingeordnet werden, weil sie bei künftigen Kartenzahlungen für die Prüfung des Verfügungsrahmens und eines erneuten PIN-Verzichts verwendet werden. NICHT ERFÜLLT, wenn die Beweisfunktion ohne Würdigung ihrer Bedeutung für spätere Autorisierungen verneint oder allein aus der Speicherung hergeleitet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-050"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-031",
+        "K-FACT-029",
+        "K-ADV-033"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.IV.1.a",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Urkundenunterdrückung gem. § 274 Abs. 1 Nr. 2 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-031",
+      "criticality": 2,
+      "title": "Fehlende Verfügungsbefugnis über die Zahlungsdaten",
+      "match_criteria": "ERFÜLLT, wenn festgestellt wird, dass A als unberechtigter Nutzer der auf V ausgestellten Karte kein Verfügungsrecht über die im Sparkassensystem veränderten Zahlungsdatensätze hatte und die Beweisführungsrechte V sowie der Sparkasse zustanden. NICHT ERFÜLLT, wenn A aufgrund des bloßen Kartenbesitzes als datenverfügungs- oder beweisführungsberechtigt behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-051",
+        "A-052"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-032",
+        "K-FACT-030",
+        "K-ADV-034"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.IV.1.a",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Urkundenunterdrückung gem. § 274 Abs. 1 Nr. 2 StGB",
+          "Tatbestandsmäßigkeit",
+          "Objektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-032",
+      "criticality": 1,
+      "title": "Vorsatz hinsichtlich der Datenveränderung",
+      "match_criteria": "ERFÜLLT, wenn bei § 274 Abs. 1 Nr. 2 StGB As Vorsatz aufgrund einer Parallelwertung in der Laiensphäre bejaht wird, weil ihm bewusst war, dass der elektronische Einsatz der fremden Karte für andere bestimmte Daten verändert, auch wenn er die technischen Einzelheiten nicht kannte. NICHT ERFÜLLT, wenn technische Detailkenntnisse verlangt oder wegen ihrer Abwesenheit zwingend ein Tatbestandsirrtum angenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-053"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-033",
+        "K-FACT-031",
+        "K-ADV-035"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.IV.1.b.aa",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Urkundenunterdrückung gem. § 274 Abs. 1 Nr. 2 StGB",
+          "Tatbestandsmäßigkeit",
+          "Subjektiver Tatbestand",
+          "Vorsatz"
+        ]
+      }
+    },
+    {
+      "id": "C-033",
+      "criticality": 3,
+      "title": "Nachteilszufügungsabsicht nach § 274 StGB",
+      "match_criteria": "ERFÜLLT, wenn die Nachteilszufügungsabsicht eigenständig geprüft wird. Sie kann verneint werden, weil die aktualisierten Daten spätere PIN-Prüfungen, Missbrauchserkennung und Anspruchsdurchsetzung ermöglichen und die Beweissituation von V und Sparkasse verbessern; bloßer Veränderungsvorsatz genügt wegen des Verschleifungsverbots nicht. Vertretbar ist die Bejahung, wenn dolus directus zweiten Grades zugrunde gelegt und aus As sicherem Wissen um einen gerade beweisbezogenen Nachteil der für spätere Autorisierungen relevanten Änderung geschlossen wird. NICHT ERFÜLLT, wenn allein der Vermögensschaden oder bloßer Veränderungsvorsatz genügt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-054",
+        "A-055",
+        "A-056",
+        "A-057"
+      ],
+      "review_notes": [
+        "Die Gegenansicht muss den Nachteil aus der Beweisfunktion der Daten herleiten."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-034",
+        "K-DOC-035",
+        "K-DOC-036",
+        "K-FACT-032",
+        "K-ADV-036",
+        "K-ADV-037"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "B.IV.1.b.bb",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Urkundenunterdrückung gem. § 274 Abs. 1 Nr. 2 StGB",
+          "Tatbestandsmäßigkeit",
+          "Subjektiver Tatbestand",
+          "Nachteilzufügungsabsicht"
+        ]
+      }
+    },
+    {
+      "id": "C-034",
+      "criticality": 1,
+      "title": "Fehlende Täterqualität nach § 266b StGB",
+      "match_criteria": "ERFÜLLT, wenn eine Strafbarkeit des A nach § 266b Abs. 1 StGB verneint wird, weil die EC-Karte V und nicht A überlassen worden war und A als außenstehender Nichtberechtigter nicht die besondere Täterqualität dieses Sonderdelikts besitzt. NICHT ERFÜLLT, wenn jeder tatsächliche oder unberechtigte Kartennutzer als tauglicher Täter behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-058"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-037",
+        "K-FACT-033",
+        "K-ADV-038"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.V",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Missbrauch von Scheck- und Kreditkarten gem. § 266b Abs. 1 StGB"
+        ]
+      }
+    },
+    {
+      "id": "C-035",
+      "criticality": 3,
+      "title": "Tatbestandliche Rechtswidrigkeit nach § 303a StGB",
+      "match_criteria": "ERFÜLLT, wenn Rechtswidrigkeit in § 303a Abs. 1 StGB als einschränkendes unrechtsbegründendes Tatbestandsmerkmal behandelt wird. Nach der engeren Ansicht ist § 303a zu verneinen, weil kein schützenswertes Interesse von V oder Sparkasse am unveränderten Stand beziehungsweise an der Nichtdokumentation besteht. Nach der weiteren Ansicht darf die Rechtswidrigkeit wegen ihrer fremden eigentümerähnlichen Verfügungsbefugnis bejaht werden. NICHT ERFÜLLT, wenn nur allgemeine Rechtfertigungsgründe geprüft oder die konkrete Datenlage nicht unter den gewählten Maßstab subsumiert wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-059",
+        "A-060",
+        "A-061",
+        "A-062"
+      ],
+      "review_notes": [
+        "Beide ausdrücklich zugelassenen Auslegungen werden anerkannt."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-038",
+        "K-DOC-039",
+        "K-FACT-034",
+        "K-FACT-035",
+        "K-ADV-039",
+        "K-ADV-040"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "B.VI.1",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Datenveränderung gem. § 303a Abs. 1 StGB",
+          "Tatbestandsmäßigkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-036",
+      "criticality": 1,
+      "title": "Spezialität von § 274 gegenüber § 303a StGB",
+      "match_criteria": "ERFÜLLT, wenn bei gleichzeitiger Bejahung von § 274 Abs. 1 Nr. 2 StGB und § 303a Abs. 1 StGB § 303a wegen Spezialität hinter § 274 zurücktritt. Werden nicht beide Tatbestände bejaht, ist das Kriterium ebenfalls erfüllt. NICHT ERFÜLLT, wenn bei Bejahung beider Delikte ohne tragfähige Begründung Tateinheit, Tatmehrheit oder ein Vorrang des § 303a StGB angenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-061",
+        "A-062"
+      ],
+      "review_notes": [
+        "Bedingte Konkurrenzfolge der zugelassenen Strafbarkeitsalternativen."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-040",
+        "K-FACT-036",
+        "K-ADV-041"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "Gesamtergebnis",
+        "station_path": [
+          "Gesamtergebnis"
+        ]
+      }
+    },
+    {
+      "id": "C-037",
+      "criticality": 1,
+      "title": "Tateinheit von § 269 und § 274 StGB",
+      "match_criteria": "ERFÜLLT, wenn bei gleichzeitiger Bejahung von § 269 Abs. 1 StGB und § 274 Abs. 1 Nr. 2 StGB zwischen diesen Delikten Tateinheit beziehungsweise Idealkonkurrenz nach § 52 StGB angenommen wird. Werden nicht beide Delikte bejaht, ist das Kriterium ebenfalls erfüllt. NICHT ERFÜLLT, wenn bei Bejahung beider Delikte Tatmehrheit, generelle Subsidiarität oder ein unbegründetes Zurücktreten eines Tatbestands angenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-066"
+      ],
+      "review_notes": [
+        "Bedingte Konkurrenzfolge der zugelassenen Strafbarkeitsalternativen."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-042",
+        "K-FACT-040",
+        "K-ADV-042"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "Gesamtergebnis",
+        "station_path": [
+          "Gesamtergebnis"
+        ]
+      }
+    },
+    {
+      "id": "C-006",
+      "criticality": 2,
+      "title": "Keine Zueignung der Karte beim Bezahlen",
+      "match_criteria": "ERFÜLLT, wenn der Einsatz der EC-Karte im Supermarkt im Rahmen von § 246 Abs. 1 StGB als bloße Gebrauchsanmaßung und nicht als Zueignung eingeordnet wird, weil A weiterhin beabsichtigte, die Karte an V oder die Sparkasse zurückgelangen zu lassen. NICHT ERFÜLLT, wenn eine Unterschlagung der Karte angenommen wird, der fortbestehende Rückführungswille unberücksichtigt bleibt oder die fehlende Zueignung ohne diesen tragenden Grund lediglich behauptet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-063"
+      ],
+      "review_notes": [],
+      "refinement_note": "Die überflüssige Anforderung, im Rahmen dieser Prüfung zusätzlich den späteren Einwurf der Karte in einen Briefkasten festzustellen, wurde entfernt. Maßgeblich bleiben die Einordnung des Karteneinsatzes als Gebrauchsanmaßung und der fortbestehende Rückführungswille.",
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "B.VII",
+        "station_path": [
+          "Zweiter Handlungsabschnitt: Im Supermarkt",
+          "Unterschlagung gem. § 246 Abs. 1 StGB"
+        ]
+      }
+    }
+  ],
+  "validation_warnings": [],
+  "provenance": {
+    "source": "evals/rubric.generated.broad-final.json",
+    "provider": "openai",
+    "model": "gpt-5.6-sol",
+    "candidate_roles": [
+      "doctrine",
+      "fact_grounding",
+      "adversary"
+    ],
+    "calibration": {
+      "enabled": true,
+      "mode": "committee",
+      "judge_model": null,
+      "judge_reasoning_effort": null,
+      "committee": [
+        {
+          "name": "luna",
+          "model": "gpt-5.6-luna",
+          "api_base": "https://api.openai.com/v1",
+          "reasoning_effort": "medium",
+          "parallel": 8
+        },
+        {
+          "name": "terra",
+          "model": "gpt-5.6-terra",
+          "api_base": "https://api.openai.com/v1",
+          "reasoning_effort": "medium",
+          "parallel": 8
+        },
+        {
+          "name": "gemini-3.6-flash",
+          "model": "google/gemini-3.6-flash",
+          "api_base": "https://openrouter.ai/api/v1",
+          "reasoning_effort": null,
+          "parallel": 4
+        }
+      ],
+      "votes": 3,
+      "max_rounds": 3
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "schema_version": "0.2",
+  "method_note": "Used means the URL appears in the selected deliverable or in Codex's required .codex-used-sources.json sidecar. Open/Fetch means Codex additionally recorded an explicit page-open action or HTTP fetch command. Search-result URLs are not invented from snippets and are not counted unless one of those records exists.",
+  "counts": {
+    "search_queries": 27,
+    "recorded_open_or_fetch_urls": 1,
+    "used_urls": 7,
+    "cited_urls": 3,
+    "unique_used_source_urls": 7,
+    "unique_used_source_domains": 5,
+    "unique_source_urls": 7,
+    "unique_source_domains": 5,
+    "blocked_domain_violations": 0,
+    "search_leakage_flags": 6,
+    "web_access_violations": 0
+  },
+  "blocked_domain_policy": {
+    "blocked_domains": [
+      "dskrpt.de",
+      "forum-iuridicum.com",
+      "moodle.ruhr-uni-bochum.de",
+      "oapen.org",
+      "openrewi.org",
+      "pure.mpg.de",
+      "refubium.fu-berlin.de",
+      "wikibooks.org",
+      "zjs-online.com"
+    ],
+    "passed": true,
+    "violations": []
+  },
+  "web_access_policy": {
+    "web_search_allowed": true,
+    "passed": true,
+    "violations": []
+  },
+  "search_leakage_audit": {
+    "enforcement": "informational-only",
+    "flagged": true,
+    "flags": [
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"1500 Grad\" Glasmanufaktur Feuerwehrzufahrt Baugenehmigung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "1500 Grad"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"An der Grenze zum Grundstück\" \"Feuerwehrzufahrt\" gepflastert geteert -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "An der Grenze zum Grundstück"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"An der Grenze zum Grundstück\" \"Feuerwehrzufahrt\" gepflastert geteert -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Feuerwehrzufahrt"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"Parkettverleger\" Feuerwehrzufahrt Auflage Baugenehmigung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Parkettverleger"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "site:bverwg.de \"Nebenbestimmung\" \"Baugenehmigung\" \"sinnvoller- und rechtmäßigerweise\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Baugenehmigung"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "site:recht.saarland.de/bssl/document/jlr-NNLSL \"§ 72\" \"Baugenehmigung\" LBO Saarland -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Baugenehmigung"
+      }
+    ]
+  },
+  "search_queries": [
+    "\"1500 Grad\" Glasmanufaktur Feuerwehrzufahrt Baugenehmigung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "\"An der Grenze zum Grundstück\" \"Feuerwehrzufahrt\" gepflastert geteert -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "\"Anfechtungsklagen sind gegen die Behörde selbst zu richten\" Saarland -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "\"Parkettverleger\" Feuerwehrzufahrt Auflage Baugenehmigung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "\"§ 19\" \"Saarländisches Ausführungsgesetz zur Verwaltungsgerichtsordnung\" \"Behörde selbst\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "https://www.gesetze-im-internet.de/vwvfg/__36.html",
+    "site:bverwg.de \"BVerwG 4 C 4.20\" \"14. Dezember 2022\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bverwg.de \"Nebenbestimmung\" \"Baugenehmigung\" \"sinnvoller- und rechtmäßigerweise\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bverwg.de \"sinnvoller- und rechtmäßigerweise\" Nebenbestimmung 2022 Baugenehmigung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bverwg.de 4 C 4.20 Urteil 14 Dezember 2022 Nebenbestimmung Baugenehmigung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bverwg.de isolierte Anfechtung Auflage Nebenbestimmung Baugenehmigung 8 C 14.98 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:gesetze-im-internet.de VwGO § 42 § 68 § 74 § 78 § 113 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de Landesbauordnung Saarland aktuelle Fassung Nebenbestimmungen Baugenehmigung Brandschutz -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de SVwVfG § 36 Nebenbestimmungen -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de VwGO Saarland AGVwGO Rechtsträgerprinzip Behördenprinzip Bauaufsichtsbehörde -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de/bssl \"Ausführungsgesetz zur Verwaltungsgerichtsordnung\" \"§ 19\" Saarland -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de/bssl \"Saarländisches Verwaltungsverfahrensgesetz\" \"Nebenbestimmungen zum Verwaltungsakt\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de/bssl/document/ \"AGVwGO\" \"§ 19\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de/bssl/document/ \"Ausführungsgesetz zur Verwaltungsgerichtsordnung\" Saarland -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de/bssl/document/jlr-AGVwGOSL \"Behörde selbst zu richten\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de/bssl/document/jlr-AGVwGOSL \"§ 19\" \"Anfechtungsklagen\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de/bssl/document/jlr-AGVwGOSL \"§ 19\" Klage Behörde -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de/bssl/document/jlr-NNLSL \"§ 36\" \"Nebenbestimmungen\" Verwaltungsverfahrensgesetz Saarland -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de/bssl/document/jlr-NNLSL \"§ 57\" \"Bauaufsichtsbehörden\" LBO Saarland -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de/bssl/document/jlr-NNLSL \"§ 72\" \"Baugenehmigung\" LBO Saarland -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:recht.saarland.de/bssl/document/jlr-VwVfGSL \"§ 1\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+    "site:saarland.de \"Saarländisches Verwaltungsverfahrensgesetz\" pdf 2026 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com"
+  ],
+  "sources": [
+    {
+      "url": "https://justiz.hamburg.de/resource/blob/1185056/8a29772fc6c80d69ee1371d8c0ca5380/077-oer-ii-data.pdf",
+      "domain": "justiz.hamburg.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "Saarländisches Ausführungsgesetz zur Verwaltungsgerichtsordnung – § 19",
+      "reported_purpose": "Saarländisches Behördenprinzip und Beteiligtenfähigkeit von Behörden.",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.bverwg.de/061119U8C14.18.0",
+      "domain": "www.bverwg.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": true,
+      "reported_title": "BVerwG, Urteil vom 6. November 2019 – 8 C 14.18",
+      "reported_purpose": "Grundsätze zur isolierten Anfechtbarkeit belastender Nebenbestimmungen und Verlagerung der Trennbarkeitsfrage in die Begründetheit.",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.bverwg.de/290322B4C4.20.0",
+      "domain": "www.bverwg.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": true,
+      "reported_title": "BVerwG, Beschluss vom 29. März 2022 – 4 C 4.20",
+      "reported_purpose": "Aktueller Maßstab der sachlich begrenzten Prüfung, ob ein Verwaltungsakt ohne Nebenbestimmung sinnvoller- und rechtmäßigerweise fortbestehen kann.",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vwgo/BJNR000170960.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "Verwaltungsgerichtsordnung (VwGO)",
+      "reported_purpose": "Aktueller Wortlaut der prozessrechtlichen Vorschriften zur Anfechtungsklage, zum Vorverfahren, Beklagten, Gerichtsstand und Prüfungsmaßstab.",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vwvfg/__36.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": true,
+      "used": true,
+      "cited_in_deliverable": true,
+      "reported_title": "§ 36 VwVfG – Nebenbestimmungen zum Verwaltungsakt",
+      "reported_purpose": "Tatbestand und Arten zulässiger Nebenbestimmungen zu gebundenen Verwaltungsakten.",
+      "visit_evidence": [
+        "web_search open"
+      ]
+    },
+    {
+      "url": "https://www.saarland.de/SharedDocs/Downloads/DE/mibs/tp_bauen_und_wohnen/ba_bt_gesetze/bauordnungen/LBO_2025_neu.pdf?__blob=publicationFile&v=2",
+      "domain": "www.saarland.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "Landesbauordnung (LBO) – aktuellste Gesamtausgabe zum 21.09.2026",
+      "reported_purpose": "Aktueller Wortlaut und Systematik der saarländischen LBO, insbesondere §§ 53, 57–60 und 73 LBO.",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.umwelt-online.de/regelwerk/allgemei/laender/srl/vwvfg25.htm",
+      "domain": "www.umwelt-online.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "Saarländisches Verwaltungsverfahrensgesetz vom 27. August 2025",
+      "reported_purpose": "Aktuelle Verweisung des § 1 SVwVfG auf das Verwaltungsverfahrensgesetz des Bundes.",
+      "visit_evidence": []
+    }
+  ],
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/anfechtungsklage/fall-02-anfechtungsklage-bei-nebenbestimmungen"
+}

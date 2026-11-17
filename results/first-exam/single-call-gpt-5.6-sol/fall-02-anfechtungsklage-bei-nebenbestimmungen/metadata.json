@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "harness": "baseline-single-call",
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/anfechtungsklage/fall-02-anfechtungsklage-bei-nebenbestimmungen",
+  "source_task_dir": "tasks/de/oeffentliches-recht/verwaltungsrecht/anfechtungsklage/fall-02-anfechtungsklage-bei-nebenbestimmungen",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/verwaltungsrecht/anfechtungsklage/fall-02-anfechtungsklage-bei-nebenbestimmungen",
+  "task_run_dir": "runs/de-core-45-v2-mh-baseline-gpt-5.6-sol-high/20260813T101021Z/tasks/de__oeffentliches-recht__verwaltungsrecht__anfechtungsklage__fall-02-anfechtungsklage-bei-nebenbestimmungen",
+  "model": "gpt-5.6-sol",
+  "api_base": "https://api.openai.com/v1",
+  "reasoning_effort": "high",
+  "max_output_tokens": null,
+  "expected_deliverables": [
+    "fallloesung-sut.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung-sut.md",
+      "found": true,
+      "bytes": 12320,
+      "sha256": "438c7ad5e6c28c16697f2b04275cea378946412de574a41b1fb9e3664c9e767a"
+    }
+  ],
+  "missing_deliverables": [],
+  "documents_truncated": false,
+  "stripped_outer_fence": false,
+  "api_attempts": 1,
+  "usage": {
+    "input_tokens": 873,
+    "output_tokens": 10516,
+    "total_tokens": 11389
+  },
+  "error": null,
+  "started_at": "2026-08-13T10:10:21.847051+00:00",
+  "ended_at": "2026-08-13T10:14:24.066753+00:00",
+  "duration_seconds": 242.22,
+  "exit_code": 0,
+  "timed_out": false
+}

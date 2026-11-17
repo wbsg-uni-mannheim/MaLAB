@@ -1,0 +1,1112 @@
+{
+  "schema_version": "0.2",
+  "generated_at": "2026-07-30T21:04:05.278313+00:00",
+  "review_status": "generated_calibrated_needs_human_review",
+  "language": "Deutsch",
+  "task_title": "Fortgeschrittenenklausur: PayPal-Käuferschutz schützt vor Klagen nicht",
+  "outline": [
+    {
+      "id": "F1",
+      "label": "Ausgangsfall",
+      "children": [
+        {
+          "id": "F1.I",
+          "label": "Anspruch entstanden",
+          "children": []
+        },
+        {
+          "id": "F1.II",
+          "label": "Anspruch erloschen",
+          "children": [
+            {
+              "id": "F1.II.1",
+              "label": "Erlöschen kraft Erfüllung, § 362 Abs. 1 BGB",
+              "children": []
+            },
+            {
+              "id": "F1.II.2",
+              "label": "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB",
+              "children": []
+            },
+            {
+              "id": "F1.II.3",
+              "label": "Zwischenergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "F1.III",
+          "label": "Anspruch durchsetzbar",
+          "children": []
+        },
+        {
+          "id": "F1.IV",
+          "label": "Ergebnis",
+          "children": []
+        }
+      ],
+      "derived_label": true
+    },
+    {
+      "id": "F2",
+      "label": "Lösungsvorschlag zu Abwandlung 1",
+      "children": [
+        {
+          "id": "F2.I",
+          "label": "Anspruch entstanden",
+          "children": []
+        },
+        {
+          "id": "F2.II",
+          "label": "Anspruch erloschen",
+          "children": [
+            {
+              "id": "F2.II.1",
+              "label": "Erlöschen kraft Erfüllung, § 362 Abs. 1 BGB",
+              "children": []
+            },
+            {
+              "id": "F2.II.2",
+              "label": "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "F2.III",
+          "label": "Ergebnis",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "label": "Lösungsvorschlag zur Abwandlung 2",
+      "children": [
+        {
+          "id": "F3.I",
+          "label": "Schuldverhältnis",
+          "children": []
+        },
+        {
+          "id": "F3.II",
+          "label": "Ausschluss der Leistungspflicht, § 275 BGB",
+          "children": []
+        },
+        {
+          "id": "F3.III",
+          "label": "Erlangung eines Ersatzes oder Ersatzanspruchs für den geschuldeten Gegenstand",
+          "children": []
+        },
+        {
+          "id": "F3.IV",
+          "label": "Identität zwischen geschuldetem und ersetztem Gegenstand",
+          "children": []
+        },
+        {
+          "id": "F3.V",
+          "label": "Rechtsfolge",
+          "children": []
+        },
+        {
+          "id": "F3.VI",
+          "label": "Ergebnis",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "Ü",
+      "label": "Übergreifend",
+      "children": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "C-001",
+      "criticality": 3,
+      "title": "Anspruchsgrundlage im Ausgangsfall",
+      "match_criteria": "ERFÜLLT, wenn die Antwort das Zahlungsbegehren der Verkäuferin A gegen die Käuferin J über 500 € im Ausgangsfall als Kaufpreisanspruch aus § 433 Abs. 2 BGB prüft. NICHT ERFÜLLT, wenn sie eine andere Anspruchsgrundlage an die Stelle des Kaufpreisanspruchs setzt, die Anspruchsrichtung vertauscht oder nur Ansprüche aus dem PayPal-Verhältnis prüft.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-001"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-001",
+        "K-FACT-001",
+        "K-ADV-001"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "legal_basis",
+        "outline_id": "F1.I",
+        "station_path": [
+          "Ausgangsfall",
+          "Anspruch entstanden"
+        ]
+      }
+    },
+    {
+      "id": "C-002",
+      "criticality": 2,
+      "title": "Verbindliches Angebot der A",
+      "match_criteria": "ERFÜLLT, wenn die Antwort das Einstellen des originalverpackten Mobiltelefons zum Festpreis von 500 € mit Sofort-Kaufen-Funktion unter Berücksichtigung des durch die akzeptierten eBay-AGB geprägten objektiven Erklärungswerts als verbindliches Angebot der A nach § 145 BGB an einen noch unbestimmten Käufer einordnet. NICHT ERFÜLLT, wenn sie das Inserat lediglich als invitatio ad offerendum behandelt oder die eBay-AGB bei der Auslegung außer Acht lässt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-002",
+        "A-003",
+        "A-004",
+        "A-005"
+      ],
+      "review_notes": [
+        "Eine bestimmte Unterziffer der eBay-AGB ist nicht erforderlich."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-002",
+        "K-FACT-002",
+        "K-ADV-002"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.I",
+        "station_path": [
+          "Ausgangsfall",
+          "Anspruch entstanden"
+        ]
+      }
+    },
+    {
+      "id": "C-003",
+      "criticality": 1,
+      "title": "Annahme durch J",
+      "match_criteria": "ERFÜLLT, wenn die Antwort das Anklicken und Bestätigen der Sofort-Kaufen-Funktion durch J nach dem in den eBay-AGB beschriebenen Ablauf als Annahme des Angebots der A auslegt und daraus einen Kaufvertrag über das Mobiltelefon für 500 € ableitet. NICHT ERFÜLLT, wenn sie den Klick als neues Angebot behandelt, eine weitere Annahme der A verlangt oder Angebot und Annahme den falschen Parteien zuordnet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-006",
+        "A-007",
+        "A-008"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-003",
+        "K-FACT-003",
+        "K-ADV-003"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.I",
+        "station_path": [
+          "Ausgangsfall",
+          "Anspruch entstanden"
+        ]
+      }
+    },
+    {
+      "id": "C-004",
+      "criticality": 2,
+      "title": "Erfüllung durch PayPal-Gutschrift",
+      "match_criteria": "ERFÜLLT, wenn die Antwort nach § 362 Abs. 1 BGB die Gutschrift der 500 € auf dem PayPal-Konto der A wegen ihrer Verfügungsmöglichkeit als Leistungserfolg und damit als anfängliche Erfüllung der Kaufpreisschuld einordnet. Sie muss die bloße Zahlungsautorisierung durch J als noch unzureichend behandeln und darf keine Weiterüberweisung auf ein Bankkonto der A verlangen. NICHT ERFÜLLT, wenn sie einen anderen dieser Zeitpunkte als maßgeblich ansieht oder der PayPal-Gutschrift jede Tilgungswirkung abspricht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-009",
+        "A-010",
+        "A-011",
+        "A-012"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-004",
+        "K-FACT-004",
+        "K-ADV-004",
+        "K-ADV-005"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.1",
+        "station_path": [
+          "Ausgangsfall",
+          "Anspruch erloschen",
+          "Erlöschen kraft Erfüllung, § 362 Abs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-005",
+      "criticality": 2,
+      "title": "Keine auflösende Bedingung der Erfüllung",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die Zahlungsabrede unter Einbeziehung der PayPal-Bedingungen auslegt und ablehnt, dass die erfolgreiche Käuferschutzentscheidung als auflösende Bedingung nach §§ 158 Abs. 2, 159 BGB analog die Erfüllung rückwirkend beseitigt. Als rechtlicher Grund muss sie erläutern, dass die Erfüllung nach § 362 Abs. 1 BGB nicht lediglich vorläufig unter Rückforderungsvorbehalt eintritt oder dass der Dritte PayPal statt einer Vertragspartei über die Rückerstattung entscheidet. NICHT ERFÜLLT, wenn sie ohne Auseinandersetzung einen bedingungsbedingten rückwirkenden Wegfall annimmt oder nur das Ergebnis nennt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-013",
+        "A-014",
+        "A-015",
+        "A-016"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-005",
+        "K-FACT-005",
+        "K-ADV-006"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "F1.II.1",
+        "station_path": [
+          "Ausgangsfall",
+          "Anspruch erloschen",
+          "Erlöschen kraft Erfüllung, § 362 Abs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-006",
+      "criticality": 3,
+      "title": "Wiederbegründung nach PayPal-Erstattung",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die Zahlungsabrede nach §§ 133, 157 BGB unter Einbeziehung der PayPal-Käuferschutzrichtlinie dahin auslegt, dass die zunächst erfüllte Kaufpreisschuld nach der Erstattung an J gemäß § 311 Abs. 1 BGB stillschweigend neu begründet wird. Sie muss Ziffer 7.5 heranziehen, wonach der Käuferschutz die Rechte zwischen Käufer und Verkäufer nicht berührt, und dies entweder mit der im PayPal-Verfahren unberücksichtigten Zeugin F trotz fehlenden Versandbelegs oder mit der sonst einseitigen Endgültigkeit einer stattgebenden Entscheidung verbinden. NICHT ERFÜLLT, wenn sie kein Wiederaufleben annimmt oder es ohne diese Auslegung und fallbezogene Begründung behauptet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-017",
+        "A-018",
+        "A-019",
+        "A-020",
+        "A-022"
+      ],
+      "review_notes": [
+        "Den Käuferschutzantrag stellte J.",
+        "Die stattgebende PayPal-Entscheidung ist als Sachverhaltsvorgabe zu behandeln."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-006",
+        "K-FACT-006",
+        "K-ADV-007"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "F1.II.1",
+        "station_path": [
+          "Ausgangsfall",
+          "Anspruch erloschen",
+          "Erlöschen kraft Erfüllung, § 362 Abs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-007",
+      "criticality": 2,
+      "title": "Schuldtyp und Konkretisierungsweg",
+      "match_criteria": "ERFÜLLT, wenn die Antwort aus dem Verkauf eines neuwertigen originalverpackten Mobiltelefons durch die gewerbliche A zunächst eine Gattungsschuld nach § 243 Abs. 1 BGB für naheliegend hält und erkennt, dass die endgültige Einordnung als Stück- oder Gattungsschuld offenbleiben kann, sofern vor dem Verlust Konkretisierung nach § 243 Abs. 2 BGB eintrat. NICHT ERFÜLLT, wenn sie bei angenommener Gattungsschuld ohne Konkretisierungsprüfung allein aus dem Verlust dieses Geräts Unmöglichkeit ableitet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-024",
+        "A-025"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-008",
+        "K-FACT-008"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.2",
+        "station_path": [
+          "Ausgangsfall",
+          "Anspruch erloschen",
+          "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-008",
+      "criticality": 2,
+      "title": "Einordnung als Schickschuld",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die vereinbarte Versendung des Mobiltelefons durch die Post von Dortmund an das Fairtopia der J in Hamburg als Schickschuld einordnet, bei der Leistungs- und Erfolgsort auseinanderfallen. NICHT ERFÜLLT, wenn sie ohne tragfähigen Grund eine Hol- oder Bringschuld annimmt oder die Versandabrede rechtlich nicht einordnet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-026"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-009",
+        "K-FACT-007",
+        "K-ADV-008"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.2",
+        "station_path": [
+          "Ausgangsfall",
+          "Anspruch erloschen",
+          "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-010",
+      "criticality": 2,
+      "title": "Objektive Unmöglichkeit im Ausgangsfall",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den trotz Nachforschungen endgültigen Verlust des konkret geschuldeten Mobiltelefons als objektive Unmöglichkeit der Übergabe und Übereignung nach §§ 275 Abs. 1, 433 Abs. 1 Satz 1 BGB einordnet. NICHT ERFÜLLT, wenn sie eine fortbestehende Pflicht zur Lieferung eines anderen Geräts annimmt, den endgültigen Verlust nicht mit § 275 Abs. 1 BGB verbindet oder allein auf fehlendes Verschulden abstellt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-029"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-011",
+        "K-FACT-010",
+        "K-ADV-010"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.2",
+        "station_path": [
+          "Ausgangsfall",
+          "Anspruch erloschen",
+          "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-011",
+      "criticality": 2,
+      "title": "Preisgefahrübergang nach § 447 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort im Ausgangsfall § 447 Abs. 1 BGB als gegenüber der allgemeinen Übergaberegel des § 446 BGB maßgebliche Gefahrregel des Versendungskaufs auswählt und den Übergang der Preisgefahr auf J bereits mit der ordnungsgemäßen Übergabe des Mobiltelefons an die Post, also vor dem späteren Verlust, bejaht. NICHT ERFÜLLT, wenn sie § 447 BGB übersieht, ausschließlich § 446 BGB anwendet oder einen Gefahrübergang erst bei einer nie erfolgten Übergabe an J annimmt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-031",
+        "A-032",
+        "A-033"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-013",
+        "K-DOC-014",
+        "K-FACT-011",
+        "K-ADV-012"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.2",
+        "station_path": [
+          "Ausgangsfall",
+          "Anspruch erloschen",
+          "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-012",
+      "criticality": 2,
+      "title": "Fortbestand der Gegenleistungspflicht",
+      "match_criteria": "ERFÜLLT, wenn die Antwort erkennt, dass die Unmöglichkeit der Sachleistung beim gegenseitigen Kaufvertrag den Kaufpreisanspruch grundsätzlich nach § 326 Abs. 1 Satz 1 Halbsatz 1 BGB entfallen ließe, den bereits eingetretenen Preisgefahrübergang nach § 447 Abs. 1 BGB aber als Ausnahme behandelt und deshalb den wiederbegründeten Kaufpreisanspruch über 500 € bestehen lässt. NICHT ERFÜLLT, wenn sie § 326 BGB nicht prüft oder den Kaufpreisanspruch trotz des Gefahrübergangs erlöschen lässt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-023",
+        "A-030",
+        "A-034"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-007",
+        "K-DOC-012",
+        "K-DOC-015",
+        "K-FACT-012",
+        "K-ADV-011",
+        "K-ADV-013"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F1.II.2",
+        "station_path": [
+          "Ausgangsfall",
+          "Anspruch erloschen",
+          "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-013",
+      "criticality": 1,
+      "title": "Keine Einrede aus § 320 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort eine Einrede der J aus § 320 BGB verneint, weil ihr Anspruch gegen A auf Übergabe und Übereignung des verlorenen Mobiltelefons infolge § 275 Abs. 1 BGB nicht mehr besteht. NICHT ERFÜLLT, wenn sie J trotz ausgeschlossener Sachleistungspflicht ein Leistungsverweigerungsrecht aus § 320 BGB zuspricht oder deshalb die Durchsetzbarkeit des Kaufpreisanspruchs verneint.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-035"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-016",
+        "K-FACT-013",
+        "K-ADV-014"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.III",
+        "station_path": [
+          "Ausgangsfall",
+          "Anspruch durchsetzbar"
+        ]
+      }
+    },
+    {
+      "id": "C-014",
+      "criticality": 1,
+      "title": "Erfüllung in Abwandlung 1",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den auch in Abwandlung 1 zunächst aus § 433 Abs. 2 BGB entstandenen Kaufpreisanspruch durch die Gutschrift der 500 € auf dem PayPal-Konto der A gemäß § 362 Abs. 1 BGB als anfänglich erfüllt behandelt; eine eindeutige Bezugnahme auf die Prüfung des Ausgangsfalls genügt. NICHT ERFÜLLT, wenn sie wegen des privaten Erwerbszwecks die Erfüllungswirkung verneint oder diesen Punkt widersprüchlich behandelt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-037",
+        "A-038"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-018",
+        "K-FACT-015"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F2.II.1",
+        "station_path": [
+          "Lösungsvorschlag zu Abwandlung 1",
+          "Anspruch erloschen",
+          "Erlöschen kraft Erfüllung, § 362 Abs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-015",
+      "criticality": 1,
+      "title": "Wiederbegründung in Abwandlung 1",
+      "match_criteria": "ERFÜLLT, wenn die Antwort auch in Abwandlung 1 nach der erfolgreichen Käuferschutzerstattung an J eine stillschweigende Wiederbegründung der Kaufpreisschuld gemäß §§ 133, 157, 311 Abs. 1 BGB annimmt; eine eindeutige Bezugnahme auf die PayPal-Auslegung des Ausgangsfalls genügt. NICHT ERFÜLLT, wenn sie das Wiederaufleben wegen des privaten Erwerbszwecks verneint oder aus einer falschen Zuordnung des Käuferschutzantrags an A eine andere Rechtsfolge ableitet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-039"
+      ],
+      "review_notes": [
+        "Den Käuferschutzantrag stellte J."
+      ],
+      "candidate_ids_merged": [
+        "K-DOC-019",
+        "K-FACT-016"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F2.II.1",
+        "station_path": [
+          "Lösungsvorschlag zu Abwandlung 1",
+          "Anspruch erloschen",
+          "Erlöschen kraft Erfüllung, § 362 Abs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-016",
+      "criticality": 2,
+      "title": "Verbrauchereigenschaft der J",
+      "match_criteria": "ERFÜLLT, wenn die Antwort J in Abwandlung 1 nach § 13 BGB als Verbraucherin einordnet, weil sie das Mobiltelefon ausschließlich für private Zwecke kaufte, und erläutert, dass ihre sonstige gewerbliche Tätigkeit die geschäftsbezogene Verbrauchereigenschaft bei diesem konkreten Kauf nicht ausschließt. NICHT ERFÜLLT, wenn sie J allein wegen ihres Gewerbes als Unternehmerin behandelt oder den ausdrücklich privaten Erwerbszweck nicht rechtlich würdigt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-041",
+        "A-042"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-021",
+        "K-FACT-017"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F2.II.2",
+        "station_path": [
+          "Lösungsvorschlag zu Abwandlung 1",
+          "Anspruch erloschen",
+          "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-017",
+      "criticality": 1,
+      "title": "Verbrauchsgüterkauf in Abwandlung 1",
+      "match_criteria": "ERFÜLLT, wenn die Antwort A wegen ihres gewerblichen Verkaufs als Unternehmerin im Sinne des § 14 BGB behandelt und den Kauf des ausschließlich privat handelnden J von A als Verbrauchsgüterkauf nach § 474 Abs. 1 BGB einordnet. NICHT ERFÜLLT, wenn sie A als private Verkäuferin behandelt oder trotz der Unternehmer-Verbraucher-Konstellation den verbrauchsgüterkaufrechtlichen Rahmen verneint.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-043",
+        "A-044"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-022",
+        "K-FACT-018",
+        "K-FACT-019"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F2.II.2",
+        "station_path": [
+          "Lösungsvorschlag zu Abwandlung 1",
+          "Anspruch erloschen",
+          "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-018",
+      "criticality": 2,
+      "title": "Keine Anwendung des § 447 BGB in Abwandlung 1",
+      "match_criteria": "ERFÜLLT, wenn die Antwort § 447 BGB in Abwandlung 1 nach § 475 Abs. 2 BGB für unanwendbar hält, weil beim Verbrauchsgüterkauf die Verbraucherin die Transportperson beauftragt haben müsste, hier aber A und nicht J die Post als Versandunternehmen auswählte beziehungsweise mit dem Versand betraute. NICHT ERFÜLLT, wenn sie allein aus der Zustimmung der J zum Postversand eine Beauftragung durch J ableitet oder die Preisgefahr schon bei der Postaufgabe auf J übergehen lässt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-045",
+        "A-046",
+        "A-047"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-024",
+        "K-FACT-020",
+        "K-ADV-018",
+        "K-ADV-019"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F2.II.2",
+        "station_path": [
+          "Lösungsvorschlag zu Abwandlung 1",
+          "Anspruch erloschen",
+          "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-019",
+      "criticality": 1,
+      "title": "Unmöglichkeit in Abwandlung 1",
+      "match_criteria": "ERFÜLLT, wenn die Antwort auch in Abwandlung 1 den endgültigen Verlust des konkret geschuldeten Mobiltelefons als objektive Unmöglichkeit der Übergabe und Übereignung nach § 275 Abs. 1 BGB einordnet; eine eindeutige Bezugnahme auf die Konkretisierungs- und Unmöglichkeitsprüfung des Ausgangsfalls genügt. NICHT ERFÜLLT, wenn sie eine weiterhin erfüllbare Pflicht zur Beschaffung eines anderen Geräts annimmt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-040"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-020",
+        "K-ADV-020"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F2.II.2",
+        "station_path": [
+          "Lösungsvorschlag zu Abwandlung 1",
+          "Anspruch erloschen",
+          "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-020",
+      "criticality": 2,
+      "title": "Kein Gefahrübergang nach § 446 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Antwort in Abwandlung 1 nach dem Ausschluss des § 447 BGB auf § 446 BGB zurückgreift und den Übergang der Preisgefahr mangels Übergabe beziehungsweise Besitzverschaffung an J verneint. NICHT ERFÜLLT, wenn sie die Übergabe an die Post einer Übergabe an J gleichsetzt oder trotz Nichterhalts einen Gefahrübergang nach § 446 BGB annimmt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-048"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-025",
+        "K-FACT-021",
+        "K-ADV-021"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F2.II.2",
+        "station_path": [
+          "Lösungsvorschlag zu Abwandlung 1",
+          "Anspruch erloschen",
+          "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-021",
+      "criticality": 2,
+      "title": "Gegenleistungswegfall in Abwandlung 1",
+      "match_criteria": "ERFÜLLT, wenn die Antwort aus der Unmöglichkeit nach § 275 Abs. 1 BGB und dem fehlenden vorherigen Preisgefahrübergang folgert, dass der wiederbegründete Kaufpreisanspruch der A in Abwandlung 1 gemäß § 326 Abs. 1 Satz 1 Halbsatz 1 BGB erloschen ist und A keine Zahlung von 500 € verlangen kann. NICHT ERFÜLLT, wenn sie den Anspruch trotz Verbleibs der Preisgefahr bei A aufrechterhält oder den Gegenleistungswegfall nicht mit der Unmöglichkeit verknüpft.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-049",
+        "A-050"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-026",
+        "K-FACT-022",
+        "K-ADV-022"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "F2.II.2",
+        "station_path": [
+          "Lösungsvorschlag zu Abwandlung 1",
+          "Anspruch erloschen",
+          "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-022",
+      "criticality": 3,
+      "title": "Anspruchsgrundlage der Abwandlung 2",
+      "match_criteria": "ERFÜLLT, wenn die Antwort das Begehren der J gegen A auf Abtretung des Versicherungsanspruchs als Anspruch auf Herausgabe des Ersatzes nach § 285 Abs. 1 BGB prüft und den Kaufvertrag zwischen A und J als zugrunde liegendes Schuldverhältnis benennt. NICHT ERFÜLLT, wenn sie ausschließlich Schadensersatz oder Bereicherungsrecht prüft, einen unmittelbaren Anspruch der J gegen die Versicherung zugrunde legt oder die Anspruchsrichtung vertauscht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-051",
+        "A-052"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-028",
+        "K-DOC-029",
+        "K-FACT-024",
+        "K-ADV-024"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "legal_basis",
+        "outline_id": "F3.I",
+        "station_path": [
+          "Lösungsvorschlag zur Abwandlung 2",
+          "Schuldverhältnis"
+        ]
+      }
+    },
+    {
+      "id": "C-023",
+      "criticality": 1,
+      "title": "Leistungsausschluss in Abwandlung 2",
+      "match_criteria": "ERFÜLLT, wenn die Antwort für § 285 Abs. 1 BGB feststellt, dass der endgültige Verlust des ordnungsgemäß versandten und konkret geschuldeten Mobiltelefons die Pflicht der A zur Übergabe und Übereignung gemäß § 275 Abs. 1 BGB ausschließt; eine eindeutige Bezugnahme auf die Prüfung des Ausgangsfalls genügt. NICHT ERFÜLLT, wenn sie die Primärleistung weiterhin für möglich hält oder § 285 BGB ohne einen Leistungsausschluss anwendet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-053"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-030",
+        "K-FACT-025",
+        "K-ADV-025"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F3.II",
+        "station_path": [
+          "Lösungsvorschlag zur Abwandlung 2",
+          "Ausschluss der Leistungspflicht, § 275 BGB"
+        ]
+      }
+    },
+    {
+      "id": "C-024",
+      "criticality": 2,
+      "title": "Versicherungsanspruch als Ersatzcommodum",
+      "match_criteria": "ERFÜLLT, wenn die Antwort den durch den versicherten Verlust des Mobiltelefons entstandenen vertraglichen Anspruch der A gegen den Drittversicherer über 600 € als Ersatzanspruch im Sinne des § 285 Abs. 1 BGB einordnet und den Zusammenhang damit begründet, dass gerade der leistungsbefreiende Verlust den Versicherungsfall auslöste. NICHT ERFÜLLT, wenn sie eine tatsächliche Auszahlung an A verlangt, den Versicherungsanspruch nicht als Surrogat anerkennt oder den ursächlichen Zusammenhang nicht herstellt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-054",
+        "A-055"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-031",
+        "K-FACT-026",
+        "K-ADV-026"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F3.III",
+        "station_path": [
+          "Lösungsvorschlag zur Abwandlung 2",
+          "Erlangung eines Ersatzes oder Ersatzanspruchs für den geschuldeten Gegenstand"
+        ]
+      }
+    },
+    {
+      "id": "C-025",
+      "criticality": 2,
+      "title": "Identität von Leistungs- und Ersatzgegenstand",
+      "match_criteria": "ERFÜLLT, wenn die Antwort die für § 285 Abs. 1 BGB erforderliche Gegenstandsidentität bejaht, weil der Versicherungsanspruch gerade den Verlust des Mobiltelefons ausgleicht, dessen Eigentum A der J nach dem Kaufvertrag verschaffen sollte. NICHT ERFÜLLT, wenn sie die Identität allein wegen der unterschiedlichen Leistungsart Geld statt Sache oder wegen der unterschiedlichen Wertbeträge verneint oder den Versicherungsanspruch einem anderen Gegenstand zuordnet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-056"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-032",
+        "K-FACT-027",
+        "K-ADV-027"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F3.IV",
+        "station_path": [
+          "Lösungsvorschlag zur Abwandlung 2",
+          "Identität zwischen geschuldetem und ersetztem Gegenstand"
+        ]
+      }
+    },
+    {
+      "id": "C-026",
+      "criticality": 3,
+      "title": "Keine Begrenzung auf den Sachwert",
+      "match_criteria": "ERFÜLLT, wenn die Antwort J nach § 285 Abs. 1 BGB die Abtretung des vollständigen Versicherungsanspruchs über 600 € zuspricht, obwohl der objektive Telefonwert 550 € und der Kaufpreis 500 € betragen. Sie muss den Besserstellungseinwand damit auflösen, dass § 285 BGB nach Wortlaut und Systematik auf Herausgabe des tatsächlich erlangten Surrogats gerichtet und anders als Schadensersatz nach §§ 280 bis 283, 249 ff. BGB nicht durch den Schaden der J begrenzt ist. NICHT ERFÜLLT, wenn sie auf 550 €, 500 € oder den rechnerischen Schaden kürzt oder die vollen 600 € ohne Auflösung des Besserstellungseinwands zuspricht.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-057",
+        "A-058",
+        "A-059",
+        "A-060",
+        "A-061"
+      ],
+      "review_notes": [],
+      "candidate_ids_merged": [
+        "K-DOC-033",
+        "K-FACT-028",
+        "K-ADV-028"
+      ],
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 1
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "F3.V",
+        "station_path": [
+          "Lösungsvorschlag zur Abwandlung 2",
+          "Rechtsfolge"
+        ]
+      }
+    },
+    {
+      "id": "C-009",
+      "criticality": 2,
+      "title": "Konkretisierung durch Übergabe an die Post",
+      "match_criteria": "ERFÜLLT, wenn die Antwort im Ausgangsfall im Rahmen des § 243 Abs. 2 BGB erläutert, dass bei einer Schickschuld die Aussonderung der Kaufsache und ihre ordnungsgemäße Übergabe an das Transportunternehmen genügen, und daraus ableitet, dass sich die Schuld durch die Übergabe des Mobiltelefons an die Post auf dieses konkrete Gerät beschränkt hat. NICHT ERFÜLLT, wenn die Antwort für die Konkretisierung eine Übergabe an J verlangt, die tatsächlich erfolgte Postübergabe wegen des fehlenden Versandbelegs verneint oder aus der Postübergabe keine Konkretisierung ableitet.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-027",
+        "A-028"
+      ],
+      "review_notes": [
+        "Die Erwähnung der Beobachtung durch F ist für die materiell-rechtliche Konkretisierung nicht erforderlich."
+      ],
+      "refinement_note": "Die überspezifische Anforderung, die Postübergabe ausdrücklich auf die Beobachtung durch F zu stützen, wurde entfernt. Erhalten bleiben die rechtlich maßgebliche Regel, ihre Anwendung auf die tatsächliche Postübergabe und die daraus folgende Konkretisierung.",
+      "calibration": {
+        "status": "pass",
+        "agreement": "3/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "F1.II.2",
+        "station_path": [
+          "Ausgangsfall",
+          "Anspruch erloschen",
+          "Erlöschen gem. § 326 Abs. 1 S. 1 Hs. 1 BGB"
+        ]
+      }
+    }
+  ],
+  "validation_warnings": [
+    "Criticality distribution: Tier 3 is 4/26 (15.4%); target is about 10-15%."
+  ],
+  "provenance": {
+    "source": "evals/rubric.generated.broad-final.json",
+    "provider": "openai",
+    "model": "gpt-5.6-sol",
+    "candidate_roles": [
+      "doctrine",
+      "fact_grounding",
+      "adversary"
+    ],
+    "calibration": {
+      "enabled": true,
+      "mode": "committee",
+      "judge_model": null,
+      "judge_reasoning_effort": null,
+      "committee": [
+        {
+          "name": "luna",
+          "model": "gpt-5.6-luna",
+          "api_base": "https://api.openai.com/v1",
+          "reasoning_effort": "medium",
+          "parallel": 8
+        },
+        {
+          "name": "terra",
+          "model": "gpt-5.6-terra",
+          "api_base": "https://api.openai.com/v1",
+          "reasoning_effort": "medium",
+          "parallel": 8
+        },
+        {
+          "name": "gemini-3.6-flash",
+          "model": "google/gemini-3.6-flash",
+          "api_base": "https://openrouter.ai/api/v1",
+          "reasoning_effort": null,
+          "parallel": 4
+        }
+      ],
+      "votes": 3,
+      "max_rounds": 3
+    }
+  }
+}

@@ -1,0 +1,2216 @@
+{
+  "schema_version": "0.2",
+  "generated_at": "2026-07-31T10:38:30.871833+00:00",
+  "review_status": "generated_calibrated_needs_human_review",
+  "language": "Deutsch",
+  "task_title": "Fortgeschrittenenübungsklausur: Mehr Schein als Sein – Greenwashing und „Probefahrt“",
+  "outline": [
+    {
+      "id": "1",
+      "label": "Tatkomplex: Greenwashing in As Outlet",
+      "children": [
+        {
+          "id": "1.I",
+          "label": "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "children": [
+            {
+              "id": "1.I.1",
+              "label": "Objektiver Tatbestand",
+              "children": [
+                {
+                  "id": "1.I.1.a",
+                  "label": "Täuschung über Tatsachen",
+                  "children": []
+                },
+                {
+                  "id": "1.I.1.b",
+                  "label": "Dadurch Irrtum",
+                  "children": []
+                },
+                {
+                  "id": "1.I.1.c",
+                  "label": "Dadurch Vermögensverfügung",
+                  "children": []
+                },
+                {
+                  "id": "1.I.1.d",
+                  "label": "Dadurch Vermögensschaden",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "1.I.2",
+              "label": "Subjektiver Tatbestand",
+              "children": []
+            },
+            {
+              "id": "1.I.3",
+              "label": "Rechtswidrigkeit und Schuld",
+              "children": []
+            },
+            {
+              "id": "1.I.4",
+              "label": "Strafverfolgungsvoraussetzungen",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "1.II",
+          "label": "Ergebnis",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "label": "Tatkomplex: Die Probefahrt",
+      "children": [
+        {
+          "id": "2.I",
+          "label": "Strafbarkeit des T wegen Diebstahls gem. § 242 Abs. 1 StGB",
+          "children": [
+            {
+              "id": "2.I.1",
+              "label": "Objektiver Tatbestand",
+              "children": [
+                {
+                  "id": "2.I.1.a",
+                  "label": "Fremde bewegliche Sache",
+                  "children": []
+                },
+                {
+                  "id": "2.I.1.b",
+                  "label": "Wegnahme",
+                  "children": [
+                    {
+                      "id": "2.I.1.b.aa",
+                      "label": "Gewahrsamsbruch durch Nach-Hause-Fahren des Fahrzeugs",
+                      "children": []
+                    },
+                    {
+                      "id": "2.I.1.b.bb",
+                      "label": "Gewahrsamsbruch durch Verlassen des Geländes",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "2.I.2",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "2.II",
+          "label": "Strafbarkeit des T wegen Unterschlagung gem. § 246 Abs. 1, 2 StGB",
+          "children": [
+            {
+              "id": "2.II.1",
+              "label": "Objektiver Tatbestand",
+              "children": [
+                {
+                  "id": "2.II.1.a",
+                  "label": "Fremde bewegliche Sache",
+                  "children": []
+                },
+                {
+                  "id": "2.II.1.b",
+                  "label": "Zueignung",
+                  "children": []
+                },
+                {
+                  "id": "2.II.1.c",
+                  "label": "Rechtswidrigkeit der Zueignung",
+                  "children": []
+                },
+                {
+                  "id": "2.II.1.d",
+                  "label": "Qualifikation des § 246 Abs. 2 StGB",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "2.II.2",
+              "label": "Subjektiver Tatbestand",
+              "children": []
+            },
+            {
+              "id": "2.II.3",
+              "label": "Rechtswidrigkeit und Schuld",
+              "children": []
+            },
+            {
+              "id": "2.II.4",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "2.III",
+          "label": "Strafbarkeit des T wegen Betrugs gem. § 263 Abs. 1 StGB",
+          "children": [
+            {
+              "id": "2.III.1",
+              "label": "Objektiver Tatbestand",
+              "children": [
+                {
+                  "id": "2.III.1.a",
+                  "label": "Täuschung",
+                  "children": []
+                },
+                {
+                  "id": "2.III.1.b",
+                  "label": "Dadurch Irrtum",
+                  "children": []
+                },
+                {
+                  "id": "2.III.1.c",
+                  "label": "Dadurch Vermögensverfügung",
+                  "children": [
+                    {
+                      "id": "2.III.1.c.aa",
+                      "label": "Vermögensminderung",
+                      "children": []
+                    },
+                    {
+                      "id": "2.III.1.c.bb",
+                      "label": "Unmittelbarkeit",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "2.III.1.d",
+                  "label": "Dadurch Vermögensschaden",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "2.III.2",
+              "label": "Subjektiver Tatbestand",
+              "children": []
+            },
+            {
+              "id": "2.III.3",
+              "label": "Rechtswidrigkeit und Schuld",
+              "children": []
+            },
+            {
+              "id": "2.III.4",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "2.IV",
+          "label": "Konkurrenzen",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "label": "Tatkomplex: Verkauf des Autos an V",
+      "children": [
+        {
+          "id": "3.I",
+          "label": "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "children": [
+            {
+              "id": "3.I.1",
+              "label": "Objektiver Tatbestand",
+              "children": [
+                {
+                  "id": "3.I.1.a",
+                  "label": "Täuschung über Tatsachen",
+                  "children": []
+                },
+                {
+                  "id": "3.I.1.b",
+                  "label": "Dadurch Irrtum",
+                  "children": []
+                },
+                {
+                  "id": "3.I.1.c",
+                  "label": "Dadurch Vermögensverfügung",
+                  "children": []
+                },
+                {
+                  "id": "3.I.1.d",
+                  "label": "Dadurch Vermögensschaden",
+                  "children": [
+                    {
+                      "id": "3.I.1.d.aa",
+                      "label": "Zahlung der 8.000 €",
+                      "children": []
+                    },
+                    {
+                      "id": "3.I.1.d.bb",
+                      "label": "Durch den Vertragsschluss",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "3.I.2",
+              "label": "Subjektiver Tatbestand",
+              "children": []
+            },
+            {
+              "id": "3.I.3",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "3.II",
+          "label": "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch Lieferung/Annahme des Kaufpreises",
+          "children": []
+        },
+        {
+          "id": "3.III",
+          "label": "Strafbarkeit des T gem. § 246 Abs. 1 StGB durch Verkauf/Übereignung an V",
+          "children": [
+            {
+              "id": "3.III.1",
+              "label": "Objektiver Tatbestand",
+              "children": []
+            },
+            {
+              "id": "3.III.2",
+              "label": "Ergebnis",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Gesamtergebnis",
+      "label": "Gesamtergebnis",
+      "children": []
+    },
+    {
+      "id": "Ü",
+      "label": "Übergreifend",
+      "children": []
+    }
+  ],
+  "criteria": [
+    {
+      "id": "C-001",
+      "criticality": 2,
+      "title": "Täuschung durch Klimaneutralitätswerbung",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung die von A verantwortete Werbung der A-GmbH als Täuschung nach § 263 Abs. 1 StGB einordnet: Die überprüfbare Aussage „klimaneutrales Unternehmen“ erklärt die Kompensation unvermeidbarer Emissionen durch Klimaprojekte, nicht eine vollständig emissionsfreie Produktion; nach Einstellung dieser Förderung war die fortgesetzte Werbung falsch. NICHT ERFÜLLT, wenn die Aussage als bloßes Werturteil, als Behauptung vollständiger Emissionsfreiheit oder trotz eingestellter Kompensation als wahr behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-001",
+        "A-002",
+        "A-003",
+        "A-004"
+      ],
+      "review_notes": [
+        "Der Tatsachenstandard ist in die konkrete Täuschungsprüfung integriert.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; beide verwertbaren Stimmen bestätigen die klare Erfüllung. Der dritte Aufruf scheiterte nur technisch.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "1.I.1.a",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Täuschung über Tatsachen"
+        ]
+      }
+    },
+    {
+      "id": "C-002",
+      "criticality": 1,
+      "title": "Abstand zwischen Werbung und Kauf",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung erkennt, dass ein zeitlicher oder räumlicher Abstand zwischen As Klimaneutralitätswerbung und Vs späterem T-Shirt-Kauf die Täuschungshandlung nicht ausschließt, sondern bei der Kausalität für Vs Kaufentscheidung zu berücksichtigen ist. NICHT ERFÜLLT, wenn die Werbung allein wegen dieses Abstands als untaugliche Täuschung behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-005"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die verwertbaren Stimmen bestätigen die eindeutige Erfüllung.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "1.I.1.a",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Täuschung über Tatsachen"
+        ]
+      }
+    },
+    {
+      "id": "C-003",
+      "criticality": 1,
+      "title": "Keine Materialaussage durch Klimaneutralität",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung bei As Betrug erkennt, dass die Werbung der A-GmbH als „klimaneutrales Unternehmen“ nicht erklärt, das von V gekaufte T-Shirt bestehe aus Bio-Baumwolle. NICHT ERFÜLLT, wenn aus der Klimaneutralitätswerbung ohne weitere Grundlage die Verwendung von Bio-Baumwolle abgeleitet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-006"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die verwertbaren Stimmen bestätigen die eindeutige Erfüllung.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "1.I.1.a",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Täuschung über Tatsachen"
+        ]
+      }
+    },
+    {
+      "id": "C-004",
+      "criticality": 1,
+      "title": "Keine konkludente Zusicherung unveränderten Materials",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung ausführt, dass der bloße Verkauf des T-Shirts ohne besonderen Materialhinweis nicht konkludent erklärt, die A-GmbH verwende weiterhin die früher eingesetzte Bio-Baumwolle. NICHT ERFÜLLT, wenn allein aus dem bisherigen Geschäftsmodell oder dem Verkauf ohne Hinweis eine Zusicherung unveränderter Bio-Baumwolle abgeleitet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-007"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die verwertbaren Stimmen bestätigen die eindeutige Erfüllung.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "1.I.1.a",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Täuschung über Tatsachen"
+        ]
+      }
+    },
+    {
+      "id": "C-005",
+      "criticality": 2,
+      "title": "Keine Aufklärungspflicht zum Materialwechsel",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung eine Täuschung As durch Unterlassen über den Wechsel von Bio-Baumwolle zu konventioneller Baumwolle mangels strafrechtlicher Aufklärungspflicht nach § 13 Abs. 1 StGB verneint und berücksichtigt, dass der Bio-Hinweis vom Etikett entfernt worden war und V sich deshalb über das Material informieren konnte. NICHT ERFÜLLT, wenn ohne tragfähige Garanten- oder Offenbarungspflicht ein täuschendes Unterlassen angenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-008",
+        "A-009"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die beiden Umstände dienen gemeinsam der Begründung der fehlenden Täuschung durch Unterlassen und werden in der Musterlösung behandelt.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "1.I.1.a",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Täuschung über Tatsachen"
+        ]
+      }
+    },
+    {
+      "id": "C-006",
+      "criticality": 1,
+      "title": "Maßstab des konkreten Irrtums",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung für den Irrtum nach § 263 Abs. 1 StGB auf die tatsächliche Vorstellung des konkreten Käufers V abstellt und den lauterkeitsrechtlichen Durchschnittsverbraucher nach §§ 3, 5 UWG beziehungsweise Art. 6 UGP-RL nicht an dessen Stelle setzt. NICHT ERFÜLLT, wenn allein die abstrakte Irreführungseignung gegenüber durchschnittlichen Verkehrskreisen geprüft wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-010"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung grenzt beide Maßstäbe ausdrücklich voneinander ab.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "rule_statement",
+        "outline_id": "1.I.1.b",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Dadurch Irrtum"
+        ]
+      }
+    },
+    {
+      "id": "C-007",
+      "criticality": 2,
+      "title": "Irrtum des V über Klimaneutralität",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung feststellt, dass V die A-GmbH aufgrund ihrer Werbung für ein klimaneutrales Unternehmen hielt, obwohl die Klimaprojektförderung eingestellt worden war, und deshalb einem täuschungsbedingten Irrtum unterlag. NICHT ERFÜLLT, wenn Vs Irrtum verneint oder lediglich auf die Baumwollart bezogen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-011"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung bejaht genau diesen Irrtum.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "1.I.1.b",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Dadurch Irrtum"
+        ]
+      }
+    },
+    {
+      "id": "C-008",
+      "criticality": 2,
+      "title": "Vermögensverfügung beim T-Shirt-Kauf",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung entweder die durch den Klimaneutralitätsirrtum veranlasste Zahlung von 50 € als unmittelbare Vermögensverfügung des V oder bereits den dadurch veranlassten Kaufvertrag als vermögensrelevante Verpflichtung einordnet. NICHT ERFÜLLT, wenn keine Verfügung festgestellt, ihre Kausalität zur Klimaneutralitätstäuschung nicht erläutert oder allein der nicht täuschungsrelevante Materialwechsel als Ursache verwendet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-012"
+      ],
+      "review_notes": [
+        "Kaufvertrag und Kaufpreiszahlung sind ausdrücklich zugelassene Ansätze.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung verknüpft Irrtum, Kaufvertrag und Zahlung hinreichend.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "1.I.1.c",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensverfügung"
+        ]
+      }
+    },
+    {
+      "id": "C-009",
+      "criticality": 3,
+      "title": "Zurechenbarer T-Shirt-Schaden von 18 €",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung bei der Gesamtsaldierung vom Kaufpreis von 50 € den hypothetischen Bio-Baumwoll-Wert von 32 € abzieht und einen zurechenbaren Schaden von 18 € ermittelt, weil der zusätzliche materialbedingte Minderwert mangels relevanter Materialtäuschung nicht zugerechnet wird. NICHT ERFÜLLT, wenn ohne Auseinandersetzung mit der fehlenden Materialtäuschung der tatsächliche Wert von 30 € und damit ein Schaden von 20 € angesetzt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-013",
+        "A-014",
+        "A-018"
+      ],
+      "review_notes": [
+        "Der vorgegebene Vergleichswert von 32 € darf nicht korrigiert werden.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; der Betrag und sein Zurechnungsgrund werden ausdrücklich hergeleitet.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "1.I.1.d",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensschaden"
+        ]
+      }
+    },
+    {
+      "id": "C-010",
+      "criticality": 3,
+      "title": "Zweckverfehlung bei bewusster Mehrzahlung",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung die Zweckverfehlungslehre auf Vs bewusste Mehrzahlung anwendet: Ein nicht vermögensmäßig messbarer sozialer Zweck kann die materielle Gegenleistung ersetzen; Vs außerhalb des kaufvertraglichen Synallagmas liegender Zweck, ein tatsächlich klimafreundliches Unternehmen zu fördern, scheiterte an der eingestellten Klimaprojektförderung. NICHT ERFÜLLT, wenn die Mehrzahlung ohne Prüfung dieses Zwecks generell aus § 263 StGB ausgeschlossen oder die Lehre allein wegen des Kaufvertrags abgelehnt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-015",
+        "A-016",
+        "A-017"
+      ],
+      "review_notes": [
+        "Die abstrakte Lehre ist mit der konkreten Zweckverfehlung verbunden.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; sämtliche verlangten Elemente werden in der Musterlösung behandelt.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "1.I.1.d",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensschaden"
+        ]
+      }
+    },
+    {
+      "id": "C-011",
+      "criticality": 1,
+      "title": "Keine volle Kompensation durch Zivilansprüche",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung erläutert, dass mögliche Anfechtungs-, Rückabwicklungs- oder Schadensersatzansprüche des V den bereits eingetretenen T-Shirt-Schaden wegen ihres Prozess- und Durchsetzungsrisikos nicht vollständig kompensieren. NICHT ERFÜLLT, wenn bereits die abstrakte Existenz solcher Ansprüche ohne Werthaltigkeitsvergleich als vollständiger Schadensausschluss behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-019"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung nennt das Prozessrisiko als maßgeblichen Grund.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "1.I.1.d",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensschaden"
+        ]
+      }
+    },
+    {
+      "id": "C-013",
+      "criticality": 2,
+      "title": "Drittbereicherungsabsicht zugunsten der A-GmbH",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung eine Drittbereicherungsabsicht des A zugunsten der A-GmbH annimmt, weil die täuschungsbedingten Verkaufseinnahmen unmittelbar dem von As Privatvermögen getrennten Gesellschaftsvermögen zufließen sollten. NICHT ERFÜLLT, wenn ohne Beachtung der getrennten Vermögensmassen eine unmittelbare Eigenbereicherung As angenommen oder die Bereicherungsabsicht verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-021"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; Drittbegünstigung und Vermögenstrennung werden ausdrücklich festgestellt.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "1.I.2",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Subjektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-014",
+      "criticality": 2,
+      "title": "Stoffgleichheit beim Betrug des A",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung den Vorteil der A-GmbH als stoffgleich mit Vs Schaden einordnet, weil beide unmittelbar auf derselben täuschungsbedingten Kaufpreiszahlung beruhten. NICHT ERFÜLLT, wenn die Stoffgleichheit verneint oder stattdessen auf eine erst spätere Gewinnausschüttung an A gestützt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-022"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung nennt ausdrücklich dieselbe Kaufpreiszahlung als Grundlage.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "1.I.2",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Subjektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-015",
+      "criticality": 1,
+      "title": "Rechtswidrigkeit des erstrebten GmbH-Vorteils",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung den von A zugunsten der A-GmbH erstrebten Vorteil als rechtswidrig einordnet, weil kein unabhängig vom Betrug bestehender fälliger und durchsetzbarer Anspruch auf den täuschungsbedingt gezahlten Mehrbetrag bestand. NICHT ERFÜLLT, wenn allein aus dem formal geschlossenen Kaufvertrag ein rechtmäßiger Anspruch auf den erschlichenen Mehrwert abgeleitet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-023"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung verwendet genau den fehlenden unabhängigen Anspruch als Maßstab.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "1.I.2",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Subjektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-016",
+      "criticality": 1,
+      "title": "Strafantrag beim geringwertigen Betrug",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung wegen des T-Shirt-Schadens von 18 € auf das Strafantragserfordernis nach §§ 263 Abs. 4, 248a StGB hinweist. NICHT ERFÜLLT, wenn diese besondere Strafverfolgungsvoraussetzung übergangen oder eine uneingeschränkt antragsunabhängige Verfolgung behauptet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-025"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; der Strafantrag wird ausdrücklich angesprochen.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "1.I.4",
+        "station_path": [
+          "Tatkomplex: Greenwashing in As Outlet",
+          "Strafbarkeit des A gem. § 263 Abs. 1 StGB",
+          "Strafverfolgungsvoraussetzungen"
+        ]
+      }
+    },
+    {
+      "id": "C-017",
+      "criticality": 1,
+      "title": "Fremde bewegliche Sache bei T",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung den VW Golf bei der Prüfung der §§ 242, 246 StGB als für T fremde bewegliche Sache einordnet, weil das fortbewegliche Fahrzeug im Eigentum des Autohändlers H stand. NICHT ERFÜLLT, wenn T bereits aufgrund der Probefahrtüberlassung oder seines Besitzes als Eigentümer behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-027"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; Eigentum des H und Beweglichkeit werden ausdrücklich festgestellt.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.I.1.a",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Diebstahls gem. § 242 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Fremde bewegliche Sache"
+        ]
+      }
+    },
+    {
+      "id": "C-018",
+      "criticality": 2,
+      "title": "Keine Wegnahme durch späteres Heimfahren",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung eine Wegnahme durch das spätere Heimfahren oder Behalten des VW Golf verneint, weil H nach dem Verlassen des Betriebsgeländes keinen Gewahrsam mehr an dem von T unmittelbar kontrollierten Fahrzeug hatte; auch eine GPS-Ortung hätte nur die Rückgewinnung erleichtert, nicht Hs Gewahrsam erhalten. NICHT ERFÜLLT, wenn wegen Eigentums, Rückgabeerwartung oder GPS ein fortbestehender Gewahrsam und dessen späterer Bruch angenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-029",
+        "A-030",
+        "A-031"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; fehlender Gewahrsam und begrenzte Bedeutung der Ortungsmöglichkeit werden ausführlich begründet.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.I.1.b.aa",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Diebstahls gem. § 242 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Wegnahme",
+          "Gewahrsamsbruch durch Nach-Hause-Fahren des Fahrzeugs"
+        ]
+      }
+    },
+    {
+      "id": "C-019",
+      "criticality": 3,
+      "title": "Keine Wegnahme beim Verlassen des Händlergeländes",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung die Wegnahme als Bruch fremden und Begründung neuen Gewahrsams prüft, aber beim Verlassen des Händlergeländes einen Diebstahl verneint: Der Gewahrsamswechsel war vom tatbestandsausschließenden Einverständnis des H zur Probefahrt gedeckt; Ts äußerlich nicht erkennbarer fehlender Rückgabewille war keine Bedingung dieses Einverständnisses. NICHT ERFÜLLT, wenn bereits das Vom-Hof-Fahren wegen Ts inneren Tatplans als Wegnahme behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-028",
+        "A-032",
+        "A-033",
+        "A-034",
+        "A-035"
+      ],
+      "review_notes": [
+        "Die Wegnahmedefinition ist in die Abgrenzungsanwendung integriert.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung wendet Definition, Einverständnis und Bedingungsmaßstab auf denselben Gewahrsamswechsel an.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "2.I.1.b.bb",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Diebstahls gem. § 242 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Wegnahme",
+          "Gewahrsamsbruch durch Verlassen des Geländes"
+        ]
+      }
+    },
+    {
+      "id": "C-020",
+      "criticality": 2,
+      "title": "Vollendungsmaßstab der Zueignung",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung entweder nach der Manifestationstheorie das abredewidrige Behalten des VW Golf als nach außen tretende und auch für einen objektiven Dritten eindeutige Betätigung von Ts Zueignungswillen behandelt, oder nach der ausdrücklich zugelassenen Enteignungstheorie eine tatsächliche Verdrängung des H verlangt und diese spätestens mit der erfolgreichen Übereignung an V begründet. NICHT ERFÜLLT, wenn nur ein Theorienname oder Ts innerer Wille genannt wird, ohne den jeweiligen Maßstab auf den VW Golf anzuwenden.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-036",
+        "A-039"
+      ],
+      "review_notes": [
+        "Manifestations- und Enteignungstheorie sind nur mit ihrer jeweiligen Anwendung zulässig.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung wendet jedenfalls die Manifestationstheorie konkret an.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "2.II.1.b",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Unterschlagung gem. § 246 Abs. 1, 2 StGB",
+          "Objektiver Tatbestand",
+          "Zueignung"
+        ]
+      }
+    },
+    {
+      "id": "C-021",
+      "criticality": 2,
+      "title": "Aneignungswille des T",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung den Aneignungswillen des T daraus herleitet, dass er den VW Golf behalten und durch einen Weiterverkauf wirtschaftlich wie einen eigenen Vermögensgegenstand verwerten wollte. NICHT ERFÜLLT, wenn wegen des geplanten Weiterverkaufs jede zumindest vorübergehende Einverleibung in Ts Vermögen verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-037"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die wirtschaftliche Verwertung durch Weiterverkauf wird ausdrücklich als Aneignung begründet.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.II.1.b",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Unterschlagung gem. § 246 Abs. 1, 2 StGB",
+          "Objektiver Tatbestand",
+          "Zueignung"
+        ]
+      }
+    },
+    {
+      "id": "C-022",
+      "criticality": 2,
+      "title": "Enteignungswille zulasten des H",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung den Enteignungswillen des T daraus herleitet, dass H den VW Golf nach Ts Plan dauerhaft nicht zurückerhalten und aus seiner faktischen Eigentümerstellung verdrängt werden sollte. NICHT ERFÜLLT, wenn trotz des geplanten Behaltens und Weiterverkaufs nur eine vorübergehende Gebrauchsanmaßung angenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-038"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die dauerhafte Verdrängung Hs wird ausdrücklich festgestellt.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.II.1.b",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Unterschlagung gem. § 246 Abs. 1, 2 StGB",
+          "Objektiver Tatbestand",
+          "Zueignung"
+        ]
+      }
+    },
+    {
+      "id": "C-023",
+      "criticality": 1,
+      "title": "Rechtswidrigkeit der Zueignung",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung die Zueignung des VW Golf als rechtswidrig einordnet, weil T keinen fälligen und durchsetzbaren Anspruch auf das Behalten des nur zur Probefahrt überlassenen Fahrzeugs hatte. NICHT ERFÜLLT, wenn aus der Probefahrtvereinbarung ein Anspruch auf dauerhaften Besitz oder Verwertung abgeleitet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-040"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; der fehlende fällige und durchsetzbare Anspruch wird ausdrücklich genannt.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.II.1.c",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Unterschlagung gem. § 246 Abs. 1, 2 StGB",
+          "Objektiver Tatbestand",
+          "Rechtswidrigkeit der Zueignung"
+        ]
+      }
+    },
+    {
+      "id": "C-024",
+      "criticality": 2,
+      "title": "Anvertrautsein des Probefahrzeugs",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung den VW Golf als T im Sinne des § 246 Abs. 2 StGB anvertraut einordnet, weil H ihm das Fahrzeug nur zum bestimmten Zweck der Probefahrt und mit anschließender Rückgabepflicht überließ. NICHT ERFÜLLT, wenn die Zweckbindung oder Rückgabepflicht übergangen oder die Qualifikation nicht geprüft wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-041",
+        "A-042"
+      ],
+      "review_notes": [
+        "Die Definition des Anvertrautseins ist in die Anwendung integriert.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; Zweckbindung und Rückgabepflicht werden im Rahmen des § 246 Abs. 2 StGB angewendet.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.II.1.d",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Unterschlagung gem. § 246 Abs. 1, 2 StGB",
+          "Objektiver Tatbestand",
+          "Qualifikation des § 246 Abs. 2 StGB"
+        ]
+      }
+    },
+    {
+      "id": "C-025",
+      "criticality": 1,
+      "title": "Verkehrsunsicherheit hindert Anvertrautsein nicht",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung erklärt, dass die fehlende Verkehrssicherheit des Probefahrzeugs das Anvertrautsein nach § 246 Abs. 2 StGB nicht beseitigt, weil die hierfür maßgebliche Rückgabepflicht des T selbst nicht gesetzeswidrig war. NICHT ERFÜLLT, wenn allein wegen der Verkehrsunsicherheit jede rechtlich beachtliche Rückgabebindung verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-043"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung nennt die rechtmäßige Rückgabepflicht als entscheidenden Grund.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "2.II.1.d",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Unterschlagung gem. § 246 Abs. 1, 2 StGB",
+          "Objektiver Tatbestand",
+          "Qualifikation des § 246 Abs. 2 StGB"
+        ]
+      }
+    },
+    {
+      "id": "C-026",
+      "criticality": 2,
+      "title": "Vorsatz der veruntreuenden Unterschlagung",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung im Prüfungskomplex des § 246 Abs. 1, 2 StGB den Vorsatz des T bejaht und inhaltlich darauf stützt, dass T den nur zur Probefahrt überlassenen VW Golf entgegen der Rückgabepflicht behalten, als eigenen weiterverkaufen und H dauerhaft von dem Fahrzeug ausschließen wollte. Die Begründung darf sich aus der im selben Prüfungskomplex vorgenommenen Anwendung des Zueignungswillens und des Anvertrautseins ergeben. NICHT ERFÜLLT, wenn lediglich formelhaft „T handelte vorsätzlich“ festgestellt wird, ohne dass im selben Prüfungskomplex diese Zueignungsplanung und die zweckgebundene Überlassung ausgeführt sind, oder wenn die zunächst erlaubte Probefahrt als Ausschluss des Vorsatzes behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-044"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Die überstrenge Forderung nach einer gesonderten subjektiven Wiederholung aller objektiven Umstände wurde beseitigt. Maßgeblich bleibt eine substantiierte Vorsatzbegründung innerhalb derselben §-246-Prüfung; eine isolierte Vorsatzformel genügt weiterhin nicht.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.II.2",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Unterschlagung gem. § 246 Abs. 1, 2 StGB",
+          "Subjektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-027",
+      "criticality": 2,
+      "title": "Täuschung des H bei der Probefahrtvereinbarung",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung in der Vereinbarung der Probefahrt eine konkludente Täuschung des H durch T über dessen Absicht sieht, den VW Golf ernsthaft zu erproben und anschließend zurückzubringen, obwohl T von Anfang an weder kaufen noch zurückgeben wollte. NICHT ERFÜLLT, wenn mangels ausdrücklicher Rückgabezusage jede Täuschung verneint oder erst das spätere Behalten als Täuschung behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-046"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Täuschung wird ausdrücklich bereits in der Probefahrtvereinbarung verortet.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.III.1.a",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Betrugs gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Täuschung"
+        ]
+      }
+    },
+    {
+      "id": "C-028",
+      "criticality": 2,
+      "title": "Irrtum des H über die Rückgabeabsicht",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung bei H zumindest ein sachgedankliches Mitbewusstsein feststellt, dass T den VW Golf nach der Probefahrt zurückgeben werde, und darin den täuschungsbedingten Irrtum sieht. NICHT ERFÜLLT, wenn ein Irrtum allein mangels ausdrücklich geäußerter Gedanken Hs verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-047"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung bejaht mindestens ein sachgedankliches Mitbewusstsein.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.III.1.b",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Betrugs gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Dadurch Irrtum"
+        ]
+      }
+    },
+    {
+      "id": "C-029",
+      "criticality": 2,
+      "title": "Vermögensminderung durch Verlust der Sachherrschaft",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung den Verlust von Besitz und Gewahrsam des H am VW Golf als Vermögensminderung einordnet, weil H trotz zunächst fortbestehenden Eigentums die wirtschaftlich wesentlichen Nutzungs- und Verfügungsmöglichkeiten nicht mehr ausüben konnte. NICHT ERFÜLLT, wenn wegen des formal fortbestehenden Eigentums jede Vermögensminderung verneint wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-048"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; der wirtschaftliche Bedeutungsverlust wird ausdrücklich erläutert.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.III.1.c.aa",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Betrugs gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensverfügung",
+          "Vermögensminderung"
+        ]
+      }
+    },
+    {
+      "id": "C-030",
+      "criticality": 1,
+      "title": "Vermögensschutz trotz geplanter Veräußerung",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung Besitz und Gewahrsam des H am VW Golf trotz dessen geplanten Verkaufs des nicht verkehrssicheren Fahrzeugs als strafrechtlich geschützte Vermögenspositionen behandelt, weil der Besitz des Autos als solcher von der Rechtsordnung nicht missbilligt wird. NICHT ERFÜLLT, wenn H allein wegen seines geplanten unredlichen Verkaufs jeder Vermögensschutz versagt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-049"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung trennt Vermögensbestand und geplante Verwendung.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "2.III.1.c.aa",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Betrugs gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensverfügung",
+          "Vermögensminderung"
+        ]
+      }
+    },
+    {
+      "id": "C-031",
+      "criticality": 2,
+      "title": "Unmittelbare Vermögensverfügung des H",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung die freiwillige Fahrzeugüberlassung als unmittelbare Vermögensverfügung des H einordnet, weil H bereits mit dem gestatteten Verlassen des Geländes seine Sachherrschaft verlor und T keinen weiteren, vom Einverständnis ungedeckten Zwischenschritt zur Vermögensminderung vornehmen musste. NICHT ERFÜLLT, wenn die Vermögensminderung erst dem späteren Heimfahren zugerechnet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-050"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung bejaht die Unmittelbarkeit mit genau dieser Abgrenzung.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.III.1.c.bb",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Betrugs gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensverfügung",
+          "Unmittelbarkeit"
+        ]
+      }
+    },
+    {
+      "id": "C-032",
+      "criticality": 2,
+      "title": "Unkompensierter Schaden des H",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung einen Vermögensschaden des H bejaht, weil dem Verlust von Besitz und Gewahrsam am VW Golf keine gleichwertige Gegenleistung gegenüberstand und Herausgabe- oder Schadensersatzansprüche gegen T wegen ihres erheblichen Durchsetzungsrisikos keine vollständige Kompensation boten. NICHT ERFÜLLT, wenn das fortbestehende Eigentum oder bloße Zivilansprüche als vollständiger wirtschaftlicher Ausgleich behandelt werden.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-051",
+        "A-052"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; Vermögensminderung und fehlende gleichwertige Kompensation bilden gemeinsam die Schadensprüfung.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.III.1.d",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Betrugs gem. § 263 Abs. 1 StGB",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensschaden"
+        ]
+      }
+    },
+    {
+      "id": "C-033",
+      "criticality": 2,
+      "title": "Vorsatz beim Probefahrtbetrug",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung im Rahmen des Probefahrtbetrugs den Vorsatz des T daraus herleitet, dass er schon bei der Vereinbarung der Probefahrt konkludent eine ernsthafte Erprobungs- und Rückgabeabsicht vorspiegelte, tatsächlich aber das nur zur Probefahrt überlassene Fahrzeug dauerhaft behalten und durch Weiterverkauf verwerten wollte. Die erforderliche Begründung kann sich aus der zusammenhängenden Täuschungs- und Vorsatzprüfung dieses Betrugs ergeben. NICHT ERFÜLLT, wenn T den Entschluss zum Behalten erst nach der Überlassung gefasst haben soll oder wenn weder seine bei Vertragsschluss fehlende Rückgabeabsicht noch sein damaliger Behalte- und Verwertungsplan in der Prüfung des Probefahrtbetrugs inhaltlich ausgeführt werden.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-053"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Die überstrenge Forderung nach einer ausdrücklichen Wiederholung des gesamten Kausalverlaufs im subjektiven Tatbestand wurde entfernt. Erforderlich bleibt eine inhaltliche Herleitung des Vorsatzes aus der schon bei der Vereinbarung fehlenden Rückgabeabsicht innerhalb desselben Betrugsprüfungskomplexes.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.III.2",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Betrugs gem. § 263 Abs. 1 StGB",
+          "Subjektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-034",
+      "criticality": 2,
+      "title": "Eigenbereicherungsabsicht des T",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung eine Eigenbereicherungsabsicht des T annimmt, weil er den erschlichenen VW Golf behalten und durch den geplanten Weiterverkauf wirtschaftlich verwerten wollte. NICHT ERFÜLLT, wenn mangels Kenntnis des wirklichen Fahrzeugwerts jede Bereicherungsabsicht verneint oder nur eine vorübergehende Nutzung angenommen wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-054"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung stützt die Eigenbereicherungsabsicht auf Behalten und Weiterverkauf.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.III.2",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Betrugs gem. § 263 Abs. 1 StGB",
+          "Subjektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-035",
+      "criticality": 2,
+      "title": "Stoffgleichheit beim Probefahrtbetrug",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung den von T erstrebten Vorteil als stoffgleich mit Hs Schaden behandelt, weil Ts Herrschafts- und Verwertungsmöglichkeit unmittelbar aus derselben täuschungsbedingten Fahrzeugüberlassung stammen sollte, durch die H Besitz und Gewahrsam verlor. NICHT ERFÜLLT, wenn nur der spätere Verkaufserlös ohne Verbindung zur ursprünglichen Überlassung als Vorteil bezeichnet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-055"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung stellt die Verbindung zur selben Fahrzeugüberlassung ausdrücklich her.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.III.2",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Betrugs gem. § 263 Abs. 1 StGB",
+          "Subjektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-036",
+      "criticality": 1,
+      "title": "Rechtswidrigkeit des von T erstrebten Vorteils",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung den beim Probefahrtbetrug erstrebten Vorteil des T als rechtswidrig einordnet, weil T keinen fälligen und durchsetzbaren Anspruch auf das Behalten oder wirtschaftliche Verwerten des VW Golf hatte. NICHT ERFÜLLT, wenn aus der Probefahrtvereinbarung ein entsprechender Anspruch abgeleitet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-056"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; Anspruchslosigkeit und Rechtswidrigkeit werden ausdrücklich festgestellt.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.III.2",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Strafbarkeit des T wegen Betrugs gem. § 263 Abs. 1 StGB",
+          "Subjektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-037",
+      "criticality": 1,
+      "title": "Keine formelle Subsidiarität nach § 246 StGB",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung erkennt, dass die formelle Subsidiaritätsklausel des § 246 Abs. 1 StGB gegenüber dem Probefahrtbetrug nicht eingreift, weil § 263 Abs. 1 StGB keine schwerere Strafdrohung als die qualifizierte Unterschlagung nach § 246 Abs. 2 StGB enthält. NICHT ERFÜLLT, wenn § 246 Abs. 1, 2 StGB allein über die formelle Subsidiaritätsklausel verdrängt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [],
+      "derived_from_atoms": [
+        "A-058"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung verneint die formelle Subsidiarität wegen des gleichen Strafmaßes.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "2.IV",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Konkurrenzen"
+        ]
+      }
+    },
+    {
+      "id": "C-038",
+      "criticality": 3,
+      "title": "Materielle Subsidiarität der Unterschlagung",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung die tatbestandlich verwirklichte veruntreuende Unterschlagung nach § 246 Abs. 1, 2 StGB materiell hinter den Probefahrtbetrug nach § 263 Abs. 1 StGB zurücktreten lässt, weil der Betrug bereits den durch die Überlassung bewirkten Gewahrsamsverlust des H erfasst. NICHT ERFÜLLT, wenn beide Delikte ohne Konkurrenzauflösung selbstständig nebeneinanderstehen oder der Betrug zurücktritt.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [],
+      "derived_from_atoms": [
+        "A-059"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die materielle Subsidiarität wird ausdrücklich mit dem bereits erfassten Gewahrsamsverlust begründet.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "2.IV",
+        "station_path": [
+          "Tatkomplex: Die Probefahrt",
+          "Konkurrenzen"
+        ]
+      }
+    },
+    {
+      "id": "C-039",
+      "criticality": 2,
+      "title": "Täuschung über die Verkaufsberechtigung",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung beim Verkauf des konkreten gebrauchten VW Golf an V eine konkludente Täuschung des T über seine Verkaufsberechtigung annimmt und dies mit dem persönlich geprägten Stückkauf sowie der Verkehrserwartung begründet, der Verkäufer dürfe das Fahrzeug veräußern. NICHT ERFÜLLT, wenn die Täuschung allein mit dem abstrakten Hinweis verneint wird, Kaufverträge könnten auch über fremde Sachen geschlossen werden.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-060"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung begründet die konkludente Erklärung mit der konkreten Verkehrserwartung beim Gebrauchtwagenkauf.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "3.I.1.a",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Objektiver Tatbestand",
+          "Täuschung über Tatsachen"
+        ]
+      }
+    },
+    {
+      "id": "C-040",
+      "criticality": 2,
+      "title": "Irrtum des V über Ts Verkaufsberechtigung",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung bei V zumindest ein sachgedankliches Mitbewusstsein feststellt, dass T zum Verkauf des VW Golf berechtigt sei und hinsichtlich Herkunft und Eigentumslage alles in Ordnung sei. NICHT ERFÜLLT, wenn der Irrtum allein deshalb verneint wird, weil V keine ausdrücklich formulierten Gedanken zur Eigentümerstellung hatte.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-061"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung bejaht ausdrücklich ein sachgedankliches Mitbewusstsein.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "3.I.1.b",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Objektiver Tatbestand",
+          "Dadurch Irrtum"
+        ]
+      }
+    },
+    {
+      "id": "C-041",
+      "criticality": 2,
+      "title": "Vermögensverfügung des V beim Autokauf",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung entweder den per E-Mail geschlossenen Kaufvertrag als Verfügung eines möglichen Eingehungsbetrugs behandelt, weil V dadurch eine bestimmte und voraussichtlich zu erfüllende Zahlungspflicht von 8.000 € einging, oder auf die spätere Barzahlung als Verfügung eines möglichen Erfüllungsbetrugs abstellt und den Wert der erhaltenen Gegenleistung prüft. NICHT ERFÜLLT, wenn weder Vertragsschluss noch Zahlung als vermögensrelevante Handlung untersucht werden.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-062"
+      ],
+      "review_notes": [
+        "Eingehungs- und Erfüllungsbetrug sind ausdrücklich zugelassene Ansätze.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung untersucht beide ausdrücklich zugelassenen Verfügungsansätze.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "3.I.1.c",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensverfügung"
+        ]
+      }
+    },
+    {
+      "id": "C-042",
+      "criticality": 2,
+      "title": "Fehlende Verfügungsbefugnis des T",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung feststellt, dass T weder Eigentümer des VW Golf noch von H nach § 185 Abs. 1 BGB zur Übereignung ermächtigt war und V deshalb nur nach den Regeln des gutgläubigen Erwerbs Eigentum erlangen konnte. NICHT ERFÜLLT, wenn T aufgrund seines Besitzes oder des gefälschten Fahrzeugbriefs als tatsächlich verfügungsbefugt behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-063"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung unterscheidet fehlende Berechtigung und gutgläubigen Erwerb.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "3.I.1.d.aa",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensschaden",
+          "Zahlung der 8.000 €"
+        ]
+      }
+    },
+    {
+      "id": "C-043",
+      "criticality": 2,
+      "title": "Guter Glaube des V",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung V bei der Übereignung als gutgläubig im Sinne des § 932 Abs. 2 BGB behandelt, weil der Sachverhalt keine Kenntnis oder grob fahrlässige Unkenntnis von Ts fehlendem Eigentum erkennen lässt. NICHT ERFÜLLT, wenn V ohne sachverhaltliche Anhaltspunkte Bösgläubigkeit oder grobe Fahrlässigkeit zugeschrieben oder der Fahrzeugbrief als konstitutiver Eigentumsnachweis behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-064"
+      ],
+      "review_notes": [
+        "Eine tatsächliche Vorlage des gefälschten Fahrzeugbriefs wird nicht vorausgesetzt.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung bejaht den guten Glauben, ohne den Fahrzeugbrief als konstitutiven Eigentumsnachweis zu behandeln.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "3.I.1.d.aa",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensschaden",
+          "Zahlung der 8.000 €"
+        ]
+      }
+    },
+    {
+      "id": "C-044",
+      "criticality": 3,
+      "title": "Kein Abhandenkommen nach § 935 BGB",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung ein Abhandenkommen des VW Golf nach § 935 Abs. 1 S. 1 BGB verneint, weil H T freiwillig eigenen Besitz zur Probefahrt einräumte; T war mangels eines Weisungsverhältnisses kein bloßer Besitzdiener nach § 855 BGB. NICHT ERFÜLLT, wenn Hs Besitzverlust erst beim abredewidrigen Behalten angesetzt oder T ohne Weisungsverhältnis als Besitzdiener behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-066",
+        "A-067"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; eigener Besitz des T und fehlendes Weisungsverhältnis werden ausdrücklich begründet.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "3.I.1.d.aa",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensschaden",
+          "Zahlung der 8.000 €"
+        ]
+      }
+    },
+    {
+      "id": "C-045",
+      "criticality": 1,
+      "title": "Besitzverschaffung durch T",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung erkennt, dass T als unmittelbarer Besitzer des VW Golf V bei der Abholung den für §§ 929 S. 1, 932 Abs. 1 BGB erforderlichen Besitz verschaffen konnte. NICHT ERFÜLLT, wenn Ts fehlendes Eigentum mit fehlender tatsächlicher Besitzverschaffungsmacht gleichgesetzt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-065"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Besitzverschaffungsmacht wird ausdrücklich bejaht.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "3.I.1.d.aa",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensschaden",
+          "Zahlung der 8.000 €"
+        ]
+      }
+    },
+    {
+      "id": "C-046",
+      "criticality": 1,
+      "title": "Keine Ansprüche des H gegen V",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung feststellt, dass V nach seinem gutgläubigen Eigentumserwerb den VW Golf nicht an H herausgeben musste und H wegen des Erwerbs auch keinen entsprechenden Schadensersatzanspruch gegen V hatte. NICHT ERFÜLLT, wenn V trotz wirksamen Eigentumserwerbs ohne besondere Grundlage als gegenüber H herausgabe- oder schadensersatzpflichtig behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-069"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; beide Folgen des gutgläubigen Eigentumserwerbs werden ausdrücklich festgestellt.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "3.I.1.d.aa",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensschaden",
+          "Zahlung der 8.000 €"
+        ]
+      }
+    },
+    {
+      "id": "C-047",
+      "criticality": 1,
+      "title": "Kein Schaden nach der Makeltheorie",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung einen Vermögensschaden nicht allein daraus herleitet, dass V gutgläubig Eigentum von einem Nichtberechtigten erwarb, weil ein bloß abstraktes Risiko späterer Angriffe des früheren Eigentümers keine wirtschaftliche Bemakelung des Eigentums begründet. NICHT ERFÜLLT, wenn die deliktische Herkunft des Fahrzeugs ohne konkrete Verlustgefahr bereits als voller Vermögensschaden behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-070"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung verwirft einen Schaden aus einem lediglich abstrakten Prozessrisiko.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "3.I.1.d.aa",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensschaden",
+          "Zahlung der 8.000 €"
+        ]
+      }
+    },
+    {
+      "id": "C-048",
+      "criticality": 2,
+      "title": "Minderwertschaden von 7.500 €",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung bei der wirtschaftlichen Saldierung der Zahlung von 8.000 € den objektiven Wert des nicht verkehrssicheren Unfallwagens von 500 € ansetzt und daraus einen Vermögensschaden des V von 7.500 € ableitet. NICHT ERFÜLLT, wenn wegen des Eigentumserwerbs jeder Schaden verneint oder ohne sachverhaltliche Grundlage ein anderer Fahrzeugwert verwendet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-071"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung verwendet die genannten Werte und ermittelt 7.500 €.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "3.I.1.d.aa",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensschaden",
+          "Zahlung der 8.000 €"
+        ]
+      }
+    },
+    {
+      "id": "C-049",
+      "criticality": 1,
+      "title": "Gewährleistungsausschluss beseitigt Minderwert nicht",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung erkennt, dass der zwischen T und V vereinbarte Ausschluss von Gewährleistungsrechten den objektiven Minderwert des für 8.000 € erworbenen, tatsächlich nur 500 € wertvollen Unfallwagens nicht kompensiert. NICHT ERFÜLLT, wenn der Gewährleistungsausschluss als Ausschluss des Vermögensschadens behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-076"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung stellt ausdrücklich klar, dass der Minderwert fortbesteht.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "3.I.1.d.aa",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensschaden",
+          "Zahlung der 8.000 €"
+        ]
+      }
+    },
+    {
+      "id": "C-050",
+      "criticality": 2,
+      "title": "Keine konkrete Gefährdung über 8.000 €",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung beim Vertragsschluss keine konkrete Vermögensgefährdung in Höhe der vollen 8.000 € allein aus Ts fehlender Berechtigung ableitet, weil eine Rückforderung durch H vor der Übereignung nur ein geringes abstraktes Risiko und die Nichterfüllung nicht überwiegend wahrscheinlich war. NICHT ERFÜLLT, wenn jedes Geschäft mit einem unredlichen Verkäufer ohne Wahrscheinlichkeitsprüfung als konkreter Totalschaden behandelt wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-072"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung prüft Wahrscheinlichkeit und konkrete Gefährdung ausdrücklich.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "3.I.1.d.bb",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Objektiver Tatbestand",
+          "Dadurch Vermögensschaden",
+          "Durch den Vertragsschluss"
+        ]
+      }
+    },
+    {
+      "id": "C-051",
+      "criticality": 2,
+      "title": "Kein vorsätzlicher Zustandsbetrug",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung Ts Aussage, mit dem VW Golf sei „alles in Ordnung“, hinsichtlich Unfallschaden und fehlender Verkehrssicherheit als objektiv falsch erkennt, einen entsprechenden Täuschungsvorsatz aber verneint, weil T diese schadensbegründenden Mängel nicht kannte. NICHT ERFÜLLT, wenn T das Wissen des H zugerechnet oder aus der objektiven Falschheit automatisch Vorsatz abgeleitet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-074",
+        "A-075"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; objektive Falschheit und fehlende Kenntnis des T werden klar getrennt.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "application",
+        "outline_id": "3.I.2",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Subjektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-052",
+      "criticality": 3,
+      "title": "Fehlende Kongruenz beim Autobetrug",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung einen vollendeten Betrug des T zulasten des V verneint, weil Ts Vorsatz zwar seine fehlende Berechtigung und Herkunftsdarstellung erfasste, diese Umstände wegen Vs gutgläubigen Eigentumserwerbs aber keinen Schaden verursachten; den Schaden von 7.500 € begründeten dagegen T unbekannte Fahrzeugmängel. NICHT ERFÜLLT, wenn vorsätzlich getäuschte und schadensbegründende Tatsachenketten vermischt oder trotz fehlenden Vorsatzes hinsichtlich der Mängel ein vollendeter Betrug bejaht wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-077",
+        "A-078"
+      ],
+      "review_notes": [
+        "Die Herkunfts- und Zustandskette müssen auseinandergehalten werden.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung trennt beide Tatsachenketten ausdrücklich.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "3.I.2",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Subjektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-053",
+      "criticality": 2,
+      "title": "Kein versuchter Betrug zulasten des V",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung einen versuchten Betrug des T nach §§ 263 Abs. 1, Abs. 2, 22, 23 Abs. 1 StGB verneint, weil T mangels Kenntnis des Unfallschadens und der fehlenden Verkehrssicherheit keine Vorstellung von einem bei V eintretenden Vermögensschaden hatte. NICHT ERFÜLLT, wenn allein aus der bewussten Herkunfts- oder Berechtigungstäuschung ein Tatentschluss hinsichtlich eines Schadens abgeleitet wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-079"
+      ],
+      "review_notes": [
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die fehlende Schadensvorstellung wird ausdrücklich als Grund für die Verneinung des Versuchs genannt.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "conclusion",
+        "outline_id": "3.I.3",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 263 Abs. 1 StGB durch den Verkauf an V, zulasten und gegenüber V",
+          "Ergebnis"
+        ]
+      }
+    },
+    {
+      "id": "C-054",
+      "criticality": 3,
+      "title": "Keine erneute Unterschlagung durch Weiterverkauf",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung nach der Tatbestandslösung eine erneute Unterschlagung durch Verkauf oder Übereignung des VW Golf an V verneint: Ts Zueignungswille war bereits durch die erste Zueignung betätigt, und der von Anfang an geplante Weiterverkauf verwirklichte nur den schon angelegten wirtschaftlichen Selbstzueignungswillen, nicht eine eigenständige Drittzueignung. NICHT ERFÜLLT, wenn Verkauf oder Übereignung als neue tatbestandsmäßige Zueignung oder lediglich als mitbestrafte Nachtat behandelt werden.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-081",
+        "A-082",
+        "A-083",
+        "A-084"
+      ],
+      "review_notes": [
+        "Der abstrakte Maßstab ist mit Ts ursprünglichem Verwertungsplan verbunden.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; die Musterlösung folgt der Tatbestandslösung und verbindet sie mit dem ursprünglichen Selbstzueignungswillen.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "argumentation",
+        "outline_id": "3.III.1",
+        "station_path": [
+          "Tatkomplex: Verkauf des Autos an V",
+          "Strafbarkeit des T gem. § 246 Abs. 1 StGB durch Verkauf/Übereignung an V",
+          "Objektiver Tatbestand"
+        ]
+      }
+    },
+    {
+      "id": "C-055",
+      "criticality": 1,
+      "title": "Ausschluss der Urkundendelikte",
+      "match_criteria": "ERFÜLLT, wenn die Falllösung den gefälschten Fahrzeugbrief nur als Sachverhaltsumstand verwendet, aber entsprechend dem Bearbeitungsvermerk keine eigenständige Strafbarkeit nach §§ 267 ff. StGB materiell prüft oder bejaht. NICHT ERFÜLLT, wenn T wegen eines Urkundendelikts verurteilt oder dieser ausdrücklich ausgeschlossene Deliktskomplex als Teil der verlangten Strafbarkeit geprüft wird.",
+      "deliverables": [
+        "fallloesung.md"
+      ],
+      "sources": [
+        "documents/sachverhalt.md"
+      ],
+      "derived_from_atoms": [
+        "A-086"
+      ],
+      "review_notes": [
+        "Die Beachtung des Ausschlusses ist platzierungsunabhängig.",
+        "Kalibrierung: Urteil des Judges nicht einstimmig; Kriterium bei der menschlichen Prüfung besonders beachten."
+      ],
+      "refinement_note": "Keine inhaltliche Änderung; der maßgebliche Prüfungsausschluss bleibt gewahrt und wird nicht in eine positive Inhaltsanforderung umgedeutet.",
+      "calibration": {
+        "status": "flaky",
+        "agreement": "2/3",
+        "round": 2
+      },
+      "analysis_tags": {
+        "function": "structure",
+        "outline_id": "Ü",
+        "station_path": [
+          "Übergreifend"
+        ]
+      }
+    }
+  ],
+  "validation_warnings": [],
+  "provenance": {
+    "source": "evals/rubric.generated.json",
+    "provider": "openai",
+    "model": "gpt-5.6-sol",
+    "candidate_roles": [
+      "doctrine",
+      "fact_grounding",
+      "adversary"
+    ],
+    "calibration": {
+      "enabled": true,
+      "mode": "committee",
+      "judge_model": null,
+      "judge_reasoning_effort": null,
+      "committee": [
+        {
+          "name": "luna",
+          "model": "gpt-5.6-luna",
+          "api_base": "https://api.openai.com/v1",
+          "reasoning_effort": "medium",
+          "parallel": 8
+        },
+        {
+          "name": "terra",
+          "model": "gpt-5.6-terra",
+          "api_base": "https://api.openai.com/v1",
+          "reasoning_effort": "medium",
+          "parallel": 8
+        },
+        {
+          "name": "gemini-3.6-flash",
+          "model": "google/gemini-3.6-flash",
+          "api_base": "https://openrouter.ai/api/v1",
+          "reasoning_effort": null,
+          "parallel": 4
+        }
+      ],
+      "votes": 3,
+      "max_rounds": 2
+    }
+  }
+}

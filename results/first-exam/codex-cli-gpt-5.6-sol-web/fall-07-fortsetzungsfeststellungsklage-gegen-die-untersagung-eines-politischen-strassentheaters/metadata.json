@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.1",
+  "harness": "codex-cli-ephemeral-web",
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/fortsetzungsfeststellungsklage/fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters",
+  "solver_case_id": "case-002",
+  "task_identity_anonymized": true,
+  "source_task_dir": "tasks/de/oeffentliches-recht/verwaltungsrecht/fortsetzungsfeststellungsklage/fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/verwaltungsrecht/fortsetzungsfeststellungsklage/fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "solver_configuration": {
+    "model": "gpt-5.6-sol",
+    "reasoning_effort": "medium",
+    "model_source": "cli-override",
+    "reasoning_effort_source": "cli-override",
+    "event_stream_verified": false,
+    "note": "Codex JSONL does not report the resolved model and reasoning effort. Pin both CLI options for a fully self-contained run record."
+  },
+  "tool_access": "full",
+  "live_web_search": true,
+  "web_search_mode": "live",
+  "blocked_domains": [
+    "dskrpt.de",
+    "forum-iuridicum.com",
+    "moodle.ruhr-uni-bochum.de",
+    "openrewi.org",
+    "pure.mpg.de",
+    "wikibooks.org",
+    "zjs-online.com"
+  ],
+  "blocked_domain_policy": {
+    "blocked_domains": [
+      "dskrpt.de",
+      "forum-iuridicum.com",
+      "moodle.ruhr-uni-bochum.de",
+      "openrewi.org",
+      "pure.mpg.de",
+      "wikibooks.org",
+      "zjs-online.com"
+    ],
+    "passed": true,
+    "violations": []
+  },
+  "web_access_policy": {
+    "web_search_allowed": true,
+    "passed": true,
+    "violations": []
+  },
+  "search_leakage_audit": {
+    "enforcement": "informational-only",
+    "flagged": true,
+    "flags": [
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"2 Kostüme, Attrappen, Informationen\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "2 Kostüme, Attrappen, Informationen"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"Wachposten\" \"Sturmgewehrattrappe\" Kunstfreiheit -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Wachposten"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"Wachposten\" \"Sturmgewehrattrappe\" Kunstfreiheit -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Sturmgewehrattrappe"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "site:rechtsprechung-im-internet.de \"Theateraufführung\" \"42a\" WaffG -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Theateraufführung"
+      }
+    ]
+  },
+  "memories_enabled": false,
+  "ephemeral": true,
+  "project_context": false,
+  "user_config_and_configured_tools_loaded": true,
+  "command": [
+    "codex",
+    "--search",
+    "--sandbox",
+    "danger-full-access",
+    "--ask-for-approval",
+    "never",
+    "--cd",
+    "$TMPDIR/lab-eu-codex-lsnd89jq",
+    "--disable",
+    "memories",
+    "--model",
+    "gpt-5.6-sol",
+    "--config",
+    "model_reasoning_effort=\"medium\"",
+    "exec",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--json",
+    "--output-last-message",
+    "$TMPDIR/lab-eu-codex-lsnd89jq/.codex-final-message.md",
+    "-"
+  ],
+  "attempt_count": 1,
+  "attempts": [
+    {
+      "attempt": 1,
+      "outcome": "ok",
+      "reason": "deliverable captured",
+      "exit_code": 0,
+      "timed_out": false,
+      "started_at": "2026-11-16T11:41:35.594944+00:00",
+      "ended_at": "2026-11-16T11:46:13.715140+00:00",
+      "duration_seconds": 278.12
+    }
+  ],
+  "expected_deliverables": [
+    "fallloesung-sut.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung-sut.md",
+      "found": true,
+      "bytes": 14240,
+      "sha256": "c045efadb5477bec6cd7b878277a68e491afd5bf7ec3fb85bf3eecd0b41f486e"
+    }
+  ],
+  "missing_deliverables": [],
+  "unexpected_files": [],
+  "used_final_message_fallback": false,
+  "source_audit": {
+    "search_queries": 20,
+    "recorded_open_or_fetch_urls": 0,
+    "used_urls": 12,
+    "cited_urls": 0,
+    "unique_used_source_urls": 12,
+    "unique_used_source_domains": 4,
+    "unique_source_urls": 12,
+    "unique_source_domains": 4,
+    "blocked_domain_violations": 0,
+    "search_leakage_flags": 4,
+    "web_access_violations": 0
+  },
+  "source_audit_json": "runs/codex-web-45-leak-rerun/20261116T114135Z/tasks/de__oeffentliches-recht__verwaltungsrecht__fortsetzungsfeststellungsklage__fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters/sources.json",
+  "source_audit_markdown": "runs/codex-web-45-leak-rerun/20261116T114135Z/tasks/de__oeffentliches-recht__verwaltungsrecht__fortsetzungsfeststellungsklage__fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters/sources.md",
+  "exit_code": 0
+}

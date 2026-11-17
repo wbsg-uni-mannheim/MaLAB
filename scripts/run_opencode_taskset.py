@@ -1,0 +1,1272 @@
+#!/usr/bin/env python3
+"""Run OpenCode against an explicit LAB-EU taskset."""
+
+from __future__ import annotations
+
+import argparse
+import datetime as dt
+import hashlib
+import json
+import os
+import pathlib
+import re
+import shutil
+import subprocess
+import sys
+import tarfile
+import time
+import uuid
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import Any
+
+from dotenv import load_dotenv
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+
+import retry_util  # noqa: E402
+from task_identity import task_format_label  # noqa: E402
+import sandbox_spec  # noqa: E402
+
+
+REPO_ROOT = pathlib.Path(__file__).resolve().parents[1]
+PROMPTS_DIR = REPO_ROOT / "prompts" / "harness"
+DEFAULT_MODEL = "openrouter/deepseek/deepseek-v4-pro"
+DEFAULT_VARIANT = "medium"
+DEFAULT_RUN_NAME = "opencode-openrouter-deepseek-v4-pro-medium"
+DEFAULT_DOCKER_IMAGE = "lab-eu-opencode-harness:latest"
+DEFAULT_OPENCODE_DIR = REPO_ROOT / "vendor" / "opencode"
+# Prepared plugin tree bound read-only into the jail; see JAIL_OPENCODE_PLUGINS.
+DEFAULT_OPENCODE_PLUGINS = REPO_ROOT / "vendor" / "opencode-home" / "opencode" / "node_modules"
+# Provider credentials the agent process needs. Never placed on a command line.
+# Only the key the chosen model actually uses is handed into the jail: an
+# OpenRouter run has no business seeing the OpenAI key.
+PROVIDER_SECRET_ENV = {
+    "openrouter": "OPENROUTER_API_KEY",
+    "openai": "OPENAI_API_KEY",
+    "deepseek": "DEEPSEEK_API_KEY",
+}
+SECRET_ENV_NAMES = tuple(sorted(set(PROVIDER_SECRET_ENV.values())))
+
+
+def secret_env_names(model: str) -> tuple[str, ...]:
+    """The credential variable names for ``provider/model-id``.
+
+    Falls back to every known name for an unrecognised provider prefix, so a
+    new provider works before this table knows about it."""
+    provider, _, _ = model.partition("/")
+    name = PROVIDER_SECRET_ENV.get(provider.lower())
+    return (name,) if name else SECRET_ENV_NAMES
+
+OPENCODE_PERMISSION_CONFIG: dict[str, Any] = {
+    "$schema": "https://opencode.ai/config.json",
+    "permission": {
+        "*": "deny",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "edit": {"*": "allow"},
+        "bash": {
+            "*": "deny",
+            "pwd": "allow",
+            "ls": "allow",
+            "ls *": "allow",
+            "find *": "allow",
+            "cat *": "allow",
+            "sed *": "allow",
+        },
+        "webfetch": "deny",
+        "websearch": "deny",
+        "external_directory": "deny",
+    },
+}
+
+# Output-token ceilings per model. OpenCode sends its per-model output limit as
+# the request max_tokens; for reasoning models the hidden reasoning tokens are
+# billed against it, so a low default can be exhausted before the agent writes
+# its deliverable file (finish reason "length", empty submission). Raise the
+# ceiling to the model's real max output so reasoning + final answer both fit.
+# (context_window, max_output) per model. OpenCode requires BOTH keys when a
+# limit block is set. glm-5.2: 1.05M context, 128k output.
+MODEL_LIMITS: dict[str, tuple[int, int]] = {
+    "z-ai/glm-5.2": (1_050_000, 128_000),
+}
+
+# These study models are available from the OpenAI API before they appear in
+# OpenCode's bundled model registry. Registering them explicitly keeps frozen
+# study arms runnable without changing the requested model IDs.
+UNLISTED_PROVIDER_MODELS = {
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+}
+
+
+def build_opencode_config(model: str) -> dict[str, Any]:
+    """Permission config plus a per-model context/output-limit override when known."""
+    config = json.loads(json.dumps(OPENCODE_PERMISSION_CONFIG))
+    # model is "provider/model-id" (e.g. "openrouter/z-ai/glm-5.2").
+    provider, _, model_id = model.partition("/")
+    limits = MODEL_LIMITS.get(model_id)
+    model_config: dict[str, Any] = {}
+    if limits:
+        context, output = limits
+        model_config["limit"] = {"context": context, "output": output}
+    if provider and model_id and (limits or model_id in UNLISTED_PROVIDER_MODELS):
+        config["provider"] = {provider: {"models": {model_id: model_config}}}
+    return config
+
+
+def utc_now() -> dt.datetime:
+    return dt.datetime.now(dt.timezone.utc)
+
+
+def iso_now() -> str:
+    return utc_now().isoformat()
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Run OpenCode on a LAB-EU taskset.")
+    parser.add_argument("--taskset", type=pathlib.Path, required=True, help="JSONL taskset file.")
+    parser.add_argument("--run-name", default=DEFAULT_RUN_NAME)
+    parser.add_argument("--runs-dir", type=pathlib.Path, default=REPO_ROOT / "runs")
+    parser.add_argument("--model", default=DEFAULT_MODEL)
+    parser.add_argument("--variant", default=DEFAULT_VARIANT)
+    parser.add_argument("--agent", default="", help="Optional OpenCode agent name.")
+    parser.add_argument("--timeout-seconds", type=int, default=7200)
+    parser.add_argument("--parallel", type=int, default=1)
+    parser.add_argument(
+        "--max-attempts",
+        type=int,
+        default=retry_util.DEFAULT_MAX_ATTEMPTS,
+        help=(
+            "Attempts per task, including the first "
+            f"(default {retry_util.DEFAULT_MAX_ATTEMPTS} = 1 + 10 retries). Only "
+            "infrastructure failures are retried; a solver that finishes without "
+            "its deliverable is never repeated, because best-of-N sampling would "
+            "inflate the score."
+        ),
+    )
+    parser.add_argument(
+        "--retry-base-delay",
+        type=float,
+        default=retry_util.BASE_DELAY_SECONDS,
+        help="First backoff delay in seconds; doubles per failure up to "
+             f"{retry_util.MAX_DELAY_SECONDS:.0f}s.",
+    )
+    parser.add_argument(
+        "--retry-on-timeout",
+        action="store_true",
+        help=(
+            "Also retry tasks that hit --timeout-seconds. Off by default: a "
+            "timeout is usually a stuck agent, and repeating it costs the full "
+            "timeout every time."
+        ),
+    )
+    parser.add_argument(
+        "--sandbox",
+        choices=["docker", "bwrap", "local"],
+        default="docker",
+        help=(
+            "Enforcement profile. 'docker' needs a daemon (local workstations); "
+            "'bwrap' is the unprivileged-namespace jail for cluster nodes; "
+            "'local' runs OpenCode unconfined and must never be used for "
+            "headline runs."
+        ),
+    )
+    parser.add_argument(
+        "--opencode-dir",
+        type=pathlib.Path,
+        default=DEFAULT_OPENCODE_DIR,
+        help="Vendored OpenCode tree bind-mounted into the bwrap jail (scripts/install_opencode.sh).",
+    )
+    parser.add_argument(
+        "--opencode-plugins",
+        type=pathlib.Path,
+        default=DEFAULT_OPENCODE_PLUGINS,
+        help=(
+            "Prepared OpenCode plugin tree, bind-mounted read-only into the jail "
+            "so it is not reinstalled per task (54 MB and 3,442 files each). "
+            "Absent -> OpenCode installs its own copy, as before."
+        ),
+    )
+    parser.add_argument("--docker-image", default=DEFAULT_DOCKER_IMAGE)
+    parser.add_argument("--docker-network", default="bridge")
+    parser.add_argument("--docker-cpus", default="2")
+    parser.add_argument("--docker-memory", default="4g")
+    parser.add_argument("--docker-pids-limit", default="256")
+    parser.add_argument(
+        "--docker-auth-path",
+        type=pathlib.Path,
+        default=pathlib.Path.home() / ".local/share/opencode/auth.json",
+        help="Host OpenCode auth file to mount read-only into Docker.",
+    )
+    parser.add_argument("--no-docker-auth-mount", action="store_true")
+    parser.add_argument("--opencode-bin", default="opencode", help="OpenCode binary for local sandbox mode.")
+    parser.add_argument("--skip-workspace-archive", action="store_true")
+    parser.add_argument("--dry-run", action="store_true", help="Validate inputs and print run plan without model calls.")
+    return parser.parse_args()
+
+
+def load_json(path: pathlib.Path) -> dict[str, Any]:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def safe_task_id(task_id: str) -> str:
+    value = re.sub(r"[^A-Za-z0-9_.-]+", "__", task_id).strip("_")
+    return value or "task"
+
+
+def safe_container_name(task_id: str) -> str:
+    base = re.sub(r"[^a-zA-Z0-9_.-]+", "-", task_id).strip("-").lower()
+    return f"lab-eu-{base[:40]}-{uuid.uuid4().hex[:8]}"
+
+
+def normalize_deliverables(task: dict[str, Any], task_dir: pathlib.Path) -> list[str]:
+    raw = task.get("deliverables")
+    if isinstance(raw, str):
+        deliverables = [raw]
+    elif isinstance(raw, list) and all(isinstance(item, str) for item in raw):
+        deliverables = list(raw)
+    else:
+        raise SystemExit(f"{task_dir / 'task.json'} must define deliverables as a string or list of strings.")
+
+    for deliverable in deliverables:
+        validate_relative_path(deliverable, "deliverable")
+    return deliverables
+
+
+def validate_relative_path(value: str, label: str) -> pathlib.Path:
+    path = pathlib.PurePosixPath(value)
+    if path.is_absolute() or ".." in path.parts or not str(path):
+        raise SystemExit(f"Invalid {label} path: {value!r}")
+    return pathlib.Path(*path.parts)
+
+
+def resolve_under(path: pathlib.Path, parent: pathlib.Path, label: str) -> pathlib.Path:
+    resolved = path.resolve()
+    try:
+        resolved.relative_to(parent.resolve())
+    except ValueError as exc:
+        raise SystemExit(f"{label} must be under {parent}: {path}") from exc
+    return resolved
+
+
+def load_taskset(taskset_path: pathlib.Path) -> list[dict[str, Any]]:
+    path = taskset_path if taskset_path.is_absolute() else REPO_ROOT / taskset_path
+    if not path.exists():
+        raise SystemExit(f"Missing taskset: {path}")
+
+    tasks_root = REPO_ROOT / "tasks"
+    rows: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for line_number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1):
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        try:
+            row = json.loads(stripped)
+        except json.JSONDecodeError as exc:
+            raise SystemExit(f"{path}:{line_number}: invalid JSON: {exc}") from exc
+
+        task_id = row.get("task_id")
+        task_dir_raw = row.get("task_dir")
+        if not isinstance(task_id, str) or not task_id:
+            raise SystemExit(f"{path}:{line_number}: task_id must be a non-empty string.")
+        if not isinstance(task_dir_raw, str) or not task_dir_raw:
+            raise SystemExit(f"{path}:{line_number}: task_dir must be a non-empty string.")
+        if task_id in seen:
+            raise SystemExit(f"{path}:{line_number}: duplicate task_id: {task_id}")
+        seen.add(task_id)
+
+        task_dir = pathlib.Path(task_dir_raw)
+        task_dir = task_dir if task_dir.is_absolute() else REPO_ROOT / task_dir
+        task_dir = resolve_under(task_dir, tasks_root, "task_dir")
+        validate_task_dir(task_dir)
+
+        task = load_json(task_dir / "task.json")
+        deliverables = normalize_deliverables(task, task_dir)
+        rows.append(
+            {
+                "task_id": task_id,
+                "task_dir": task_dir,
+                "task": task,
+                "deliverables": deliverables,
+                "allow_network": bool(row.get("allow_network", False)),
+            }
+        )
+
+    if not rows:
+        raise SystemExit(f"No tasks found in {path}")
+    return rows
+
+
+def validate_task_dir(task_dir: pathlib.Path) -> None:
+    required = [
+        task_dir / "task.json",
+        task_dir / "documents",
+        task_dir / "evals" / "rubric.json",
+    ]
+    for path in required:
+        if not path.exists():
+            raise SystemExit(f"Missing required task artifact: {path}")
+    if not (task_dir / "documents").is_dir():
+        raise SystemExit(f"documents must be a directory: {task_dir / 'documents'}")
+
+
+def opencode_version(opencode_bin: str) -> str:
+    try:
+        result = subprocess.run(
+            [opencode_bin, "--version"],
+            cwd=REPO_ROOT,
+            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.DEVNULL,
+            timeout=20,
+            check=False,
+        )
+    except (OSError, subprocess.SubprocessError):
+        return "unknown"
+    return result.stdout.strip() or "unknown"
+
+
+def make_run_id() -> str:
+    return utc_now().strftime("%Y%m%dT%H%M%SZ")
+
+
+def relative_to_repo(path: pathlib.Path) -> str:
+    try:
+        return str(path.resolve().relative_to(REPO_ROOT))
+    except ValueError:
+        return str(path.resolve())
+
+
+def copy_sanitized_task(task_dir: pathlib.Path, destination: pathlib.Path) -> None:
+    destination.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(task_dir / "task.json", destination / "task.json")
+    shutil.copytree(task_dir / "documents", destination / "documents", dirs_exist_ok=True)
+
+
+def copy_tree_contents(source: pathlib.Path, destination: pathlib.Path) -> None:
+    destination.mkdir(parents=True, exist_ok=True)
+    for item in source.iterdir():
+        target = destination / item.name
+        if item.is_dir():
+            shutil.copytree(item, target, dirs_exist_ok=True)
+        else:
+            shutil.copy2(item, target)
+
+
+def document_list(task_input_dir: pathlib.Path) -> list[str]:
+    docs_dir = task_input_dir / "documents"
+    return [str(path.relative_to(task_input_dir)) for path in sorted(docs_dir.rglob("*")) if path.is_file()]
+
+
+def render_prompt(row: dict[str, Any], task_input_dir: pathlib.Path) -> str:
+    task = row["task"]
+    docs = "\n".join(f"- {name}" for name in document_list(task_input_dir)) or "- (none)"
+    deliverables = "\n".join(f"- {name}" for name in row["deliverables"])
+    title = task_format_label(task.get("title"))
+    work_type = task.get("work_type", "")
+    instructions = task.get("instructions", "")
+    today = dt.date.today().isoformat()
+
+    template_path = PROMPTS_DIR / "solve_task.txt"
+    if not template_path.exists():
+        raise SystemExit(f"Missing prompt template: {template_path}")
+    return template_path.read_text(encoding="utf-8").format(
+        today=today,
+        task_id=row["task_id"],
+        title=title,
+        work_type=work_type,
+        instructions=instructions,
+        docs=docs,
+        deliverables=deliverables,
+    )
+
+
+def sha256_file(path: pathlib.Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def count_lines(path: pathlib.Path) -> int:
+    with path.open("rb") as handle:
+        return sum(1 for _line in handle)
+
+
+def snapshot_workspace(work_dir: pathlib.Path) -> dict[str, dict[str, Any]]:
+    snapshot: dict[str, dict[str, Any]] = {}
+    for path in sorted(work_dir.rglob("*")):
+        if not path.is_file():
+            continue
+        relative = path.relative_to(work_dir).as_posix()
+        stat = path.stat()
+        snapshot[relative] = {
+            "bytes": stat.st_size,
+            "sha256": sha256_file(path),
+            "lines": count_lines(path),
+        }
+    return snapshot
+
+
+def diff_snapshots(before: dict[str, dict[str, Any]], after: dict[str, dict[str, Any]]) -> dict[str, Any]:
+    before_paths = set(before)
+    after_paths = set(after)
+    created = sorted(after_paths - before_paths)
+    deleted = sorted(before_paths - after_paths)
+    modified = sorted(path for path in before_paths & after_paths if before[path]["sha256"] != after[path]["sha256"])
+    unchanged = len(before_paths & after_paths) - len(modified)
+    return {
+        "created": [{"path": path, **after[path]} for path in created],
+        "modified": [{"path": path, "before": before[path], "after": after[path]} for path in modified],
+        "deleted": [{"path": path, **before[path]} for path in deleted],
+        "unchanged_count": unchanged,
+    }
+
+
+def collect_deliverables(work_dir: pathlib.Path, task_dir: pathlib.Path, deliverables: list[str]) -> list[dict[str, Any]]:
+    submission_dir = task_dir / "submission"
+    submission_dir.mkdir(parents=True, exist_ok=True)
+    results: list[dict[str, Any]] = []
+
+    for deliverable in deliverables:
+        relative_path = validate_relative_path(deliverable, "deliverable")
+        source = work_dir / relative_path
+        target = submission_dir / relative_path
+
+        if source.exists() and source.is_file():
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source, target)
+
+        if target.exists() and target.is_file():
+            results.append(
+                {
+                    "path": deliverable,
+                    "found": True,
+                    "bytes": target.stat().st_size,
+                    "sha256": sha256_file(target),
+                }
+            )
+        else:
+            results.append({"path": deliverable, "found": False})
+    return results
+
+
+def archive_workspace(work_dir: pathlib.Path, archive_path: pathlib.Path) -> None:
+    with tarfile.open(archive_path, "w:gz") as tar:
+        tar.add(work_dir, arcname="work")
+
+
+def parse_jsonl(path: pathlib.Path) -> list[dict[str, Any]]:
+    events: list[dict[str, Any]] = []
+    if not path.exists():
+        return events
+    for line_number, line in enumerate(path.read_text(encoding="utf-8", errors="replace").splitlines(), start=1):
+        stripped = line.strip()
+        if not stripped or not stripped.startswith("{"):
+            continue
+        try:
+            event = json.loads(stripped)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(event, dict):
+            event["_jsonl_line"] = line_number
+            events.append(event)
+    return events
+
+
+def json_load_maybe(value: Any) -> Any:
+    if not isinstance(value, str):
+        return value
+    stripped = value.strip()
+    if not stripped or stripped[0] not in "[{":
+        return value
+    try:
+        return json.loads(stripped)
+    except json.JSONDecodeError:
+        return value
+
+
+def iter_dicts(value: Any) -> list[dict[str, Any]]:
+    found: list[dict[str, Any]] = []
+    stack = [value]
+    while stack:
+        current = stack.pop()
+        current = json_load_maybe(current)
+        if isinstance(current, dict):
+            found.append(current)
+            stack.extend(current.values())
+        elif isinstance(current, list):
+            stack.extend(current)
+    return found
+
+
+def first_string(data: dict[str, Any], keys: list[str]) -> str | None:
+    for key in keys:
+        value = data.get(key)
+        if isinstance(value, str) and value:
+            return value
+    return None
+
+
+def pick_tool_name(event: dict[str, Any]) -> str | None:
+    candidates: list[str] = []
+    for data in iter_dicts(event):
+        for key in ["tool", "toolName", "tool_name", "name", "function"]:
+            value = data.get(key)
+            if isinstance(value, str):
+                candidates.append(value)
+            elif isinstance(value, dict):
+                nested = first_string(value, ["name", "tool", "toolName", "tool_name"])
+                if nested:
+                    candidates.append(nested)
+    for candidate in candidates:
+        lowered = candidate.lower()
+        if any(token in lowered for token in ["read", "write", "edit", "bash", "grep", "glob", "list", "patch", "cat", "sed"]):
+            return candidate
+    return candidates[0] if candidates else None
+
+
+def pick_arguments(event: dict[str, Any]) -> dict[str, Any]:
+    merged: dict[str, Any] = {}
+    for data in iter_dicts(event):
+        for key in ["input", "args", "arguments", "params", "parameters"]:
+            value = json_load_maybe(data.get(key))
+            if isinstance(value, dict):
+                merged.update(value)
+        for key, value in data.items():
+            if key in {
+                "path",
+                "file",
+                "filePath",
+                "filepath",
+                "pattern",
+                "command",
+                "cmd",
+                "offset",
+                "limit",
+                "lineStart",
+                "lineEnd",
+                "line_start",
+                "line_end",
+            }:
+                merged.setdefault(key, value)
+    return merged
+
+
+def extract_paths_from_text(text: str) -> list[str]:
+    paths: list[str] = []
+    for match in re.finditer(r"(?:(?:\.?/)?(?:documents|task\.json|[A-Za-z0-9_.-]+)[A-Za-z0-9_./-]*\.md|task\.json)", text):
+        value = match.group(0).strip("'\"")
+        if value not in paths:
+            paths.append(value)
+    return paths
+
+
+def extract_paths(args: dict[str, Any], command: str | None = None) -> list[str]:
+    paths: list[str] = []
+    for key in ["path", "file", "filePath", "filepath", "target_file", "source_file"]:
+        value = args.get(key)
+        if isinstance(value, str) and value not in paths:
+            paths.append(value)
+    if command:
+        for value in extract_paths_from_text(command):
+            if value not in paths:
+                paths.append(value)
+    return paths
+
+
+def line_range_from_args(args: dict[str, Any], command: str | None = None) -> dict[str, int] | None:
+    start = args.get("lineStart") or args.get("line_start")
+    end = args.get("lineEnd") or args.get("line_end")
+    offset = args.get("offset")
+    limit = args.get("limit")
+    if isinstance(start, int) and isinstance(end, int):
+        return {"start": start, "end": end}
+    if isinstance(offset, int) and isinstance(limit, int):
+        return {"start": offset + 1, "end": offset + limit}
+    if command:
+        match = re.search(r"sed\s+-n\s+['\"]?(\d+),(\d+)p['\"]?", command)
+        if match:
+            return {"start": int(match.group(1)), "end": int(match.group(2))}
+        match = re.search(r"(?:head|tail)\s+-n\s+(\d+)", command)
+        if match and command.strip().startswith("head"):
+            return {"start": 1, "end": int(match.group(1))}
+    return None
+
+
+def classify_action(tool_name: str | None, args: dict[str, Any]) -> str:
+    lowered = (tool_name or "").lower()
+    command = str(args.get("command") or args.get("cmd") or "")
+    command_lowered = command.lower().strip()
+    if any(token in lowered for token in ["write", "edit", "patch"]):
+        return "write"
+    if "read" in lowered:
+        return "read"
+    if "grep" in lowered:
+        return "search"
+    if "glob" in lowered or "list" in lowered:
+        return "list"
+    if "bash" in lowered or command:
+        if re.match(r"^(cat|sed|head|tail)\b", command_lowered):
+            return "read"
+        if re.match(r"^(grep|rg)\b", command_lowered):
+            return "search"
+        if re.match(r"^(ls|find)\b", command_lowered):
+            return "list"
+        if any(token in command_lowered for token in [">", "tee ", "cat <<", "python ", "node "]):
+            return "shell"
+        return "shell"
+    return "event"
+
+
+def normalize_trace_event(index: int, event: dict[str, Any]) -> dict[str, Any] | None:
+    tool_name = pick_tool_name(event)
+    args = pick_arguments(event)
+    action = classify_action(tool_name, args)
+    event_type = first_string(event, ["type", "event", "kind"])
+    command = args.get("command") or args.get("cmd")
+    command = command if isinstance(command, str) else None
+    paths = extract_paths(args, command)
+    line_range = line_range_from_args(args, command)
+    pattern = args.get("pattern") if isinstance(args.get("pattern"), str) else None
+
+    if action == "event" and not tool_name and not paths and not command:
+        return None
+
+    trace = {
+        "index": index,
+        "jsonl_line": event.get("_jsonl_line"),
+        "action": action,
+        "tool": tool_name,
+        "event_type": event_type,
+        "paths": paths,
+    }
+    if line_range:
+        trace["lines"] = line_range
+    if pattern:
+        trace["pattern"] = pattern
+    if command:
+        trace["command"] = command
+    return {key: value for key, value in trace.items() if value not in [None, [], ""]}
+
+
+def extract_trace(stdout_path: pathlib.Path, trace_jsonl_path: pathlib.Path, trace_md_path: pathlib.Path) -> list[dict[str, Any]]:
+    raw_events = parse_jsonl(stdout_path)
+    trace_events: list[dict[str, Any]] = []
+    for index, event in enumerate(raw_events, start=1):
+        trace = normalize_trace_event(index, event)
+        if trace:
+            trace_events.append(trace)
+
+    with trace_jsonl_path.open("w", encoding="utf-8") as handle:
+        for trace in trace_events:
+            handle.write(json.dumps(trace, ensure_ascii=False, sort_keys=True) + "\n")
+
+    trace_md_path.write_text(render_trace_markdown(trace_events), encoding="utf-8")
+    return trace_events
+
+
+def render_trace_markdown(trace_events: list[dict[str, Any]]) -> str:
+    lines = ["# OpenCode Trace", ""]
+    if not trace_events:
+        lines.extend(
+            [
+                "No normalized tool events were found in `stdout.jsonl`.",
+                "",
+                "Inspect `stdout.jsonl` and `stderr.log` for the raw OpenCode stream.",
+            ]
+        )
+        return "\n".join(lines) + "\n"
+
+    for event in trace_events:
+        parts = [f"{event['index']}.", f"`{event['action']}`"]
+        if event.get("tool"):
+            parts.append(f"via `{event['tool']}`")
+        if event.get("paths"):
+            parts.append("paths: " + ", ".join(f"`{path}`" for path in event["paths"]))
+        if event.get("lines"):
+            parts.append(f"lines {event['lines']['start']}-{event['lines']['end']}")
+        if event.get("pattern"):
+            parts.append(f"pattern `{event['pattern']}`")
+        lines.append(" ".join(parts))
+        if event.get("command"):
+            lines.append(f"   command: `{event['command']}`")
+    return "\n".join(lines) + "\n"
+
+
+def summarize_reasoning_text(text: str) -> str:
+    lowered = text.lower()
+    if "start by reading" in lowered or ("read" in lowered and "document" in lowered):
+        return "planned to inspect task inputs and documents"
+    if "analyze this legal case" in lowered or "zulässigkeit" in lowered or "begründetheit" in lowered:
+        return "worked through admissibility and merits issues before drafting"
+    if "write the full legal analysis" in lowered or "fallloesung-sut.md" in lowered and "write" in lowered:
+        return "planned to write the final Markdown solution"
+    if "verify" in lowered or "file has been written" in lowered:
+        return "planned to verify the written output file"
+    return "provider emitted reasoning detail"
+
+
+def extract_openrouter_reasoning_details(event: dict[str, Any]) -> list[dict[str, Any]]:
+    details: list[dict[str, Any]] = []
+    for data in iter_dicts(event):
+        openrouter = data.get("openrouter")
+        if isinstance(openrouter, dict) and isinstance(openrouter.get("reasoning_details"), list):
+            details.extend(item for item in openrouter["reasoning_details"] if isinstance(item, dict))
+    return details
+
+
+def extract_reasoning_summary(stdout_path: pathlib.Path, output_path: pathlib.Path) -> list[dict[str, Any]]:
+    summaries: list[dict[str, Any]] = []
+    for index, event in enumerate(parse_jsonl(stdout_path), start=1):
+        details = extract_openrouter_reasoning_details(event)
+        if not details:
+            continue
+        part = event.get("part") if isinstance(event.get("part"), dict) else {}
+        state = part.get("state") if isinstance(part.get("state"), dict) else {}
+        input_data = state.get("input") if isinstance(state.get("input"), dict) else {}
+        texts = [str(detail.get("text", "")) for detail in details]
+        summary_labels = list(dict.fromkeys(summarize_reasoning_text(text) for text in texts if text))
+        entry = {
+            "index": event.get("_jsonl_line", index),
+            "event_type": event.get("type"),
+            "tool": part.get("tool"),
+            "path": input_data.get("filePath") or input_data.get("path"),
+            "command": input_data.get("command"),
+            "reasoning_detail_count": len(details),
+            "reasoning_char_count": sum(len(text) for text in texts),
+            "summary": "; ".join(summary_labels) if summary_labels else "provider emitted reasoning detail",
+        }
+        summaries.append({key: value for key, value in entry.items() if value not in [None, "", []]})
+    output_path.write_text(json.dumps(summaries, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return summaries
+
+
+def base_env(model: str) -> dict[str, str]:
+    env = os.environ.copy()
+    env["NO_COLOR"] = "1"
+    env["OPENCODE_CONFIG_CONTENT"] = json.dumps(build_opencode_config(model), separators=(",", ":"))
+    return env
+
+
+def docker_command(args: argparse.Namespace, row: dict[str, Any], input_dir: pathlib.Path, work_dir: pathlib.Path, task_dir: pathlib.Path) -> tuple[list[str], str | None]:
+    container_name = safe_container_name(row["task_id"])
+    command = [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        container_name,
+        "--network",
+        args.docker_network,
+        "--cpus",
+        str(args.docker_cpus),
+        "--memory",
+        str(args.docker_memory),
+        "--pids-limit",
+        str(args.docker_pids_limit),
+        "--security-opt",
+        "no-new-privileges",
+        "--cap-drop",
+        "ALL",
+        "-e",
+        f"OPENCODE_MODEL={args.model}",
+        "-e",
+        f"OPENCODE_VARIANT={args.variant}",
+        "-e",
+        f"TASK_ID={row['task_id']}",
+        "-e",
+        f"OPENCODE_CONFIG_CONTENT={json.dumps(build_opencode_config(args.model), separators=(',', ':'))}",
+        "-e",
+        "NO_COLOR=1",
+        "-v",
+        f"{input_dir.resolve()}:/task:ro",
+        "-v",
+        f"{work_dir.resolve()}:/work:rw",
+        "-v",
+        f"{task_dir.resolve()}:/out:rw",
+    ]
+
+    if args.agent:
+        command.extend(["-e", f"OPENCODE_AGENT={args.agent}"])
+
+    # -e NAME without a value: docker reads it from the runner env, so the key
+    # never appears in the container's argv either
+    for env_name in secret_env_names(args.model):
+        if os.environ.get(env_name):
+            command.extend(["-e", env_name])
+
+    if not args.no_docker_auth_mount and args.docker_auth_path.exists():
+        command.extend(["-v", f"{args.docker_auth_path.resolve()}:/home/node/.local/share/opencode/auth.json:ro"])
+
+    command.append(args.docker_image)
+    return command, container_name
+
+
+def bwrap_spec(
+    args: argparse.Namespace,
+    row: dict[str, Any],
+    input_dir: pathlib.Path,
+    work_dir: pathlib.Path,
+    home_dir: pathlib.Path,
+    prompt: str,
+) -> sandbox_spec.BwrapSpec:
+    """The jail for one task. Everything the agent may touch is named here;
+    nothing else exists inside the namespace."""
+    command = [
+        "opencode",
+        "run",
+        "--dir",
+        sandbox_spec.JAIL_WORK,
+        "--model",
+        args.model,
+        "--variant",
+        args.variant,
+        "--format",
+        "json",
+        "--title",
+        f"LAB-EU {row['task_id']}",
+        "--dangerously-skip-permissions",
+    ]
+    if args.agent:
+        command.extend(["--agent", args.agent])
+    command.append(prompt)
+
+    env = sandbox_spec.jail_env(
+        model_config_content=json.dumps(build_opencode_config(args.model), separators=(",", ":")),
+        task_id=row["task_id"],
+    )
+    secret_env = {name: os.environ[name]
+                  for name in secret_env_names(args.model) if os.environ.get(name)}
+
+    return sandbox_spec.BwrapSpec(
+        workspace=work_dir.resolve(),
+        task_input=input_dir.resolve(),
+        home=home_dir.resolve(),
+        command=command,
+        ro_binds=[(args.opencode_dir.resolve(), sandbox_spec.JAIL_OPENCODE)],
+        ro_overlays=([(args.opencode_plugins.resolve(), sandbox_spec.JAIL_OPENCODE_PLUGINS)]
+                     if args.opencode_plugins and args.opencode_plugins.is_dir() else []),
+        env=env,
+        secret_env=secret_env,
+    )
+
+
+def local_command(args: argparse.Namespace, row: dict[str, Any], work_dir: pathlib.Path, prompt: str) -> tuple[list[str], str | None]:
+    command = [
+        args.opencode_bin,
+        "run",
+        "--dir",
+        str(work_dir.resolve()),
+        "--model",
+        args.model,
+        "--variant",
+        args.variant,
+        "--format",
+        "json",
+        "--title",
+        f"LAB-EU {row['task_id']}",
+        "--dangerously-skip-permissions",
+    ]
+    if args.agent:
+        command.extend(["--agent", args.agent])
+    command.append(prompt)
+    return command, None
+
+
+def run_command(
+    spawn: Any,
+    stdout_path: pathlib.Path,
+    stderr_path: pathlib.Path,
+    timeout_seconds: int,
+    cleanup_container: str | None,
+) -> dict[str, Any]:
+    """Run one solver process. ``spawn(stdout, stderr) -> Popen`` so the caller
+    owns how the process is created (plain subprocess vs. bwrap jail)."""
+    started = time.monotonic()
+    started_at = iso_now()
+    timed_out = False
+    exit_code: int | None = None
+
+    with stdout_path.open("wb") as stdout, stderr_path.open("wb") as stderr:
+        process = spawn(stdout, stderr)
+        try:
+            exit_code = process.wait(timeout=timeout_seconds)
+        except subprocess.TimeoutExpired:
+            timed_out = True
+            process.kill()
+            try:
+                process.wait(timeout=10)
+            except subprocess.TimeoutExpired:
+                pass
+            if cleanup_container:
+                subprocess.run(
+                    ["docker", "rm", "-f", cleanup_container],
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL,
+                    check=False,
+                )
+            exit_code = 124
+
+    ended_at = iso_now()
+    return {
+        "started_at": started_at,
+        "ended_at": ended_at,
+        "duration_seconds": round(time.monotonic() - started, 3),
+        "exit_code": exit_code,
+        "timed_out": timed_out,
+    }
+
+
+def prepare_task_run(run_dir: pathlib.Path, row: dict[str, Any]) -> dict[str, pathlib.Path]:
+    task_run_dir = run_dir / "tasks" / safe_task_id(row["task_id"])
+    input_dir = task_run_dir / "input"
+    work_dir = task_run_dir / "work"
+    task_run_dir.mkdir(parents=True, exist_ok=True)
+
+    copy_sanitized_task(row["task_dir"], input_dir)
+    copy_tree_contents(input_dir, work_dir)
+
+    prompt = render_prompt(row, input_dir)
+    (task_run_dir / "prompt.md").write_text(prompt, encoding="utf-8")
+    (task_run_dir / "input_task_dir.txt").write_text(str(row["task_dir"]) + "\n", encoding="utf-8")
+    return {"task_run_dir": task_run_dir, "input_dir": input_dir, "work_dir": work_dir}
+
+
+def solver_error_text(stdout_path: pathlib.Path) -> str:
+    """Everything OpenCode reported as an error, for failure classification.
+
+    OpenCode reports provider failures as `error` events in its JSON stream
+    rather than through the exit code alone, so the stream is the only place
+    that says *why* an attempt died.
+    """
+    messages: list[str] = []
+    for event in parse_jsonl(stdout_path):
+        if event.get("type") != "error":
+            continue
+        error = event.get("error")
+        for candidate in iter_dicts(error):
+            for key in ("message", "responseBody", "name"):
+                value = candidate.get(key)
+                if isinstance(value, str) and value:
+                    messages.append(value)
+    return "\n".join(messages)
+
+
+def reset_task_workspace(input_dir: pathlib.Path, work_dir: pathlib.Path,
+                         task_run_dir: pathlib.Path, home_dir: pathlib.Path | None) -> None:
+    """Put the task back to its pre-attempt state before a retry.
+
+    A retry must be a fresh attempt, not a continuation: partial files from the
+    failed attempt would otherwise be presented to the model as its own prior
+    work, and a stale `submission/` copy would be reported as a deliverable the
+    new attempt never produced.
+    """
+    shutil.rmtree(work_dir, ignore_errors=True)
+    shutil.rmtree(task_run_dir / "submission", ignore_errors=True)
+    copy_tree_contents(input_dir, work_dir)
+    if home_dir is not None:
+        shutil.rmtree(home_dir, ignore_errors=True)
+        home_dir.mkdir(parents=True, exist_ok=True)
+
+
+def archive_failed_attempt(task_run_dir: pathlib.Path, attempt: int,
+                           home_dir: pathlib.Path | None) -> pathlib.Path:
+    """Move a failed attempt's diagnostics aside so the retry starts clean and
+    the failure stays auditable."""
+    destination = task_run_dir / "attempts" / f"{attempt:02d}"
+    destination.mkdir(parents=True, exist_ok=True)
+    for name in ("stdout.jsonl", "stderr.log"):
+        source = task_run_dir / name
+        if source.exists():
+            shutil.move(str(source), str(destination / name))
+    if home_dir is not None and home_dir.exists():
+        shutil.move(str(home_dir), str(destination / "jail_home"))
+    return destination
+
+
+def run_one_task(args: argparse.Namespace, row: dict[str, Any], run_dir: pathlib.Path) -> dict[str, Any]:
+    paths = prepare_task_run(run_dir, row)
+    task_run_dir = paths["task_run_dir"]
+    input_dir = paths["input_dir"]
+    work_dir = paths["work_dir"]
+    prompt = (task_run_dir / "prompt.md").read_text(encoding="utf-8")
+
+    stdout_path = task_run_dir / "stdout.jsonl"
+    stderr_path = task_run_dir / "stderr.log"
+    trace_jsonl_path = task_run_dir / "trace.jsonl"
+    trace_md_path = task_run_dir / "trace.md"
+    reasoning_summary_path = task_run_dir / "reasoning_trace.summary.json"
+    fs_changes_path = task_run_dir / "fs_changes.json"
+    before_snapshot_path = task_run_dir / "workspace.before.json"
+    after_snapshot_path = task_run_dir / "workspace.after.json"
+
+    home_dir = task_run_dir / "jail_home" if args.sandbox == "bwrap" else None
+    max_attempts = max(1, args.max_attempts)
+    attempts: list[dict[str, Any]] = []
+
+    for attempt in range(1, max_attempts + 1):
+        if attempt > 1:
+            reset_task_workspace(input_dir, work_dir, task_run_dir, home_dir)
+
+        before_snapshot = snapshot_workspace(work_dir)
+        before_snapshot_path.write_text(
+            json.dumps(before_snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        )
+
+        if args.sandbox == "bwrap":
+            home_dir.mkdir(parents=True, exist_ok=True)
+            spec = bwrap_spec(args, row, input_dir, work_dir, home_dir, prompt)
+            # the audit record: the full jail specification, secret values masked
+            command = spec.redacted_argv()
+            cleanup_container = None
+
+            def spawn(stdout, stderr, spec=spec):
+                return sandbox_spec.spawn(spec, stdout=stdout, stderr=stderr)
+        else:
+            if args.sandbox == "docker":
+                command, cleanup_container = docker_command(args, row, input_dir, work_dir, task_run_dir)
+            else:
+                command, cleanup_container = local_command(args, row, work_dir, prompt)
+            env = base_env(args.model)
+
+            def spawn(stdout, stderr, command=command, env=env):
+                return subprocess.Popen(command, cwd=REPO_ROOT, env=env, stdout=stdout, stderr=stderr)
+
+        command_result = run_command(
+            spawn=spawn,
+            stdout_path=stdout_path,
+            stderr_path=stderr_path,
+            timeout_seconds=args.timeout_seconds,
+            cleanup_container=cleanup_container,
+        )
+
+        probe = collect_deliverables(work_dir, task_run_dir, row["deliverables"])
+        outcome, reason = retry_util.classify_failure(
+            exit_code=command_result["exit_code"],
+            timed_out=command_result["timed_out"],
+            missing_deliverables=any(not item.get("found") for item in probe),
+            error_text=solver_error_text(stdout_path),
+        )
+        record = {
+            "attempt": attempt,
+            "outcome": outcome,
+            "reason": reason,
+            "exit_code": command_result["exit_code"],
+            "timed_out": command_result["timed_out"],
+            "duration_seconds": command_result["duration_seconds"],
+            "started_at": command_result["started_at"],
+        }
+
+        reasons = [a["reason"] for a in attempts] + [reason]
+        is_stalled = retry_util.stalled(reasons)
+        if is_stalled:
+            record["stopped_early"] = "identical unnamed failure repeated"
+        retrying = (
+            retry_util.should_retry(outcome, retry_on_timeout=args.retry_on_timeout)
+            and attempt < max_attempts
+            and not is_stalled
+        )
+        if retrying:
+            record["artifacts"] = str(archive_failed_attempt(task_run_dir, attempt, home_dir))
+            delay = retry_util.backoff_delay(attempt, base=args.retry_base_delay)
+            record["retry_delay_seconds"] = round(delay, 1)
+            attempts.append(record)
+            print(
+                f"{row['task_id']}: attempt {attempt}/{max_attempts} failed ({reason}); "
+                f"retrying in {delay:.0f}s",
+                file=sys.stderr,
+            )
+            time.sleep(delay)
+            continue
+
+        attempts.append(record)
+        if outcome != retry_util.OK:
+            print(f"{row['task_id']}: giving up after attempt {attempt} ({outcome}: {reason})",
+                  file=sys.stderr)
+        break
+
+    after_snapshot = snapshot_workspace(work_dir)
+    after_snapshot_path.write_text(json.dumps(after_snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    fs_changes = diff_snapshots(before_snapshot, after_snapshot)
+    fs_changes_path.write_text(json.dumps(fs_changes, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    trace_events = extract_trace(stdout_path, trace_jsonl_path, trace_md_path)
+    reasoning_summaries = extract_reasoning_summary(stdout_path, reasoning_summary_path)
+
+    deliverable_results = collect_deliverables(work_dir, task_run_dir, row["deliverables"])
+    archive_path = None
+    if not args.skip_workspace_archive:
+        archive_path = task_run_dir / "workspace.tar.gz"
+        archive_workspace(work_dir, archive_path)
+
+    metadata = {
+        "schema_version": "0.1",
+        "task_id": row["task_id"],
+        "source_task_dir": str(row["task_dir"]),
+        "source_task_dir_relative": relative_to_repo(row["task_dir"]),
+        "task_run_dir": str(task_run_dir),
+        "sandbox": args.sandbox,
+        "command": command,
+        "model": args.model,
+        "variant": args.variant,
+        "agent": args.agent or None,
+        # The scored attempt is the last one; every earlier attempt failed for
+        # infrastructure reasons and its diagnostics live under attempts/.
+        "attempt_count": len(attempts),
+        "attempts": attempts,
+        "outcome": attempts[-1]["outcome"] if attempts else "ok",
+        "expected_deliverables": row["deliverables"],
+        "actual_deliverables": deliverable_results,
+        "missing_deliverables": [item["path"] for item in deliverable_results if not item.get("found")],
+        "stdout": str(stdout_path),
+        "stderr": str(stderr_path),
+        "trace_jsonl": str(trace_jsonl_path),
+        "trace_markdown": str(trace_md_path),
+        "trace_event_count": len(trace_events),
+        "reasoning_trace_summary": str(reasoning_summary_path),
+        "reasoning_summary_count": len(reasoning_summaries),
+        "fs_changes": str(fs_changes_path),
+        "fs_change_summary": {
+            "created": len(fs_changes["created"]),
+            "modified": len(fs_changes["modified"]),
+            "deleted": len(fs_changes["deleted"]),
+            "unchanged": fs_changes["unchanged_count"],
+        },
+        "workspace_before_snapshot": str(before_snapshot_path),
+        "workspace_after_snapshot": str(after_snapshot_path),
+        "workspace_archive": str(archive_path) if archive_path else None,
+        **command_result,
+    }
+    (task_run_dir / "metadata.json").write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return metadata
+
+
+def resolved_opencode_version(args: argparse.Namespace) -> str:
+    if args.sandbox == "local":
+        return opencode_version(args.opencode_bin)
+    if args.sandbox == "bwrap":
+        return sandbox_spec.opencode_version(sandbox_spec.vendored_opencode_bin(args.opencode_dir))
+    return "container"
+
+
+def write_manifest(args: argparse.Namespace, run_dir: pathlib.Path, run_id: str, rows: list[dict[str, Any]]) -> None:
+    manifest = {
+        "schema_version": "0.1",
+        "harness": "opencode",
+        "run_id": run_id,
+        "run_name": args.run_name,
+        "created_at": iso_now(),
+        "taskset": relative_to_repo(args.taskset if args.taskset.is_absolute() else REPO_ROOT / args.taskset),
+        "n_tasks": len(rows),
+        "sandbox": args.sandbox,
+        "model": args.model,
+        "variant": args.variant,
+        "agent": args.agent or None,
+        "opencode_version": resolved_opencode_version(args),
+        "default_model_verified_locally": DEFAULT_MODEL,
+        "permission_config": OPENCODE_PERMISSION_CONFIG,
+        "retry_policy": {
+            "max_attempts": args.max_attempts,
+            "retried_outcomes": ["transient"] + (["timeout"] if args.retry_on_timeout else []),
+            "never_retried": ["solver", "fatal"],
+        },
+    }
+    if args.sandbox == "bwrap":
+        manifest["jail"] = {
+            "profile": "bwrap",
+            "namespaces": ["mount", "pid", "ipc", "uts"],
+            "network_namespace_shared": True,
+            "opencode_dir": relative_to_repo(args.opencode_dir),
+            "mounts": {
+                sandbox_spec.JAIL_TASK: "ro (sanitized task input)",
+                sandbox_spec.JAIL_WORK: "rw (agent workspace)",
+                sandbox_spec.JAIL_HOME: "rw (OpenCode state)",
+                sandbox_spec.JAIL_OPENCODE: "ro (vendored CLI)",
+            },
+        }
+    (run_dir / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def preflight(args: argparse.Namespace) -> None:
+    """Refuse to start a run whose enforcement profile cannot work here.
+
+    Checked before the first model call: a jail that dies on the first agent
+    action, or a solver that never had its credentials, costs a whole run.
+    """
+    # same source of truth as the baseline runner; the key is read here and
+    # handed to the sandbox through its environment, never on the command line
+    load_dotenv(REPO_ROOT / ".env", override=False)
+    if args.sandbox != "bwrap":
+        return
+    for reason in (sandbox_spec.bwrap_preflight(),
+                   sandbox_spec.opencode_preflight(args.opencode_dir)):
+        if reason:
+            raise SystemExit(f"bwrap sandbox unavailable: {reason}")
+    needed = secret_env_names(args.model)
+    if not any(os.environ.get(name) for name in needed):
+        raise SystemExit(
+            f"None of {', '.join(needed)} is set, but {args.model} needs it; "
+            "the jail would have no provider credentials and every task would "
+            "fail. Put the key in the repo-root .env."
+        )
+
+
+def main() -> int:
+    args = parse_args()
+    rows = load_taskset(args.taskset)
+    preflight(args)
+
+    if args.dry_run:
+        print(f"Validated {len(rows)} task(s).")
+        print(f"Sandbox: {args.sandbox}")
+        print(f"Model: {args.model}")
+        print(f"Variant: {args.variant}")
+        for row in rows:
+            print(f"- {row['task_id']} -> {relative_to_repo(row['task_dir'])}")
+        return 0
+
+    run_id = make_run_id()
+    run_dir = (args.runs_dir if args.runs_dir.is_absolute() else REPO_ROOT / args.runs_dir) / args.run_name / run_id
+    run_dir.mkdir(parents=True, exist_ok=False)
+    write_manifest(args, run_dir, run_id, rows)
+
+    max_workers = max(1, args.parallel)
+    failures = 0
+    if max_workers == 1:
+        for row in rows:
+            metadata = run_one_task(args, row, run_dir)
+            missing = metadata["missing_deliverables"]
+            if metadata["exit_code"] != 0 or missing:
+                failures += 1
+            print(
+                    f"{row['task_id']}: exit={metadata['exit_code']} "
+                    f"missing={len(missing)} attempts={metadata['attempt_count']}"
+                )
+    else:
+        with ThreadPoolExecutor(max_workers=max_workers) as pool:
+            future_to_row = {pool.submit(run_one_task, args, row, run_dir): row for row in rows}
+            for future in as_completed(future_to_row):
+                row = future_to_row[future]
+                try:
+                    metadata = future.result()
+                except Exception as exc:  # noqa: BLE001
+                    failures += 1
+                    print(f"{row['task_id']}: failed before metadata: {exc}", file=sys.stderr)
+                    continue
+                missing = metadata["missing_deliverables"]
+                if metadata["exit_code"] != 0 or missing:
+                    failures += 1
+                print(
+                    f"{row['task_id']}: exit={metadata['exit_code']} "
+                    f"missing={len(missing)} attempts={metadata['attempt_count']}"
+                )
+
+    print(f"Wrote run: {run_dir}")
+    return 1 if failures else 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

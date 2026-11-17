@@ -1,0 +1,150 @@
+{
+  "schema_version": "0.2",
+  "method_note": "Used means the URL appears in the selected deliverable or in Codex's required .codex-used-sources.json sidecar. Open/Fetch means Codex additionally recorded an explicit page-open action or HTTP fetch command. Search-result URLs are not invented from snippets and are not counted unless one of those records exists.",
+  "counts": {
+    "search_queries": 10,
+    "recorded_open_or_fetch_urls": 2,
+    "used_urls": 3,
+    "cited_urls": 0,
+    "unique_used_source_urls": 3,
+    "unique_used_source_domains": 3,
+    "unique_source_urls": 5,
+    "unique_source_domains": 3,
+    "blocked_domain_violations": 0,
+    "search_leakage_flags": 8,
+    "web_access_violations": 0
+  },
+  "blocked_domain_policy": {
+    "blocked_domains": [
+      "dskrpt.de",
+      "forum-iuridicum.com",
+      "moodle.ruhr-uni-bochum.de",
+      "openrewi.org",
+      "pure.mpg.de",
+      "wikibooks.org",
+      "zjs-online.com"
+    ],
+    "passed": true,
+    "violations": []
+  },
+  "web_access_policy": {
+    "web_search_allowed": true,
+    "passed": true,
+    "violations": []
+  },
+  "search_leakage_audit": {
+    "enforcement": "informational-only",
+    "flagged": true,
+    "flags": [
+      {
+        "kind": "task-identifier",
+        "evidence": "\"Paketvertrag\" Fitnessgerät App \"Nutzungsersatz\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"§ 327c Abs. 6\" \"§ 346\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"§ 327c Abs. 6\" Nutzungsersatz -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"§ 327c Absatz 6\" Rechtsfolgen Rückgewähr Wertersatz Paketvertrag -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "BGH Nutzungswertersatz Rücktritt Kaufvertrag § 346 Gebrauchsvorteile Berechnung Lebensdauer -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "BT Drucksache 19/27653 § 327c Absatz 6 Paketvertrag Interesse Rechtsfolgen -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "gesetze im internet BGB § 327c § 327a § 327o § 327p § 327q gekoppelte Verträge digitale Produkte -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:gesetze-im-internet.de/bgb/__346.html § 346 Wirkungen des Rücktritts Nutzungen Wertersatz -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      }
+    ]
+  },
+  "search_queries": [
+    "\"Paketvertrag\" Fitnessgerät App \"Nutzungsersatz\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"§ 327c Abs. 6\" \"§ 346\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"§ 327c Abs. 6\" Nutzungsersatz -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"§ 327c Absatz 6\" Rechtsfolgen Rückgewähr Wertersatz Paketvertrag -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "BGH Nutzungswertersatz Rücktritt Kaufvertrag § 346 Gebrauchsvorteile Berechnung Lebensdauer -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "BT Drucksache 19/27653 § 327c Absatz 6 Paketvertrag Interesse Rechtsfolgen -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "gesetze im internet BGB § 327c § 327a § 327o § 327p § 327q gekoppelte Verträge digitale Produkte -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "https://www.gesetze-im-internet.de/bgb/__327c.html",
+    "https://www.gesetze-im-internet.de/bgb/__346.html",
+    "site:gesetze-im-internet.de/bgb/__346.html § 346 Wirkungen des Rücktritts Nutzungen Wertersatz -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com"
+  ],
+  "sources": [
+    {
+      "url": "https://dserver.bundestag.de/btd/19/276/1927653.pdf",
+      "domain": "dserver.bundestag.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "BT-Drs. 19/27653 – Entwurf eines Gesetzes zur Umsetzung der Richtlinie über bestimmte vertragsrechtliche Aspekte der Bereitstellung digitaler Inhalte und digitaler Dienstleistungen",
+      "reported_purpose": "Gesetzesbegründung zur Einordnung von Paketverträgen sowie zu Voraussetzungen und Rechtsfolgen des § 327c Abs. 6 BGB.",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2017-6-30&Gericht=bgh&anz=3&nr=79715&pos=0",
+      "domain": "juris.bundesgerichtshof.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "BGH, Urteil vom 30. Juni 2017 – V ZR 134/16",
+      "reported_purpose": "Berechnung des Wertersatzes für gezogene Nutzungen nach § 346 Abs. 2 BGB anhand des Erwerbspreises und der zeitanteiligen linearen Methode.",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/BJNR001950896.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "Bürgerliches Gesetzbuch (BGB)",
+      "reported_purpose": "Aktueller Wortlaut der einschlägigen Vorschriften, insbesondere §§ 13, 14, 100, 323, 327 bis 327p, 346 bis 349 und 475 BGB.",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__327c.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": true,
+      "used": false,
+      "cited_in_deliverable": false,
+      "reported_title": "",
+      "reported_purpose": "",
+      "visit_evidence": [
+        "web_search open"
+      ]
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__346.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": true,
+      "used": false,
+      "cited_in_deliverable": false,
+      "reported_title": "",
+      "reported_purpose": "",
+      "visit_evidence": [
+        "web_search open"
+      ]
+    }
+  ],
+  "task_id": "de/zivilrecht/schuldrecht/ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles"
+}

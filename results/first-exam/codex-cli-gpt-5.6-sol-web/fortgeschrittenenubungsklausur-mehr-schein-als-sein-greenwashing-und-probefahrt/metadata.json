@@ -1,0 +1,245 @@
+{
+  "schema_version": "0.1",
+  "harness": "codex-cli-ephemeral-web",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt",
+  "solver_case_id": "case-004",
+  "task_identity_anonymized": true,
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "solver_configuration": {
+    "model": "gpt-5.6-sol",
+    "reasoning_effort": "medium",
+    "model_source": "cli-override",
+    "reasoning_effort_source": "cli-override",
+    "event_stream_verified": false,
+    "note": "Codex JSONL does not report the resolved model and reasoning effort. Pin both CLI options for a fully self-contained run record."
+  },
+  "tool_access": "full",
+  "live_web_search": true,
+  "web_search_mode": "live",
+  "blocked_domains": [
+    "dskrpt.de",
+    "forum-iuridicum.com",
+    "moodle.ruhr-uni-bochum.de",
+    "openrewi.org",
+    "pure.mpg.de",
+    "wikibooks.org",
+    "zjs-online.com"
+  ],
+  "blocked_domain_policy": {
+    "blocked_domains": [
+      "dskrpt.de",
+      "forum-iuridicum.com",
+      "moodle.ruhr-uni-bochum.de",
+      "openrewi.org",
+      "pure.mpg.de",
+      "wikibooks.org",
+      "zjs-online.com"
+    ],
+    "passed": true,
+    "violations": []
+  },
+  "web_access_policy": {
+    "web_search_allowed": true,
+    "passed": true,
+    "violations": []
+  },
+  "search_leakage_audit": {
+    "enforcement": "informational-only",
+    "flagged": true,
+    "flags": [
+      {
+        "kind": "task-identifier",
+        "evidence": "\"allerdings ausgeschalteten\" GPS-System Probefahrt Fahrzeugbrief -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"allerdings ausgeschalteten\" GPS-System Probefahrt Fahrzeugbrief -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "allerdings ausgeschalteten"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"er selbst sei zwei Jahre damit gefahren\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"er selbst sei zwei Jahre damit gefahren\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "er selbst sei zwei Jahre damit gefahren"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"klimaneutrales Unternehmen\" \"eigentlich nur 30\" T-Shirt -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"klimaneutrales Unternehmen\" \"eigentlich nur 30\" T-Shirt -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "klimaneutrales Unternehmen"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"klimaneutrales Unternehmen\" \"eigentlich nur 30\" T-Shirt -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "eigentlich nur 30"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "BGH Probefahrt GPS ausgeschaltet Fahrzeugbrief gutgläubiger Erwerb -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "BGH gewerbsmäßig Betrug zugunsten GmbH alleiniger Gesellschafter Einnahmequelle für sich -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "BGH klimaneutral Werbung Irreführung Erklärung Klimaschutzprojekte Urteil -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "BGH § 246 Subsidiaritätsklausel Betrug Unterschlagung mit schwererer Strafe bedroht -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "BGH § 261 Absatz 7 Selbstgeldwäsche in Verkehr bringt Herkunft verschleiert Verkauf Fahrzeug -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de \"1 StR 247/25\" 24. Juni 2026 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de \"Probefahrt\" \"Gewahrsam\" StGB -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "site:bundesgerichtshof.de \"Probefahrt\" \"Gewahrsam\" StGB -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Probefahrt"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de 4 StR 458/00 Probefahrt Vermögensverfügung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de I ZR 98/23 klimaneutral Urteil 27 Juni 2024 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de Probefahrt Gewahrsam Betrug Fahrzeug unbegleitet strafrecht -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:eur-lex.europa.eu Richtlinie 2005/29/EG Artikel 6 irreführende Handlungen deutsch -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:gesetze-im-internet.de StGB 263 246 242 aktuelle Fassung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:gesetze-im-internet.de/bgb __932 __935 aktuelle Fassung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:gesetze-im-internet.de/stgb/__261.html § 261 Geldwäsche Absatz 7 Vortat beteiligt in Verkehr bringt Herkunft verschleiert -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:gesetze-im-internet.de/uwg_2004 __5.html UWG 2026 Umweltaussage klimaneutral -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "unbegleitete Probefahrt Gewahrsam Betrug Diebstahl gefälschter Fahrzeugbrief BGH -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      }
+    ]
+  },
+  "memories_enabled": false,
+  "ephemeral": true,
+  "project_context": false,
+  "user_config_and_configured_tools_loaded": true,
+  "command": [
+    "codex",
+    "--search",
+    "--sandbox",
+    "danger-full-access",
+    "--ask-for-approval",
+    "never",
+    "--cd",
+    "$TMPDIR/lab-eu-codex-86fjfi_p",
+    "--disable",
+    "memories",
+    "--model",
+    "gpt-5.6-sol",
+    "--config",
+    "model_reasoning_effort=\"medium\"",
+    "exec",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--json",
+    "--output-last-message",
+    "$TMPDIR/lab-eu-codex-86fjfi_p/.codex-final-message.md",
+    "-"
+  ],
+  "attempt_count": 1,
+  "attempts": [
+    {
+      "attempt": 1,
+      "outcome": "ok",
+      "reason": "deliverable captured",
+      "exit_code": 0,
+      "timed_out": false,
+      "started_at": "2026-11-16T11:46:13.751621+00:00",
+      "ended_at": "2026-11-16T11:54:50.222099+00:00",
+      "duration_seconds": 516.469
+    }
+  ],
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 18024,
+      "sha256": "a1b845d6d5e9e2e6401d7fe1b7da7c23cd3d8d7affd1b6346f124d79694ea2c3"
+    }
+  ],
+  "missing_deliverables": [],
+  "unexpected_files": [],
+  "used_final_message_fallback": false,
+  "source_audit": {
+    "search_queries": 21,
+    "recorded_open_or_fetch_urls": 1,
+    "used_urls": 13,
+    "cited_urls": 0,
+    "unique_used_source_urls": 13,
+    "unique_used_source_domains": 5,
+    "unique_source_urls": 14,
+    "unique_source_domains": 5,
+    "blocked_domain_violations": 0,
+    "search_leakage_flags": 24,
+    "web_access_violations": 0
+  },
+  "source_audit_json": "runs/codex-web-45-leak-rerun/20261116T114135Z/tasks/de__strafrecht__materielles-strafrecht__fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt/sources.json",
+  "source_audit_markdown": "runs/codex-web-45-leak-rerun/20261116T114135Z/tasks/de__strafrecht__materielles-strafrecht__fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt/sources.md",
+  "exit_code": 0
+}

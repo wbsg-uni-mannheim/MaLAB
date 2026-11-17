@@ -1,0 +1,206 @@
+{
+  "schema_version": "0.2",
+  "method_note": "Used means the URL appears in the selected deliverable or in Codex's required .codex-used-sources.json sidecar. Open/Fetch means Codex additionally recorded an explicit page-open action or HTTP fetch command. Search-result URLs are not invented from snippets and are not counted unless one of those records exists.",
+  "counts": {
+    "search_queries": 20,
+    "recorded_open_or_fetch_urls": 0,
+    "used_urls": 12,
+    "cited_urls": 0,
+    "unique_used_source_urls": 12,
+    "unique_used_source_domains": 4,
+    "unique_source_urls": 12,
+    "unique_source_domains": 4,
+    "blocked_domain_violations": 0,
+    "search_leakage_flags": 4,
+    "web_access_violations": 0
+  },
+  "blocked_domain_policy": {
+    "blocked_domains": [
+      "dskrpt.de",
+      "forum-iuridicum.com",
+      "moodle.ruhr-uni-bochum.de",
+      "openrewi.org",
+      "pure.mpg.de",
+      "wikibooks.org",
+      "zjs-online.com"
+    ],
+    "passed": true,
+    "violations": []
+  },
+  "web_access_policy": {
+    "web_search_allowed": true,
+    "passed": true,
+    "violations": []
+  },
+  "search_leakage_audit": {
+    "enforcement": "informational-only",
+    "flagged": true,
+    "flags": [
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"2 Kostüme, Attrappen, Informationen\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "2 Kostüme, Attrappen, Informationen"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"Wachposten\" \"Sturmgewehrattrappe\" Kunstfreiheit -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Wachposten"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"Wachposten\" \"Sturmgewehrattrappe\" Kunstfreiheit -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Sturmgewehrattrappe"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "site:rechtsprechung-im-internet.de \"Theateraufführung\" \"42a\" WaffG -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Theateraufführung"
+      }
+    ]
+  },
+  "search_queries": [
+    "\"2 Kostüme, Attrappen, Informationen\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"Fraglich ist, ob sich die szenische Einlage der A\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"Wachposten\" \"Sturmgewehrattrappe\" Kunstfreiheit -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"bb) Ausnahme nach § 42a II WaffG\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "Hessischer VGH 8 A 1188/10 17.03.2011 Anscheinswaffen Theateraufführung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bundesverfassungsgericht.de 1 BvR 1726/01 Versammlung Polizeirecht -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bverfg.de Kunstbegriff freie schöpferische Gestaltung formal materiell offen -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bverfg.de Kunstfreiheit Versammlung Kunstbeitrag Art. 5 Abs. 3 Art. 8 Konkurrenz -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bverfg.de Versammlung Kunstfreiheit Waffenattrappen Versammlung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bverwg.de Fortsetzungsfeststellungsklage Wiederholungsgefahr Versammlung kurzfristig erledigt -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:gesetze-im-internet.de Versammlungsgesetz § 15 Bundesrecht -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:gesetze-im-internet.de WaffG § 42a Anscheinswaffen Anlage 1 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:gesetze-im-internet.de/versammlg/__1.html § 1 VersG -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:gesetze-im-internet.de/versammlg/__18.html § 18 Abs. 3 VersG -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:gesetze-im-internet.de/vwgo/__113.html § 113 VwGO -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:gesetze-im-internet.de/waffg_2002/anlage_1.html \"1.6.2\" Anscheinswaffen -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:lagis-hessen.de 8 A 1188/10 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:rechtsprechung-im-internet.de \"Theateraufführung\" \"42a\" WaffG -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:rechtsprechung-im-internet.de Versammlungsgesetz Minusmaßnahme § 15 Abs. 3 Beschränkung laufende Versammlung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:rv.hessenrecht.hessen.de 8 A 1188/10 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com"
+  ],
+  "sources": [
+    {
+      "url": "https://recht.nulegal.eu/rechtsprechung/vgh-hessen/2011-03-17/8-a-1188-10",
+      "domain": "recht.nulegal.eu",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "VGH Hessen, Urteil vom 17.03.2011 – 8 A 1188/10",
+      "reported_purpose": "Maßgebliche Entscheidung zum politischen Straßentheater mit Sturmgewehrattrappen",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2001/10/rs20011024_1bvr119090.html",
+      "domain": "www.bundesverfassungsgericht.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "BVerfG, Beschluss vom 24.10.2001 – 1 BvR 1190/90 u.a.",
+      "reported_purpose": "Selbstbestimmungsrecht über Art und Gestaltung einer Versammlung",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2004/10/rk20041026_1bvr172601.html",
+      "domain": "www.bundesverfassungsgericht.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "BVerfG, Beschluss vom 26.10.2004 – 1 BvR 1726/01",
+      "reported_purpose": "Verfassungsrechtlicher Vorrang versammlungsrechtlicher Eingriffsvoraussetzungen bei Maßnahmen gegen Teilnehmer",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.bverwg.de/de/240424U6C2.22.0",
+      "domain": "www.bverwg.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "BVerwG, Urteil vom 24.04.2024 – 6 C 2.22",
+      "reported_purpose": "Aktuelle Maßstäbe zum Fortsetzungsfeststellungsinteresse",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.bverwg.de/de/240524B4B15.23.0",
+      "domain": "www.bverwg.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "BVerwG, Beschluss vom 24.05.2024 – 4 B 15.23",
+      "reported_purpose": "Aktuelle Einordnung der Sperrwirkung des Versammlungsgesetzes gegenüber allgemeinem Ordnungsrecht",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.bverwg.de/pm/2024/12",
+      "domain": "www.bverwg.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "BVerwG, Pressemitteilung Nr. 12/2024",
+      "reported_purpose": "Höchstrichterliche Zusammenfassung der teilnehmerbezogenen Sperrwirkung und des Versammlungsbegriffs",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/versammlg/__1.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "§ 1 VersammlG – Einzelnorm",
+      "reported_purpose": "Aktueller Wortlaut des einfachgesetzlichen Versammlungsrechts",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/versammlg/__15.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "§ 15 VersammlG – Einzelnorm",
+      "reported_purpose": "Aktuelle Voraussetzungen von Beschränkung und Auflösung",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/versammlg/__18.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "§ 18 VersammlG – Einzelnorm",
+      "reported_purpose": "Aktuelle Befugnis zum Ausschluss gröblich störender Teilnehmer",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/vwgo/__113.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "§ 113 VwGO – Einzelnorm",
+      "reported_purpose": "Aktueller Wortlaut der Fortsetzungsfeststellungsklage",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/waffg_2002/__42a.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "§ 42a WaffG – Einzelnorm",
+      "reported_purpose": "Aktuelles Führungsverbot und Ausnahme für Theateraufführungen",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/waffg_2002/anlage_1.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "Anlage 1 WaffG – Begriffsbestimmungen",
+      "reported_purpose": "Aktuelle Definitionen von Anscheinswaffe und Führen",
+      "visit_evidence": []
+    }
+  ],
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/fortsetzungsfeststellungsklage/fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters"
+}

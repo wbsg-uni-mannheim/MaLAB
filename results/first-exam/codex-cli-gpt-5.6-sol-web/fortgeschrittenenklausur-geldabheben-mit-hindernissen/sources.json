@@ -1,0 +1,394 @@
+{
+  "schema_version": "0.2",
+  "method_note": "Used means the URL appears in the selected deliverable or in Codex's required .codex-used-sources.json sidecar. Open/Fetch means Codex additionally recorded an explicit page-open action or HTTP fetch command. Search-result URLs are not invented from snippets and are not counted unless one of those records exists.",
+  "counts": {
+    "search_queries": 36,
+    "recorded_open_or_fetch_urls": 1,
+    "used_urls": 10,
+    "cited_urls": 0,
+    "unique_used_source_urls": 10,
+    "unique_used_source_domains": 3,
+    "unique_source_urls": 11,
+    "unique_source_domains": 3,
+    "blocked_domain_violations": 0,
+    "search_leakage_flags": 40,
+    "web_access_violations": 0
+  },
+  "blocked_domain_policy": {
+    "blocked_domains": [
+      "dskrpt.de",
+      "forum-iuridicum.com",
+      "moodle.ruhr-uni-bochum.de",
+      "openrewi.org",
+      "pure.mpg.de",
+      "wikibooks.org",
+      "zjs-online.com"
+    ],
+    "passed": true,
+    "violations": []
+  },
+  "web_access_policy": {
+    "web_search_allowed": true,
+    "passed": true,
+    "violations": []
+  },
+  "search_leakage_audit": {
+    "enforcement": "informational-only",
+    "flagged": true,
+    "flags": [
+      {
+        "kind": "task-identifier",
+        "evidence": "\"4 StR 338/20\" \"263a\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"Bankkarte\" \"PIN\" \"Prospekt\" \"Computerbetrug\" Geldautomat -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"Bankkarte\" \"PIN\" \"Prospekt\" \"Computerbetrug\" Geldautomat -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Prospekt"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"Cash Trapping\" \"Sachbeschädigung\" Geldautomat -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"Cash Trapping\" \"unmittelbar ansetzt\" Diebstahl Versuch -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"Cash-Trapping\" Versuchsbeginn § 22 Diebstahl Geldautomat -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"Dann gönne ich mir\" Seezunge Frascati StGB -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"Dann gönne ich mir\" Seezunge Frascati StGB -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Dann gönne ich mir"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"Eingabe der Höhe\" \"Computerbetrug\" Geldautomat Ablenkung Prospekt -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"Geldbetrag eingeben\" \"Computerbetrug\" Geldautomat Ablenkung Kunde -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"Prospekt\" \"Auszahlungsbetrag\" \"§ 263a\" Geldautomat -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"Prospekt\" \"Auszahlungsbetrag\" \"§ 263a\" Geldautomat -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Prospekt"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"Prospekt\" \"Auszahlungsbetrag\" \"§ 263a\" Geldautomat -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Auszahlungsbetrag"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "\"Seezunge\" \"Frascati\" Hehlerei -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"Seezunge\" \"Frascati\" Hehlerei -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Seezunge"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"Seezunge\" \"Frascati\" Hehlerei -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Frascati"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "3 StR 333/18 Computerbetrug § 263a Eingabe Auszahlungsbetrag -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "BGH 12 November 2024 Geldautomat Berechtigter Bankkarte PIN Gewahrsam Aktenzeichen -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "BGH 3 StR 333/18 21. März 2019 Geldautomat Prospekt Ablenkung Volltext -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "BGH Absatzhilfe Bezahlung mit gestohlenem Geld § 259 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "BGH Begünstigung § 257 Tatvorteil Ersatzgegenstand Wechselgeld Beute verwerten -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "BGH Sachbeschädigung Funktionsbeeinträchtigung körperliche Einwirkung vorübergehend § 303 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "Geldautomat Opfer Karte PIN Täter Auszahlungsbetrag eingibt § 263a -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "Hehlerei Absatzhilfe gestohlenes Geld bezahlen Essen Restaurant -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "OLG Cash Trapping Sachbeschädigung Geldautomat § 303 Metallleiste -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "gestohlener Geldschein Restaurant Wechselgeld Absatzhilfe Hehlerei § 259 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de \"Absetzen hilft\" \"Vortäter\" § 259 Absatzhilfe selbständig unselbständig -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de \"Cash Trapping\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de Cash Trapping Geldautomat Versuch Diebstahl Blende Klebeband -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de Geldautomat abgelenkt PIN Auszahlungsbetrag eingegeben Diebstahl Computerbetrug -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de Hehlerei Ersatzsache Wechselgeld § 259 BGH -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de Wechselgeld Hehlerei Ersatzhehlerei Geld -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de § 257 Begünstigung Beute verbrauchen Vorteil sichern eigenes Interesse Absicht -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de § 259 Absatzhilfe Vortäter wirtschaftliche Verwertung Sache Erfolg -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:bundesgerichtshof.de § 303 Funktionsfähigkeit nicht unerhebliche Beeinträchtigung Sache -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:gesetze-im-internet.de StGB § 242 § 263a § 259 § 257 § 303a -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:gesetze-im-internet.de/stgb __257 __259 __242 __263a -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "site:rechtsprechung-im-internet.de Cash Trapping Diebstahl -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "§ 257 Beute ausgeben Restaurant Begünstigung Vortäter Vorteil sichern -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      },
+      {
+        "kind": "task-identifier",
+        "evidence": "§ 259 Wechselgeld gestohlener Geldschein Hehlerei Ersatzhehlerei BGH -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "zjs"
+      }
+    ]
+  },
+  "search_queries": [
+    "\"4 StR 338/20\" \"263a\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"Bankkarte\" \"PIN\" \"Prospekt\" \"Computerbetrug\" Geldautomat -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"Cash Trapping\" \"Sachbeschädigung\" Geldautomat -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"Cash Trapping\" \"unmittelbar ansetzt\" Diebstahl Versuch -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"Cash-Trapping\" Versuchsbeginn § 22 Diebstahl Geldautomat -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"Dann gönne ich mir\" Seezunge Frascati StGB -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"Eingabe der Höhe\" \"Computerbetrug\" Geldautomat Ablenkung Prospekt -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"Geldbetrag eingeben\" \"Computerbetrug\" Geldautomat Ablenkung Kunde -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"Prospekt\" \"Auszahlungsbetrag\" \"§ 263a\" Geldautomat -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "\"Seezunge\" \"Frascati\" Hehlerei -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "'§ 303 Sachbeschädigung'",
+    "3 StR 333/18 Computerbetrug § 263a Eingabe Auszahlungsbetrag -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "BGH 12 November 2024 Geldautomat Berechtigter Bankkarte PIN Gewahrsam Aktenzeichen -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "BGH 3 StR 333/18 21. März 2019 Geldautomat Prospekt Ablenkung Volltext -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "BGH Absatzhilfe Bezahlung mit gestohlenem Geld § 259 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "BGH Begünstigung § 257 Tatvorteil Ersatzgegenstand Wechselgeld Beute verwerten -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "BGH Sachbeschädigung Funktionsbeeinträchtigung körperliche Einwirkung vorübergehend § 303 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "Geldautomat Opfer Karte PIN Täter Auszahlungsbetrag eingibt § 263a -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "Hehlerei Absatzhilfe gestohlenes Geld bezahlen Essen Restaurant -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "OLG Cash Trapping Sachbeschädigung Geldautomat § 303 Metallleiste -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "gestohlener Geldschein Restaurant Wechselgeld Absatzhilfe Hehlerei § 259 -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "https://www.gesetze-im-internet.de/bgb/__929.html",
+    "site:bundesgerichtshof.de \"Absetzen hilft\" \"Vortäter\" § 259 Absatzhilfe selbständig unselbständig -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bundesgerichtshof.de \"Cash Trapping\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bundesgerichtshof.de Cash Trapping Geldautomat Versuch Diebstahl Blende Klebeband -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bundesgerichtshof.de Geldautomat abgelenkt PIN Auszahlungsbetrag eingegeben Diebstahl Computerbetrug -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bundesgerichtshof.de Hehlerei Ersatzsache Wechselgeld § 259 BGH -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bundesgerichtshof.de Wechselgeld Hehlerei Ersatzhehlerei Geld -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bundesgerichtshof.de § 257 Begünstigung Beute verbrauchen Vorteil sichern eigenes Interesse Absicht -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bundesgerichtshof.de § 259 Absatzhilfe Vortäter wirtschaftliche Verwertung Sache Erfolg -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:bundesgerichtshof.de § 303 Funktionsfähigkeit nicht unerhebliche Beeinträchtigung Sache -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:gesetze-im-internet.de StGB § 242 § 263a § 259 § 257 § 303a -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:gesetze-im-internet.de/stgb __257 __259 __242 __263a -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "site:rechtsprechung-im-internet.de Cash Trapping Diebstahl -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "§ 257 Beute ausgeben Restaurant Begünstigung Vortäter Vorteil sichern -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com",
+    "§ 259 Wechselgeld gestohlener Geldschein Hehlerei Ersatzhehlerei BGH -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:openrewi.org -site:pure.mpg.de -site:wikibooks.org -site:zjs-online.com"
+  ],
+  "sources": [
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2018-10&Gericht=bgh&anz=276&nr=92916&pos=1",
+      "domain": "juris.bundesgerichtshof.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "BGH, Urteil vom 10.10.2018 – 2 StR 564/17",
+      "reported_purpose": "Ausschluss der Ersatzhehlerei und Schutzzweck des § 259 StGB",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2019-3-21&Gericht=bgh&anz=24&nr=98461&pos=2",
+      "domain": "juris.bundesgerichtshof.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "BGH, Beschluss vom 21.03.2019 – 3 StR 333/18",
+      "reported_purpose": "Gewahrsam der Bank und personelle Beschränkung des Einverständnisses bei der Geldautomatenausgabe",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2021-3-3&Gericht=bgh&anz=24&client=12&nr=117052&pos=8",
+      "domain": "juris.bundesgerichtshof.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "BGH, Beschluss vom 03.03.2021 – 4 StR 338/20",
+      "reported_purpose": "Gewahrsam des legitimierten Bankkunden bei Ablenkungsfällen am Geldautomaten",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2024-11-12&Gericht=bgh&anz=37&nr=140047&pos=9",
+      "domain": "juris.bundesgerichtshof.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "BGH, Beschluss vom 12.11.2024 – 3 StR 301/24",
+      "reported_purpose": "Aktuelle Bestätigung der Diebstahlslösung bei Geldentnahme nach Karten- und PIN-Eingabe des Berechtigten",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=Aktuell&Gericht=bgh&Sort=12288&anz=750&nr=131578&pos=8",
+      "domain": "juris.bundesgerichtshof.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "BGH, Urteil vom 27.09.2022 – VI ZR 336/21",
+      "reported_purpose": "Funktionsbeeinträchtigung als Sachbeschädigung bei unmittelbarer Einwirkung",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2013-10-22/3-str-69-13",
+      "domain": "recht.nulegal.eu",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "BGH, Beschluss vom 22.10.2013 – 3 StR 69/13",
+      "reported_purpose": "Erfordernis eines Absatzerfolgs bei Absetzen und Absatzhilfe",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://recht.nulegal.eu/rechtsprechung/olg-koeln/2020-05-18/2-ws-161-20",
+      "domain": "recht.nulegal.eu",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "OLG Köln, Beschluss vom 18.05.2020 – 2 Ws 161/20",
+      "reported_purpose": "Versuchsbeginn beim Cash Trapping",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__929.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": true,
+      "used": false,
+      "cited_in_deliverable": false,
+      "reported_title": "",
+      "reported_purpose": "",
+      "visit_evidence": [
+        "web_search open"
+      ]
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__932.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "§ 932 BGB – Gutgläubiger Erwerb vom Nichtberechtigten",
+      "reported_purpose": "Eigentumserwerb des gutgläubigen Restaurantinhabers",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__935.html",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "§ 935 BGB – Kein gutgläubiger Erwerb von abhanden gekommenen Sachen",
+      "reported_purpose": "Geld-Ausnahme nach § 935 Abs. 2 BGB",
+      "visit_evidence": []
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stgb/BJNR001270871.html?level=1",
+      "domain": "www.gesetze-im-internet.de",
+      "visited": false,
+      "used": true,
+      "cited_in_deliverable": false,
+      "reported_title": "Strafgesetzbuch (StGB) – geltende Fassung",
+      "reported_purpose": "Verifikation der einschlägigen Strafnormen und Strafantragserfordernisse",
+      "visit_evidence": []
+    }
+  ],
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-geldabheben-mit-hindernissen"
+}

@@ -1,0 +1,450 @@
+system,harness,model,case,content_score,style_score
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,abschlussklausur-europarecht-germany-first,75.0,73.1
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,anfanger-innenhausarbeit-bundeszwang-und-rededrang,67.4,80.0
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,anfangerhausarbeit-wie-du-mir-so-ich-dir,56.0,69.8
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali,68.2,65.7
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,anfangerklausur-caroline-zugleich-ein-beitrag-zur-mittelbaren-drittwirkung-der-grundrechte,85.7,88.9
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,anfangerklausur-das-haus-am-see,83.3,75.6
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,anfangerklausur-ein-gebrochener-arm-und-viele-scherben,59.1,81.8
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,anfangerklausur-erbe-auf-umwegen,90.9,96.4
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn,81.2,93.1
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger,79.3,87.5
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,anfangerklausur-zwei-autokaufe,83.3,85.0
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,anfangerubungsklausur-alte-feindschaft,96.0,94.4
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,examensklausur-40-000-t-schredder-schrott,65.5,83.3
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,examensklausur-ehe-und-espresso,39.6,63.6
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,examensubungsklausur-die-falsche-gisela,64.7,70.8
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,examensubungsklausur-falsche-liebe,83.8,78.8
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,examensubungsklausur-geteiltes-leid-ist-halbes-leid,74.4,83.3
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche,55.8,75.7
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,examensubungsklausur-strafrecht-nur-bares-ist-wahres,70.5,71.4
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen,57.1,67.6
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fall-02-anfechtungsklage-bei-nebenbestimmungen,81.5,70.8
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters,73.0,73.3
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenhausarbeit-die-lugen-des-finder-schwindlers,61.8,71.9
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenhausarbeit-kaufrausch-mit-katerstimmung,62.0,64.9
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva,67.3,74.4
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht,81.6,87.8
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen,86.5,91.2
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenklausur-europarecht-autofrei-spass-dabei,82.9,96.2
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand,72.9,83.3
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenklausur-geldabheben-mit-hindernissen,52.9,60.6
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress,72.4,78.9
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenklausur-kontaktloses-bezahlen,48.6,57.1
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht,92.3,95.0
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenklausur-wertpapier-werkstatt-und-weed,85.0,81.8
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a,78.6,77.3
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein,74.4,80.0
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt,66.7,77.1
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenubungsklausur-mopeg-in-3d,63.3,66.7
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat,79.6,74.4
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenubungsklausur-ungebetener-gast,78.9,76.7
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m,71.1,78.8
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb,59.1,69.6
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles,78.3,86.7
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden,63.9,70.4
+single-call-gpt-5.6-sol,Single call,gpt-5.6-sol,zwischenprufungsklausur-rund-um-die-wg-party,79.2,81.0
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,abschlussklausur-europarecht-germany-first,86.1,76.9
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,anfanger-innenhausarbeit-bundeszwang-und-rededrang,63.0,73.3
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,anfangerhausarbeit-wie-du-mir-so-ich-dir,50.0,58.1
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali,59.1,51.4
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,anfangerklausur-caroline-zugleich-ein-beitrag-zur-mittelbaren-drittwirkung-der-grundrechte,82.1,77.8
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,anfangerklausur-das-haus-am-see,72.9,68.3
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,anfangerklausur-ein-gebrochener-arm-und-viele-scherben,50.0,69.7
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,anfangerklausur-erbe-auf-umwegen,84.8,85.7
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn,71.9,79.3
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger,79.3,75.0
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,anfangerklausur-zwei-autokaufe,70.8,70.0
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,anfangerubungsklausur-alte-feindschaft,76.0,94.4
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,examensklausur-40-000-t-schredder-schrott,58.6,66.7
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,examensklausur-ehe-und-espresso,28.3,42.4
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,examensubungsklausur-die-falsche-gisela,61.8,62.5
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,examensubungsklausur-falsche-liebe,73.0,84.8
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,examensubungsklausur-geteiltes-leid-ist-halbes-leid,48.8,63.9
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche,51.2,62.2
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,examensubungsklausur-strafrecht-nur-bares-ist-wahres,45.9,55.1
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen,42.9,61.8
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fall-02-anfechtungsklage-bei-nebenbestimmungen,70.4,70.8
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters,64.9,63.3
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenhausarbeit-die-lugen-des-finder-schwindlers,51.5,57.9
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenhausarbeit-kaufrausch-mit-katerstimmung,28.0,29.7
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva,59.6,69.8
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht,63.3,65.9
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen,73.0,76.5
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenklausur-europarecht-autofrei-spass-dabei,77.1,76.9
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand,72.9,80.6
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenklausur-geldabheben-mit-hindernissen,38.2,48.5
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress,72.4,84.2
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenklausur-kontaktloses-bezahlen,64.9,60.0
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht,69.2,70.0
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenklausur-wertpapier-werkstatt-und-weed,72.5,72.7
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a,82.1,86.4
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein,71.8,80.0
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt,63.0,72.9
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenubungsklausur-mopeg-in-3d,63.3,74.1
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat,69.4,76.9
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenubungsklausur-ungebetener-gast,57.9,63.3
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m,52.6,45.5
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb,42.4,53.6
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles,52.2,80.0
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden,50.0,55.6
+single-call-gpt-5.6-terra,Single call,gpt-5.6-terra,zwischenprufungsklausur-rund-um-die-wg-party,47.9,45.2
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,abschlussklausur-europarecht-germany-first,75.0,76.9
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,anfanger-innenhausarbeit-bundeszwang-und-rededrang,56.5,63.3
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,anfangerhausarbeit-wie-du-mir-so-ich-dir,48.0,48.8
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali,40.9,42.9
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,anfangerklausur-caroline-zugleich-ein-beitrag-zur-mittelbaren-drittwirkung-der-grundrechte,64.3,55.6
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,anfangerklausur-das-haus-am-see,62.5,53.7
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,anfangerklausur-ein-gebrochener-arm-und-viele-scherben,31.8,33.3
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,anfangerklausur-erbe-auf-umwegen,66.7,71.4
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn,46.9,62.1
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger,62.1,62.5
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,anfangerklausur-zwei-autokaufe,70.8,65.0
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,anfangerubungsklausur-alte-feindschaft,76.0,83.3
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,examensklausur-40-000-t-schredder-schrott,31.0,50.0
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,examensklausur-ehe-und-espresso,28.3,27.3
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,examensubungsklausur-die-falsche-gisela,38.2,54.2
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,examensubungsklausur-falsche-liebe,56.8,63.6
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,examensubungsklausur-geteiltes-leid-ist-halbes-leid,41.9,50.0
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche,37.2,62.2
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,examensubungsklausur-strafrecht-nur-bares-ist-wahres,39.3,38.8
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen,22.4,41.2
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fall-02-anfechtungsklage-bei-nebenbestimmungen,63.0,66.7
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters,51.4,50.0
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenhausarbeit-die-lugen-des-finder-schwindlers,36.8,49.1
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenhausarbeit-kaufrausch-mit-katerstimmung,28.0,27.0
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva,42.3,55.8
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht,42.9,48.8
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen,40.5,52.9
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenklausur-europarecht-autofrei-spass-dabei,71.4,80.8
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand,60.4,58.3
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenklausur-geldabheben-mit-hindernissen,38.2,48.5
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress,69.0,84.2
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenklausur-kontaktloses-bezahlen,43.2,48.6
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht,57.7,70.0
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenklausur-wertpapier-werkstatt-und-weed,30.0,42.4
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a,64.3,68.2
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein,61.5,76.7
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt,33.3,29.2
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenubungsklausur-mopeg-in-3d,36.7,37.0
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat,38.8,33.3
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenubungsklausur-ungebetener-gast,15.8,16.7
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m,39.5,48.5
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb,37.9,39.3
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles,39.1,40.0
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden,22.2,37.0
+single-call-deepseek-v4-pro,Single call,deepseek-v4-pro,zwischenprufungsklausur-rund-um-die-wg-party,27.1,31.0
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,abschlussklausur-europarecht-germany-first,83.3,84.6
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,anfanger-innenhausarbeit-bundeszwang-und-rededrang,73.9,83.3
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,anfangerhausarbeit-wie-du-mir-so-ich-dir,66.0,67.4
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali,72.7,74.3
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,anfangerklausur-caroline-zugleich-ein-beitrag-zur-mittelbaren-drittwirkung-der-grundrechte,85.7,83.3
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,anfangerklausur-das-haus-am-see,83.3,82.9
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,anfangerklausur-ein-gebrochener-arm-und-viele-scherben,54.5,66.7
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,anfangerklausur-erbe-auf-umwegen,87.9,92.9
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn,84.4,93.1
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger,86.2,87.5
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,anfangerklausur-zwei-autokaufe,91.7,85.0
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,anfangerubungsklausur-alte-feindschaft,92.0,88.9
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,examensklausur-40-000-t-schredder-schrott,79.3,87.5
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,examensklausur-ehe-und-espresso,39.6,57.6
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,examensubungsklausur-die-falsche-gisela,67.6,66.7
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,examensubungsklausur-falsche-liebe,89.2,93.9
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,examensubungsklausur-geteiltes-leid-ist-halbes-leid,72.1,77.8
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche,58.1,78.4
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,examensubungsklausur-strafrecht-nur-bares-ist-wahres,70.5,71.4
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen,67.3,70.6
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fall-02-anfechtungsklage-bei-nebenbestimmungen,77.8,79.2
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters,75.7,80.0
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenhausarbeit-die-lugen-des-finder-schwindlers,55.9,64.9
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenhausarbeit-kaufrausch-mit-katerstimmung,58.0,62.2
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva,73.1,88.4
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht,77.6,85.4
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen,86.5,88.2
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenklausur-europarecht-autofrei-spass-dabei,88.6,88.5
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand,79.2,86.1
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenklausur-geldabheben-mit-hindernissen,58.8,63.6
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress,75.9,78.9
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenklausur-kontaktloses-bezahlen,59.5,74.3
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht,80.8,85.0
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenklausur-wertpapier-werkstatt-und-weed,80.0,81.8
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a,82.1,95.5
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein,69.2,76.7
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt,66.7,79.2
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenubungsklausur-mopeg-in-3d,83.3,85.2
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat,85.7,84.6
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenubungsklausur-ungebetener-gast,68.4,60.0
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m,81.6,81.8
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb,65.2,75.0
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles,87.0,93.3
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden,61.1,63.0
+opencode-gpt-5.6-sol,OpenCode,gpt-5.6-sol,zwischenprufungsklausur-rund-um-die-wg-party,79.2,76.2
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,abschlussklausur-europarecht-germany-first,72.2,73.1
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,anfanger-innenhausarbeit-bundeszwang-und-rededrang,69.6,76.7
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,anfangerhausarbeit-wie-du-mir-so-ich-dir,40.0,69.8
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali,59.1,57.1
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,anfangerklausur-caroline-zugleich-ein-beitrag-zur-mittelbaren-drittwirkung-der-grundrechte,78.6,83.3
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,anfangerklausur-das-haus-am-see,79.2,65.9
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,anfangerklausur-ein-gebrochener-arm-und-viele-scherben,54.5,69.7
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,anfangerklausur-erbe-auf-umwegen,72.7,82.1
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn,75.0,75.9
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger,69.0,75.0
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,anfangerklausur-zwei-autokaufe,45.8,55.0
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,anfangerubungsklausur-alte-feindschaft,80.0,88.9
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,examensklausur-40-000-t-schredder-schrott,55.2,66.7
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,examensklausur-ehe-und-espresso,28.3,39.4
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,examensubungsklausur-die-falsche-gisela,55.9,50.0
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,examensubungsklausur-falsche-liebe,70.3,78.8
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,examensubungsklausur-geteiltes-leid-ist-halbes-leid,53.5,58.3
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche,55.8,70.3
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,examensubungsklausur-strafrecht-nur-bares-ist-wahres,45.9,49.0
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen,44.9,52.9
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fall-02-anfechtungsklage-bei-nebenbestimmungen,63.0,70.8
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters,64.9,73.3
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenhausarbeit-die-lugen-des-finder-schwindlers,41.2,50.9
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenhausarbeit-kaufrausch-mit-katerstimmung,36.0,37.8
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva,50.0,65.1
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht,57.1,56.1
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen,75.7,76.5
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenklausur-europarecht-autofrei-spass-dabei,82.9,76.9
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand,79.2,80.6
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenklausur-geldabheben-mit-hindernissen,35.3,42.4
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress,72.4,78.9
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenklausur-kontaktloses-bezahlen,40.5,51.4
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht,73.1,80.0
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenklausur-wertpapier-werkstatt-und-weed,77.5,81.8
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a,82.1,77.3
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein,61.5,73.3
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt,63.0,68.8
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenubungsklausur-mopeg-in-3d,66.7,70.4
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat,0.0,0.0
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenubungsklausur-ungebetener-gast,55.3,60.0
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m,52.6,48.5
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb,42.4,50.0
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles,52.2,73.3
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden,33.3,40.7
+opencode-gpt-5.6-terra,OpenCode,gpt-5.6-terra,zwischenprufungsklausur-rund-um-die-wg-party,56.2,54.8
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,abschlussklausur-europarecht-germany-first,63.9,57.7
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,anfangerhausarbeit-wie-du-mir-so-ich-dir,46.0,60.5
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali,43.2,40.0
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,anfangerklausur-caroline-zugleich-ein-beitrag-zur-mittelbaren-drittwirkung-der-grundrechte,85.7,72.2
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,anfangerklausur-das-haus-am-see,72.9,70.7
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,anfangerklausur-ein-gebrochener-arm-und-viele-scherben,47.7,48.5
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,anfangerklausur-erbe-auf-umwegen,78.8,85.7
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn,65.6,79.3
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger,75.9,83.3
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,anfangerklausur-zwei-autokaufe,75.0,75.0
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,anfangerubungsklausur-alte-feindschaft,44.0,44.4
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,examensklausur-40-000-t-schredder-schrott,41.4,58.3
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,examensklausur-ehe-und-espresso,28.3,42.4
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,examensubungsklausur-die-falsche-gisela,38.2,41.7
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,examensubungsklausur-falsche-liebe,70.3,81.8
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,examensubungsklausur-geteiltes-leid-ist-halbes-leid,65.1,66.7
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche,34.9,43.2
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,examensubungsklausur-strafrecht-nur-bares-ist-wahres,37.7,42.9
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen,40.8,50.0
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fall-02-anfechtungsklage-bei-nebenbestimmungen,66.7,70.8
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters,48.6,50.0
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenhausarbeit-die-lugen-des-finder-schwindlers,38.2,40.4
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenhausarbeit-kaufrausch-mit-katerstimmung,48.0,56.8
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva,59.6,65.1
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht,63.3,70.7
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen,70.3,76.5
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenklausur-europarecht-autofrei-spass-dabei,77.1,73.1
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand,62.5,69.4
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenklausur-geldabheben-mit-hindernissen,29.4,39.4
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress,65.5,73.7
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenklausur-kontaktloses-bezahlen,54.1,60.0
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht,61.5,70.0
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenklausur-wertpapier-werkstatt-und-weed,47.5,69.7
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a,60.7,72.7
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein,61.5,76.7
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt,48.1,43.8
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenubungsklausur-mopeg-in-3d,36.7,44.4
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat,51.0,53.8
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenubungsklausur-ungebetener-gast,44.7,50.0
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m,42.1,36.4
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb,40.9,42.9
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles,34.8,53.3
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden,30.6,48.1
+opencode-deepseek-v4-pro,OpenCode,deepseek-v4-pro,zwischenprufungsklausur-rund-um-die-wg-party,43.8,47.6
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,abschlussklausur-europarecht-germany-first,83.3,80.8
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,anfanger-innenhausarbeit-bundeszwang-und-rededrang,73.9,86.7
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,anfangerhausarbeit-wie-du-mir-so-ich-dir,64.0,67.4
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali,65.9,60.0
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,anfangerklausur-caroline-zugleich-ein-beitrag-zur-mittelbaren-drittwirkung-der-grundrechte,85.7,88.9
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,anfangerklausur-das-haus-am-see,83.3,75.6
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,anfangerklausur-ein-gebrochener-arm-und-viele-scherben,47.7,63.6
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,anfangerklausur-erbe-auf-umwegen,84.8,92.9
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn,93.8,93.1
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger,82.8,91.7
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,anfangerklausur-zwei-autokaufe,75.0,85.0
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,anfangerubungsklausur-alte-feindschaft,92.0,88.9
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,examensklausur-40-000-t-schredder-schrott,65.5,83.3
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,examensklausur-ehe-und-espresso,41.5,54.5
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,examensubungsklausur-die-falsche-gisela,64.7,79.2
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,examensubungsklausur-falsche-liebe,89.2,84.8
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,examensubungsklausur-geteiltes-leid-ist-halbes-leid,72.1,77.8
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche,53.5,70.3
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,examensubungsklausur-strafrecht-nur-bares-ist-wahres,67.2,73.5
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen,55.1,73.5
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fall-02-anfechtungsklage-bei-nebenbestimmungen,74.1,75.0
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters,67.6,66.7
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenhausarbeit-die-lugen-des-finder-schwindlers,51.5,63.2
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenhausarbeit-kaufrausch-mit-katerstimmung,48.0,48.6
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva,71.2,76.7
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht,79.6,80.5
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen,94.6,97.1
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenklausur-europarecht-autofrei-spass-dabei,91.4,88.5
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand,83.3,94.4
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenklausur-geldabheben-mit-hindernissen,52.9,69.7
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress,75.9,84.2
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenklausur-kontaktloses-bezahlen,62.2,77.1
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht,84.6,80.0
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenklausur-wertpapier-werkstatt-und-weed,77.5,78.8
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a,85.7,81.8
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein,69.2,83.3
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt,72.2,75.0
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenubungsklausur-mopeg-in-3d,86.7,74.1
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat,73.5,71.8
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenubungsklausur-ungebetener-gast,76.3,76.7
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m,78.9,78.8
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb,57.6,73.2
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles,82.6,93.3
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden,63.9,74.1
+codex-cli-gpt-5.6-sol,Codex CLI,gpt-5.6-sol,zwischenprufungsklausur-rund-um-die-wg-party,77.1,76.2
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,abschlussklausur-europarecht-germany-first,83.3,76.9
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,anfanger-innenhausarbeit-bundeszwang-und-rededrang,82.6,90.0
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,anfangerhausarbeit-wie-du-mir-so-ich-dir,62.0,65.1
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali,72.7,68.6
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,anfangerklausur-caroline-zugleich-ein-beitrag-zur-mittelbaren-drittwirkung-der-grundrechte,82.1,77.8
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,anfangerklausur-das-haus-am-see,83.3,80.5
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,anfangerklausur-ein-gebrochener-arm-und-viele-scherben,72.7,78.8
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,anfangerklausur-erbe-auf-umwegen,81.8,89.3
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn,84.4,89.7
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger,93.1,91.7
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,anfangerklausur-zwei-autokaufe,62.5,80.0
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,anfangerubungsklausur-alte-feindschaft,100.0,94.4
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,examensklausur-40-000-t-schredder-schrott,69.0,79.2
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,examensklausur-ehe-und-espresso,39.6,63.6
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,examensubungsklausur-die-falsche-gisela,70.6,79.2
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,examensubungsklausur-falsche-liebe,89.2,90.9
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,examensubungsklausur-geteiltes-leid-ist-halbes-leid,69.8,80.6
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche,86.0,91.9
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,examensubungsklausur-strafrecht-nur-bares-ist-wahres,80.3,83.7
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen,59.2,61.8
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fall-02-anfechtungsklage-bei-nebenbestimmungen,85.2,79.2
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters,73.0,76.7
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenhausarbeit-die-lugen-des-finder-schwindlers,54.4,61.4
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenhausarbeit-kaufrausch-mit-katerstimmung,56.0,56.8
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva,73.1,76.7
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht,71.4,75.6
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen,91.9,91.2
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenklausur-europarecht-autofrei-spass-dabei,88.6,88.5
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand,77.1,86.1
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenklausur-geldabheben-mit-hindernissen,61.8,69.7
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress,82.8,84.2
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenklausur-kontaktloses-bezahlen,70.3,68.6
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht,84.6,90.0
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenklausur-wertpapier-werkstatt-und-weed,77.5,72.7
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a,85.7,95.5
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein,74.4,80.0
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt,59.3,70.8
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenubungsklausur-mopeg-in-3d,83.3,81.5
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat,79.6,79.5
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenubungsklausur-ungebetener-gast,86.8,93.3
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m,78.9,84.8
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb,69.7,76.8
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles,91.3,86.7
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden,63.9,63.0
+codex-cli-gpt-5.6-sol-web,Codex CLI,gpt-5.6-sol + web search,zwischenprufungsklausur-rund-um-die-wg-party,70.8,71.4
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,abschlussklausur-europarecht-germany-first,83.3,84.6
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,anfanger-innenhausarbeit-bundeszwang-und-rededrang,78.3,86.7
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,anfangerhausarbeit-wie-du-mir-so-ich-dir,72.0,79.1
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali,70.5,68.6
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,anfangerklausur-caroline-zugleich-ein-beitrag-zur-mittelbaren-drittwirkung-der-grundrechte,92.9,88.9
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,anfangerklausur-das-haus-am-see,89.6,87.8
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,anfangerklausur-ein-gebrochener-arm-und-viele-scherben,79.5,81.8
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,anfangerklausur-erbe-auf-umwegen,90.9,92.9
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn,87.5,89.7
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger,86.2,91.7
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,anfangerklausur-zwei-autokaufe,91.7,95.0
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,anfangerubungsklausur-alte-feindschaft,100.0,100.0
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,examensklausur-40-000-t-schredder-schrott,75.9,83.3
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,examensklausur-ehe-und-espresso,71.7,81.8
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,examensubungsklausur-die-falsche-gisela,73.5,87.5
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,examensubungsklausur-falsche-liebe,81.1,93.9
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,examensubungsklausur-geteiltes-leid-ist-halbes-leid,81.4,86.1
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche,79.1,89.2
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,examensubungsklausur-strafrecht-nur-bares-ist-wahres,93.4,87.8
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen,75.5,85.3
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fall-02-anfechtungsklage-bei-nebenbestimmungen,77.8,70.8
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters,81.1,83.3
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenhausarbeit-die-lugen-des-finder-schwindlers,73.5,78.9
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenhausarbeit-kaufrausch-mit-katerstimmung,78.0,86.5
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva,86.5,88.4
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht,89.8,92.7
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen,97.3,97.1
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenklausur-europarecht-autofrei-spass-dabei,91.4,96.2
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand,81.2,86.1
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenklausur-geldabheben-mit-hindernissen,76.5,81.8
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress,82.8,84.2
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenklausur-kontaktloses-bezahlen,73.0,71.4
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht,96.2,100.0
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenklausur-wertpapier-werkstatt-und-weed,95.0,90.9
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a,89.3,95.5
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein,82.1,83.3
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt,74.1,79.2
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenubungsklausur-mopeg-in-3d,73.3,74.1
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat,85.7,82.1
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenubungsklausur-ungebetener-gast,92.1,93.3
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m,97.4,97.0
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb,66.7,75.0
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles,95.7,100.0
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden,52.8,70.4
+codex-cli-gpt-6-astra,Codex CLI,GPT-6 Astra,zwischenprufungsklausur-rund-um-die-wg-party,79.2,78.6
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,abschlussklausur-europarecht-germany-first,88.9,92.3
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,anfanger-innenhausarbeit-bundeszwang-und-rededrang,78.3,93.3
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,anfangerhausarbeit-wie-du-mir-so-ich-dir,66.0,79.1
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali,84.1,80.0
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,anfangerklausur-caroline-zugleich-ein-beitrag-zur-mittelbaren-drittwirkung-der-grundrechte,100.0,100.0
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,anfangerklausur-das-haus-am-see,93.8,87.8
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,anfangerklausur-ein-gebrochener-arm-und-viele-scherben,81.8,84.8
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,anfangerklausur-erbe-auf-umwegen,90.9,92.9
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn,93.8,96.6
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger,93.1,95.8
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,anfangerklausur-zwei-autokaufe,100.0,100.0
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,anfangerubungsklausur-alte-feindschaft,100.0,94.4
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,examensklausur-40-000-t-schredder-schrott,86.2,87.5
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,examensklausur-ehe-und-espresso,60.4,81.8
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,examensubungsklausur-die-falsche-gisela,61.8,79.2
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,examensubungsklausur-falsche-liebe,91.9,93.9
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,examensubungsklausur-geteiltes-leid-ist-halbes-leid,83.7,91.7
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche,76.7,81.1
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,examensubungsklausur-strafrecht-nur-bares-ist-wahres,88.5,81.6
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen,75.5,88.2
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fall-02-anfechtungsklage-bei-nebenbestimmungen,85.2,79.2
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters,83.8,86.7
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenhausarbeit-die-lugen-des-finder-schwindlers,63.2,73.7
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenhausarbeit-kaufrausch-mit-katerstimmung,88.0,86.5
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva,88.5,95.3
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht,85.7,87.8
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen,94.6,73.5
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenklausur-europarecht-autofrei-spass-dabei,97.1,100.0
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand,91.7,94.4
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenklausur-geldabheben-mit-hindernissen,61.8,66.7
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress,86.2,84.2
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenklausur-kontaktloses-bezahlen,78.4,82.9
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht,96.2,95.0
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenklausur-wertpapier-werkstatt-und-weed,97.5,93.9
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a,89.3,86.4
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein,92.3,90.0
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt,68.5,75.0
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenubungsklausur-mopeg-in-3d,90.0,81.5
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat,85.7,82.1
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenubungsklausur-ungebetener-gast,100.0,93.3
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m,84.2,90.9
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb,66.7,76.8
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles,100.0,100.0
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden,69.4,74.1
+claude-code-opus-5.5,Claude Code,Claude Opus 5.5,zwischenprufungsklausur-rund-um-die-wg-party,91.7,85.7

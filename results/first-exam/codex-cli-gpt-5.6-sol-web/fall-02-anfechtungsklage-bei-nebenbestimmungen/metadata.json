@@ -1,0 +1,159 @@
+{
+  "schema_version": "0.1",
+  "harness": "codex-cli-ephemeral-web",
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/anfechtungsklage/fall-02-anfechtungsklage-bei-nebenbestimmungen",
+  "solver_case_id": "case-001",
+  "task_identity_anonymized": true,
+  "source_task_dir": "tasks/de/oeffentliches-recht/verwaltungsrecht/anfechtungsklage/fall-02-anfechtungsklage-bei-nebenbestimmungen",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/verwaltungsrecht/anfechtungsklage/fall-02-anfechtungsklage-bei-nebenbestimmungen",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "solver_configuration": {
+    "model": "gpt-5.6-sol",
+    "reasoning_effort": "medium",
+    "model_source": "cli-override",
+    "reasoning_effort_source": "cli-override",
+    "event_stream_verified": false,
+    "note": "Codex JSONL does not report the resolved model and reasoning effort. Pin both CLI options for a fully self-contained run record."
+  },
+  "tool_access": "full",
+  "live_web_search": true,
+  "web_search_mode": "live",
+  "blocked_domains": [
+    "dskrpt.de",
+    "forum-iuridicum.com",
+    "moodle.ruhr-uni-bochum.de",
+    "oapen.org",
+    "openrewi.org",
+    "pure.mpg.de",
+    "refubium.fu-berlin.de",
+    "wikibooks.org",
+    "zjs-online.com"
+  ],
+  "blocked_domain_policy": {
+    "blocked_domains": [
+      "dskrpt.de",
+      "forum-iuridicum.com",
+      "moodle.ruhr-uni-bochum.de",
+      "oapen.org",
+      "openrewi.org",
+      "pure.mpg.de",
+      "refubium.fu-berlin.de",
+      "wikibooks.org",
+      "zjs-online.com"
+    ],
+    "passed": true,
+    "violations": []
+  },
+  "web_access_policy": {
+    "web_search_allowed": true,
+    "passed": true,
+    "violations": []
+  },
+  "search_leakage_audit": {
+    "enforcement": "informational-only",
+    "flagged": true,
+    "flags": [
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"1500 Grad\" Glasmanufaktur Feuerwehrzufahrt Baugenehmigung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "1500 Grad"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"An der Grenze zum Grundstück\" \"Feuerwehrzufahrt\" gepflastert geteert -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "An der Grenze zum Grundstück"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"An der Grenze zum Grundstück\" \"Feuerwehrzufahrt\" gepflastert geteert -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Feuerwehrzufahrt"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "\"Parkettverleger\" Feuerwehrzufahrt Auflage Baugenehmigung -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Parkettverleger"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "site:bverwg.de \"Nebenbestimmung\" \"Baugenehmigung\" \"sinnvoller- und rechtmäßigerweise\" -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Baugenehmigung"
+      },
+      {
+        "kind": "quoted-task-fragment",
+        "evidence": "site:recht.saarland.de/bssl/document/jlr-NNLSL \"§ 72\" \"Baugenehmigung\" LBO Saarland -site:dskrpt.de -site:forum-iuridicum.com -site:moodle.ruhr-uni-bochum.de -site:oapen.org -site:openrewi.org -site:pure.mpg.de -site:refubium.fu-berlin.de -site:wikibooks.org -site:zjs-online.com",
+        "match": "Baugenehmigung"
+      }
+    ]
+  },
+  "memories_enabled": false,
+  "ephemeral": true,
+  "project_context": false,
+  "user_config_and_configured_tools_loaded": true,
+  "command": [
+    "codex",
+    "--search",
+    "--sandbox",
+    "danger-full-access",
+    "--ask-for-approval",
+    "never",
+    "--cd",
+    "$TMPDIR/lab-eu-codex-bgczo6ip",
+    "--disable",
+    "memories",
+    "--model",
+    "gpt-5.6-sol",
+    "--config",
+    "model_reasoning_effort=\"medium\"",
+    "exec",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--json",
+    "--output-last-message",
+    "$TMPDIR/lab-eu-codex-bgczo6ip/.codex-final-message.md",
+    "-"
+  ],
+  "attempt_count": 1,
+  "attempts": [
+    {
+      "attempt": 1,
+      "outcome": "ok",
+      "reason": "deliverable captured",
+      "exit_code": 0,
+      "timed_out": false,
+      "started_at": "2026-11-16T11:55:09.511888+00:00",
+      "ended_at": "2026-11-16T12:01:19.014257+00:00",
+      "duration_seconds": 369.501
+    }
+  ],
+  "expected_deliverables": [
+    "fallloesung-sut.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung-sut.md",
+      "found": true,
+      "bytes": 15577,
+      "sha256": "3d9fc32b794df830fb5e31da483d8ffe038ba852538ce05285c711c5e83bbde2"
+    }
+  ],
+  "missing_deliverables": [],
+  "unexpected_files": [],
+  "used_final_message_fallback": false,
+  "source_audit": {
+    "search_queries": 27,
+    "recorded_open_or_fetch_urls": 1,
+    "used_urls": 7,
+    "cited_urls": 3,
+    "unique_used_source_urls": 7,
+    "unique_used_source_domains": 5,
+    "unique_source_urls": 7,
+    "unique_source_domains": 5,
+    "blocked_domain_violations": 0,
+    "search_leakage_flags": 6,
+    "web_access_violations": 0
+  },
+  "source_audit_json": "runs/codex-web-45-leak-rerun-fall02/20261116T115509Z/tasks/de__oeffentliches-recht__verwaltungsrecht__anfechtungsklage__fall-02-anfechtungsklage-bei-nebenbestimmungen/sources.json",
+  "source_audit_markdown": "runs/codex-web-45-leak-rerun-fall02/20261116T115509Z/tasks/de__oeffentliches-recht__verwaltungsrecht__anfechtungsklage__fall-02-anfechtungsklage-bei-nebenbestimmungen/sources.md",
+  "exit_code": 0
+}
