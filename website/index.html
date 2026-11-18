@@ -8,7 +8,7 @@
         />
         <meta
             name="keywords"
-            content="legal AI, benchmark, LLM agents, German law, Staatsexamen, state examination, rubric evaluation, Gutachten, MaLAB"
+            content="legal AI, benchmark, LLM agents, German law, Staatsexamen, state examination, rubric evaluation, Gutachten, MaLAB, legal agents"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>MaLAB: Mannheim Legal Agent Benchmark</title>
@@ -16,7 +16,7 @@
         <meta property="og:title" content="MaLAB: Mannheim Legal Agent Benchmark" />
         <meta
             property="og:description"
-            content="45 published German exam cases with 1,806 case-specific criteria, a private test set of 45 Second State Examination cases, and ongoing research into agent harnesses, web search and legal reasoning."
+            content="The benchmark comprises 45 cases from the German First State Examination in Law, with 1,806 case-specific evaluation criteria (rubrics), and a private test set of 45 cases from the Second State Examination in Law."
         />
         <meta property="og:type" content="website" />
         <link
@@ -255,9 +255,9 @@
                         <a class="navbar-item" href="#rubrics">Rubrics</a>
                         <a class="navbar-item" href="#validation">Validation</a>
                         <a class="navbar-item" href="#judging">Judging</a>
-                        <a class="navbar-item" href="#results">Results</a>
+                        <a class="navbar-item" href="#results">Evaluation Results</a>
                         <a class="navbar-item" href="#failures">Error Analysis</a>
-                        <a class="navbar-item" href="#roadmap">Outlook</a>
+                        <a class="navbar-item" href="#contact">Feedback</a>
                     </div>
                 </div>
             </div>
@@ -271,12 +271,8 @@
                         MaLAB: Mannheim Legal Agent Benchmark
                     </h1>
                     <p class="is-size-5" style="margin-bottom: 1rem">
-                        Evaluating German legal reasoning with LLM agents,
-                        case-specific rubrics, and web research
+                        Evaluating Legal Agents on German State Examination Cases <br>(Erstes und zweites juristisches Staatsexamen)
                     </p>
-                    <!-- TODO(Aaron): Reihenfolge der mittleren Autoren ist vorläufig (16.11.2026).
-                         Affiliationen und Profil-Links ergänzt (17.11.2026).
-                         Betrifft auch das BibTeX unten in der Citation-Sektion. -->
                     <div class="is-size-5 publication-authors">
                         <span class="author-block"><a href="https://www.uni-mannheim.de/dws/people/researchers/phd-students/aaron-steiner/">Aaron Steiner</a><sup>1</sup>,</span>
                         <span class="author-block"><a href="https://www.jura.uni-mannheim.de/mueller-terpitz/team/#c133615">Benedikt Asal</a><sup>2</sup>,</span>
@@ -287,7 +283,7 @@
                         <span class="author-block"><a href="https://www.uni-mannheim.de/dws/people/professors/prof-dr-christian-bizer/">Christian Bizer</a><sup>1</sup></span>
                     </div>
                     <div class="is-size-6 publication-authors" style="margin-top: 0.4rem">
-                        <span class="author-block"><sup>1</sup><a href="https://www.uni-mannheim.de/dws/research/focus-groups/web-based-systems-prof-bizer/">Data and Web Science Group, University of Mannheim</a>,</span>
+                        <span class="author-block"><sup>1</sup><a href="https://www.uni-mannheim.de/dws/">Data and Web Science Group, University of Mannheim</a>,</span>
                         <span class="author-block"><sup>2</sup><a href="https://www.jura.uni-mannheim.de/">Department of Law, University of Mannheim</a></span>
                     </div>
                     <div class="column has-text-centered" style="margin-top: 1rem">
@@ -321,7 +317,7 @@
                         research. Results, rubrics and the legal review are
                         still changing, and numbers may be revised before the
                         paper is published.
-                        Last updated November 17, 2026.
+                        Last updated November 18, 2026.
                     </div>
                 </div>
             </div>
@@ -330,13 +326,11 @@
         <!-- ABSTRACT -->
         <section class="section" id="abstract">
             <div class="container is-max-desktop">
-                <h2 class="title is-3 has-text-centered">Abstract</h2>
+                <!--  <h2 class="title is-3 has-text-centered">Abstract</h2>  -->
                 <div class="content is-size-6">
                     <p>
-                        Large language models have developed from chatbots
-                        into agents that plan their work, use tools, and
-                        produce complete documents. Private individuals and
-                        legal professionals increasingly use them to draft
+                        Private individuals and
+                        legal professionals increasingly use LLM-based agents to draft
                         legal texts. MaLAB investigates how agent workflows and
                         access to research tools affect the quality of these
                         drafts under German law. Its tasks are exam cases from
@@ -1219,7 +1213,7 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                     </p>
                 </details>
 
-                <h3 class="title is-5" style="margin-top: 2rem">Second State Examination (private test set)</h3>
+                <h3 class="title is-5" style="margin-top: 2rem">Second State Examination (Private Test Set)</h3>
                 <div class="content is-size-6">
                     <p>
                         The Second State Examination concludes the two-year
@@ -3316,35 +3310,13 @@ Feel free to create any notes as you see fit. However only the required delivera
         </section>
 
         <!-- ROADMAP -->
-        <section class="section" id="roadmap">
+        <section class="section" id="contact">
             <div class="container is-max-desktop">
-                <h2 class="title is-3 has-text-centered">Outlook</h2>
+                <h2 class="title is-3 has-text-centered">Feedback</h2>
                 <div class="content is-size-6">
                     <p>
-                        Our next steps are the following:
-                    </p>
-                    <ul>
-                        <li>
-                            <b>Systems as lawyers use them.</b> We will evaluate the
-                            vendor agents with web search enabled, as they are
-                            delivered to users.
-                        </li>
-                        <li>
-                            <b>Rubric weights.</b> Following the legal review, we will
-                            revise how criteria are weighted that only check whether
-                            facts from the case file are restated correctly.
-                        </li>
-                        <li>
-                            <b>Comparison with human grading.</b> Legal examiners will
-                            grade selected answers as they would grade an exam, so
-                            that rubric scores can be compared with grades.
-                        </li>
-                    </ul>
-
-                    <p>
-                        We welcome legal scholars, practitioners and AI researchers
-                        interested in reviewing criteria, alternative solutions,
-                        or agent and web-search experiments. Please contact
+                        We are very interested in feedback from practitioners, legal scholars, and AI researchers
+                        on the MaLAB benchmark. If you have questions about the benchmark or want to provide feedback on the overall design of the benchmark, specific rubrics, or alternative solutions, or if you have run the benchmark yourself and want to share the results of your experiments, please contact
                         <a
                             href="https://www.uni-mannheim.de/dws/people/researchers/phd-students/aaron-steiner/"
                             >Aaron Steiner</a
