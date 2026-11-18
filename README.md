@@ -3,14 +3,13 @@
 Website: https://wbsg-uni-mannheim.github.io/MaLab/
 
 MaLAB evaluates how LLM agents solve German legal cases. Each case has its own
-pass/fail criteria for the individual legal requirements, derived from the
-published reference solution. A committee of LLM judges applies these criteria
-without seeing the reference solution.
+pass/fail criteria for the individual legal requirements, derived from reference solutions. 
+A committee of LLM judges applies these criteria (rubrics) without seeing the reference solution.
 
-This repository contains the public part of MaLAB: the 45 cases of the First
-State Examination with their rubrics, the answers and frozen-judge scores of
-ten systems, the pipeline code and the project website. The private test set
-of the Second State Examination is not part of this repository.
+This repository contains the public part of MaLAB: 45 cases of the German First 
+State Examination in Law (Erstes Juristisches Staatsexamen) together with their rubrics, 
+the answers and frozen-judge scores of ten LLMs and LLM-based agents, the pipeline code and the project website. 
+MaLAB's private test set consisting of 45 German Second State Examination (Zweites Juristisches Staatsexamen) cases is not part of this repository.
 
 Status: work in progress.
 
@@ -68,11 +67,12 @@ See [scripts/README.md](scripts/README.md) for the solver harnesses and
 
 ## Sources and licences
 
-43 cases come from the Zeitschrift für das Juristische Studium (ZJS) via the
-[BenGER](https://huggingface.co/datasets/SebastianNagl/benger) dataset
-(CC BY 4.0), two from the OpenRewi casebook on administrative law
+43 cases originate from the Zeitschrift für das Juristische Studium (ZJS) via the
+[BenGER](https://github.com/SebastianNagl/benger-platform) dataset
+(CC BY 4.0), two originate from the OpenRewi casebook on administrative law
 (CC BY-SA 4.0). Source, authors and licence of each case are recorded in its
-`task.json`. The ZJS source map and citation are in `tasks/de/provenance/zjs/`.
+`task.json`. The ZJS source map and citation are in `tasks/de/provenance/zjs/`. 
+We thank the BenGER and the OpenRewi projects a lot for providing the cases under open licenses!
 
 ## Authors
 
