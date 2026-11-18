@@ -8,10 +8,8 @@ A committee of LLM judges applies these criteria (rubrics) without seeing the re
 
 This repository contains the public part of MaLAB: 45 cases of the German First 
 State Examination in Law (Erstes Juristisches Staatsexamen) together with their rubrics, 
-the answers and frozen-judge scores of ten LLMs and LLM-based agents, the pipeline code and the project website. 
-MaLAB's private test set consisting of 45 German Second State Examination (Zweites Juristisches Staatsexamen) cases is not part of this repository.
-
-Status: work in progress.
+the answers of ten LLMs and LLM-based agents, the scores given to these answers by LLM judges, the pipeline code, and the project website. 
+MaLAB also uses a private test set consisting of 45 German Second State Examination (Zweites Juristisches Staatsexamen) cases which is not part of this repository.
 
 ## Layout
 
@@ -69,13 +67,13 @@ See [scripts/README.md](scripts/README.md) for the solver harnesses and
 
 43 cases originate from the Zeitschrift für das Juristische Studium (ZJS) via the
 [BenGER](https://github.com/SebastianNagl/benger-platform) dataset
-(CC BY 4.0), two originate from the OpenRewi casebook on administrative law
+(CC BY 4.0), two originate from the [OpenRewi](https://openrewi.org/) casebook on administrative law
 (CC BY-SA 4.0). Source, authors and licence of each case are recorded in its
 `task.json`. The ZJS source map and citation are in `tasks/de/provenance/zjs/`. 
-We thank the BenGER and the OpenRewi projects a lot for providing the cases under open licenses!
+We thank the BenGER and the OpenRewi projects a lot for providing the cases and solution under open licenses!
 
 ## Authors
 
 Aaron Steiner, Benedikt Asal, Nico Halkenhäuser, Ralf Müller-Terpitz,
-Friedemann Kainer, Svenja Behrendt, Christian Bizer (provisional order).
+Friedemann Kainer, Svenja Behrendt, Christian Bizer.
 University of Mannheim.
