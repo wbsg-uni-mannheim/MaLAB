@@ -341,7 +341,7 @@
                     <div class="column is-3-tablet is-6-mobile">
                         <div class="statbox">
                             <p class="title is-3">90</p>
-                            <p class="heading">Exam cases</p>
+                            <p class="heading">State exam cases</p>
                         </div>
                     </div>
                     <div class="column is-3-tablet is-6-mobile">
@@ -395,18 +395,14 @@
                         >. LAB is now publicly released. US
                         practice differs from German law in doctrine,
                         language, and document conventions.
-                    </p>
-                    <p>
-                        For German law, <a
-                        href="https://arxiv.org/html/2605.28183v4">BenGER</a> scores
+                        For German law, the <a
+                        href="https://github.com/SebastianNagl/benger-platform">BenGER</a> benchmark scores
                         complete solutions to exam cases on ten general rubric
-                        dimensions such as correctness, subsumption and legal method,
-                        and validates its LLM judges against human ratings. The models
-                        are evaluated in a single call, with retrieval and tool use
-                        disabled.
+                        dimensions such as correctness, subsumption and legal method. BenGER evaluates LLMs solving
+                        legal cases in a single call. It does not evaluate LLM agents that perform multiple model calls for generating solutions and my use Web retrieval and other tools.
                     </p>
                     <p>
-                        MaLAB evaluates how LLM agents solve German legal cases.
+                        We use the MaLAB benchmark to evaluate how LLM agents solve German legal cases.
                         Models run in agent harnesses such as Claude Code, Codex CLI
                         and OpenCode, with and without web search, and are compared
                         with the same models answering in a single call. The tasks
@@ -2055,10 +2051,10 @@ Respond with JSON only, with the fields in exactly this order:
             <div class="container is-max-desktop">
                 <h2 class="title is-3 has-text-centered">Evaluation Results</h2>
                 <div class="content is-size-6">
-                    <p>We evaluate ten configurations in four harnesses:</p>
+                    <p>A legal agent consists of a LLM model, an agent harness that manages the interaction of the model with tools, and tools such as Web search or a search tool  tool for legal databases. We measure the performance of the following LLMs and legal agents using the MaLAB benchmark:</p>
                     <ul>
                         <li>
-                            <b>Single call:</b> the model receives the
+                            <b>Single Call:</b> the model receives the
                             instructions and all case documents in one prompt
                             and answers in one pass, without tools
                             (gpt-5.6-sol, gpt-5.6-terra, deepseek-v4-pro).
@@ -2522,7 +2518,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                     </div>
                 </details>
 
-                <h3 class="title is-5" style="margin-top: 2rem">Second State Examination (private test set)</h3>
+                <h3 class="title is-5" style="margin-top: 2rem">Second State Examination (Private Test Set)</h3>
                 <div class="table-container">
                     <table class="table is-narrow is-fullwidth is-striped has-text-right">
                         <thead>
