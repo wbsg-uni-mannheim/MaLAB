@@ -2086,12 +2086,31 @@ Respond with JSON only, with the fields in exactly this order:
                             <b>Claude Code:</b> Anthropic's command-line agent
                             with Claude Opus 5.5, without web search.
                         </li>
+                        <li>
+                            <b>Desktop agents<sup>*</sup>:</b> Claude Cowork with
+                            Claude Opus 5.5 (medium reasoning effort) and ChatGPT
+                            Work with GPT-6.2 Astra (high reasoning effort), the
+                            desktop apps of Anthropic and OpenAI. We run them as
+                            they are delivered to users, with the vendor's default
+                            settings and web search switched on.
+                        </li>
                     </ul>
                     <p>
                         GPT-6 Astra and Claude Opus 5.5 run with high reasoning
                         effort in the agent their vendor built for them, with
                         shell access and external tools disabled. Apart from the
-                        web configuration, no system may use external sources.
+                        web configuration and the desktop agents, no system may
+                        use external sources.
+                    </p>
+                    <p>
+                        <sup>*</sup> The desktop agents are not controlled
+                        benchmark configurations. We cannot switch off their web
+                        search or fix their tools, and we cannot block websites for
+                        them. Each case runs in a fresh session with the same
+                        prompt as the Codex web configuration, which asks the agent
+                        not to use the source journal and to list every source it
+                        used. We checked these source lists for each case: no answer
+                        drew on a published solution of the case.
                     </p>
                 </div>
 
@@ -2262,13 +2281,32 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td><b>85.5</b></td>
                                 <td><b>87.1</b></td>
                             </tr>
+                            <tr class="area-row"><td colspan="7" class="has-text-left">Desktop agents, as delivered to users<sup>*</sup></td></tr>
+                            <tr>
+                                <td class="has-text-left">Claude Cowork</td>
+                                <td class="has-text-left">Claude Opus 5.5 (medium) + web search</td>
+                                <td>82.0</td>
+                                <td>83.8</td>
+                                <td>81.5</td>
+                                <td>80.8</td>
+                                <td>84.6</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">ChatGPT Work</td>
+                                <td class="has-text-left">GPT-6.2 Astra (high) + web search</td>
+                                <td>85.4</td>
+                                <td>83.6</td>
+                                <td>87.7</td>
+                                <td>84.9</td>
+                                <td>88.1</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
                 <p class="footer-note">
                         Pass rate of content criteria in percent, averaged over cases. Style:
                         share of application and argumentation criteria that pass the
-                        legal-method check (see <a href="#judging">Automated Judging</a>). Best value per column in bold. <sup>a</sup> One
+                        legal-method check (see <a href="#judging">Automated Judging</a>). Best value per column in bold, desktop agents excluded. <sup>*</sup> Not a controlled configuration (see above). <sup>a</sup> One
                         run produced no answer. <sup>b</sup> Five cases rerun with additional
                         blocked domains (see below).
                     </p>
@@ -2304,6 +2342,18 @@ Feel free to create any notes as you see fit. However only the required delivera
                         reference solution, and these answers scored 94 to 100. We blocked
                         the sites and reran these cases. In the reported numbers, no agent
                         found a reference solution.
+                    </p>
+                    <p>
+                        <b>The desktop agents reach the level of the command-line
+                        agents.</b> ChatGPT Work with GPT-6.2 Astra reaches 85.4 and
+                        Claude Cowork with Claude Opus 5.5 reaches 82.0. A lawyer who
+                        uses these apps as delivered gets answers of about the same
+                        quality as from Claude Code and Codex CLI. The two pairs
+                        differ in more than the app: the desktop agents search the
+                        web, ChatGPT Work uses a newer Astra version, and Claude
+                        Cowork runs at medium instead of high reasoning effort. The
+                        numbers therefore do not show which app is better as a
+                        harness.
                     </p>
                     <p>
                         <b>Argumentation is the weakest step for every system.</b>
@@ -2716,10 +2766,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                         $9.
                     </p>
                     <p>
-                        <b>No cost figures for Claude Cowork and ChatGPT Work.</b> We
-                        also evaluate the two desktop agents of Anthropic and OpenAI as
-                        they are delivered to users; their results will be added once all
-                        cases are scored. For these two we cannot report a cost per case.
+                        <b>No cost figures for Claude Cowork and ChatGPT Work.</b> For
+                        the two desktop agents we cannot report a cost per case.
                         Both are paid through a monthly subscription, not per token, and
                         neither app shows how many tokens a task used. Both run the task
                         on the provider's servers and keep no usage record on the user's
@@ -3068,111 +3116,103 @@ Feel free to create any notes as you see fit. However only the required delivera
                         </li>
                     </ul>
                     <p>
-                        Of the 1,806 criteria, 13 percent are critical, 55 percent
-                        medium and 32 percent minor. A case has about 40 criteria. The
-                        chart shows how many criteria of each level a system fails per
-                        case.
+                        Of the 1,806 criteria, 238 are critical, 986 medium and 582
+                        minor. An average case thus has 5.3 critical, 21.9 medium and
+                        12.9 minor criteria. Because the levels differ this much in size,
+                        the chart does not count errors but shows, for each level, the
+                        share of its criteria that a system fails.
                     </p>
                 </div>
-                <svg viewBox="0 0 940 418" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Failed criteria per case and system by criticality" style="max-width: 100%; height: auto; margin-top: 0.5rem">
+                <svg viewBox="0 0 940 472" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Share of criteria failed per criticality level and system" style="max-width: 100%; height: auto; margin-top: 0.5rem">
                   <style>
                     .lb { font: 13px Inter, system-ui, sans-serif; fill: #363636; }
                     .lg { font: 13px Inter, system-ui, sans-serif; fill: #4a4a4a; }
-                    .v { font: 600 12px Inter, system-ui, sans-serif; }
-                    .n { font: 600 12px Inter, system-ui, sans-serif; fill: #4a4a4a; }
+                    .vs { font: 10px Inter, system-ui, sans-serif; }
+                    .vc { font: 600 10.5px Inter, system-ui, sans-serif; }
                     .ax { font: 11px Inter, system-ui, sans-serif; fill: #6b6b6b; }
                   </style>
-                  <line x1="250.0" y1="38" x2="250.0" y2="380" stroke="#ededed" stroke-width="1"/><text class="ax" x="250.0" y="396" text-anchor="middle">0</text>
-                  <line x1="346.7" y1="38" x2="346.7" y2="380" stroke="#ededed" stroke-width="1"/><text class="ax" x="346.7" y="396" text-anchor="middle">4</text>
-                  <line x1="443.3" y1="38" x2="443.3" y2="380" stroke="#ededed" stroke-width="1"/><text class="ax" x="443.3" y="396" text-anchor="middle">8</text>
-                  <line x1="540.0" y1="38" x2="540.0" y2="380" stroke="#ededed" stroke-width="1"/><text class="ax" x="540.0" y="396" text-anchor="middle">12</text>
-                  <line x1="636.7" y1="38" x2="636.7" y2="380" stroke="#ededed" stroke-width="1"/><text class="ax" x="636.7" y="396" text-anchor="middle">16</text>
-                  <line x1="733.3" y1="38" x2="733.3" y2="380" stroke="#ededed" stroke-width="1"/><text class="ax" x="733.3" y="396" text-anchor="middle">20</text>
-                  <line x1="830.0" y1="38" x2="830.0" y2="380" stroke="#ededed" stroke-width="1"/><text class="ax" x="830.0" y="396" text-anchor="middle">24</text>
+                  <line x1="250.0" y1="38" x2="250.0" y2="436" stroke="#ededed" stroke-width="1"/><text class="ax" x="250.0" y="450" text-anchor="middle">0%</text>
+                  <line x1="350.0" y1="38" x2="350.0" y2="436" stroke="#ededed" stroke-width="1"/><text class="ax" x="350.0" y="450" text-anchor="middle">10%</text>
+                  <line x1="450.0" y1="38" x2="450.0" y2="436" stroke="#ededed" stroke-width="1"/><text class="ax" x="450.0" y="450" text-anchor="middle">20%</text>
+                  <line x1="550.0" y1="38" x2="550.0" y2="436" stroke="#ededed" stroke-width="1"/><text class="ax" x="550.0" y="450" text-anchor="middle">30%</text>
+                  <line x1="650.0" y1="38" x2="650.0" y2="436" stroke="#ededed" stroke-width="1"/><text class="ax" x="650.0" y="450" text-anchor="middle">40%</text>
+                  <line x1="750.0" y1="38" x2="750.0" y2="436" stroke="#ededed" stroke-width="1"/><text class="ax" x="750.0" y="450" text-anchor="middle">50%</text>
+                  <line x1="850.0" y1="38" x2="850.0" y2="436" stroke="#ededed" stroke-width="1"/><text class="ax" x="850.0" y="450" text-anchor="middle">60%</text>
                   <rect x="250" y="10" width="14" height="14" rx="3" fill="#86b6ef"/><text class="lg" x="270" y="21">minor</text>
                   <rect x="370" y="10" width="14" height="14" rx="3" fill="#3987e5"/><text class="lg" x="390" y="21">medium</text>
                   <rect x="490" y="10" width="14" height="14" rx="3" fill="#184f95"/><text class="lg" x="510" y="21">critical</text>
-                  <text class="lg" x="925" y="21" text-anchor="end">total</text>
-                  <text class="lb" x="12" y="60">Single call</text><text class="lb" x="240" y="60" text-anchor="end">gpt-5.6-sol</text>
-                  <g><title>gpt-5.6-sol (Single call): 4.8 minor errors per case (214 in 45 cases)</title><rect x="250.0" y="44" width="112.9" height="24" rx="3" fill="#86b6ef"/><text class="v" x="306.5" y="60" text-anchor="middle" fill="#1a1a1a">4.8</text></g>
-                  <g><title>gpt-5.6-sol (Single call): 5.4 medium errors per case (245 in 45 cases)</title><rect x="364.9" y="44" width="129.6" height="24" rx="3" fill="#3987e5"/><text class="v" x="429.7" y="60" text-anchor="middle" fill="#ffffff">5.4</text></g>
-                  <g><title>gpt-5.6-sol (Single call): 1.6 critical errors per case (70 in 45 cases)</title><rect x="496.5" y="44" width="35.6" height="24" rx="3" fill="#184f95"/><text class="v" x="514.3" y="60" text-anchor="middle" fill="#ffffff">1.6</text></g>
-                  <text class="n" x="925" y="60" text-anchor="end">11.8</text>
-                  <text class="lb" x="12" y="94">Single call</text><text class="lb" x="240" y="94" text-anchor="end">gpt-5.6-terra</text>
-                  <g><title>gpt-5.6-terra (Single call): 5.8 minor errors per case (259 in 45 cases)</title><rect x="250.0" y="78" width="137.1" height="24" rx="3" fill="#86b6ef"/><text class="v" x="318.5" y="94" text-anchor="middle" fill="#1a1a1a">5.8</text></g>
-                  <g><title>gpt-5.6-terra (Single call): 8.1 medium errors per case (366 in 45 cases)</title><rect x="389.1" y="78" width="194.6" height="24" rx="3" fill="#3987e5"/><text class="v" x="486.4" y="94" text-anchor="middle" fill="#ffffff">8.1</text></g>
-                  <g><title>gpt-5.6-terra (Single call): 2.2 critical errors per case (99 in 45 cases)</title><rect x="585.6" y="78" width="51.2" height="24" rx="3" fill="#184f95"/><text class="v" x="611.2" y="94" text-anchor="middle" fill="#ffffff">2.2</text></g>
-                  <text class="n" x="925" y="94" text-anchor="end">16.1</text>
-                  <text class="lb" x="12" y="128">Single call</text><text class="lb" x="240" y="128" text-anchor="end">deepseek-v4-pro</text>
-                  <g><title>deepseek-v4-pro (Single call): 7.5 minor errors per case (336 in 45 cases)</title><rect x="250.0" y="112" width="178.4" height="24" rx="3" fill="#86b6ef"/><text class="v" x="339.2" y="128" text-anchor="middle" fill="#1a1a1a">7.5</text></g>
-                  <g><title>deepseek-v4-pro (Single call): 11.8 medium errors per case (529 in 45 cases)</title><rect x="430.4" y="112" width="282.1" height="24" rx="3" fill="#3987e5"/><text class="v" x="571.5" y="128" text-anchor="middle" fill="#ffffff">11.8</text></g>
-                  <g><title>deepseek-v4-pro (Single call): 3.0 critical errors per case (137 in 45 cases)</title><rect x="714.5" y="112" width="71.6" height="24" rx="3" fill="#184f95"/><text class="v" x="750.3" y="128" text-anchor="middle" fill="#ffffff">3.0</text></g>
-                  <text class="n" x="925" y="128" text-anchor="end">22.3</text>
-                  <text class="lb" x="12" y="162">OpenCode</text><text class="lb" x="240" y="162" text-anchor="end">gpt-5.6-sol</text>
-                  <g><title>gpt-5.6-sol (OpenCode): 4.2 minor errors per case (188 in 45 cases)</title><rect x="250.0" y="146" width="99.0" height="24" rx="3" fill="#86b6ef"/><text class="v" x="299.5" y="162" text-anchor="middle" fill="#1a1a1a">4.2</text></g>
-                  <g><title>gpt-5.6-sol (OpenCode): 5.3 medium errors per case (237 in 45 cases)</title><rect x="351.0" y="146" width="125.3" height="24" rx="3" fill="#3987e5"/><text class="v" x="413.6" y="162" text-anchor="middle" fill="#ffffff">5.3</text></g>
-                  <g><title>gpt-5.6-sol (OpenCode): 1.4 critical errors per case (63 in 45 cases)</title><rect x="478.2" y="146" width="31.8" height="24" rx="3" fill="#184f95"/><text class="v" x="494.2" y="162" text-anchor="middle" fill="#ffffff">1.4</text></g>
-                  <text class="n" x="925" y="162" text-anchor="end">10.8</text>
-                  <text class="lb" x="12" y="196">OpenCode</text><text class="lb" x="240" y="196" text-anchor="end">gpt-5.6-terra</text>
-                  <g><title>gpt-5.6-terra (OpenCode): 6.2 minor errors per case (279 in 45 cases)</title><rect x="250.0" y="180" width="147.8" height="24" rx="3" fill="#86b6ef"/><text class="v" x="323.9" y="196" text-anchor="middle" fill="#1a1a1a">6.2</text></g>
-                  <g><title>gpt-5.6-terra (OpenCode): 9.0 medium errors per case (405 in 45 cases)</title><rect x="399.8" y="180" width="215.5" height="24" rx="3" fill="#3987e5"/><text class="v" x="507.6" y="196" text-anchor="middle" fill="#ffffff">9.0</text></g>
-                  <g><title>gpt-5.6-terra (OpenCode): 2.4 critical errors per case (107 in 45 cases)</title><rect x="617.3" y="180" width="55.5" height="24" rx="3" fill="#184f95"/><text class="v" x="645.1" y="196" text-anchor="middle" fill="#ffffff">2.4</text></g>
-                  <text class="n" x="925" y="196" text-anchor="end">17.6</text>
-                  <text class="lb" x="12" y="230">OpenCode</text><text class="lb" x="240" y="230" text-anchor="end">deepseek-v4-pro</text>
-                  <g><title>deepseek-v4-pro (OpenCode): 6.8 minor errors per case (297 in 44 cases)</title><rect x="250.0" y="214" width="161.1" height="24" rx="3" fill="#86b6ef"/><text class="v" x="330.6" y="230" text-anchor="middle" fill="#1a1a1a">6.8</text></g>
-                  <g><title>deepseek-v4-pro (OpenCode): 9.8 medium errors per case (429 in 44 cases)</title><rect x="413.1" y="214" width="233.6" height="24" rx="3" fill="#3987e5"/><text class="v" x="529.9" y="230" text-anchor="middle" fill="#ffffff">9.8</text></g>
-                  <g><title>deepseek-v4-pro (OpenCode): 2.8 critical errors per case (121 in 44 cases)</title><rect x="648.8" y="214" width="64.5" height="24" rx="3" fill="#184f95"/><text class="v" x="681.0" y="230" text-anchor="middle" fill="#ffffff">2.8</text></g>
-                  <text class="n" x="925" y="230" text-anchor="end">19.2</text>
-                  <text class="lb" x="12" y="264">Codex CLI</text><text class="lb" x="240" y="264" text-anchor="end">gpt-5.6-sol</text>
-                  <g><title>gpt-5.6-sol (Codex CLI): 4.6 minor errors per case (208 in 45 cases)</title><rect x="250.0" y="248" width="109.7" height="24" rx="3" fill="#86b6ef"/><text class="v" x="304.9" y="264" text-anchor="middle" fill="#1a1a1a">4.6</text></g>
-                  <g><title>gpt-5.6-sol (Codex CLI): 5.6 medium errors per case (253 in 45 cases)</title><rect x="361.7" y="248" width="133.9" height="24" rx="3" fill="#3987e5"/><text class="v" x="428.6" y="264" text-anchor="middle" fill="#ffffff">5.6</text></g>
-                  <g><title>gpt-5.6-sol (Codex CLI): 1.4 critical errors per case (63 in 45 cases)</title><rect x="497.6" y="248" width="31.8" height="24" rx="3" fill="#184f95"/><text class="v" x="513.5" y="264" text-anchor="middle" fill="#ffffff">1.4</text></g>
-                  <text class="n" x="925" y="264" text-anchor="end">11.6</text>
-                  <text class="lb" x="12" y="298">Codex CLI</text><text class="lb" x="240" y="298" text-anchor="end">gpt-5.6-sol + web search</text>
-                  <g><title>gpt-5.6-sol + web search (Codex CLI): 4.0 minor errors per case (181 in 45 cases)</title><rect x="250.0" y="282" width="95.2" height="24" rx="3" fill="#86b6ef"/><text class="v" x="297.6" y="298" text-anchor="middle" fill="#1a1a1a">4.0</text></g>
-                  <g><title>gpt-5.6-sol + web search (Codex CLI): 5.1 medium errors per case (230 in 45 cases)</title><rect x="347.2" y="282" width="121.5" height="24" rx="3" fill="#3987e5"/><text class="v" x="408.0" y="298" text-anchor="middle" fill="#ffffff">5.1</text></g>
-                  <g><title>gpt-5.6-sol + web search (Codex CLI): 1.2 critical errors per case (55 in 45 cases)</title><rect x="470.7" y="282" width="27.5" height="24" rx="3" fill="#184f95"/><text class="v" x="504.3" y="298" fill="#184f95">1.2</text></g>
-                  <text class="n" x="925" y="298" text-anchor="end">10.4</text>
-                  <text class="lb" x="12" y="332">Codex CLI</text><text class="lb" x="240" y="332" text-anchor="end">GPT-6 Astra</text>
-                  <g><title>GPT-6 Astra (Codex CLI): 3.0 minor errors per case (136 in 45 cases)</title><rect x="250.0" y="316" width="71.0" height="24" rx="3" fill="#86b6ef"/><text class="v" x="285.5" y="332" text-anchor="middle" fill="#1a1a1a">3.0</text></g>
-                  <g><title>GPT-6 Astra (Codex CLI): 3.4 medium errors per case (152 in 45 cases)</title><rect x="323.0" y="316" width="79.6" height="24" rx="3" fill="#3987e5"/><text class="v" x="362.9" y="332" text-anchor="middle" fill="#ffffff">3.4</text></g>
-                  <g><title>GPT-6 Astra (Codex CLI): 0.9 critical errors per case (41 in 45 cases)</title><rect x="404.7" y="316" width="20.0" height="24" rx="3" fill="#184f95"/><text class="v" x="430.7" y="332" fill="#184f95">0.9</text></g>
-                  <text class="n" x="925" y="332" text-anchor="end">7.3</text>
-                  <text class="lb" x="12" y="366">Claude Code</text><text class="lb" x="240" y="366" text-anchor="end">Claude Opus 5.5</text>
-                  <g><title>Claude Opus 5.5 (Claude Code): 2.6 minor errors per case (118 in 45 cases)</title><rect x="250.0" y="350" width="61.4" height="24" rx="3" fill="#86b6ef"/><text class="v" x="280.7" y="366" text-anchor="middle" fill="#1a1a1a">2.6</text></g>
-                  <g><title>Claude Opus 5.5 (Claude Code): 3.1 medium errors per case (140 in 45 cases)</title><rect x="313.4" y="350" width="73.2" height="24" rx="3" fill="#3987e5"/><text class="v" x="350.0" y="366" text-anchor="middle" fill="#ffffff">3.1</text></g>
-                  <g><title>Claude Opus 5.5 (Claude Code): 0.9 critical errors per case (39 in 45 cases)</title><rect x="388.6" y="350" width="18.9" height="24" rx="3" fill="#184f95"/><text class="v" x="413.5" y="366" fill="#184f95">0.9</text></g>
-                  <text class="n" x="925" y="366" text-anchor="end">6.6</text>
-                  <text class="ax" x="540.0" y="412" text-anchor="middle">failed criteria per case (of about 40)</text>
+                  <text class="lb" x="12" y="62.5">Single call</text><text class="lb" x="240" y="62.5" text-anchor="end">gpt-5.6-sol</text>
+                  <g><title>gpt-5.6-sol (Single call): fails 214 of 582 minor criteria (36.8%), 4.8 of 12.9 per case</title><rect x="250" y="44" width="367.7" height="8" rx="2" fill="#86b6ef"/><text class="vs" x="622.7" y="51.5" fill="#6b6b6b">37%</text></g>
+                  <g><title>gpt-5.6-sol (Single call): fails 245 of 986 medium criteria (24.8%), 5.4 of 21.9 per case</title><rect x="250" y="54" width="248.5" height="8" rx="2" fill="#3987e5"/><text class="vs" x="503.5" y="61.5" fill="#6b6b6b">25%</text></g>
+                  <g><title>gpt-5.6-sol (Single call): fails 70 of 238 critical criteria (29.4%), 1.6 of 5.3 per case</title><rect x="250" y="64" width="294.1" height="8" rx="2" fill="#184f95"/><text class="vc" x="549.1" y="71.5" fill="#184f95">29%</text></g>
+                  <text class="lb" x="12" y="102.5">Single call</text><text class="lb" x="240" y="102.5" text-anchor="end">gpt-5.6-terra</text>
+                  <g><title>gpt-5.6-terra (Single call): fails 259 of 582 minor criteria (44.5%), 5.8 of 12.9 per case</title><rect x="250" y="84" width="445.0" height="8" rx="2" fill="#86b6ef"/><text class="vs" x="700.0" y="91.5" fill="#6b6b6b">45%</text></g>
+                  <g><title>gpt-5.6-terra (Single call): fails 366 of 986 medium criteria (37.1%), 8.1 of 21.9 per case</title><rect x="250" y="94" width="371.2" height="8" rx="2" fill="#3987e5"/><text class="vs" x="626.2" y="101.5" fill="#6b6b6b">37%</text></g>
+                  <g><title>gpt-5.6-terra (Single call): fails 99 of 238 critical criteria (41.6%), 2.2 of 5.3 per case</title><rect x="250" y="104" width="416.0" height="8" rx="2" fill="#184f95"/><text class="vc" x="671.0" y="111.5" fill="#184f95">42%</text></g>
+                  <text class="lb" x="12" y="142.5">Single call</text><text class="lb" x="240" y="142.5" text-anchor="end">deepseek-v4-pro</text>
+                  <g><title>deepseek-v4-pro (Single call): fails 336 of 582 minor criteria (57.7%), 7.5 of 12.9 per case</title><rect x="250" y="124" width="577.3" height="8" rx="2" fill="#86b6ef"/><text class="vs" x="832.3" y="131.5" fill="#6b6b6b">58%</text></g>
+                  <g><title>deepseek-v4-pro (Single call): fails 529 of 986 medium criteria (53.7%), 11.8 of 21.9 per case</title><rect x="250" y="134" width="536.5" height="8" rx="2" fill="#3987e5"/><text class="vs" x="791.5" y="141.5" fill="#6b6b6b">54%</text></g>
+                  <g><title>deepseek-v4-pro (Single call): fails 137 of 238 critical criteria (57.6%), 3.0 of 5.3 per case</title><rect x="250" y="144" width="575.6" height="8" rx="2" fill="#184f95"/><text class="vc" x="830.6" y="151.5" fill="#184f95">58%</text></g>
+                  <text class="lb" x="12" y="182.5">OpenCode</text><text class="lb" x="240" y="182.5" text-anchor="end">gpt-5.6-sol</text>
+                  <g><title>gpt-5.6-sol (OpenCode): fails 188 of 582 minor criteria (32.3%), 4.2 of 12.9 per case</title><rect x="250" y="164" width="323.0" height="8" rx="2" fill="#86b6ef"/><text class="vs" x="578.0" y="171.5" fill="#6b6b6b">32%</text></g>
+                  <g><title>gpt-5.6-sol (OpenCode): fails 237 of 986 medium criteria (24.0%), 5.3 of 21.9 per case</title><rect x="250" y="174" width="240.4" height="8" rx="2" fill="#3987e5"/><text class="vs" x="495.4" y="181.5" fill="#6b6b6b">24%</text></g>
+                  <g><title>gpt-5.6-sol (OpenCode): fails 63 of 238 critical criteria (26.5%), 1.4 of 5.3 per case</title><rect x="250" y="184" width="264.7" height="8" rx="2" fill="#184f95"/><text class="vc" x="519.7" y="191.5" fill="#184f95">26%</text></g>
+                  <text class="lb" x="12" y="222.5">OpenCode</text><text class="lb" x="240" y="222.5" text-anchor="end">gpt-5.6-terra</text>
+                  <g><title>gpt-5.6-terra (OpenCode): fails 279 of 582 minor criteria (47.9%), 6.2 of 12.9 per case</title><rect x="250" y="204" width="479.4" height="8" rx="2" fill="#86b6ef"/><text class="vs" x="734.4" y="211.5" fill="#6b6b6b">48%</text></g>
+                  <g><title>gpt-5.6-terra (OpenCode): fails 405 of 986 medium criteria (41.1%), 9.0 of 21.9 per case</title><rect x="250" y="214" width="410.8" height="8" rx="2" fill="#3987e5"/><text class="vs" x="665.8" y="221.5" fill="#6b6b6b">41%</text></g>
+                  <g><title>gpt-5.6-terra (OpenCode): fails 107 of 238 critical criteria (45.0%), 2.4 of 5.3 per case</title><rect x="250" y="224" width="449.6" height="8" rx="2" fill="#184f95"/><text class="vc" x="704.6" y="231.5" fill="#184f95">45%</text></g>
+                  <text class="lb" x="12" y="262.5">OpenCode</text><text class="lb" x="240" y="262.5" text-anchor="end">deepseek-v4-pro</text>
+                  <g><title>deepseek-v4-pro (OpenCode): fails 297 of 567 minor criteria (52.4%), 6.8 of 12.9 per case</title><rect x="250" y="244" width="523.8" height="8" rx="2" fill="#86b6ef"/><text class="vs" x="778.8" y="251.5" fill="#6b6b6b">52%</text></g>
+                  <g><title>deepseek-v4-pro (OpenCode): fails 429 of 961 medium criteria (44.6%), 9.8 of 21.8 per case</title><rect x="250" y="254" width="446.4" height="8" rx="2" fill="#3987e5"/><text class="vs" x="701.4" y="261.5" fill="#6b6b6b">45%</text></g>
+                  <g><title>deepseek-v4-pro (OpenCode): fails 121 of 232 critical criteria (52.2%), 2.8 of 5.3 per case</title><rect x="250" y="264" width="521.6" height="8" rx="2" fill="#184f95"/><text class="vc" x="776.6" y="271.5" fill="#184f95">52%</text></g>
+                  <text class="lb" x="12" y="302.5">Codex CLI</text><text class="lb" x="240" y="302.5" text-anchor="end">gpt-5.6-sol</text>
+                  <g><title>gpt-5.6-sol (Codex CLI): fails 208 of 582 minor criteria (35.7%), 4.6 of 12.9 per case</title><rect x="250" y="284" width="357.4" height="8" rx="2" fill="#86b6ef"/><text class="vs" x="612.4" y="291.5" fill="#6b6b6b">36%</text></g>
+                  <g><title>gpt-5.6-sol (Codex CLI): fails 253 of 986 medium criteria (25.7%), 5.6 of 21.9 per case</title><rect x="250" y="294" width="256.6" height="8" rx="2" fill="#3987e5"/><text class="vs" x="511.6" y="301.5" fill="#6b6b6b">26%</text></g>
+                  <g><title>gpt-5.6-sol (Codex CLI): fails 63 of 238 critical criteria (26.5%), 1.4 of 5.3 per case</title><rect x="250" y="304" width="264.7" height="8" rx="2" fill="#184f95"/><text class="vc" x="519.7" y="311.5" fill="#184f95">26%</text></g>
+                  <text class="lb" x="12" y="342.5">Codex CLI</text><text class="lb" x="240" y="342.5" text-anchor="end">gpt-5.6-sol + web search</text>
+                  <g><title>gpt-5.6-sol + web search (Codex CLI): fails 181 of 582 minor criteria (31.1%), 4.0 of 12.9 per case</title><rect x="250" y="324" width="311.0" height="8" rx="2" fill="#86b6ef"/><text class="vs" x="566.0" y="331.5" fill="#6b6b6b">31%</text></g>
+                  <g><title>gpt-5.6-sol + web search (Codex CLI): fails 230 of 986 medium criteria (23.3%), 5.1 of 21.9 per case</title><rect x="250" y="334" width="233.3" height="8" rx="2" fill="#3987e5"/><text class="vs" x="488.3" y="341.5" fill="#6b6b6b">23%</text></g>
+                  <g><title>gpt-5.6-sol + web search (Codex CLI): fails 55 of 238 critical criteria (23.1%), 1.2 of 5.3 per case</title><rect x="250" y="344" width="231.1" height="8" rx="2" fill="#184f95"/><text class="vc" x="486.1" y="351.5" fill="#184f95">23%</text></g>
+                  <text class="lb" x="12" y="382.5">Codex CLI</text><text class="lb" x="240" y="382.5" text-anchor="end">GPT-6 Astra</text>
+                  <g><title>GPT-6 Astra (Codex CLI): fails 136 of 582 minor criteria (23.4%), 3.0 of 12.9 per case</title><rect x="250" y="364" width="233.7" height="8" rx="2" fill="#86b6ef"/><text class="vs" x="488.7" y="371.5" fill="#6b6b6b">23%</text></g>
+                  <g><title>GPT-6 Astra (Codex CLI): fails 152 of 986 medium criteria (15.4%), 3.4 of 21.9 per case</title><rect x="250" y="374" width="154.2" height="8" rx="2" fill="#3987e5"/><text class="vs" x="409.2" y="381.5" fill="#6b6b6b">15%</text></g>
+                  <g><title>GPT-6 Astra (Codex CLI): fails 41 of 238 critical criteria (17.2%), 0.9 of 5.3 per case</title><rect x="250" y="384" width="172.3" height="8" rx="2" fill="#184f95"/><text class="vc" x="427.3" y="391.5" fill="#184f95">17%</text></g>
+                  <text class="lb" x="12" y="422.5">Claude Code</text><text class="lb" x="240" y="422.5" text-anchor="end">Claude Opus 5.5</text>
+                  <g><title>Claude Opus 5.5 (Claude Code): fails 118 of 582 minor criteria (20.3%), 2.6 of 12.9 per case</title><rect x="250" y="404" width="202.7" height="8" rx="2" fill="#86b6ef"/><text class="vs" x="457.7" y="411.5" fill="#6b6b6b">20%</text></g>
+                  <g><title>Claude Opus 5.5 (Claude Code): fails 140 of 986 medium criteria (14.2%), 3.1 of 21.9 per case</title><rect x="250" y="414" width="142.0" height="8" rx="2" fill="#3987e5"/><text class="vs" x="397.0" y="421.5" fill="#6b6b6b">14%</text></g>
+                  <g><title>Claude Opus 5.5 (Claude Code): fails 39 of 238 critical criteria (16.4%), 0.9 of 5.3 per case</title><rect x="250" y="424" width="163.9" height="8" rx="2" fill="#184f95"/><text class="vc" x="418.9" y="431.5" fill="#184f95">16%</text></g>
+                  <text class="ax" x="550.0" y="466" text-anchor="middle">share of criteria of this level that the system fails</text>
                 </svg>
                 <p class="footer-note">
-                    Failed content criteria per case, averaged over 45 cases of the
-                    first examination, including unresolved verdicts. The right column gives the
-                    total. The OpenCode run with deepseek-v4-pro
-                    covers 44 cases. The levels were assigned by the rubric pipeline
+                    Share of the criteria of each level that the system fails, pooled
+                    over 45 cases of the first examination (238 critical, 986 medium and
+                    582 minor criteria), including unresolved verdicts. The OpenCode run
+                    with deepseek-v4-pro covers 44 cases. With 238 critical criteria, a
+                    share of 16 percent has a 95 percent confidence interval of roughly
+                    &plusmn;5 points, so differences of a few points between levels are
+                    within noise. The levels were assigned by the rubric pipeline
                     (gpt-5.6-sol, prompt
                     <a href="https://github.com/wbsg-uni-mannheim/MaLAB/blob/main/prompts/rubric_generation/tag_criteria.user.txt">tag_criteria</a>)
-                    and have not yet been validated by lawyers. Hover over a segment for
-                    counts.
+                    and have not yet been validated by lawyers. Hover over a bar for
+                    counts per case.
                 </p>
                 <div class="content is-size-6" style="margin-top: 1rem">
                     <p>
-                        <b>Critical errors are rare for the strongest systems.</b>
-                        Claude Opus 5.5 fails 6.6 of about 40 criteria per case: 2.6
-                        minor, 3.1 medium and 0.9 critical. GPT-6 Astra fails 7.3, also
-                        with less than one critical error per case. Single-call
-                        deepseek-v4-pro fails 22.3 criteria per case, 3.0 of them
-                        critical. A content score of 85 percent therefore does not mean
-                        that the solution goes wrong in many places: most of the failed
-                        criteria are details and regular steps.
+                        <b>Critical points are not failed less often than others.</b>
+                        Every system fails minor criteria most often. Critical criteria
+                        are failed about as often as medium ones, at most eight points
+                        more. Claude Opus 5.5 fails 20 percent of the minor, 14 percent
+                        of the medium and 16 percent of the critical criteria. Per case
+                        these are 0.9 of 5.3 critical points: even the strongest system
+                        misses about one in six of the points on which a case is decided.
                     </p>
                     <p>
-                        <b>The mix of errors changes little.</b> For every system, 12 to
-                        14 percent of the failed criteria are critical, about their
-                        share among all criteria. Stronger systems make fewer errors of
-                        all three kinds, not mainly fewer critical ones. Claude Opus 5.5
-                        passes 80 percent of the minor, 86 percent of the medium and 84
-                        percent of the critical criteria.
+                        <b>Stronger systems are better at every level.</b> From
+                        single-call deepseek-v4-pro to Claude Opus 5.5, the share of
+                        failed critical criteria falls from 58 to 16 percent, of medium
+                        criteria from 54 to 14 percent and of minor criteria from 58 to
+                        20 percent. A higher content score therefore reflects fewer
+                        errors on the decisive points as well, not only on details.
                     </p>
                 </div>
 
