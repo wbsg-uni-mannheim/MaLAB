@@ -204,6 +204,14 @@
             .best {
                 font-weight: 700;
             }
+            .pm {
+                font-size: 0.72em;
+                color: #8a8a8a;
+                margin-left: 0.15em;
+            }
+            td.neg {
+                color: #c0392b;
+            }
             .area-row td {
                 background: #f2f7fc;
                 font-weight: 600;
@@ -257,6 +265,7 @@
                         <a class="navbar-item" href="#judging">Judging</a>
                         <a class="navbar-item" href="#results">Evaluation Results</a>
                         <a class="navbar-item" href="#failures">Error Analysis</a>
+                        <a class="navbar-item" href="#limitations">Limitations</a>
                         <a class="navbar-item" href="#contact">Feedback</a>
                     </div>
                 </div>
@@ -317,7 +326,7 @@
                         research. Results, rubrics and the legal review are
                         still changing, and numbers may be revised before the
                         paper is published.
-                        Last updated November 20, 2026.
+                        Last updated November 23, 2026.
                     </div>
                 </div>
             </div>
@@ -1202,9 +1211,7 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                         <a href="https://arxiv.org/abs/2501.14249">Humanity's Last Exam</a>,
                         <a href="https://arxiv.org/abs/2412.04604">ARC-AGI</a> and
                         <a href="https://arxiv.org/abs/2509.16941">SWE-bench Pro</a>,
-                        MaLAB keeps part of its tasks private. Some of these
-                        cases and their solutions are available elsewhere, but
-                        the rubrics and the graded answers are not. Keeping them
+                        MaLAB keeps part of its tasks private. Keeping them
                         private makes it harder to train or tune systems
                         directly on the benchmark. We therefore do not publish
                         the cases, the case list, the rubrics or the answers,
@@ -1244,8 +1251,7 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                         </li>
                         <li>
                             <b>Verdicts can be checked.</b> Each verdict answers a narrow
-                            question and comes with quoted evidence from the answer, so a
-                            lawyer can check it in minutes.
+                            question and comes with quoted evidence from the answer, so a lawyer can check it against the answer.
                         </li>
                         <li>
                             <b>Errors can be compared.</b> Criteria carry their function in
@@ -1403,8 +1409,7 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                         consists of a fulfilled condition describing the
                         required examination step, a not-fulfilled condition
                         describing the disqualifying errors, and metadata used
-                        in analysis: the function of the step, a diagnostic
-                        criticality between one and three stars, and the
+                        in analysis: the function of the step, a criticality between one and three stars, and the
                         position of the step in the expected line of
                         analysis.
                     </p>
@@ -1500,11 +1505,18 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                             </div>
                             <div class="db">
                                 <p>
-                                    Classify each criterion by function
-                                    (structure, legal basis, rule statement,
-                                    application, argumentation, conclusion,
-                                    form) and by criticality (1&ndash;3 stars,
-                                    diagnostic only).
+                                    Classify each criterion by its function in the
+                                    solution and by its criticality for the case
+                                    (1&ndash;3 stars). The function names the kind
+                                    of examination step the criterion checks: the
+                                    legal basis, the legal test or definition, the
+                                    application to the facts, the argumentation in
+                                    a disputed question, the conclusion, or
+                                    structure and form. The tags do not change the
+                                    score. They select the criteria that receive a
+                                    style verdict and are used in the
+                                    <a href="#failures">error analysis</a>, which
+                                    describes both tags in detail.
                                 </p>
                                 <p class="crit-gist">C-001 below carries the function tag legal basis and criticality two of three stars.</p>
                             </div>
@@ -1624,12 +1636,7 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                         error. These checks help identify overly permissive criteria and
                         judge rules.
                     </p>
-                    <p>
-                        <b>Feedback from legal professionals.</b> Legal scholars have
-                        reviewed sample materials and judged answers. Their feedback informs
-                        revisions to criteria, evidence attribution, legal presentation and
-                        the treatment of auxiliary opinions.
-                    </p>
+                    
                     <p>
                         <b>Review of random samples.</b> To measure how often rubric and
                         judge are right, two of the authors, both lawyers at the University
@@ -1680,6 +1687,51 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                                 <td>1 (1.0%)</td>
                                 <td>7 (7.0%)</td>
                             </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="footer-note">
+                    Legal correctness of the sampled criteria as rated by the reviewer.
+                    <sup>a</sup> Including 22 criteria Nico Halkenh&auml;user rated as
+                    legally correct but too easy, because they only ask to restate facts,
+                    an application or a heading from the case file. Benedikt Asal did not
+                    use this category.
+                </p>
+                <div class="content is-size-6" style="margin-top: 1rem">
+                    <p>
+                        Between 82 and 96 percent of the sampled criteria are rated as
+                        legally correct. Criteria rated as partly correct are in most
+                        cases stricter than necessary: they are too narrow or too
+                        case-specific, or they turn a side remark of the reference
+                        solution into a requirement. Such a criterion can fail a
+                        tenable answer. Between 1 and 7 percent of the sampled
+                        criteria are rated as not correct.
+                    </p>
+                    <p>
+                        <b>Validation of the judge.</b> The same rows are used to check
+                        the automated judge (see <a href="#judging">Automated Judging</a>).
+                        For each row, the reviewer decides whether the verdict of the
+                        judge committee on the shown answer is correct, and if not,
+                        whether it is too strict or too lenient.
+                    </p>
+                </div>
+                <div class="table-container">
+                    <table class="table is-narrow is-fullwidth has-text-right">
+                        <thead>
+                            <tr>
+                                <th class="has-text-left"></th>
+                                <th>First examination</th>
+                                <th>Second examination, public law</th>
+                                <th>Second examination, civil law</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="has-text-left">Verdicts reviewed</td>
+                                <td>200</td>
+                                <td>100</td>
+                                <td>100</td>
+                            </tr>
                             <tr>
                                 <td class="has-text-left">Judge verdict correct</td>
                                 <td>184 of 196 (93.9%)<sup>b</sup></td>
@@ -1702,21 +1754,17 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                     </table>
                 </div>
                 <p class="footer-note">
-                    <sup>a</sup> Including 22 criteria Nico Halkenh&auml;user rated as
-                    legally correct but too easy, because they only ask to restate facts,
-                    an application or a heading from the case file. Benedikt Asal did not
-                    use this category. <sup>b</sup> The first 100 rows served to
-                    develop the judge. On the other 100 rows, labelled after the judge
-                    was fixed, 96 of 98 verdicts are correct (98.0%). Rows without a
-                    clear label are excluded. The reviewers saw the judge's verdict, so
-                    agreement is likely overestimated.
+                    Judge verdict correct: share of the rows with a clear label by the
+                    reviewer. Cohen's &kappa;: agreement between judge and reviewer.
+                    <sup>b</sup> The first 100 rows served to develop the judge. On the
+                    other 100 rows, labelled after the judge was fixed, 96 of 98
+                    verdicts are correct (98.0%). The reviewers saw the judge's
+                    verdict.
                 </p>
                 <div class="content is-size-6" style="margin-top: 1rem">
                     <p>
-                        Rubric and judge are right in most cases in both examinations. Most
-                        rubric problems are criteria that are too narrow or too
-                        case-specific, or that turn a side remark of the reference
-                        solution into a requirement. In public law most judge errors are
+                        The reviewers rate 93 to 95 percent of the judge verdicts as
+                        correct. In public law most judge errors are
                         too strict: the judge fails an answer whose explanations make clear
                         that the requirement is met without stating it expressly. In civil
                         law most judge errors are too lenient: the judge accepts a
@@ -1730,10 +1778,7 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                         rows (90.2%, &kappa; 0.75), and in all 46 the judge agrees with
                         them. On the five rows where the lawyers disagree, the judge
                         necessarily sides with one of them: four times with Nico Halkenh&auml;user
-                        and once with Benedikt Asal. Agreement between
-                        judge and lawyer is therefore at the level of agreement between two
-                        lawyers. As the reviewers saw the judge's verdict, this comparison
-                        likely favours the judge.
+                        and once with Benedikt Asal.
                     </p>
                     <p>
                         <b>Failure-focused audit.</b> Criteria with persistent failures or
@@ -1752,6 +1797,13 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                 <h2 class="title is-3 has-text-centered">Automated Judging</h2>
                 <div class="content is-size-6">
                     <p>
+                        For grading the solutions, we use an LLM-as-a-judge
+                        approach: large language models decide for each
+                        criterion of the rubric whether a solution fulfils it.
+                        The verdict comes from a committee of judge models from
+                        three providers, described below.
+                    </p>
+                    <p>
                         Each criterion is judged individually. The judge
                         receives the task instructions, the submission,
                         excerpts of the case documents the criterion refers to,
@@ -1769,8 +1821,7 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                         expressly or when the explanations on this question make
                         it clear. Where a criterion asks for a reason, a correct
                         result at the correct place with a shorter, tenable
-                        reason suffices. These rules follow the feedback of the
-                        legal review.
+                        reason suffices.
                     </p>
                     <p>
                         <b>Style verdict.</b> For criteria tagged as application or
@@ -2190,6 +2241,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <th class="has-text-left">Harness</th>
                                 <th class="has-text-left">Model</th>
                                 <th>Content overall</th>
+                                <th>&Delta; to best</th>
                                 <th>Public law</th>
                                 <th>Criminal law</th>
                                 <th>Civil law</th>
@@ -2201,6 +2253,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td class="has-text-left" rowspan="3">Single call</td>
                                 <td class="has-text-left">gpt-5.6-sol</td>
                                 <td>72.2</td>
+                                <td class="neg">&minus;12.9</td>
                                 <td>73.2</td>
                                 <td>73.8</td>
                                 <td>69.7</td>
@@ -2209,6 +2262,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                             <tr>
                                 <td class="has-text-left">gpt-5.6-terra</td>
                                 <td>61.9</td>
+                                <td class="neg">&minus;23.2</td>
                                 <td>68.2</td>
                                 <td>60.2</td>
                                 <td>57.4</td>
@@ -2217,6 +2271,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                             <tr>
                                 <td class="has-text-left">deepseek-v4-pro</td>
                                 <td>46.4</td>
+                                <td class="neg">&minus;38.7</td>
                                 <td>53.8</td>
                                 <td>42.6</td>
                                 <td>42.8</td>
@@ -2226,6 +2281,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td class="has-text-left" rowspan="3">OpenCode</td>
                                 <td class="has-text-left">gpt-5.6-sol</td>
                                 <td>74.7</td>
+                                <td class="neg">&minus;10.4</td>
                                 <td>77.2</td>
                                 <td>74.6</td>
                                 <td>72.4</td>
@@ -2234,6 +2290,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                             <tr>
                                 <td class="has-text-left">gpt-5.6-terra</td>
                                 <td>58.2</td>
+                                <td class="neg">&minus;26.9</td>
                                 <td>64.7</td>
                                 <td>53.1</td>
                                 <td>56.8</td>
@@ -2242,6 +2299,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                             <tr>
                                 <td class="has-text-left">deepseek-v4-pro<sup>a</sup></td>
                                 <td>53.2</td>
+                                <td class="neg">&minus;32.0</td>
                                 <td>59.3</td>
                                 <td>50.6</td>
                                 <td>50.2</td>
@@ -2251,6 +2309,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td class="has-text-left" rowspan="3">Codex CLI</td>
                                 <td class="has-text-left">gpt-5.6-sol</td>
                                 <td>72.9</td>
+                                <td class="neg">&minus;12.3</td>
                                 <td>76.1</td>
                                 <td>73.6</td>
                                 <td>68.9</td>
@@ -2259,6 +2318,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                             <tr>
                                 <td class="has-text-left">gpt-5.6-sol + web search<sup>b</sup></td>
                                 <td>75.9</td>
+                                <td class="neg">&minus;9.2</td>
                                 <td>79.6</td>
                                 <td>76.0</td>
                                 <td>72.1</td>
@@ -2267,25 +2327,28 @@ Feel free to create any notes as you see fit. However only the required delivera
                             <tr>
                                 <td class="has-text-left">GPT-6 Astra</td>
                                 <td>82.7</td>
+                                <td class="neg">&minus;2.4</td>
                                 <td>80.2</td>
                                 <td><b>85.3</b></td>
                                 <td>82.7</td>
                                 <td>86.2</td>
                             </tr>
                             <tr>
-                                <td class="has-text-left" rowspan="1">Claude Code</td>
+                                <td class="has-text-left">Claude Code</td>
                                 <td class="has-text-left">Claude Opus 5.5</td>
                                 <td><b>85.1</b></td>
+                                <td>&ndash;</td>
                                 <td><b>86.3</b></td>
                                 <td>83.6</td>
                                 <td><b>85.5</b></td>
                                 <td><b>87.1</b></td>
                             </tr>
-                            <tr class="area-row"><td colspan="7" class="has-text-left">Desktop agents, as delivered to users<sup>*</sup></td></tr>
+                            <tr class="area-row"><td colspan="8" class="has-text-left">Desktop agents, as delivered to users<sup>*</sup></td></tr>
                             <tr>
                                 <td class="has-text-left">Claude Cowork</td>
                                 <td class="has-text-left">Claude Opus 5.5 (medium) + web search</td>
                                 <td>82.0</td>
+                                <td class="neg">&minus;3.1</td>
                                 <td>83.8</td>
                                 <td>81.5</td>
                                 <td>80.8</td>
@@ -2295,6 +2358,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td class="has-text-left">ChatGPT Work</td>
                                 <td class="has-text-left">GPT-6.2 Astra (high) + web search</td>
                                 <td>85.4</td>
+                                <td>+0.3</td>
                                 <td>83.6</td>
                                 <td>87.7</td>
                                 <td>84.9</td>
@@ -2306,32 +2370,51 @@ Feel free to create any notes as you see fit. However only the required delivera
                 <p class="footer-note">
                         Pass rate of content criteria in percent, averaged over cases. Style:
                         share of application and argumentation criteria that pass the
-                        legal-method check (see <a href="#judging">Automated Judging</a>). Best value per column in bold, desktop agents excluded. <sup>*</sup> Not a controlled configuration (see above). <sup>a</sup> One
-                        run produced no answer. <sup>b</sup> Five cases rerun with additional
-                        blocked domains (see below).
+                        legal-method check (see <a href="#judging">Automated Judging</a>).
+                        One run per system. &Delta; to best: mean
+                        per-case difference in content score to Claude Opus 5.5 in Claude Code. Best value per
+                        column in bold, desktop agents excluded. <sup>*</sup> Not a controlled
+                        configuration (see above). <sup>a</sup> One run produced no answer, and the
+                        case is left out of the mean. <sup>b</sup> Five cases rerun with
+                        additional blocked domains (see below).
                     </p>
 
                 <div class="content is-size-6" style="margin-top: 1rem">
                     <p>
-                        <b>Vendor agents lead clearly.</b> Claude Opus 5.5 in Claude Code
-                        reaches 85.1 and is the best or tied for best system in 32 of 45 cases. GPT-6 Astra
-                        in Codex CLI follows with 82.7. Both score higher without web
-                        access than gpt-5.6-sol with web access (75.9). Even the best
-                        system misses about one criterion in seven, and Claude Opus 5.5
+                        <b>Among the ten benchmark systems, Claude Opus 5.5 and GPT-6 Astra
+                        reach the highest scores.</b>
+                        Each system answered each case once. We therefore describe
+                        differences of a few points between two systems as about the
+                        same level and do not rank them.
+                        Claude Opus 5.5 in Claude Code reaches 85.1 and has the highest
+                        or shared highest score of the ten systems in 32 of 45 cases.
+                        GPT-6 Astra in Codex CLI reaches 82.7, about the same level. All other benchmark systems
+                        score at least 9.2 points below Claude Opus 5.5. Both score
+                        higher without web access than gpt-5.6-sol with web access
+                        (75.9). Claude Opus 5.5 fails about one criterion in seven and
                         stays below 80 in 12 cases.
                     </p>
                     <p>
-                        <b>An agent harness alone does not make a model better.</b> In
-                        OpenCode, deepseek-v4-pro gains 6.8 points over its single call and
-                        gpt-5.6-sol 2.5 points, while gpt-5.6-terra loses 3.7 points. The
-                        harness gives a model room to draft and revise, but the gain
-                        depends on the model.
+                        <b>Claude Opus 5.5 scores higher than GPT-6 Astra in public law.</b>
+                        In public law, Claude Opus 5.5 scores 6.1 points above GPT-6 Astra
+                        and is ahead in 12 of 15 cases. It passes more application
+                        criteria (86 versus 81 percent) and more argumentation criteria
+                        (75 versus 66 percent). In civil law (2.8 points in favour of Claude Opus 5.5) and criminal
+                        law (1.7 points in favour of GPT-6 Astra) the two are at about
+                        the same level. The second examination shows the same gap in public
+                        law (see below).
                     </p>
                     <p>
-                        <b>Web access helps with legal tests and argumentation.</b> With web
-                        search, Codex with gpt-5.6-sol gains 3.0 points overall, 9.8 points on
-                        criteria for the legal test or definition and 9.4 points on
-                        argumentation criteria, which ask for reasons in disputed questions.
+                        <b>The effect of the OpenCode harness depends on the model.</b> In
+                        OpenCode, deepseek-v4-pro gains 6.8 points over its single call.
+                        gpt-5.6-sol (2.5 points higher) and gpt-5.6-terra (3.7 points
+                        lower) stay at about the same level. The harness lets a model
+                        draft and revise its answer over several steps.
+                    </p>
+                    <p>
+                        <b>Web access raises scores on legal tests and argumentation.</b> With web
+                        search, Codex with gpt-5.6-sol scores 3.0 points higher overall, about the same level. The gain is larger on criteria for the legal test or definition (9.8 points) and on argumentation criteria (9.4 points), which ask for reasons in disputed
+                        questions.
                         Over the 45 cases it issued 1,193 search queries and mainly read
                         statute texts on gesetze-im-internet.de and decisions of the federal
                         courts.
@@ -2342,31 +2425,6 @@ Feel free to create any notes as you see fit. However only the required delivera
                         reference solution, and these answers scored 94 to 100. We blocked
                         the sites and reran these cases. In the reported numbers, no agent
                         found a reference solution.
-                    </p>
-                    <p>
-                        <b>The desktop agents reach the level of the command-line
-                        agents.</b> ChatGPT Work with GPT-6.2 Astra reaches 85.4 and
-                        Claude Cowork with Claude Opus 5.5 reaches 82.0. A lawyer who
-                        uses these apps as delivered gets answers of about the same
-                        quality as from Claude Code and Codex CLI. The two pairs
-                        differ in more than the app: the desktop agents search the
-                        web, ChatGPT Work uses a newer Astra version, and Claude
-                        Cowork runs at medium instead of high reasoning effort. The
-                        numbers therefore do not show which app is better as a
-                        harness.
-                    </p>
-                    <p>
-                        <b>Argumentation is the weakest step for every system.</b>
-                        Systems pass between 27 and 75 percent of argumentation criteria,
-                        clearly less than application criteria. The
-                        <a href="#failures">error analysis</a> breaks this down by system.
-                    </p>
-                    <p>
-                        <b>Cases differ more than areas of law.</b> Within one case, the
-                        best and the weakest system differ by 43 points in the median. The
-                        gap between areas of law within one system is small for the
-                        strongest systems (2.7 points for Claude Opus 5.5) and reaches 11.5
-                        points for the gpt-5.6-terra agent.
                     </p>
                 </div>
 
@@ -2597,6 +2655,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                             <tr>
                                 <th class="has-text-left">Harness</th>
                                 <th class="has-text-left">Model</th>
+                                <th>Content overall</th>
+                                <th>&Delta; to best</th>
                                 <th>Public law content</th>
                                 <th>Public law style</th>
                                 <th>Civil law content</th>
@@ -2609,6 +2669,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                             <tr>
                                 <td class="has-text-left" rowspan="3">Single call</td>
                                 <td class="has-text-left">gpt-5.6-sol</td>
+                                <td>64.4</td>
+                                <td class="neg">&minus;18.6</td>
                                 <td>59.0</td>
                                 <td>64.1</td>
                                 <td>67.3</td>
@@ -2618,6 +2680,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                             </tr>
                             <tr>
                                 <td class="has-text-left">gpt-5.6-terra</td>
+                                <td>53.9</td>
+                                <td class="neg">&minus;29.0</td>
                                 <td>50.8</td>
                                 <td>58.0</td>
                                 <td>60.0</td>
@@ -2627,6 +2691,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                             </tr>
                             <tr>
                                 <td class="has-text-left">deepseek-v4-pro</td>
+                                <td>40.1</td>
+                                <td class="neg">&minus;42.9</td>
                                 <td>43.3</td>
                                 <td>50.7</td>
                                 <td>47.4</td>
@@ -2637,6 +2703,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                             <tr>
                                 <td class="has-text-left" rowspan="3">OpenCode</td>
                                 <td class="has-text-left">gpt-5.6-sol</td>
+                                <td>71.1</td>
+                                <td class="neg">&minus;11.9</td>
                                 <td>69.8</td>
                                 <td>74.2</td>
                                 <td>72.1</td>
@@ -2646,6 +2714,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                             </tr>
                             <tr>
                                 <td class="has-text-left">gpt-5.6-terra</td>
+                                <td>53.5</td>
+                                <td class="neg">&minus;29.4</td>
                                 <td>51.4</td>
                                 <td>58.4</td>
                                 <td>60.2</td>
@@ -2655,6 +2725,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                             </tr>
                             <tr>
                                 <td class="has-text-left">deepseek-v4-pro</td>
+                                <td>50.8</td>
+                                <td class="neg">&minus;32.1</td>
                                 <td>51.4</td>
                                 <td>59.1</td>
                                 <td>57.3</td>
@@ -2665,6 +2737,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                             <tr>
                                 <td class="has-text-left" rowspan="3">Codex CLI</td>
                                 <td class="has-text-left">gpt-5.6-sol</td>
+                                <td>66.8</td>
+                                <td class="neg">&minus;16.2</td>
                                 <td>64.0</td>
                                 <td>69.7</td>
                                 <td>70.7</td>
@@ -2674,6 +2748,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                             </tr>
                             <tr>
                                 <td class="has-text-left">gpt-5.6-sol + web search</td>
+                                <td>71.7</td>
+                                <td class="neg">&minus;11.3</td>
                                 <td>70.4</td>
                                 <td>74.0</td>
                                 <td>73.8</td>
@@ -2683,6 +2759,8 @@ Feel free to create any notes as you see fit. However only the required delivera
                             </tr>
                             <tr>
                                 <td class="has-text-left">GPT-6 Astra</td>
+                                <td>80.5</td>
+                                <td class="neg">&minus;2.5</td>
                                 <td>77.9</td>
                                 <td>81.1</td>
                                 <td>82.4</td>
@@ -2691,12 +2769,14 @@ Feel free to create any notes as you see fit. However only the required delivera
                                 <td><b>90.0</b></td>
                             </tr>
                             <tr>
-                                <td class="has-text-left" rowspan="1">Claude Code</td>
+                                <td class="has-text-left">Claude Code</td>
                                 <td class="has-text-left">Claude Opus 5.5</td>
+                                <td><b>83.0</b></td>
+                                <td>&ndash;</td>
                                 <td><b>84.0</b></td>
                                 <td><b>87.2</b></td>
                                 <td><b>82.9</b></td>
-                                <td>88.6</td>
+                                <td><b>88.6</b></td>
                                 <td><b>82.0</b></td>
                                 <td>87.8</td>
                             </tr>
@@ -2704,7 +2784,9 @@ Feel free to create any notes as you see fit. However only the required delivera
                     </table>
                 </div>
                 <p class="footer-note">
-                        15 cases per area of law, same metrics as above.
+                        15 cases per area of law, same metrics as above. Content overall:
+                        mean over all 45 cases. One run per system. &Delta; to best:
+                        mean per-case difference in content score to Claude Opus 5.5.
                     </p>
                 <div class="content is-size-6" style="margin-top: 1rem">
                     <p>
@@ -2713,43 +2795,54 @@ Feel free to create any notes as you see fit. However only the required delivera
                         systems handed in every required document.
                     </p>
                     <p>
-                        <b>Same ranking, larger gaps.</b> Averaged over the three areas
-                        of law, the ten systems rank in exactly the same order as in the
-                        first examination. Every system scores lower, but not by the same
-                        amount: Claude Opus 5.5 (83.0) and GPT-6 Astra (80.5) lose about
-                        two points against the first examination, the three single calls
-                        between six and eight points. The distance between the strongest
-                        and the weakest system grows from 38.7 to 42.9 points.
+                        <b>Claude Opus 5.5 and GPT-6 Astra also reach the highest scores
+                        on practice documents.</b> Averaged over the 45
+                        cases, Claude Opus 5.5 reaches 83.0 and GPT-6 Astra 80.5. The next
+                        system, Codex with gpt-5.6-sol and web search, reaches 71.7, the single
+                        calls 40.1 to 64.4. As in the first examination, these two are the
+                        systems that pass more than four in five criteria. Both score about
+                        two points lower than in the first examination (85.1 and 82.7),
+                        a small difference between two different sets of cases.
+                        Overall the two are again at about the same level (2.5 points
+                        apart), and the difference comes from public law.
                     </p>
                     <p>
-                        <b>Claude Opus 5.5 keeps its level.</b> It reaches 84.0 in public
-                        law, 82.9 in civil law and 82.0 in criminal law, close to its 85.1
-                        in the first examination. GPT-6 Astra matches it in civil law
-                        (82.4) and criminal law (81.1), but drops to 77.9 in
-                        public law. The public law cases are original Bavarian
-                        exam cases and also require Bavarian state law, such as the
-                        Bavarian building code.
+                        <b>The gap in public law is the same as in the first examination.</b> In public law, Claude Opus 5.5
+                        scores 6.1 points above GPT-6 Astra and is ahead in 13 of 15 cases. In civil and criminal law the two differ by less than one
+                        point. The public law cases of the second examination are original
+                        Bavarian exam cases and also require Bavarian state law, such as the
+                        Bavarian building code. The gap is just as large in the first
+                        examination, whose public law cases need no Bavarian law. In criminal law, the style scores of GPT-6 Astra (90.0) and Claude Opus 5.5 (87.8) are at about the same level.
                     </p>
                     <p>
-                        <b>Single calls fall furthest behind.</b> Single-call gpt-5.6-sol
-                        scores 59.0 in public law, 13 points below its score in the first
-                        examination. Working in several steps helps more than in the first
-                        examination. In public law, gpt-5.6-sol in OpenCode scores 10.8
-                        points above its single call, compared with 2.5 points in the first
-                        examination. deepseek-v4-pro gains 8.1 points in public law, 9.9
-                        points in civil law and 14.2 points in criminal law, where its
-                        single call reaches only 29.6. gpt-5.6-terra gains almost nothing.
+                        <b>Web access raises the pass rate on argumentation criteria.</b> With web
+                        search, Codex with gpt-5.6-sol scores 4.9 points higher overall (3.0 in the first examination). The largest gain is on argumentation
+                        criteria, where it passes 69 instead of 53 percent, while conclusions
+                        stay at 73 percent. Of the critical criteria (see
+                        <a href="#failures">error analysis</a>) it passes 81 instead of 74
+                        percent. Over the 45 cases it issued 1,504 search queries and mainly
+                        read court decisions and statute texts, including Bavarian law.
+                         With web access, gpt-5.6-sol stays 8.8
+                        points below GPT-6 Astra without it, so on our cases the choice of
+                        model matters more for practice documents than web access.
                     </p>
                     <p>
-                        <b>Web access helps again.</b> Codex with gpt-5.6-sol gains 6.4
-                        points in public law, 3.1 points in civil law and 5.1 points in
-                        criminal law when it may search the web.
-                    </p>
-                    <p>
-                        <b>Style separates the systems.</b> GPT-6 Astra and Claude Opus 5.5
-                        reach a style score of 88.6 in civil law, the single calls 58 to
-                        76. Practice documents follow fixed forms, and the strongest systems
-                        keep to them.
+                        <b>Style separates the systems most in court decisions and
+                        auxiliary opinions.</b> The style check asks whether a passage is
+                        written the way the document type requires (see
+                        <a href="#judging">Automated Judging</a>). In court decisions and
+                        auxiliary opinions, gpt-5.6-sol as a single call passes it for 64 and
+                        67 percent of the criteria, Claude Opus 5.5 and GPT-6 Astra for 81 to
+                        89 percent. In briefs, letters to clients or authorities, case reports
+                        and orders of the public prosecutor, the single call reaches 79 to 84
+                        percent, at most 10 points below the two frontier models. Where a
+                        system gets the content of a criterion right, it fails the style check
+                        for 3 to 6 percent of these criteria (3.1 percent for GPT-6 Astra, 5.9
+                        percent for the single call). Style failures thus mostly coincide with
+                        content failures, where a point is missing or wrong, and rarely concern
+                        the form of a correct passage. A court decision has to give the reasons
+                        that carry each point of the ruling, and drafts by gpt-5.6-sol need the
+                        most rework there.
                     </p>
                 </div>
 
@@ -2757,13 +2850,15 @@ Feel free to create any notes as you see fit. However only the required delivera
                 <h3 class="title is-5" style="margin-top: 2rem">Cost</h3>
                 <div class="content is-size-6">
                     <p>
-                        <b>Better systems cost more, but little in absolute terms.</b>
-                        Claude Opus 5.5 costs $1.41 per case and GPT-6 Astra $1.21.
+                        <b>Cost per case.</b> The systems with higher scores cost more per
+                        case. Claude Opus 5.5 costs $1.40 per case and GPT-6 Astra $1.19.
                         Single-call deepseek-v4-pro costs two cents per case and reaches
                         46.4. Web search triples the cost of Codex with gpt-5.6-sol, from
                         $0.43 to $1.25 per case, for 3.0 more points. Judging one answer
                         costs about $0.21, so judging a full run of 45 cases costs about
-                        $9.
+                        $9. For comparison, a candidate in the state examination has
+                        five hours to write one paper. At an assumed hourly rate of
+                        &euro;250 for a lawyer, five hours of work cost &euro;1,250.
                     </p>
                     <p>
                         <b>No cost figures for Claude Cowork and ChatGPT Work.</b> For
@@ -2771,8 +2866,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                         Both are paid through a monthly subscription, not per token, and
                         neither app shows how many tokens a task used. Both run the task
                         on the provider's servers and keep no usage record on the user's
-                        computer that we could read out. Any cost figure would therefore
-                        be a guess, so we do not report one.
+                        computer that we could read out.
                     </p>
                 </div>
 <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Solver cost per case against content score" style="max-width: 100%; height: auto">
@@ -2890,31 +2984,6 @@ Feel free to create any notes as you see fit. However only the required delivera
                     from token counts, split evenly over the votes of each criterion.
                 </p>
 
-                <!-- NOTE (removed on Aaron's request, 2026-09-01): Limitations subsection
-                <h3 class="title is-5" style="margin-top: 2rem">Limitations</h3>
-                <div class="content is-size-6">
-                    <ul>
-                        <li>
-                            All results are preliminary. Confidence intervals
-                            and paired per-case significance analysis will
-                            follow in the paper.
-                        </li>
-                        <li>
-                            The Codex arms differ from the other arms in
-                            reasoning effort and harness internals, so
-                            differences to the OpenCode arms mix model, effort,
-                            and scaffold effects.
-                        </li>
-                        <li>
-                            The underlying cases and solutions are published
-                            material and may appear in model training data. The
-                            web-search guard only blocks the source journal's
-                            site. A perturbation study to measure memorization
-                            directly is planned.
-                        </li>
-                    </ul>
-                </div>
-                -->
             </div>
         </section>
 
@@ -2937,7 +3006,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                         the argumentation in a disputed question, the conclusion, and
                         two values for structure and form. Where several values fit,
                         the criterion receives the dominant one. Of the 1,806 criteria,
-                        20 are tagged as structure or form; they are not shown below.
+                        20 are tagged as structure or form and are not shown below.
                         The table
                         shows the share of criteria passed per function on the first
                         examination.
@@ -3059,32 +3128,50 @@ Feel free to create any notes as you see fit. However only the required delivera
                     Share of criteria passed in percent, pooled over 45 cases. Darker
                     cells mean more criteria passed. Criteria per function: legal basis
                     67, legal test 102, application 1,217, argumentation 235,
-                    conclusion 165. Hover over a cell for details.
+                    conclusion 165.
                 </p>
                 <div class="content is-size-6" style="margin-top: 1rem">
                     <p>
-                        <b>Argumentation is the weakest step for all ten systems.</b> Even
-                        Claude Opus 5.5 passes only 75 percent of the argumentation
-                        criteria, against 86 percent of the application criteria. The
-                        weakest systems pass between a quarter and a third. Argumentation
-                        criteria ask the answer to recognize a disputed question and to
-                        decide it with reasons.
+                        <b>Argumentation is the step with the lowest pass rate for all ten systems.</b>
+                        Argumentation criteria ask the answer to recognize a disputed
+                        question and to decide it with reasons. Every system passes
+                        fewer of them than of any other step. The systems also differ
+                        more on this step than on any other: 47 points lie between the
+                        highest and the lowest pass rate, compared with 32 to 39 points
+                        on the other steps. Claude Opus 5.5 and GPT-6 Astra are within
+                        one point of each other on legal basis, application and
+                        conclusion, and their largest difference is on argumentation
+                        (74 and 67 percent of 235 criteria).
                     </p>
                     <p>
-                        <b>Web search helps with tests and arguments.</b> With web access,
-                        Codex with gpt-5.6-sol passes 65 instead of 56 percent of the
-                        argumentation criteria and 75 instead of 66 percent of the criteria
-                        on the legal test. The other steps change by at most 5 points.
+                        <b>Most failed criteria are application criteria.</b>
+                        Two of three criteria concern the application to the facts
+                        (1,217 of 1,786). The pass rate on this step is higher than on
+                        argumentation, but because the step is so large, more than half
+                        of the failed criteria of every system belong to it. Claude
+                        Opus 5.5 fails about 170 application criteria and about 60
+                        argumentation criteria. The overall score therefore depends
+                        mostly on how a system applies the law to the facts of the case.
                     </p>
                     <p>
-                        <b>What goes wrong in argumentation.</b> A detailed reading of the
+                        <b>Web search changes the legal test and the argumentation, and leaves the application unchanged.</b>
+                        With web access, Codex with gpt-5.6-sol passes 9 points more of
+                        the criteria on the legal test (102 criteria) and 9 points more
+                        of the argumentation criteria (235 criteria). On the application
+                        to the facts it passes 76 instead of 75 percent. As application
+                        makes up two thirds of the criteria, the pass rate over all
+                        criteria rises by 3 points.
+                    </p>
+                    <p>
+                        <b>Failure patterns in one case.</b> A detailed reading of the
                         argumentation failures in one civil law case (&ldquo;Die falsche
                         Gisela&rdquo;) shows five patterns: the
                         disputed question is not raised at all (33 percent), the weighing
                         is incomplete (25 percent), the answer reaches a conclusion the
                         reference solution does not support (19 percent), the expected
                         result is given without the required reason (18 percent), or the
-                        right argument is made at the wrong place (4 percent).
+                        right argument is made at the wrong place (4 percent). The shares
+                        describe this one case.
                     </p>
                 </div>
 
@@ -3187,32 +3274,28 @@ Feel free to create any notes as you see fit. However only the required delivera
                     Share of the criteria of each level that the system fails, pooled
                     over 45 cases of the first examination (238 critical, 986 medium and
                     582 minor criteria), including unresolved verdicts. The OpenCode run
-                    with deepseek-v4-pro covers 44 cases. With 238 critical criteria, a
-                    share of 16 percent has a 95 percent confidence interval of roughly
-                    &plusmn;5 points, so differences of a few points between levels are
-                    within noise. The levels were assigned by the rubric pipeline
+                    with deepseek-v4-pro covers 44 cases. With 238 critical criteria and one run per system, differences of a few points between levels should not be interpreted. The levels were assigned by the rubric pipeline
                     (gpt-5.6-sol, prompt
                     <a href="https://github.com/wbsg-uni-mannheim/MaLAB/blob/main/prompts/rubric_generation/tag_criteria.user.txt">tag_criteria</a>)
-                    and have not yet been validated by lawyers. Hover over a bar for
-                    counts per case.
+                    and have not been systematically reviewed by lawyers.
                 </p>
                 <div class="content is-size-6" style="margin-top: 1rem">
                     <p>
-                        <b>Critical points are not failed less often than others.</b>
+                        <b>Critical criteria are failed about as often as medium
+                        criteria.</b>
                         Every system fails minor criteria most often. Critical criteria
                         are failed about as often as medium ones, at most eight points
                         more. Claude Opus 5.5 fails 20 percent of the minor, 14 percent
                         of the medium and 16 percent of the critical criteria. Per case
-                        these are 0.9 of 5.3 critical points: even the strongest system
-                        misses about one in six of the points on which a case is decided.
+                        these are 0.9 of 5.3 critical criteria, about one in six. The
+                        levels were assigned by a model and have not been systematically reviewed by lawyers.
                     </p>
                     <p>
-                        <b>Stronger systems are better at every level.</b> From
+                        <b>Systems with a higher content score fail fewer criteria at every level.</b> From
                         single-call deepseek-v4-pro to Claude Opus 5.5, the share of
                         failed critical criteria falls from 58 to 16 percent, of medium
                         criteria from 54 to 14 percent and of minor criteria from 58 to
-                        20 percent. A higher content score therefore reflects fewer
-                        errors on the decisive points as well, not only on details.
+                        20 percent. On these cases, a higher content score thus goes along with fewer failed critical criteria.
                     </p>
                 </div>
 
@@ -3354,8 +3437,66 @@ Feel free to create any notes as you see fit. However only the required delivera
             </div>
         </section>
 
+        <!-- LIMITATIONS -->
+        <section class="section" id="limitations">
+            <div class="container is-max-desktop">
+                <h2 class="title is-3 has-text-centered">Limitations</h2>
+                <div class="content is-size-6">
+                    <ul>
+                        <li>
+                            <b>Human validation covers a sample.</b> Every criterion
+                            and every judge verdict should be checked by a committee
+                            of several lawyers. We do not have the resources for
+                            this. Two lawyers reviewed a random sample of 400 of the
+                            4,123 criteria, each with the judge's verdict on one
+                            answer (see <a href="#validation">Rubric Validation</a>).
+                            Each row was reviewed by one lawyer, apart from a shared
+                            set used to measure their agreement, and the reviewers
+                            saw the judge's verdict. For the first examination, the
+                            tasks, rubrics, answers and per-criterion verdicts are
+                            public, so readers can check the results in the areas
+                            of law they know.
+                        </li>
+                        <li>
+                            <b>Model-assigned tags.</b> The function and criticality
+                            of each criterion were assigned by a model and have not been systematically reviewed by lawyers. They do not affect the content
+                            score, but the error analysis relies on them.
+                        </li>
+                        <li>
+                            <b>One run per system.</b> The answers of a system differ
+                            from run to run. Each system answered each case once, so
+                            the reported scores do not show this variation. Differences
+                            of a few points between systems should not be read as a
+                            ranking.
+                        </li>
+                        <li>
+                            <b>Published cases.</b> The cases of the first examination
+                            and their reference solutions are published in open-access
+                            sources. LLMs are trained on large collections of text from
+                            the Web, so these solutions may have been part of the
+                            training data of the evaluated models, and a model may
+                            reproduce parts of a solution it has seen. Agents with web
+                            search can also retrieve a solution, which we observed and
+                            address by blocking the sources and checking the source
+                            lists (see <a href="#results">Evaluation Results</a>).
+                            Scores on the public cases may therefore be higher than on
+                            unseen cases of the same difficulty. The private test set
+                            reduces this risk but does not remove it, as some of its
+                            cases and solutions are available elsewhere.
+                        </li>
+                        <li>
+                            <b>Scope.</b> The results hold for 90 German examination
+                            cases in public, criminal and civil law. They do not show
+                            how the systems perform on other legal tasks, in other
+                            areas of law or in other jurisdictions.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <!-- ROADMAP -->
-        <section class="section" id="contact">
+        <section class="section" id="contact" style="background: #fafafa">
             <div class="container is-max-desktop">
                 <h2 class="title is-3 has-text-centered">Feedback</h2>
                 <div class="content is-size-6">
@@ -3376,7 +3517,7 @@ Feel free to create any notes as you see fit. However only the required delivera
         </section>
 
         <!-- CITATION -->
-        <section class="section" id="citation" style="background: #fafafa">
+        <section class="section" id="citation">
             <div class="container is-max-desktop">
                 <h2 class="title is-3 has-text-centered">Citation</h2>
                 <div class="content is-size-6">
