@@ -373,7 +373,7 @@
                 <div class="content is-size-6">
                     <p>
                         LLM agents used in legal work produce complete
-                        documents such as legal opinions, judgments and briefs.
+                        documents such as legal opinions, judgments, and briefs.
                         The result of a legal case says little on its own. In
                         German legal education and practice, a solution is
                         judged by the reasoning that leads to the result, and
@@ -392,17 +392,16 @@
                         <a
                             href="https://www.harvey.ai/blog/introducing-biglaw-bench"
                             >BigLaw Bench</a
-                        >. LAB is now publicly released. US
+                        >. But US
                         practice differs from German law in doctrine,
                         language, and document conventions.
                         For German law, the <a
-                        href="https://github.com/SebastianNagl/benger-platform">BenGER</a> benchmark evaluates complete solutions to examination cases using ten general rubric dimensions, including correctness, subsumption, and legal methodology. BenGER currently focuses on evaluating LLMs that solve legal cases in a single model call. BenGER does not yet evaluate LLM agents that generate solutions through multiple model calls and may use web retrieval or other tools.
+                        href="https://github.com/SebastianNagl/benger-platform">BenGER</a> benchmark evaluates complete solutions to examination cases using ten general rubric dimensions, such as correctness, subsumption, and legal methodology. BenGER currently focuses on evaluating LLMs that solve legal cases in a single model call. BenGER does not yet evaluate LLM agents that generate solutions using multiple model calls and may use web retrieval or other tools.
                     </p>
                     <p>
-                        We use the MaLAB benchmark to evaluate how LLM agents solve German legal cases.
-                        Models run in agent harnesses such as Claude Code, Codex CLI
-                        and OpenCode, with and without web search, and are compared
-                        with the same models answering in a single call. The tasks
+                        This page introduces the Mannheim Legal Agent Benchmark (MaLAB) and uses the benchmark to evaluate how LLM agents solve German legal cases.
+                        We evaluate LLMs agents consisting of a LLM model and an agent harnesses such as Claude Code, Codex CLI
+                        and OpenCode, with and without web search. The evaluation tasks
                         cover both German state examinations: published cases from
                         the First State Examination and a private set of cases from
                         the Second State Examination, which asks for documents of
@@ -416,13 +415,14 @@
                         judge verdicts to validate the judge.
                     </p>
                     <p>
-                        This page documents the MaLAB benchmark as well as the experiments that we have performed using the benchmark. The
+                        This page documents the MaLAB benchmark as well as the <a href="#results">experiments</a> that we have performed using the benchmark. The
                         <a href="https://github.com/wbsg-uni-mannheim/MaLAB">pipeline,
                         tasks and rubrics</a>, the <a
                         href="https://github.com/wbsg-uni-mannheim/MaLAB/tree/main/results/first-exam">answers
                         and per-criterion verdicts of all ten systems</a> and the
                         <a href="https://github.com/wbsg-uni-mannheim/MaLAB/blob/main/studies/de-core-45/validation/JUDGE_VALIDATION.md">documentation
-                        of the legal review</a> are publicly available in the MaLAB repository on GitHub.
+                        of the legal review</a> are publicly available in the <a
+                        href="https://github.com/wbsg-uni-mannheim/MaLAB/">MaLAB repository</a> on GitHub.
                     </p>
                 </div>
             </div>
@@ -435,7 +435,7 @@
                 <div class="content is-size-6">
                     <p>
                         Becoming a fully qualified legal professional in
-                        Germany, whether judge, public prosecutor or lawyer,
+                        Germany, whether judge, public prosecutor, or lawyer,
                         requires passing two state examinations: the First
                         State Examination (<span class="mono">Erste Juristische
                         Pr&uuml;fung</span>) at the end of university legal
