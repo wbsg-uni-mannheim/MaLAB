@@ -326,7 +326,7 @@
                         research. Results, rubrics and the legal review are
                         still changing, and numbers may be revised before the
                         paper is published.
-                        Last updated November 23, 2026.
+                        Last updated November 25, 2026.
                     </div>
                 </div>
             </div>
@@ -1284,17 +1284,8 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                         open answers to Swiss law exams with an LLM judge against reference
                         answers. For German law,
                         <a href="https://arxiv.org/html/2605.28183v4">BenGER</a> scores
-                        complete case solutions on ten weighted rubric dimensions. The
-                        models evaluated there write their solutions in a single call, with
-                        retrieval and tool use disabled.
-                    </p>
-                    <p>
-                        MaLAB differs in two respects. Its criteria are derived for each
-                        case from the published reference solution, and the judge applies
-                        them without seeing that solution. The solutions are produced by
-                        agents that plan, draft and revise over several steps, in part with
-                        web search, and compared with the same models answering in a single
-                        call.
+                        complete case solutions on ten weighted rubric dimensions. 
+                        In contrast, MaLAB uses sets of around 40 case-specific pass/fail criteria for each task. The criteria are derived from the reference solution of the exam using an automated LLM workflow. 
                     </p>
                 </div>
             </div>
@@ -1306,12 +1297,9 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                 <h2 class="title is-3 has-text-centered">Benchmark Pipeline</h2>
                 <div class="content is-size-6">
                     <p>
-                        Each exam case is used in two ways. The reference
+                        The figure below gives an overview of the two main workflows in the MaLAB framework. The upper part shows how a reference
                         solution is turned into a calibrated rubric of atomic
-                        pass/fail criteria, and the facts and instructions
-                        form the task that the evaluated system solves. A
-                        judge committee then scores the submission against the
-                        rubric, one criterion at a time.
+                        pass/fail criteria. The lower part shows how a system under test generates a solution which is afterwards evaluated by a judging committe using the rubric.
                     </p>
                 </div>
                 <svg viewBox="0 0 940 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Overview of the MaLAB pipeline" style="max-width: 100%; height: auto">
@@ -1331,7 +1319,7 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
 
   <text x="20" y="22" class="lane">BUILDING THE RUBRIC</text>
   <rect class="box" x="20" y="34" width="190" height="76" rx="6"/>
-  <text x="115" y="62" text-anchor="middle" class="hd">Published exam case</text>
+  <text x="115" y="62" text-anchor="middle" class="hd">Exam case</text>
   <text x="115" y="80" text-anchor="middle" class="sub">facts + reference solution</text>
   <text x="115" y="95" text-anchor="middle" class="sub">(first or second examination)</text>
 
@@ -1350,7 +1338,7 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
 
   <line class="flow" x1="700" y1="72" x2="738" y2="72"/>
   <rect class="box" x="740" y="34" width="180" height="76" rx="6"/>
-  <text x="830" y="62" text-anchor="middle" class="hd">Frozen rubric</text>
+  <text x="830" y="62" text-anchor="middle" class="hd">Final rubric</text>
   <text x="830" y="80" text-anchor="middle" class="sub">several dozen atomic</text>
   <text x="830" y="94" text-anchor="middle" class="sub">pass/fail criteria</text>
 
@@ -1364,7 +1352,7 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
 
   <line class="flow" x1="210" y1="238" x2="248" y2="238"/>
   <rect class="box" x="250" y="200" width="200" height="76" rx="6"/>
-  <text x="350" y="228" text-anchor="middle" class="hd">Solver</text>
+  <text x="350" y="228" text-anchor="middle" class="hd">System under test</text>
   <text x="350" y="246" text-anchor="middle" class="sub">single call, or agent in a</text>
   <text x="350" y="260" text-anchor="middle" class="sub">sandboxed workspace</text>
 
@@ -1372,7 +1360,7 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
   <rect class="box" x="490" y="200" width="210" height="76" rx="6"/>
   <text x="595" y="228" text-anchor="middle" class="hd">Submission</text>
   <text x="595" y="246" text-anchor="middle" class="sub">legal opinion, judgment,</text>
-  <text x="595" y="260" text-anchor="middle" class="sub">brief or other document</text>
+  <text x="595" y="260" text-anchor="middle" class="sub">brief or other documents</text>
 
   <line class="flow" x1="700" y1="238" x2="738" y2="238"/>
   <line class="flow" x1="830" y1="110" x2="830" y2="198"/>
@@ -1728,22 +1716,17 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                 <div class="content is-size-6">
                     <p>
                         For grading the solutions, we use an LLM-as-a-judge
-                        approach: large language models decide for each
+                        approach: a committee of large language models decides for each
                         criterion of the rubric whether a solution fulfils it.
-                        The verdict comes from a committee of judge models from
-                        three providers, described below.
-                    </p>
-                    <p>
                         Each criterion is judged individually. The judge
                         receives the task instructions, the submission,
                         excerpts of the case documents the criterion refers to,
-                        and the criterion text. It never sees the reference
-                        solution. The judge must first quote verbatim evidence
+                        and the criterion text. The judge must first quote verbatim evidence
                         from the submission, then reason about it, and only
                         then return a pass or fail verdict.
                     </p>
                     <p>
-                        The judge first locates the passage where the answer
+                        <b>Content verdict.</b> The judge first locates the passage where the answer
                         examines the question of the criterion: the same person,
                         claim or offence, the same provision and the same
                         examination station. It decides on that passage only.
@@ -1751,7 +1734,8 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                         expressly or when the explanations on this question make
                         it clear. Where a criterion asks for a reason, a correct
                         result at the correct place with a shorter, tenable
-                        reason suffices.
+                        reason suffices. The content score of a run is the share of criteria
+                        passed, averaged case by case.
                     </p>
                     <p>
                         <b>Style verdict.</b> For criteria tagged as application or
@@ -1772,111 +1756,19 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                         a brief may argue one-sidedly for its party, and a decision of the
                         public prosecutor may consist of short operative orders. A
                         substantively wrong argument can therefore be methodically complete,
-                        and a correct result can be merely asserted.
+                        and a correct result can be merely asserted. The style verdicts aggregate into a separate style score over the application and argumentation criteria.
                     </p>
                     <p>
-                        Our judge committee uses models from three providers, so no
-                        model family holds the majority. <b>GPT-6 Luna</b> from OpenAI
-                        and <b>DeepSeek V4.1 Flash</b> assess each criterion first. If
+                        <b>The judge committee and prompt.</b> Our judge committee uses models from three providers, so no
+                        model family holds the majority. GPT-6 Luna from OpenAI
+                        and DeepSeek V4.1 Flash assess each criterion first. If
                         they agree, their verdict is accepted. If they disagree,
-                        Google’s <b>Gemini 3.8 Flash</b> casts the deciding vote. All
-                        three run with medium reasoning effort.
-                    </p>
-                    <p>
-                        Failed judge calls are retried twice. Decisions that
-                        still lack the required votes are marked as unresolved
-                        and count as failures.
-                    </p>
-                    <p>
-                        The content score of a run is the share of criteria
-                        passed, averaged case by case. The style verdicts aggregate into a separate style score over the application and argumentation criteria.
-                    </p>
-                </div>
-                <svg viewBox="0 0 940 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="How one criterion is judged" style="max-width: 100%; height: auto; margin-top: 0.5rem">
-  <defs>
-    <marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7a7a7a"/>
-    </marker>
-  </defs>
-  <style>
-    .jbox { fill: #ffffff; stroke: #dbdbdb; }
-    .jhd  { font: 600 13.5px "Google Sans", "Noto Sans", sans-serif; fill: #363636; }
-    .jsub { font: 11px "Noto Sans", sans-serif; fill: #6b6b6b; }
-    .jno  { font: 11px "Noto Sans", sans-serif; fill: #b04040; }
-    .jlab { font: 600 11px "Noto Sans", sans-serif; fill: #1496ed; }
-    .jflow { stroke: #7a7a7a; stroke-width: 1.4; fill: none; marker-end: url(#arr2); }
-  </style>
+                        Google’s Gemini 3.8 Flash casts the deciding vote. All
+                        three run with medium reasoning effort. 
 
-  <rect class="jbox" x="20" y="30" width="200" height="210" rx="6"/>
-  <text x="120" y="56" text-anchor="middle" class="jhd">Input per criterion</text>
-  <text x="120" y="84" text-anchor="middle" class="jsub">task instructions</text>
-  <text x="120" y="104" text-anchor="middle" class="jsub">case excerpts the criterion</text>
-  <text x="120" y="118" text-anchor="middle" class="jsub">refers to</text>
-  <text x="120" y="138" text-anchor="middle" class="jsub">submission of the system</text>
-  <text x="120" y="158" text-anchor="middle" class="jsub">criterion text</text>
-  <line x1="40" y1="182" x2="200" y2="182" stroke="#ededed"/>
-  <text x="120" y="204" text-anchor="middle" class="jno">reference solution:</text>
-  <text x="120" y="219" text-anchor="middle" class="jno">never shown</text>
-
-  <line class="jflow" x1="220" y1="90" x2="268" y2="80"/>
-  <line class="jflow" x1="220" y1="180" x2="268" y2="190"/>
-
-  <rect class="jbox" x="270" y="30" width="220" height="95" rx="6"/>
-  <text x="380" y="56" text-anchor="middle" class="jhd">Judge 1: GPT-6 Luna</text>
-  <text x="380" y="78" text-anchor="middle" class="jsub">locate the passage &#183; quote evidence</text>
-  <text x="380" y="94" text-anchor="middle" class="jsub">reason &#183; pass or fail</text>
-  <text x="380" y="110" text-anchor="middle" class="jsub">(+ legal-method verdict)</text>
-
-  <rect class="jbox" x="270" y="145" width="220" height="95" rx="6"/>
-  <text x="380" y="171" text-anchor="middle" class="jhd">Judge 2: DeepSeek V4.1 Flash</text>
-  <text x="380" y="193" text-anchor="middle" class="jsub">locate the passage &#183; quote evidence</text>
-  <text x="380" y="209" text-anchor="middle" class="jsub">reason &#183; pass or fail</text>
-  <text x="380" y="225" text-anchor="middle" class="jsub">(+ legal-method verdict)</text>
-
-  <line class="jflow" x1="490" y1="78" x2="532" y2="124"/>
-  <line class="jflow" x1="490" y1="192" x2="532" y2="146"/>
-
-  <polygon points="565,100 600,135 565,170 530,135" fill="#ffffff" stroke="#dbdbdb"/>
-  <text x="565" y="139" text-anchor="middle" class="jhd">agree?</text>
-
-  <line class="jflow" x1="600" y1="135" x2="628" y2="78"/>
-  <text x="598" y="96" class="jlab">yes</text>
-  <line class="jflow" x1="600" y1="135" x2="628" y2="190"/>
-  <text x="600" y="182" class="jlab">no</text>
-
-  <rect class="jbox" x="630" y="30" width="150" height="95" rx="6"/>
-  <text x="705" y="62" text-anchor="middle" class="jhd">Verdict</text>
-  <text x="705" y="84" text-anchor="middle" class="jsub">pass or fail, with</text>
-  <text x="705" y="100" text-anchor="middle" class="jsub">evidence and reason</text>
-
-  <rect class="jbox" x="630" y="145" width="150" height="95" rx="6"/>
-  <text x="705" y="177" text-anchor="middle" class="jhd">Tiebreaker</text>
-  <text x="705" y="199" text-anchor="middle" class="jsub">Gemini 3.8 Flash</text>
-  <text x="705" y="215" text-anchor="middle" class="jsub">casts the deciding vote</text>
-  <line class="jflow" x1="705" y1="145" x2="705" y2="127"/>
-
-  <line class="jflow" x1="780" y1="78" x2="808" y2="78"/>
-  <rect class="jbox" x="810" y="30" width="115" height="210" rx="6"/>
-  <text x="867" y="56" text-anchor="middle" class="jhd">Scores</text>
-  <text x="867" y="84" text-anchor="middle" class="jsub">content: share</text>
-  <text x="867" y="98" text-anchor="middle" class="jsub">of criteria passed</text>
-  <text x="867" y="126" text-anchor="middle" class="jsub">style: share of</text>
-  <text x="867" y="140" text-anchor="middle" class="jsub">legal-method</text>
-  <text x="867" y="154" text-anchor="middle" class="jsub">checks passed</text>
-  <text x="867" y="182" text-anchor="middle" class="jsub">averaged</text>
-  <text x="867" y="196" text-anchor="middle" class="jsub">case by case</text>
-</svg>
-                <p class="footer-note" style="margin-top: 0.5rem">
-                    How one criterion is judged. The process repeats for every
-                    criterion of the rubric.
-                </p>
-                <div class="content is-size-6">
-                    <p>
-                        The complete judge prompt is part of the repository and
-                        can be inspected below. Placeholders in curly braces
+                        The prompt that is used by the judges can be inspected below. Placeholders in curly braces
                         are filled per criterion at judging time.
                     </p>
-                </div>
                 <details style="margin-top: 0.75rem">
                     <summary class="is-size-6" style="cursor: pointer; font-weight: 600">Show the judge prompt (content and style verdict per criterion)</summary>
                     <p class="footer-note" style="margin-top: 0.4rem">Judge prompt: <a href="https://github.com/wbsg-uni-mannheim/MaLAB/blob/main/prompts/evaluation/combined_content_style_criterion.v4.txt">prompts/evaluation/combined_content_style_criterion.v4.txt</a>. Earlier prompt variants are available in the repository. Display punctuation is adapted for readability. Other criteria use a content-only prompt.</p>
@@ -2015,10 +1907,97 @@ Respond with JSON only, with the fields in exactly this order:
 </pre>
                 </details>
 				
+						
+                    </p>
+                    <p>
+                        <b>The evaluation pipeline.</b> The figure below gives an overview of the evaluation workflow. Failed judge calls are retried twice. Decisions that
+                        still lack the required votes are marked as unresolved
+                        and count as failures.
+                    </p>
+                </div>
+                <svg viewBox="0 0 940 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="How one criterion is judged" style="max-width: 100%; height: auto; margin-top: 0.5rem">
+  <defs>
+    <marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7a7a7a"/>
+    </marker>
+  </defs>
+  <style>
+    .jbox { fill: #ffffff; stroke: #dbdbdb; }
+    .jhd  { font: 600 13.5px "Google Sans", "Noto Sans", sans-serif; fill: #363636; }
+    .jsub { font: 11px "Noto Sans", sans-serif; fill: #6b6b6b; }
+    .jno  { font: 11px "Noto Sans", sans-serif; fill: #b04040; }
+    .jlab { font: 600 11px "Noto Sans", sans-serif; fill: #1496ed; }
+    .jflow { stroke: #7a7a7a; stroke-width: 1.4; fill: none; marker-end: url(#arr2); }
+  </style>
+
+  <rect class="jbox" x="20" y="30" width="200" height="210" rx="6"/>
+  <text x="120" y="56" text-anchor="middle" class="jhd">Input per criterion</text>
+  <text x="120" y="84" text-anchor="middle" class="jsub">task instructions</text>
+  <text x="120" y="104" text-anchor="middle" class="jsub">case excerpts the criterion</text>
+  <text x="120" y="118" text-anchor="middle" class="jsub">refers to</text>
+  <text x="120" y="138" text-anchor="middle" class="jsub">submission of the system</text>
+  <text x="120" y="158" text-anchor="middle" class="jsub">criterion text</text>
+  <line x1="40" y1="182" x2="200" y2="182" stroke="#ededed"/>
+  <text x="120" y="204" text-anchor="middle" class="jno">reference solution:</text>
+  <text x="120" y="219" text-anchor="middle" class="jno">never shown</text>
+
+  <line class="jflow" x1="220" y1="90" x2="268" y2="80"/>
+  <line class="jflow" x1="220" y1="180" x2="268" y2="190"/>
+
+  <rect class="jbox" x="270" y="30" width="220" height="95" rx="6"/>
+  <text x="380" y="56" text-anchor="middle" class="jhd">Judge 1: GPT-6 Luna</text>
+  <text x="380" y="78" text-anchor="middle" class="jsub">locate the passage &#183; quote evidence</text>
+  <text x="380" y="94" text-anchor="middle" class="jsub">reason &#183; pass or fail</text>
+  <text x="380" y="110" text-anchor="middle" class="jsub">(+ legal-method verdict)</text>
+
+  <rect class="jbox" x="270" y="145" width="220" height="95" rx="6"/>
+  <text x="380" y="171" text-anchor="middle" class="jhd">Judge 2: DeepSeek V4.1 Flash</text>
+  <text x="380" y="193" text-anchor="middle" class="jsub">locate the passage &#183; quote evidence</text>
+  <text x="380" y="209" text-anchor="middle" class="jsub">reason &#183; pass or fail</text>
+  <text x="380" y="225" text-anchor="middle" class="jsub">(+ legal-method verdict)</text>
+
+  <line class="jflow" x1="490" y1="78" x2="532" y2="124"/>
+  <line class="jflow" x1="490" y1="192" x2="532" y2="146"/>
+
+  <polygon points="565,100 600,135 565,170 530,135" fill="#ffffff" stroke="#dbdbdb"/>
+  <text x="565" y="139" text-anchor="middle" class="jhd">agree?</text>
+
+  <line class="jflow" x1="600" y1="135" x2="628" y2="78"/>
+  <text x="598" y="96" class="jlab">yes</text>
+  <line class="jflow" x1="600" y1="135" x2="628" y2="190"/>
+  <text x="600" y="182" class="jlab">no</text>
+
+  <rect class="jbox" x="630" y="30" width="150" height="95" rx="6"/>
+  <text x="705" y="62" text-anchor="middle" class="jhd">Verdict</text>
+  <text x="705" y="84" text-anchor="middle" class="jsub">pass or fail, with</text>
+  <text x="705" y="100" text-anchor="middle" class="jsub">evidence and reason</text>
+
+  <rect class="jbox" x="630" y="145" width="150" height="95" rx="6"/>
+  <text x="705" y="177" text-anchor="middle" class="jhd">Tiebreaker</text>
+  <text x="705" y="199" text-anchor="middle" class="jsub">Gemini 3.8 Flash</text>
+  <text x="705" y="215" text-anchor="middle" class="jsub">casts the deciding vote</text>
+  <line class="jflow" x1="705" y1="145" x2="705" y2="127"/>
+
+  <line class="jflow" x1="780" y1="78" x2="808" y2="78"/>
+  <rect class="jbox" x="810" y="30" width="115" height="210" rx="6"/>
+  <text x="867" y="56" text-anchor="middle" class="jhd">Scores</text>
+  <text x="867" y="84" text-anchor="middle" class="jsub">content: share</text>
+  <text x="867" y="98" text-anchor="middle" class="jsub">of criteria passed</text>
+  <text x="867" y="126" text-anchor="middle" class="jsub">style: share of</text>
+  <text x="867" y="140" text-anchor="middle" class="jsub">legal-method</text>
+  <text x="867" y="154" text-anchor="middle" class="jsub">checks passed</text>
+  <text x="867" y="182" text-anchor="middle" class="jsub">averaged</text>
+  <text x="867" y="196" text-anchor="middle" class="jsub">case by case</text>
+</svg>
+                <p class="footer-note" style="margin-top: 0.5rem">
+                    How one criterion is judged. The process repeats for every
+                    criterion of the rubric.
+                </p>
+                
 				<div class="content is-size-6" style="margin-top: 1rem">
 				<p>
-                        <b>Validation of the judge.</b> The same rows are used to check
-                        the automated judge (see <a href="#judging">Automated Judging</a>).
+                        <b>Human Validation.</b> As part of the explorative human validation described in Section <a href="#judging">Rubric Validation</a>, we also checked the effectiveness of the evaluation pipeline. The reviewers inspected the The same rows are used to check
+                        the automated judge (see ).
                         For each row, the reviewer decides whether the verdict of the
                         judge committee on the shown answer is correct, and if not,
                         whether it is too strict or too lenient.
@@ -2098,7 +2077,7 @@ Respond with JSON only, with the fields in exactly this order:
             <div class="container is-max-desktop">
                 <h2 class="title is-3 has-text-centered">Evaluation Results</h2>
                 <div class="content is-size-6">
-                    <p>A legal agent consists of a LLM model, an agent harness that manages the interaction of the model with tools, and tools such as Web search or a search tool  tool for legal databases. We measure the performance of the following LLMs and legal agents using the MaLAB benchmark:</p>
+                    <p>A legal agent consists of a LLM model, an agent harness that manages the interaction of the model with tools, and tools such as Web search or a search tool  for legal databases. We measure the performance of the following LLMs and legal agents using the MaLAB benchmark:</p>
                     <ul>
                         <li>
                             <b>Single Call:</b> the model receives the
@@ -2157,7 +2136,7 @@ Respond with JSON only, with the fields in exactly this order:
                         <a href="https://github.com/wbsg-uni-mannheim/MaLAB/blob/main/prompts/harness/solve_task_baseline.txt">prompts/harness/solve_task_baseline.txt</a> (Single Call) and <a href="https://github.com/wbsg-uni-mannheim/MaLAB/blob/main/prompts/harness/solve_task.txt">prompts/harness/solve_task.txt</a> (OpenCode Agent). Display punctuation is adapted for readability. Placeholders in curly braces are filled per task.
                     </p>
                     <p class="footer-note" style="margin-top: 0.6rem"><b>Single call</b></p>
-                    <pre class="bibtex" style="white-space: pre-wrap">You are solving one LAB-EU legal benchmark task in a single response.
+                    <pre class="bibtex" style="white-space: pre-wrap">You are solving one MaLAB legal benchmark task in a single response.
 
 Current date: {today}
 
@@ -2184,7 +2163,7 @@ Write the complete deliverable now, as Markdown. Your entire response will be sa
 Write in the same language as the task instructions and documents, unless the instructions require a different language. The deliverable must be a complete, self-contained legal document. Use the legal reasoning style required by the task. For German case solutions, use Gutachtenstil. Where the supplied materials present a question as settled by controlling high-court case law, follow that current case-law path. Cite the provisions you rely on precisely.
 </pre>
                     <p class="footer-note"><b>OpenCode agent</b></p>
-                    <pre class="bibtex" style="white-space: pre-wrap">You are solving one LAB-EU legal benchmark task.
+                    <pre class="bibtex" style="white-space: pre-wrap">You are solving one MaLAB legal benchmark task.
 
 Current date: {today}
 
