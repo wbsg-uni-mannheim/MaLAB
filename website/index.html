@@ -476,7 +476,10 @@ The
                         <a href="https://doi.org/10.24921/2020.94115939">OpenRewi
                         casebook on administrative law</a>. Each case was
                         published together with a reference solution by its
-                        academic authors. Attribution, source and licence are
+                        academic authors. The cases are exam-style cases
+                        written for legal education. They range from exercises
+                        of the first semesters to papers at the level of the
+                        First State Examination. Attribution, source and licence are
                         recorded per task.
                     </p>
                     <p>
@@ -1209,11 +1212,13 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                         (<span class="mono">Aktenvortrag</span>), final orders
                         of the public prosecutor, appeal opinions and closing
                         speeches. Many tasks require two or three documents.
-                        All public law cases are original exam cases of the
+                        The 15 public law cases are original papers of the
                         Bavarian Second State Examination. The civil and
-                        criminal law cases are exam-preparation cases from
-                        German legal education journals and original exam
-                        cases of a state examination office.
+                        criminal law cases are exam-style practice cases: 23
+                        from German legal education journals and 7 from the
+                        exam course for legal trainees of a state judicial
+                        administration, with solution sketches by its
+                        examination office.
                     </p>
                     <p>
                         Like
@@ -1639,8 +1644,13 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                         verdicts of the LLM judges using the rubric are correct, two of the authors, both lawyers at the University
                         of Mannheim, reviewed random samples of criteria. Each
                         sampled criterion is shown with the answer of one randomly chosen
-                        system and the judge's verdict. The reviewer answers two questions:
-                        is the criterion legally correct, and is the verdict correct? For
+                        system and the judge's verdict. The unit of the review is the single rubric criterion,
+                        one legal question derived from the case. The reviewer
+                        answers two questions: is the rubric criterion legally
+                        correct on its own, and did the judge apply it correctly
+                        to the answer shown? The review thus validates the two
+                        building blocks of the score, the rubric criteria and
+                        the verdicts. For
                         the first examination, Benedikt Asal reviewed 200 of the 1,777
                         content criteria, stratified by area of
                         law and criterion weight. For the second examination, Benedikt Asal
@@ -1734,8 +1744,9 @@ H kann von A nach § 179 Abs. 1 BGB Zahlung von 5.500 € verlangen, bei noch au
                         expressly or when the explanations on this question make
                         it clear. Where a criterion asks for a reason, a correct
                         result at the correct place with a shorter, tenable
-                        reason suffices. The content score of a run is the share of criteria
-                        passed, averaged case by case.
+                        reason suffices. The content score of a run is the share of criteria passed,
+                        averaged case by case. It counts how many of the legal
+                        questions of a case an answer handles correctly.
                     </p>
                     <p>
                         <b>Style verdict.</b> For criteria tagged as application or
@@ -3592,6 +3603,14 @@ Feel free to create any notes as you see fit. However only the required delivera
                         <li>
 						<b>Limited human validation.</b> 
 						Ideally, all rubric criteria and a large set of judge verdicts would be independently reviewed by multiple legal experts following a standardized annotation protocol with predefined decision rules. Resource constraints prevented such comprehensive validation. Instead, two lawyers reviewed a random sample of 400 of the 4,123 rubric criteria, each accompanied by the judge's verdict on one answer (see <a href="#validation">Rubric Validation</a>). Each criterion–verdict pair was assessed by one lawyer, except for a shared subset used to measure inter-reviewer agreement. Reviewers were not blinded to the judge's verdict, introducing a potential source of bias. The same applies for the function and criticality tags of each rubric criterion which were assigned by an LLM and have not been systematically validated by legal experts yet. While these classifications do not affect the content scores, they may affect the findings of our error analysis. For the first examination, we make the tasks, rubrics, generated answers, and criterion-level verdicts publicly available, enabling legal experts to independently assess the validity of our evaluation.
+                        </li>
+                        <li>
+                            <b>Score and examination grade.</b> An examiner grades a
+                            paper as a whole and weighs its parts against each other.
+                            Our lawyers reviewed individual rubric criteria and
+                            verdicts. The content score therefore shows which share
+                            of the legal questions an answer handles correctly, and
+                            it is not an examination grade.
                         </li>
                         <li>
                             <b>Limited assessment of run-to-run variation.</b> 
