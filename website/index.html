@@ -2381,14 +2381,18 @@ Feel free to create any notes as you see fit. However only the required delivera
                         stays below 80 in 12 cases.
                     </p>
                     <p>
-                        <b>Claude Opus 5.5 scores higher than GPT-6 Astra in public law.</b>
+                        <b>In this run, Claude Opus 5.5 scores higher than GPT-6 Astra in public law.</b>
                         In public law, Claude Opus 5.5 scores 6.1 points above GPT-6 Astra
                         and is ahead in 12 of 15 cases. It passes more application
                         criteria (86 versus 81 percent) and more argumentation criteria
                         (75 versus 66 percent). In civil law (2.8 points in favour of Claude Opus 5.5) and criminal
                         law (1.7 points in favour of GPT-6 Astra) the two are at about
-                        the same level. The second examination shows the same gap in public
-                        law (see below).
+                        the same level. When we repeated five of the public law cases, the
+                        gap fell from 8.1 points in this run to 3.3 and 1.1 points (see
+                        <a href="#repeat-runs">Run-to-run variation</a>). We therefore do
+                        not treat it as a stable difference between the two systems. The
+                        second examination shows a gap of the same size in public law (see
+                        below).
                     </p>
                     <p>
                         <b>The effect of the OpenCode harness depends on the model.</b> In
@@ -2623,6 +2627,278 @@ Feel free to create any notes as you see fit. However only the required delivera
                     </div>
                 </details>
 
+                <h3 class="title is-5" id="repeat-runs" style="margin-top: 2rem">Run-to-run variation (15 cases, three runs)</h3>
+                <div class="table-container">
+                    <table class="table is-narrow is-fullwidth is-striped has-text-right">
+                        <thead>
+                            <tr>
+                                <th class="has-text-left">Harness</th>
+                                <th class="has-text-left">Model</th>
+                                <th>Run 1</th>
+                                <th>Run 2</th>
+                                <th>Run 3</th>
+                                <th>Range of means</th>
+                                <th>Mean range per case</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="has-text-left">Claude Code</td>
+                                <td class="has-text-left">Claude Opus 5.5 (high)</td>
+                                <td>90.2</td>
+                                <td>88.5</td>
+                                <td>89.0</td>
+                                <td>1.7</td>
+                                <td>5.4</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Codex CLI</td>
+                                <td class="has-text-left">GPT-6 Astra (high)</td>
+                                <td>86.9</td>
+                                <td>87.5</td>
+                                <td>88.9</td>
+                                <td>2.0</td>
+                                <td>4.6</td>
+                            </tr>
+                            <tr class="area-row"><td colspan="7" class="has-text-left">Difference Claude Opus 5.5 minus GPT-6 Astra, same run</td></tr>
+                            <tr>
+                                <td class="has-text-left" colspan="2">All 15 cases</td>
+                                <td>+3.3</td>
+                                <td>+1.0</td>
+                                <td>+0.1</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left" colspan="2">Public law</td>
+                                <td>+8.1</td>
+                                <td>+3.3</td>
+                                <td>+1.1</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left" colspan="2">Criminal law</td>
+                                <td>&minus;2.2</td>
+                                <td>&minus;4.0</td>
+                                <td>&minus;5.9</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left" colspan="2">Civil law</td>
+                                <td>+4.0</td>
+                                <td>+3.7</td>
+                                <td>+5.0</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="footer-note">
+                        Pass rate of content criteria in percent, averaged over 15 cases of the
+                        first examination, five per area of law, drawn at random before any
+                        repeat was scored. Run 1 is the run reported above (13 October 2026),
+                        runs 2 and 3 were generated on 24 November 2026 with the same prompt,
+                        settings and frozen judge, but newer CLI versions (Claude Code 2.1.331,
+                        Codex CLI 0.172.0). Range per case: highest minus lowest score of the
+                        three runs. Four of 2,228 verdicts in the repeats stayed unresolved
+                        and count as failures.
+                    </p>
+                <div class="content is-size-6" style="margin-top: 1rem">
+                    <p>
+                        <b>The mean score of a system changes by up to 2 points between runs.</b>
+                        On single cases the score of the same system differs by about 5 points
+                        between its best and worst run, and by up to 13 points. The difference
+                        between Claude Opus 5.5 and GPT-6 Astra on these cases is 3.3, 1.0 and
+                        0.1 points in the three runs, so the two systems are at the same level.
+                        In public law the difference falls from 8.1 to 3.3 and 1.1 points. In
+                        criminal law GPT-6 Astra is ahead in all three runs (2.2 to 5.9 points),
+                        in civil law Claude Opus 5.5 (3.7 to 5.0 points). With five cases per
+                        area, these per-area differences are an indication, not a finding.
+                    </p>
+                </div>
+
+                <details style="margin-top: 1.25rem">
+                    <summary class="is-size-6" style="cursor: pointer; font-weight: 600">Show per-case results of the three runs</summary>
+                    <div class="table-container" style="margin-top: 0.6rem">
+                    <table class="table is-narrow is-fullwidth is-striped has-text-right">
+                        <thead>
+                            <tr>
+                                <th class="has-text-left">Area</th>
+                                <th class="has-text-left">Case</th>
+                                <th colspan="3">Claude Opus 5.5</th>
+                                <th colspan="3">GPT-6 Astra</th>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>Run 1</th>
+                                <th>Run 2</th>
+                                <th>Run 3</th>
+                                <th>Run 1</th>
+                                <th>Run 2</th>
+                                <th>Run 3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="has-text-left">Public law</td>
+                                <td class="has-text-left">Fortgeschrittenenklausur: Zwei Bescheide und ein Führerschein</td>
+                                <td>92.3</td>
+                                <td>92.3</td>
+                                <td>89.7</td>
+                                <td>82.1</td>
+                                <td>87.2</td>
+                                <td>92.3</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Public law</td>
+                                <td class="has-text-left">Fortgeschrittenenklausur Europarecht: Wohnungsbestand in Bürgerhand?</td>
+                                <td>91.7</td>
+                                <td>91.7</td>
+                                <td>87.5</td>
+                                <td>81.2</td>
+                                <td>83.3</td>
+                                <td>87.5</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Public law</td>
+                                <td class="has-text-left">Anfängerklausur im Polizeirecht: „Kleine Tiere – großer Ärger“</td>
+                                <td>93.1</td>
+                                <td>86.2</td>
+                                <td>93.1</td>
+                                <td>86.2</td>
+                                <td>89.7</td>
+                                <td>89.7</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Public law</td>
+                                <td class="has-text-left">Abschlussklausur Europarecht: „Germany first“</td>
+                                <td>88.9</td>
+                                <td>86.1</td>
+                                <td>88.9</td>
+                                <td>83.3</td>
+                                <td>83.3</td>
+                                <td>91.7</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Public law</td>
+                                <td class="has-text-left">Anfechtungsklage bei Nebenbestimmungen</td>
+                                <td>85.2</td>
+                                <td>81.5</td>
+                                <td>88.9</td>
+                                <td>77.8</td>
+                                <td>77.8</td>
+                                <td>81.5</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Criminal law</td>
+                                <td class="has-text-left">Fortgeschrittenenübungsklausur: Raufhandel mit ungewisser Kausalität</td>
+                                <td>85.7</td>
+                                <td>83.7</td>
+                                <td>93.9</td>
+                                <td>85.7</td>
+                                <td>87.8</td>
+                                <td>91.8</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Criminal law</td>
+                                <td class="has-text-left">Fortgeschrittenenübungsklausur zu Körperverletzungs- und Straßenverkehrsdelikten: Grillen mit Hindernissen</td>
+                                <td>84.2</td>
+                                <td>89.5</td>
+                                <td>84.2</td>
+                                <td>97.4</td>
+                                <td>97.4</td>
+                                <td>97.4</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Criminal law</td>
+                                <td class="has-text-left">Fortgeschrittenenübungsklausur: Ungebetener Gast</td>
+                                <td>100.0</td>
+                                <td>86.8</td>
+                                <td>86.8</td>
+                                <td>92.1</td>
+                                <td>89.5</td>
+                                <td>92.1</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Criminal law</td>
+                                <td class="has-text-left">Anfängerübungsklausur: Alte Feindschaft</td>
+                                <td>100.0</td>
+                                <td>100.0</td>
+                                <td>100.0</td>
+                                <td>100.0</td>
+                                <td>100.0</td>
+                                <td>100.0</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Criminal law</td>
+                                <td class="has-text-left">Fortgeschrittenenübungsklausur: Mehr Schein als Sein – Greenwashing und „Probefahrt“</td>
+                                <td>68.5</td>
+                                <td>72.2</td>
+                                <td>61.1</td>
+                                <td>74.1</td>
+                                <td>77.8</td>
+                                <td>74.1</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Civil law</td>
+                                <td class="has-text-left">Anfängerklausur: Zwei Autokäufe</td>
+                                <td>100.0</td>
+                                <td>91.7</td>
+                                <td>100.0</td>
+                                <td>91.7</td>
+                                <td>91.7</td>
+                                <td>95.8</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Civil law</td>
+                                <td class="has-text-left">Übungsfall zu Verträgen über digitale Produkte: Motivation ist alles</td>
+                                <td>100.0</td>
+                                <td>100.0</td>
+                                <td>100.0</td>
+                                <td>95.7</td>
+                                <td>91.3</td>
+                                <td>95.7</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Civil law</td>
+                                <td class="has-text-left">Examensübungsklausur: Geteiltes Leid ist halbes Leid?</td>
+                                <td>83.7</td>
+                                <td>86.0</td>
+                                <td>81.4</td>
+                                <td>81.4</td>
+                                <td>83.7</td>
+                                <td>81.4</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Civil law</td>
+                                <td class="has-text-left">Fortgeschrittenenklausur: Wertpapier, Werkstatt und Weed</td>
+                                <td>97.5</td>
+                                <td>95.0</td>
+                                <td>95.0</td>
+                                <td>95.0</td>
+                                <td>90.0</td>
+                                <td>87.5</td>
+                            </tr>
+                            <tr>
+                                <td class="has-text-left">Civil law</td>
+                                <td class="has-text-left">Anfängerklausur: Ein gebrochener Arm und viele Scherben</td>
+                                <td>81.8</td>
+                                <td>84.1</td>
+                                <td>84.1</td>
+                                <td>79.5</td>
+                                <td>81.8</td>
+                                <td>75.0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </details>
+
+
                 <h3 class="title is-5" style="margin-top: 2rem">Second State Examination (Private Test Set)</h3>
                 <div class="content is-size-6">
                     <p>
@@ -2793,12 +3069,16 @@ Feel free to create any notes as you see fit. However only the required delivera
                         apart), and the difference comes from public law.
                     </p>
                     <p>
-                        <b>The gap in public law is the same as in the first examination.</b> In public law, Claude Opus 5.5
+                        <b>In public law, the gap is the same size as in the first examination.</b> In public law, Claude Opus 5.5
                         scores 6.1 points above GPT-6 Astra and is ahead in 13 of 15 cases. In civil and criminal law the two differ by less than one
                         point. The public law cases of the second examination are original
                         Bavarian exam cases and also require Bavarian state law, such as the
                         Bavarian building code. The gap is just as large in the first
-                        examination, whose public law cases need no Bavarian law. In criminal law, the style scores of GPT-6 Astra (90.0) and Claude Opus 5.5 (87.8) are at about the same level.
+                        examination, whose public law cases need no Bavarian law. Each case
+                        of the second examination was answered once. In repeated runs on
+                        first examination cases, the public law gap fell from 8.1 to 3.3
+                        and 1.1 points (see <a href="#repeat-runs">Run-to-run variation</a>),
+                        so a gap of this size can also come from variation between runs. In criminal law, the style scores of GPT-6 Astra (90.0) and Claude Opus 5.5 (87.8) are at about the same level.
                     </p>
                     <p>
                         <b>Web access raises the pass rate on argumentation criteria.</b> With web
@@ -3286,7 +3566,7 @@ Feel free to create any notes as you see fit. However only the required delivera
 				<h3 class="title is-5" style="margin-top: 1.5rem">Evaluating the Answers of Other AI Systems</h3>
                 <div class="content is-size-6">
                     <p>
-                        You can also use MaLAB cases to evaluate AI systems that we have not benchmarked yet. For this, prompt the AI system that you are interesed in to solve a specific <a href="https://github.com/wbsg-uni-mannheim/MaLAB/tree/main/tasks/de">MaLAB task</a>. Afterwards, let the the MaLAB LLM-as-a-judge pipeline evaluate the solution to the case generated by your AI system. The MaLAB repository contains the complete evaluation code. After
+                        You can also use MaLAB cases to evaluate AI systems that we have not benchmarked yet. For this, prompt the AI system that you are interested in to solve a specific <a href="https://github.com/wbsg-uni-mannheim/MaLAB/tree/main/tasks/de">MaLAB task</a>. Afterwards, let the MaLAB LLM-as-a-judge pipeline evaluate the solution to the case generated by your AI system. The MaLAB repository contains the complete evaluation code. After
                         cloning it and configuring API access to hosted LLMs using your API key, a single command
                         judges an answer file against the rubric of a task:
                     </p>
@@ -3331,10 +3611,14 @@ Feel free to create any notes as you see fit. However only the required delivera
                         </li>
                         <li>
                             <b>One run per system.</b> The answers of a system differ
-                            from run to run. Each system answered each case once, so
-                            the reported scores do not show this variation. Differences
-                            of a few points between systems should not be read as a
-                            ranking.
+                            from run to run. Repeating every system several times on all
+                            cases would show this variation directly, but exceeds our
+                            budget. Each system answered each case once. For 15 cases we
+                            ran Claude Opus 5.5 and GPT-6 Astra three times: the mean of a
+                            system changed by up to 2 points, single cases by up to 13
+                            points (see <a href="#repeat-runs">Run-to-run variation</a>).
+                            Differences of a few points between systems should not be read
+                            as a ranking.
                         </li>
                         <li>
                             <b>Published cases.</b> The cases of the first examination
