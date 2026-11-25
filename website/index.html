@@ -1996,11 +1996,10 @@ Respond with JSON only, with the fields in exactly this order:
                 
 				<div class="content is-size-6" style="margin-top: 1rem">
 				<p>
-                        <b>Human Validation.</b> As part of the explorative human validation described in Section <a href="#judging">Rubric Validation</a>, we also checked the effectiveness of the evaluation pipeline. The reviewers inspected the The same rows are used to check
-                        the automated judge (see ).
-                        For each row, the reviewer decides whether the verdict of the
+                        <b>Human Validation.</b> As part of the explorative <a href="#validation">human validation</a>, we also checked the effectiveness of the evaluation pipeline. The reviewers checked the judge verdicts for the same rubric criteria which they previously inspected.
+                        For each criteria, the reviewer decides whether the verdict of the
                         judge committee on the shown answer is correct, and if not,
-                        whether it is too strict or too lenient.
+                        whether it is too strict or too lenient. The results of the human validation are shown in the table below.
                     </p>
 				</div>	
                 <div class="table-container">
@@ -2077,18 +2076,18 @@ Respond with JSON only, with the fields in exactly this order:
             <div class="container is-max-desktop">
                 <h2 class="title is-3 has-text-centered">Evaluation Results</h2>
                 <div class="content is-size-6">
-                    <p>A legal agent consists of a LLM model, an agent harness that manages the interaction of the model with tools, and tools such as Web search or a search tool  for legal databases. We measure the performance of the following LLMs and legal agents using the MaLAB benchmark:</p>
+                    <p>A legal agent consists of a LLM model, an agent harness that manages the interaction of the model with its environment, and tools such as Web search. We measure the performance of the following LLMs and legal agents using the MaLAB benchmark:</p>
                     <ul>
                         <li>
-                            <b>Single Call:</b> the model receives the
+                            <b>Single Call:</b> A single LLM receives the
                             instructions and all case documents in one prompt
-                            and answers in one pass, without tools
-                            (gpt-5.6-sol, gpt-5.6-terra, deepseek-v4-pro).
+                            and answers in one pass without using tools. We evaluate the following models
+                            gpt-5.6-sol, gpt-5.6-terra, deepseek-v4-pro.
                         </li>
                         <li>
-                            <b>OpenCode:</b> the same three models work in the
-                            open-source OpenCode agent with file tools in a
-                            sandboxed workspace and can draft and revise their
+                            <b>OpenCode:</b> We evaluate the same three models in the
+                            open-source OpenCode agent harness with file tools in a
+                            sandboxed workspace. The agents can draft and revise their
                             answer over several steps.
                         </li>
                         <li>
@@ -2131,7 +2130,7 @@ Respond with JSON only, with the fields in exactly this order:
                 </div>
 
                 <details style="margin-top: 0.5rem">
-                    <summary class="is-size-6" style="cursor: pointer; font-weight: 600">Show the solver prompts (Single Call and Agent)</summary>
+                    <summary class="is-size-6" style="cursor: pointer; font-weight: 600">Show the prompts that are send to the models and agents</summary>
                     <p class="footer-note" style="margin-top: 0.4rem">
                         <a href="https://github.com/wbsg-uni-mannheim/MaLAB/blob/main/prompts/harness/solve_task_baseline.txt">prompts/harness/solve_task_baseline.txt</a> (Single Call) and <a href="https://github.com/wbsg-uni-mannheim/MaLAB/blob/main/prompts/harness/solve_task.txt">prompts/harness/solve_task.txt</a> (OpenCode Agent). Display punctuation is adapted for readability. Placeholders in curly braces are filled per task.
                     </p>
@@ -2198,7 +2197,8 @@ Feel free to create any notes as you see fit. However only the required delivera
 </pre>
                 </details>
 
-                <h3 class="title is-5">First State Examination (45 cases)</h3>
+
+                <h3 class="title is-5" style="margin-top: 2rem">First State Examination (Content and Style Score on the 45 Cases)</h3>
                 <div class="table-container">
                     <table class="table is-narrow is-fullwidth is-striped has-text-right">
                         <thead>
@@ -2878,7 +2878,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                 </details>
 
 
-                <h3 class="title is-5" style="margin-top: 2rem">Second State Examination (Private Test Set)</h3>
+                <h3 class="title is-5" style="margin-top: 2rem">Second State Examination (Content and Style Score on Private Test Set)</h3>
                 <div class="content is-size-6">
                     <p>
                         The Second State Examination is the part of MaLAB that goes
@@ -3095,24 +3095,9 @@ Feel free to create any notes as you see fit. However only the required delivera
                 <h3 class="title is-5" style="margin-top: 2rem">Cost</h3>
                 <div class="content is-size-6">
                     <p>
-                        <b>Cost per case.</b> The systems with higher scores cost more per
-                        case. Claude Opus 5.5 costs $1.40 per case and GPT-6 Astra $1.19.
-                        Single-call deepseek-v4-pro costs two cents per case and reaches
-                        46.4. Web search triples the cost of Codex with gpt-5.6-sol, from
-                        $0.43 to $1.25 per case, for 3.0 more points. Judging one answer
-                        costs about $0.21, so judging a full run of 45 cases costs about
-                        $9. For comparison, a candidate in the state examination has
-                        five hours to write one paper. At an assumed hourly rate of
-                        &euro;250 for a lawyer, five hours of work cost &euro;1,250.
+                    The figure below shows the relationship between the content score achieved by each model or agent and the API usage cost of solving a single legal case.   
                     </p>
-                    <p>
-                        <b>No cost figures for Claude Cowork and ChatGPT Work.</b> For
-                        the two desktop agents we cannot report a cost per case.
-                        Both are paid through a monthly subscription, not per token, and
-                        neither app shows how many tokens a task used. Both run the task
-                        on the provider's servers and keep no usage record on the user's
-                        computer that we could read out.
-                    </p>
+                   
                 </div>
 <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Solver cost per case against content score" style="max-width: 100%; height: auto">
   <style>.ax{font:11px "Noto Sans",sans-serif;fill:#6b6b6b}.lb{font:11.5px "Noto Sans",sans-serif;fill:#363636}.gr{stroke:#ededed;stroke-width:1}.at{font:600 11.5px "Noto Sans",sans-serif;fill:#4a4a4a}</style>
@@ -3228,22 +3213,53 @@ Feel free to create any notes as you see fit. However only the required delivera
                     Fees for Codex web search calls are not included. Judge cost estimated
                     from token counts, split evenly over the votes of each criterion.
                 </p>
+			<div class="content is-size-6">
+							<p> </p>
+                    <p>
+                        <b>Cost per case.</b> The systems with higher scores cost more per
+                        case. Claude Opus 5.5 costs $1.40 per case and GPT-6 Astra $1.19.
+                        Single-call deepseek-v4-pro costs two cents per case and reaches
+                        46.4. Web search triples the cost of Codex with gpt-5.6-sol, from
+                        $0.43 to $1.25 per case, for 3.0 more points. Judging one answer
+                        costs about $0.21, so judging a full run of 45 cases costs about
+                        $9. 
+					</p><p>	
+						<b>Human cost per case.</b> For comparison, a candidate in the state examination has
+                        five hours to write one paper. At an assumed hourly rate of
+                        &euro;250 for a lawyer, five hours of work cost &euro;1,250.
+                    </p>
+                    <p>
+                        <b>No cost figures for Claude Cowork and ChatGPT Work.</b> For
+                        the two desktop agents we cannot report a cost per case.
+                        Both are paid through a monthly subscription, not per token, and
+                        neither app shows how many tokens a task used. Both run the task
+                        on the provider's servers and keep no usage record on the user's
+                        computer that we could read out.
+                    </p>
+                </div>
             </div>
+
         </section>
 
         <!-- ERROR ANALYSIS -->
         <section class="section" id="failures" style="background: #fafafa">
             <div class="container is-max-desktop">
                 <h2 class="title is-3 has-text-centered">Error Analysis</h2>
-                <h3 class="title is-5">Which reasoning steps fail</h3>
+				<div class="content is-size-6">
+							<p>This section examines the errors made by the evaluated models and agents.</p>
+ 
+                </div>
+	
+				
+                <h3 class="title is-5">Which reasoning steps fail?</h3>
                 <div class="content is-size-6">
                     <p>
                         Each criterion is tagged with the function of its step in the
                         solution. The tags are assigned by a separate step of the rubric
-                        pipeline (gpt-5.6-sol, prompt
+                        generation pipeline (gpt-5.6-sol, prompt
                         <a href="https://github.com/wbsg-uni-mannheim/MaLAB/blob/main/prompts/rubric_generation/tag_criteria.user.txt">tag_criteria</a>)
                         after the criteria are fixed, and they do not change the score.
-                        The model chooses one of seven fixed values that follow the steps
+                        The model chooses one of seven tag values that follow the steps
                         of the appraisal style: the legal basis (the provision on which
                         the examination rests), the legal test or definition, the
                         application to the facts (<span class="mono">Subsumtion</span>),
@@ -3252,7 +3268,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                         the criterion receives the dominant one. Of the 1,806 criteria,
                         20 are tagged as structure or form and are not shown below.
                         The table
-                        shows the share of criteria passed per function on the first
+                        shows the <b>share of criteria passed</b> per function on the first
                         examination.
                     </p>
                 </div>
@@ -3419,10 +3435,10 @@ Feel free to create any notes as you see fit. However only the required delivera
                     </p>
                 </div>
 
-                <h3 class="title is-5" style="margin-top: 2rem">How severe the errors are</h3>
+                <h3 class="title is-5" style="margin-top: 2rem">How severe are the errors?</h3>
                 <div class="content is-size-6">
                     <p>
-                        The tagging step also rates every criterion by its importance
+                        The tagging step in the rubric generation workflow also rates every criterion by its importance
                         for the case, on three levels:
                     </p>
                     <ul>
@@ -3542,12 +3558,17 @@ Feel free to create any notes as you see fit. However only the required delivera
                         20 percent. On these cases, a higher content score thus goes along with fewer failed critical criteria.
                     </p>
                 </div>
-				<h3 class="title is-5" style="margin-top: 1.5rem">Evaluating the Answers of Other AI Systems</h3>
-                <div class="content is-size-6">
-                    <p>
-                        You can also use MaLAB cases to evaluate AI systems that we have not benchmarked yet. For this, prompt the AI system that you are interested in to solve a specific <a href="https://github.com/wbsg-uni-mannheim/MaLAB/tree/main/tasks/de">MaLAB task</a>. Afterwards, let the MaLAB LLM-as-a-judge pipeline evaluate the solution to the case generated by your AI system. The MaLAB repository contains the complete evaluation code. After
-                        cloning it and configuring API access to hosted LLMs using your API key, a single command
-                        judges an answer file against the rubric of a task:
+              
+            </div>
+        </section>
+		
+<!-- Evaluating Other Systems -->
+        <section class="section" id="otherSystems" >
+            <div class="container is-max-desktop">
+                <h2 class="title is-3 has-text-centered">Evaluating Other AI Systems</h2>
+<div class="content is-size-6">
+                    <p> You can also use MaLAB to evaluate AI systems that we have not yet benchmarked. To do so, prompt the AI system of your choice to solve one of the <a href="https://github.com/wbsg-uni-mannheim/MaLAB/tree/main/tasks/de">MaLAB tasks</a> and use the MaLAB LLM-as-a-judge pipeline to evaluate the generated solution. The MaLAB repository provides the complete evaluation code. After cloning the repository and configuring access to the hosted LLMs using your API key, you can evaluate the generated solution against the corresponding task rubric with a single command:
+
                     </p>
                 </div>
                 <pre class="bibtex">env/bin/python -m evaluation.run &lt;task-dir&gt; &lt;answer-file&gt; --judge-committee configs/judge-committee-luna6-deepseek41-gemini38-tiebreaker.json --committee-tiebreaker --style-evaluation --judge-prompt-version v4</pre>
@@ -3560,65 +3581,29 @@ Feel free to create any notes as you see fit. However only the required delivera
                         documents the configuration options.
                     </p>
                 </div>
-            </div>
-        </section>
-
+			</div>	
+		</section>
         <!-- LIMITATIONS -->
-        <section class="section" id="limitations">
+        <section class="section" id="limitations" style="background: #fafafa">
             <div class="container is-max-desktop">
                 <h2 class="title is-3 has-text-centered">Limitations</h2>
                 <div class="content is-size-6">
                     <ul>
                         <li>
-                            <b>Human validation covers a sample.</b> Every criterion
-                            and every judge verdict should be checked by a committee
-                            of several lawyers. We do not have the resources for
-                            this. Two lawyers reviewed a random sample of 400 of the
-                            4,123 criteria, each with the judge's verdict on one
-                            answer (see <a href="#validation">Rubric Validation</a>).
-                            Each row was reviewed by one lawyer, apart from a shared
-                            set used to measure their agreement, and the reviewers
-                            saw the judge's verdict. For the first examination, the
-                            tasks, rubrics, answers and per-criterion verdicts are
-                            public, so readers can check the results in the areas
-                            of law they know.
+						<b>Limited human validation.</b> 
+						Ideally, all rubric criteria and a large set of judge verdicts would be independently reviewed by multiple legal experts following a standardized annotation protocol with predefined decision rules. Resource constraints prevented such comprehensive validation. Instead, two lawyers reviewed a random sample of 400 of the 4,123 rubric criteria, each accompanied by the judge's verdict on one answer (see <a href="#validation">Rubric Validation</a>). Each criterion–verdict pair was assessed by one lawyer, except for a shared subset used to measure inter-reviewer agreement. Reviewers were not blinded to the judge's verdict, introducing a potential source of bias. The same applies for the function and criticality tags of each rubric criterion which were assigned by an LLM and have not been systematically validated by legal experts yet. While these classifications do not affect the content scores, they may affect the findings of our error analysis. For the first examination, we make the tasks, rubrics, generated answers, and criterion-level verdicts publicly available, enabling legal experts to independently assess the validity of our evaluation.
                         </li>
                         <li>
-                            <b>Model-assigned tags.</b> The function and criticality
-                            of each criterion were assigned by a model and have not been systematically reviewed by lawyers. They do not affect the content
-                            score, but the error analysis relies on them.
+                            <b>Limited assessment of run-to-run variation.</b> 
+							Due to the stochastic nature of LLMs and agents, their solutions and resulting scores may vary across runs. Budget constraints prevented us from conducting repeated runs for all system–case combinations. Instead, each system solved each case once. To estimate run-to-run variation, we evaluated Claude Opus 5.5 and GPT-6 Astra three times on a subset of 15 cases. Mean scores varied by up to 2 points across runs, while scores for individual cases varied by up to 13 points (see <a href="#repeat-runs">Run-to-run variation</a>). Consequently, differences of a few points between systems should not be interpreted as evidence of superior performance.
                         </li>
                         <li>
-                            <b>One run per system.</b> The answers of a system differ
-                            from run to run. Repeating every system several times on all
-                            cases would show this variation directly, but exceeds our
-                            budget. Each system answered each case once. For 15 cases we
-                            ran Claude Opus 5.5 and GPT-6 Astra three times: the mean of a
-                            system changed by up to 2 points, single cases by up to 13
-                            points (see <a href="#repeat-runs">Run-to-run variation</a>).
-                            Differences of a few points between systems should not be read
-                            as a ranking.
+                            <b>Potential benchmark contamination.</b> 
+							 The cases from the first examination and their reference solutions are publicly available. These materials may have been included in the training data of the evaluated LLMs, allowing models to reproduce previously encountered solutions rather than solve cases independently. Agents with web search may also retrieve published solutions directly. We observed such behavior and took measures to mitigate it by blocking known reference sources and inspecting the sources cited by the agents (see <a href="#results">Evaluation Results</a>). Nevertheless, scores on publicly available cases may overestimate performance on previously unseen cases of comparable difficulty. Our private test set mitigates, but does not eliminate, this risk, as some of its cases and reference solutions are available elsewhere.
                         </li>
                         <li>
-                            <b>Published cases.</b> The cases of the first examination
-                            and their reference solutions are published in open-access
-                            sources. LLMs are trained on large collections of text from
-                            the Web, so these solutions may have been part of the
-                            training data of the evaluated models, and a model may
-                            reproduce parts of a solution it has seen. Agents with web
-                            search can also retrieve a solution, which we observed and
-                            address by blocking the sources and checking the source
-                            lists (see <a href="#results">Evaluation Results</a>).
-                            Scores on the public cases may therefore be higher than on
-                            unseen cases of the same difficulty. The private test set
-                            reduces this risk but does not remove it, as some of its
-                            cases and solutions are available elsewhere.
-                        </li>
-                        <li>
-                            <b>Scope.</b> The results hold for 90 German examination
-                            cases in public, criminal and civil law. They do not show
-                            how the systems perform on other legal tasks, in other
-                            areas of law or in other jurisdictions.
+							<b>Limited generalizability.</b> 
+							MaLAB evaluates system performance on 90 German legal examination cases covering public, criminal, and civil law. The extent to which our findings generalize to other legal tasks, other areas of law, professional legal practice, or other jurisdictions remains to be investigated.
                         </li>
                     </ul>
                 </div>
@@ -3653,7 +3638,7 @@ Feel free to create any notes as you see fit. However only the required delivera
                 <div class="content is-size-6">
                     <p>
                         A paper describing MaLAB is in preparation. Until it is
-                        published, please cite this website:
+                        finished, please cite this website:
                     </p>
                 </div>
                 <pre class="bibtex">
