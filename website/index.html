@@ -3605,13 +3605,16 @@ Feel free to create any notes as you see fit. However only the required delivera
 						Ideally, all rubric criteria and a large set of judge verdicts would be independently reviewed by multiple legal experts following a standardized annotation protocol with predefined decision rules. Resource constraints prevented such comprehensive validation. Instead, two lawyers reviewed a random sample of 400 of the 4,123 rubric criteria, each accompanied by the judge's verdict on one answer (see <a href="#validation">Rubric Validation</a>). Each criterion–verdict pair was assessed by one lawyer, except for a shared subset used to measure inter-reviewer agreement. Reviewers were not blinded to the judge's verdict, introducing a potential source of bias. The same applies for the function and criticality tags of each rubric criterion which were assigned by an LLM and have not been systematically validated by legal experts yet. While these classifications do not affect the content scores, they may affect the findings of our error analysis. For the first examination, we make the tasks, rubrics, generated answers, and criterion-level verdicts publicly available, enabling legal experts to independently assess the validity of our evaluation.
                         </li>
                         <li>
-                            <b>Score and examination grade.</b> An examiner grades a
+                            <b>Content score versus examination grade.</b> An examiner grades a
                             paper as a whole and weighs its parts against each other.
                             Our lawyers reviewed individual rubric criteria and
                             verdicts. The content score therefore shows which share
                             of the legal questions an answer handles correctly, and
                             it is not an examination grade.
                         </li>
+						<li>
+						   <b>Partial coverage of alternative solutions.</b> A legal case can often be solved in more than one defensible way, and a complete evaluation would recognize every such solution. In MaLAB, the rubric criteria of a case are derived from a single reference solution. Alternative legal paths are accepted where the reference solution explicitly provides them. However, answers following a defensible line of reasoning not covered by the reference solution will fail to satisfy the respective rubric criteria.
+						</li>
                         <li>
                             <b>Limited assessment of run-to-run variation.</b> 
 							Due to the stochastic nature of LLMs and agents, their solutions and resulting scores may vary across runs. Budget constraints prevented us from conducting repeated runs for all system–case combinations. Instead, each system solved each case once. To estimate run-to-run variation, we evaluated Claude Opus 5.5 and GPT-6 Astra three times on a subset of 15 cases. Mean scores varied by up to 2 points across runs, while scores for individual cases varied by up to 13 points (see <a href="#repeat-runs">Run-to-run variation</a>). Consequently, differences of a few points between systems should not be interpreted as evidence of superior performance.
