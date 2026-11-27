@@ -1,0 +1,162 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/strafrecht/materielles-strafrecht/zwischenprufungsklausur-rund-um-die-wg-party",
+  "solver_case_id": "case-029",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/zwischenprufungsklausur-rund-um-die-wg-party",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/zwischenprufungsklausur-rund-um-die-wg-party",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T19:07:37.341529+00:00",
+  "collected_at": "2026-11-20T08:17:27.081264+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 19597,
+      "sha256": "2e2411dd5e59505a59463913556f78845b913feac75f73a62fa330d98d6d6ff6"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/5/18/5-593-18.pdf",
+        "title": "BGH, Urteil vom 6. März 2019 – 5 StR 593/18",
+        "purpose": "Gewahrsamswechsel bei handlicher Ware in einer Sporttasche."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2010-8&Gericht=bgh&Seite=5&anz=202&nr=53284&pos=155",
+        "title": "BGH, Beschluss vom 5. August 2010 – 2 StR 385/10",
+        "purpose": "Schutzzweck des verschlossenen Behältnisses und Überwindung der Sicherung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?.pdf=&Art=en&Datum=Aktuell&Frame=4&Gericht=bgh&anz=1&nr=78789&pos=0",
+        "title": "BGH, Beschluss vom 30. Mai 2017 – 3 StR 136/17",
+        "purpose": "Verkaufspreis als objektiver Verkehrswert im Einzelhandel."
+      },
+      {
+        "url": "https://www.burhoff.de/asp_weitere_beschluesse/inhalte/3752.htm",
+        "title": "OLG Frankfurt, Beschluss vom 28. Oktober 2016 – 1 Ss 80/16",
+        "purpose": "Geringwertigkeitsgrenze von 50 Euro."
+      },
+      {
+        "url": "https://www.burhoff.de/asp_weitere_beschluesse/inhalte/9663.htm",
+        "title": "OLG Hamm, Beschluss vom 11. November 2025 – III-5 ORs 78/25",
+        "purpose": "Abweichende Einordnung der Geringwertigkeitsgrenze."
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/olg-karlsruhe/2019-03-13/1-rv-3-ss-691-18",
+        "title": "OLG Karlsruhe, Beschluss vom 13. März 2019 – 1 Rv 3 Ss 691/18, Rn. 31–35",
+        "purpose": "Beweisfunktion der Warenkennzeichnung, Nachteilsabsicht und Tateinheit."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__24.html",
+        "title": "§ 24 StGB",
+        "purpose": "Voraussetzungen des Rücktritts bei Alleintäterschaft und Beteiligung mehrerer."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2022-3-17&Gericht=bgh&anz=10&nr=128692&pos=2",
+        "title": "BGH, Urteil vom 17. März 2022 – 4 StR 223/21, Rn. 21–22",
+        "purpose": "Verhinderung der Vollendung durch Abbruch eines unerlässlichen Tatbeitrags."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2010-9&Gericht=bgh&Seite=2&anz=334&nr=54603&pos=70",
+        "title": "BGH, Beschluss vom 28. September 2010 – 4 StR 245/10",
+        "purpose": "Wert der bedrohten Sache, drohender Schaden und Wertgrenze."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2021-12-9&Gericht=bgh&anz=21&nr=125324&pos=5",
+        "title": "BGH, Urteil vom 9. Dezember 2021 – 4 StR 167/21, Rn. 16–18, 21",
+        "purpose": "Verkehrsspezifische Gefahr, Unglücksfallabsicht und Abgrenzung zur Ermöglichungsabsicht."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__320.html",
+        "title": "§ 320 StGB",
+        "purpose": "Tätige Reue nach vollendetem Eingriff in den Straßenverkehr."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/BJNR001270871.html",
+        "title": "Strafgesetzbuch",
+        "purpose": "Gesetzesgrundlagen insbesondere zu Vorsatz, Versuch, Anstiftung, Konkurrenzen, Eigentums- und Verkehrsdelikten."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__242.html",
+        "title": "§ 242 StGB – Diebstahl",
+        "purpose": "Tatbestand und Versuchsstrafbarkeit."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__243.html",
+        "title": "§ 243 StGB – Besonders schwerer Fall des Diebstahls",
+        "purpose": "Regelbeispiele und Ausschlussklausel."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__274.html",
+        "title": "§ 274 StGB – Urkundenunterdrückung",
+        "purpose": "Vernichten einer fremden Beweisurkunde."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__303.html",
+        "title": "§ 303 StGB – Sachbeschädigung",
+        "purpose": "Beschädigen, Zerstören, Veränderung des Erscheinungsbilds und Versuch."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__303c.html",
+        "title": "§ 303c StGB – Strafantrag",
+        "purpose": "Verfolgbarkeit der versuchten Sachbeschädigung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__315b.html",
+        "title": "§ 315b StGB – Gefährliche Eingriffe in den Straßenverkehr",
+        "purpose": "Tatbestand, konkreter Gefahrerfolg und Qualifikation."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__315.html",
+        "title": "§ 315 StGB – Gefährliche Eingriffe in den Bahn-, Schiffs- und Luftverkehr",
+        "purpose": "Ausschließlich der Verweisungsinhalt des § 315 Abs. 3 Nr. 1 StGB für § 315b Abs. 3 StGB."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__90a.html",
+        "title": "§ 90a BGB – Tiere",
+        "purpose": "Abgrenzung zwischen zivilrechtlicher Stellung des Tieres und strafrechtlichem Sachschutz."
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/archiv/24-04/index.php?sz=6",
+        "title": "Bayer, Akzessorischer Rücktritt?, HRRS 2024, S. 125 ff.",
+        "purpose": "Reichweite des § 24 Abs. 1 StGB für den angestifteten Alleintäter."
+      },
+      {
+        "url": "https://www.rewi.hu-berlin.de/de/lf/ls/hgr/stm/vl-stre-modul-ii-ss-2020-heger.pdf",
+        "title": "Humboldt-Universität zu Berlin, Strafrecht Modul II, Sommersemester 2020",
+        "purpose": "Gesamtwert bei Diebstahl mehrerer Sachen."
+      },
+      {
+        "url": "https://tu-dresden.de/gsw/phil/irget/jfstraf4/ressourcen/dateien/dateien/ws09/strafr/Zueignungsabsicht.pdf?lang=de",
+        "title": "TU Dresden, Zueignungsabsicht",
+        "purpose": "Bedeutung des Rückführungswillens und einer wesentlichen Wertminderung."
+      }
+    ],
+    "hosts": [
+      "juris.bundesgerichtshof.de",
+      "recht.nulegal.eu",
+      "tu-dresden.de",
+      "www.burhoff.de",
+      "www.gesetze-im-internet.de",
+      "www.hrr-strafrecht.de",
+      "www.rewi.hu-berlin.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/schuldrecht/anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali",
+  "solver_case_id": "case-035",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:19:31.324670+00:00",
+  "collected_at": "2026-11-20T08:17:27.094844+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 16814,
+      "sha256": "081a13f73f021c12f112b468d1e16a71c98813848bb28d8760aab6bc393e69d8"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BJNR001950896.html",
+        "title": "Bürgerliches Gesetzbuch (BGB), konsolidierter Gesetzestext",
+        "purpose": "Prüfung der Vorschriften über Willenserklärungen, Kauf, Zahlungsaufschub, Eigentumsübertragung, Herausgabe, Bereicherung und vorvertragliche Haftung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__491.html",
+        "title": "§ 491 BGB – Verbraucherdarlehensvertrag",
+        "purpose": "Wortlaut der Ausnahme für kurzfristige Kredite mit geringen Kosten."
+      },
+      {
+        "url": "https://bevh.org/fileadmin/content/04_politik/datenschutz_und_verbraucherpolitik/Herresthal_Gutachten_zu_Art_2_Abs_2_lit_h_RL_2023-2225-EU_-_2024-10-11.pdf",
+        "title": "Carsten Herresthal, Gutachten zu Art. 2 Abs. 2 lit. h der Richtlinie (EU) 2023/2225, S. 6",
+        "purpose": "Meinungsstand zur entsprechenden Anwendung der Dreimonatsausnahme auf unentgeltliche Zahlungsaufschübe nach §§ 514, 515 BGB."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1988-06-08/viii-zr-135_87",
+        "title": "BGH, Urteil vom 8. Juni 1988 – VIII ZR 135/87",
+        "purpose": "Urheberschaft als verkehrswesentliche Eigenschaft eines Gemäldes, Abgrenzung zum Wertirrtum und Vorrang des kaufrechtlichen Mängelrechts bei der Käuferanfechtung."
+      },
+      {
+        "url": "https://autokaufrecht.info/2005/12/tenorierung-der-nutzungsentschaedigung-durch-vorgabe-der-berechnung-karlsruher-formel/",
+        "title": "KG, Urteil vom 18. Dezember 2006 – 2 U 13/06, im Anschluss an LG Berlin, Urteil vom 20. Dezember 2005 – 3 O 52/05",
+        "purpose": "Gesonderte Auslegung der Anfechtung des getäuschten Käufers hinsichtlich der Kaufpreiszahlung und seines eigenen Eigentumserwerbs."
+      },
+      {
+        "url": "https://www.uni-potsdam.de/fileadmin/projects/ls-bezzenberger/SaR_Fall_2_mit_Loesung.pdf",
+        "title": "Tilman Bezzenberger, Sachenrecht, Fall 2 – Verpflichtung und Verfügung",
+        "purpose": "Abgrenzung zwischen fortwirkendem Anfechtungsgrund und der erforderlichen Anfechtungserklärung für den Eigentumserwerb."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1972-03-08/viii-zr-40_71",
+        "title": "BGH, Urteil vom 8. März 1972 – VIII ZR 40/71",
+        "purpose": "Anfechtung der Übereignung konkret geleisteter Geldscheine bei erschlichener Baranzahlung."
+      },
+      {
+        "url": "https://lorenz.userweb.mwn.de/urteile/viiizr208_07.htm",
+        "title": "BGH, Teilversäumnis- und Schlussurteil vom 13. Februar 2008 – VIII ZR 208/07",
+        "purpose": "Leistungskondiktion nach Anfechtung und fehlender Ausschluss nach § 814 BGB bei alleinigem Anfechtungsrecht des Empfängers."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2009-3&Gericht=bgh&anz=346&nr=47833&pos=18",
+        "title": "BGH, Urteil vom 27. März 2009 – V ZR 30/08",
+        "purpose": "Fortbestand der Haftung aus Verschulden bei Vertragsschluss bei arglistiger Täuschung über die Beschaffenheit einer Kaufsache."
+      }
+    ],
+    "hosts": [
+      "autokaufrecht.info",
+      "bevh.org",
+      "juris.bundesgerichtshof.de",
+      "lorenz.userweb.mwn.de",
+      "www.anwalt24.de",
+      "www.gesetze-im-internet.de",
+      "www.uni-potsdam.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

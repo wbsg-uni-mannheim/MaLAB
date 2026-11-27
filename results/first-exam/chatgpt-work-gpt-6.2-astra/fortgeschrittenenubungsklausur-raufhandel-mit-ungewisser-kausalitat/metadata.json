@@ -1,0 +1,108 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat",
+  "solver_case_id": "case-025",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T17:41:45.317516+00:00",
+  "collected_at": "2026-11-20T08:17:27.070802+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 20161,
+      "sha256": "da6f0ee8e5e3fccf06f5ee76ff4671f877325825f8df2ecc6b7603d1ce4b7891"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/BJNR001270871.html",
+        "title": "Strafgesetzbuch (StGB)",
+        "purpose": "Wortlaut der Vorschriften über Körperverletzung, Beteiligung an einer Schlägerei, Versuch, Rücktritt, Mittäterschaft, Notwehr, Konkurrenzen und Absehen von Strafe."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2016-12-13&Gericht=bgh&Sort=1026&anz=19&nr=77555&pos=6",
+        "title": "BGH, Beschluss vom 13. Dezember 2016 – 3 StR 354/16",
+        "purpose": "Erforderliche Beeinträchtigung der körperlichen Unversehrtheit oder des körperlichen Wohlbefindens."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2023-4-13&Gericht=bgh&anz=12&nr=133715&pos=3",
+        "title": "BGH, Beschluss vom 13. April 2023 – 4 StR 413/22",
+        "purpose": "Konkrete Verwendung und Verletzungseignung eines gefährlichen Werkzeugs."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2015-1&Gericht=bgh&file=dokument.pdf&linked=urt&nr=70425",
+        "title": "BGH, Urteil vom 22. Januar 2015 – 3 StR 233/14, BGHSt 60, 166",
+        "purpose": "Einwilligung in Gruppenschlägereien, Schutzzweck des § 231 StGB und individuelle Zurechnung von Körperverletzungen."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2010&Gericht=bgh&Seite=7&anz=3646&nr=54520&pos=214",
+        "title": "BGH, Beschluss vom 8. Dezember 2010 – 5 StR 516/10",
+        "purpose": "Gehörverlust bei praktisch wertloser Resthörfähigkeit."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2019-8-21&Gericht=bgh&anz=35&nr=100868&pos=0",
+        "title": "BGH, Beschluss vom 21. August 2019 – 1 StR 191/19",
+        "purpose": "Opferidentität zwischen Grunddelikt und schwerer Folge, Abgrenzung des erfolgsqualifizierten Versuchs."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2013&Gericht=bgh&anz=3204&client=2&nr=66461&pos=9",
+        "title": "BGH, Urteil vom 19. Dezember 2013 – 4 StR 347/13",
+        "purpose": "Trutzwehr, auf Verletzungen abzielende Tätlichkeiten und Einheitlichkeit der Schlägerei sowie Beurteilung der Notwehrhandlung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2022&Gericht=bgh&Seite=99&anz=3168&nr=130710&pos=2995",
+        "title": "BGH, Beschluss vom 20. Januar 2022 – 4 StR 430/21",
+        "purpose": "Angriff mehrerer und ursächlicher Zusammenhang zwischen Gesamtvorgang und schwerer Folge."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1984-12-20/4-str-679_84",
+        "title": "BGH, Urteil vom 20. Dezember 1984 – 4 StR 679/84, BGHSt 33, 100",
+        "purpose": "Strafbarkeit des selbst schwer verletzten Beteiligten, Notwehrhandlung als Ursache der schweren Folge und Tateinheit."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2024-3&Gericht=bgh&anz=349&nr=137682&pos=5",
+        "title": "BGH, Urteil vom 27. März 2024 – 2 StR 337/23",
+        "purpose": "Objektive Bedingung der Strafbarkeit und Vorwerfbarkeit der gesamten Beteiligung nach § 231 Abs. 2 StGB."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stpo/__152.html",
+        "title": "§ 152 StPO – Anklagebehörde und Legalitätsgrundsatz",
+        "purpose": "Einschreiten der Staatsanwaltschaft bei zureichenden tatsächlichen Anhaltspunkten."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__231.html",
+        "title": "§ 231 StGB – Beteiligung an einer Schlägerei",
+        "purpose": "Tatbestandsalternativen, schwere Folge und Ausschluss nicht vorwerfbarer Beteiligung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2020-5-12&Gericht=bgh&anz=34&nr=109374&pos=1",
+        "title": "BGH, Urteil vom 12. Mai 2020 – 1 StR 368/19",
+        "purpose": "Einheitliches Kampfgeschehen, Gefahrenbegrenzung bei Einwilligung und Konkurrenz mit der gefährlichen Körperverletzung."
+      }
+    ],
+    "hosts": [
+      "juris.bundesgerichtshof.de",
+      "www.anwalt24.de",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

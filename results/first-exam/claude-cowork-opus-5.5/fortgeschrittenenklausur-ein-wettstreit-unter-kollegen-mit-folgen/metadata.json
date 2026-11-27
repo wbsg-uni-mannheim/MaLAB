@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen",
+  "solver_case_id": "case-020",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T19:10:01.572405+00:00",
+  "collected_at": "2026-11-20T08:24:04.903124+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 26871,
+      "sha256": "0a256ff3b58dc6bd6b844c7092d9ed3593625574948295b28988fe4fa43b52c9"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/20/4-511-20.pdf",
+        "title": "BGH, Urt. v. 11.11.2021, 4 StR 511/20",
+        "purpose": "Definition Kraftfahrzeugrennen, Art des Starts, Eigenhändigkeit Abs. 2"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/20/4-225-20.pdf",
+        "title": "BGH, Beschl. v. 17.2.2021, 4 StR 225/20",
+        "purpose": "Auslegung § 315d Abs. 1 Nr. 3, Polizeiflucht, Zwischenziel"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/20/4-165-20.pdf",
+        "title": "BGH, Beschl. v. 29.4.2021, 4 StR 165/20",
+        "purpose": "Grobe Verkehrswidrigkeit, Fluchtmotivation und Absicht"
+      },
+      {
+        "url": "https://www.iww.de/quellenmaterial/id/210866",
+        "title": "OLG Stuttgart, Beschl. v. 4.7.2019, 4 Rv 28 Ss 103/19",
+        "purpose": "Polizeiflucht schließt Absicht nicht aus"
+      },
+      {
+        "url": "https://umwelt-online.de/recht/gefahr.gut/strasse/stvovv2.htm",
+        "title": "VwV-StVO zu § 29",
+        "purpose": "Art des Starts unerheblich"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/bverfg/20/2-bvl-1-20.pdf",
+        "title": "BVerfG, Beschl. v. 9.2.2022, 2 BvL 1/20",
+        "purpose": "Verfassungsmäßigkeit § 315d Abs. 1 Nr. 3"
+      }
+    ],
+    "hosts": [
+      "umwelt-online.de",
+      "www.hrr-strafrecht.de",
+      "www.iww.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

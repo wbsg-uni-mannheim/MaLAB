@@ -1,0 +1,140 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/sachenrecht/examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen",
+  "solver_case_id": "case-036",
+  "source_task_dir": "tasks/de/zivilrecht/sachenrecht/examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen",
+  "source_task_dir_relative": "tasks/de/zivilrecht/sachenrecht/examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:19:49.234611+00:00",
+  "collected_at": "2026-11-20T08:17:27.090814+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 21705,
+      "sha256": "52e091daedfe8f0f28439e69a5e95fbb1dcd2875a6c1148eb84f04ab5723a55b"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BJNR001950896.html",
+        "title": "Bürgerliches Gesetzbuch, amtliche Gesamtausgabe",
+        "purpose": "Prüfung der Anspruchsgrundlagen für Besitz, Eigentumserwerb, Schadensersatz, Geschäftsanmaßung und Erlösherausgabe."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stvg/BJNR004370909.html",
+        "title": "Straßenverkehrsgesetz, Gesamtausgabe",
+        "purpose": "Prüfung des gesetzlichen Verweises in § 18 Abs. 1 Satz 1 auf § 7 Abs. 1 StVG."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2022-9&Gericht=bgh&file=dokument.pdf&linked=urt&nr=131549",
+        "title": "BGH, Urteil vom 23. September 2022 – V ZR 148/21",
+        "purpose": "Prüfung der Zulassungsbescheinigung Teil II und der Gutgläubigkeit beim Gebrauchtwagenkauf."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2020-6&Gericht=bgh&file=dokument.pdf&linked=urt&nr=110795",
+        "title": "BGH, Urteil vom 18. September 2020 – V ZR 8/19",
+        "purpose": "Probefahrt als Vertragsanbahnung und Besitzmittlungsverhältnis, Gutglaubenserwerb und gesondertes Eigentum am Zweitschlüssel."
+      },
+      {
+        "url": "https://verkehrslexikon.de/Texte/Probefahrt03.php",
+        "title": "BGH, Urteil vom 7. Juni 1972 – VIII ZR 35/71",
+        "purpose": "Persönlicher und sachlicher Umfang der stillschweigenden Haftungsbeschränkung für Probefahrtschäden."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2023-4&Gericht=bgh&Seite=4&anz=236&nr=133616&pos=146",
+        "title": "BGH, Urteil vom 18. April 2023 – VI ZR 345/21",
+        "purpose": "Ausschluss der Fahrerhaftung für Schäden am geführten Fahrzeug selbst."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2005-2-4&Gericht=bgh&anz=6&nr=32078&pos=3",
+        "title": "BGH, Urteil vom 4. Februar 2005 – V ZR 114/04",
+        "purpose": "Bemessung des nach § 816 Abs. 1 Satz 1 BGB herauszugebenden Erlöses."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1979-10-11/vii-zr-285_78",
+        "title": "BGH, Urteil vom 11. Oktober 1979 – VII ZR 285/78",
+        "purpose": "Anspruch des Eigentümers gegen den wissentlich unberechtigten Veräußerer aus angemaßter Eigengeschäftsführung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__254.html",
+        "title": "§ 254 BGB",
+        "purpose": "Mitverschulden beim Zurücklassen der Fahrzeugpapiere."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__603.html",
+        "title": "§ 603 BGB",
+        "purpose": "Grenzen des Gebrauchs durch den Entleiher."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__687.html",
+        "title": "§ 687 BGB",
+        "purpose": "Angemaßte Eigengeschäftsführung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__935.html",
+        "title": "§ 935 BGB",
+        "purpose": "Abhandenkommen bei mittelbarem Besitz."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__986.html",
+        "title": "§ 986 BGB",
+        "purpose": "Herausgabeziel bei unbefugter Weitergabe."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__991.html",
+        "title": "§ 991 BGB",
+        "purpose": "Schadensersatz des gutgläubigen Besitzmittlers."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__992.html",
+        "title": "§ 992 BGB",
+        "purpose": "Besitzverschaffung durch eine Straftat oder verbotene Eigenmacht."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1007.html",
+        "title": "§ 1007 BGB",
+        "purpose": "Herausgabeansprüche aus früherem Besitz."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1995-12-13/xii-zr-194_93",
+        "title": "BGH, Urteil vom 13. Dezember 1995 – XII ZR 194/93",
+        "purpose": "Abgrenzung der vertragswidrigen entgeltlichen Gebrauchsüberlassung von der Verfügung über das Eigentum."
+      },
+      {
+        "url": "https://lorenz.userweb.mwn.de/skripten/ebv.pdf",
+        "title": "Stephan Lorenz, Übersicht zum Eigentümer-Besitzer-Verhältnis",
+        "purpose": "Konkurrenz der §§ 989 ff. BGB zu deliktischen Ansprüchen, insbesondere zur Haftung aus § 826 BGB."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1979-01-10/viii-zr-264_76",
+        "title": "BGH, Urteil vom 10. Januar 1979 – VIII ZR 264/76",
+        "purpose": "Abgleich der Haftungsbeschränkung bei Vorführ- und Gebrauchtwagen."
+      }
+    ],
+    "hosts": [
+      "juris.bundesgerichtshof.de",
+      "lorenz.userweb.mwn.de",
+      "verkehrslexikon.de",
+      "www.anwalt24.de",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

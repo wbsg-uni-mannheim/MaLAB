@@ -1,0 +1,133 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/staatsrecht/anfangerhausarbeit-wie-du-mir-so-ich-dir",
+  "solver_case_id": "case-009",
+  "source_task_dir": "tasks/de/oeffentliches-recht/staatsrecht/anfangerhausarbeit-wie-du-mir-so-ich-dir",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/staatsrecht/anfangerhausarbeit-wie-du-mir-so-ich-dir",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T10:57:35.279541+00:00",
+  "collected_at": "2026-11-20T08:17:27.016097+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 29916,
+      "sha256": "d75a96d3eb6bdac6edb8402f76550c7475aeaea0fda8588f38342d18ca5f2b10"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/__90.html",
+        "title": "§ 90 BVerfGG",
+        "purpose": "Gesetzlicher Maßstab der Beschwerdebefugnis."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+        "title": "Grundgesetz für die Bundesrepublik Deutschland",
+        "purpose": "Wortlaut der Grundrechte und des Rechtsstaatsprinzips."
+      },
+      {
+        "url": "https://www.recht.bund.de/bgbl/1/2024/439/regelungstext.pdf?__blob=publicationFile&v=3",
+        "title": "Gesetz zur Änderung des Grundgesetzes (Artikel 93 und 94), BGBl. 2024 I Nr. 439",
+        "purpose": "Zeitliche Abgrenzung der Zuständigkeitsnorm für die Verfassungsbeschwerde."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2015/07/rs20150715_2bvr229213.html",
+        "title": "BVerfG, Beschluss vom 15. Juli 2015 – 2 BvR 2292/13",
+        "purpose": "Unmittelbarkeit bei gesetzlich veranlassten, später nicht mehr nachholbaren Dispositionen."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1999/02/rk19990218_1bvr215698.html",
+        "title": "BVerfG, Beschluss vom 18. Februar 1999 – 1 BvR 2156/98",
+        "purpose": "Abgrenzung der Beschwerdebefugnis bei einem wirksamen Widerspruch gegen eine postmortale Entnahme."
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/bverfg/1999-02-18/1-bvr-2156-98",
+        "title": "BVerfG, Beschluss vom 18. Februar 1999 – 1 BvR 2156/98, Entscheidungsabdruck",
+        "purpose": "Volltextabgleich zum Widerspruch und zur Beschwerdebefugnis."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2022/10/rk20221024_1bvr001922.html",
+        "title": "BVerfG, Beschluss vom 24. Oktober 2022 – 1 BvR 19/22",
+        "purpose": "Abgrenzung des Persönlichkeitsrechts Lebender vom postmortalen Achtungsanspruch."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2022/04/rs20220427_1bvr264921.html",
+        "title": "BVerfG, Beschluss vom 27. April 2022 – 1 BvR 2649/21",
+        "purpose": "Gezielte mittelbar-faktische Eingriffe durch die Verknüpfung einer Entscheidung mit Nachteilen."
+      },
+      {
+        "url": "https://www.buzer.de/gesetz/1570/al0-164063.htm",
+        "title": "§ 2 TPG, Fassungsvergleich zum 1. März 2022",
+        "purpose": "Historischer Wortlaut zur Altersgrenze, Freiwilligkeit, Information und ergebnisoffenen Beratung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/tpg/__2.html",
+        "title": "§ 2 TPG – Aufklärung und Erklärung zur Organ- und Gewebespende",
+        "purpose": "Abgleich der Erklärungs- und Altersregeln mit der historischen Fassung."
+      },
+      {
+        "url": "https://www.bundestag.de/resource/blob/417674/615be896795fe4b9fb4d0d0cdd6ab80a/WD-3-280-07-pdf-data.pdf",
+        "title": "Wissenschaftliche Dienste des Deutschen Bundestages, Verteilung von Spenderorganen, WD 3-280/07 vom 25. Juli 2007",
+        "purpose": "Teilhabeanspruch und Streitstand zu Selbstbestimmung, Gegenseitigkeit und Auswahl bei medizinischer Gleichrangigkeit."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2016/07/rk20160706_1bvr170515.html",
+        "title": "BVerfG, Beschluss vom 6. Juli 2016 – 1 BvR 1705/15",
+        "purpose": "Bedeutung der Schutzpflicht für vorläufigen Rechtsschutz bei Organzuteilungen."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/12/rs20211216_1bvr154120.html?nn=68080",
+        "title": "BVerfG, Beschluss vom 16. Dezember 2021 – 1 BvR 1541/20",
+        "purpose": "Maßstab für die verfassungsgerichtliche Kontrolle staatlicher Schutzvorkehrungen."
+      },
+      {
+        "url": "https://bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2006/02/rs20060215_1bvr035705.html",
+        "title": "BVerfG, Urteil vom 15. Februar 2006 – 1 BvR 357/05",
+        "purpose": "Gleiche Menschenwürde und verfassungsrechtliches Verbot der Objektbehandlung."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2015/01/rs20150127_1bvr047110.html",
+        "title": "BVerfG, Beschluss vom 27. Januar 2015 – 1 BvR 471/10 und 1 BvR 1181/10",
+        "purpose": "Individuelles religiöses Selbstverständnis und Grenzen der staatlichen Plausibilitätsprüfung."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1999/02/lk19990217_1bvl002697.html",
+        "title": "BVerfG, Beschluss vom 17. Februar 1999 – 1 BvL 26/97",
+        "purpose": "Streitstand zu mittelbaren Benachteiligungen wegen des Glaubens."
+      },
+      {
+        "url": "https://ssl.bverwg.de/de/220224U5C7.22.0",
+        "title": "BVerwG, Urteil vom 22. Februar 2024 – 5 C 7.22",
+        "purpose": "Rückblick zur Identifikation des vor dem Bearbeitungsstichtag bestehenden Rechtsprechungsstands über mittelbare religiöse Benachteiligung."
+      }
+    ],
+    "hosts": [
+      "bundesverfassungsgericht.de",
+      "recht.nulegal.eu",
+      "ssl.bverwg.de",
+      "www.bundestag.de",
+      "www.bundesverfassungsgericht.de",
+      "www.buzer.de",
+      "www.gesetze-im-internet.de",
+      "www.recht.bund.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,235 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/schuldrecht/examensklausur-ehe-und-espresso",
+  "solver_case_id": "case-034",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/examensklausur-ehe-und-espresso",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/examensklausur-ehe-und-espresso",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:19:08.642751+00:00",
+  "collected_at": "2026-11-20T08:17:27.100821+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 31904,
+      "sha256": "1c023ae007b16ec97033514986558c161c3beddd1c42c1799b0a8b64a97e74b6"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2018-2&Gericht=bgh&file=dokument.pdf&linked=urt&nr=81762",
+        "title": "BGH, Urteil vom 28. Februar 2018 – XII ZR 94/17, Rn. 21–25",
+        "purpose": "Lebenszuschnitt der Familie und Ausübung von Gestaltungsrechten durch einen Ehegatten."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62019CO0465",
+        "title": "EuGH, Beschluss vom 17. Dezember 2019 – C‑465/19, B & L Elektrogeräte, Rn. 28–34",
+        "purpose": "Einordnung einer individuellen Ansprache außerhalb eines beweglichen Geschäftsraums."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/2016-10-11/xi-zr-482_15",
+        "title": "Zum eigenständigen Verbraucherwiderruf auch BGH, Urteil vom 11. Oktober 2016 – XI ZR 482/15",
+        "purpose": "Abgrenzung zwischen gemeinschaftlichem Rücktritt und selbständiger Ausübung des Verbraucherwiderrufs."
+      },
+      {
+        "url": "https://shop.wolterskluwer-online.de/media/b6/8c/cb/1757979080/5952c052c4ba0c2d2c20bd0c057d3231.pdf?ts=1757979080",
+        "title": "Bethke/Schmidt-Kessel, in Handbuch Verbraucherrecht, Kap. 11 Rn. 126, 131",
+        "purpose": "Belehrungsadressat, Ausübungsbefugnis und Fristbeginn bei gesetzlicher Mitverpflichtung eines Ehegatten."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__356.html",
+        "title": "§ 356 BGB",
+        "purpose": "Aktueller Fristbeginn für den Warenkauf und Bedeutung der Unterrichtung."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1991-03-13/xii-zr-53_90",
+        "title": "BGH, Urteil vom 13. März 1991 – XII ZR 53/90",
+        "purpose": "Fehlende automatische dingliche Wirkung von § 1357 BGB, Auslegung der Einigung, Vertretungsmacht und Übergabe beim Hausratserwerb."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2019-1-29&Gericht=bgh&anz=22&nr=93084&pos=20",
+        "title": "BGH, Urteil vom 29. Januar 2019 – VI ZR 481/17, Rn. 15–19",
+        "purpose": "Abgrenzung von Besitzschaden und Substanzschaden."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1984-02-28/vi-zr-132_82",
+        "title": "BGH, Urteil vom 28. Februar 1984 – VI ZR 132/82",
+        "purpose": "Einsichtsfähigkeit und Steuerungsfähigkeit im zivilrechtlichen Haftungsrecht."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1995-10-17/vi-zr-246_94",
+        "title": "BGH, Urteil vom 17. Oktober 1995 – VI ZR 246/94",
+        "purpose": "Gemeinschaftliche Zuordnung der Ersatzforderung für die beschädigte Sache."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1369.html",
+        "title": "§ 1369 BGB",
+        "purpose": "Zustimmungserfordernis für Verpflichtung und Verfügung über Hausrat."
+      },
+      {
+        "url": "https://www.uni-saarland.de/fileadmin/upload/lehrstuhl/gomille/Allgemein_Team_Ver%C3%B6ffentlichungen/GOMILLE_FamR_SoSe2022_gesamt.pdf",
+        "title": "Gomille, Familienrecht, S. 84–86",
+        "purpose": "Verfügungen über eigenes und fremdes Miteigentum an Haushaltsgegenständen."
+      },
+      {
+        "url": "https://lorenz.userweb.mwn.de/urteile/njw92_310.htm",
+        "title": "Zum Maßstab für Nachforschungen BGH, NJW 1992, 310",
+        "purpose": "Sorgfaltsmaßstab und Verdachtsmomente beim Erwerb vom Nichtberechtigten."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__935.html",
+        "title": "§ 935 BGB",
+        "purpose": "Ausschluss des Erwerbs bei unfreiwilligem Besitzverlust und gesetzliche Ausnahmen."
+      },
+      {
+        "url": "https://www.uni-trier.de/fileadmin/fb5/prof/BRZIPR/veranstaltungen/zpo-aufsaetze/jura_2008__604__schreiber__revokatorische_kl.pdf",
+        "title": "Schreiber, Die revokatorische Klage, JURA 2008, 604, 607 f.",
+        "purpose": "Prozessstandschaft und Anspruchsziel der Klage des übergangenen Ehegatten."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__864.html",
+        "title": "§ 864 BGB",
+        "purpose": "Zeitliche Reihenfolge von Eigenmacht und petitorischem Urteil."
+      },
+      {
+        "url": "https://dejure.org/1923,109",
+        "title": "RG, Urteil vom 16. Oktober 1923 – VII 569/22, RGZ 107, 258",
+        "purpose": "Rechtsprechung zur Eigenmacht nach Titelerlangung."
+      },
+      {
+        "url": "https://dejure.org/2008,30299",
+        "title": "OLG München, Beschluss vom 15. September 2008 – 20 U 3860/08",
+        "purpose": "Berücksichtigung eines bereits vor der Besitzentziehung erstrittenen Titels."
+      },
+      {
+        "url": "https://epub.ub.uni-muenchen.de/5957/1/5957.pdf",
+        "title": "Hager, KTS 1989, 525 f.",
+        "purpose": "Streitstand, vollstreckbarer Titel und Grenzen der Analogie zu § 864 Abs. 2 BGB."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BJNR001950896.html",
+        "title": "Bürgerliches Gesetzbuch",
+        "purpose": "Vorschriften über Vertragsabschluss, Stellvertretung, Verbraucherrecht, Eigentum, Besitz, Güterrecht, Bereicherung und Schadensersatz."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1357.html",
+        "title": "§ 1357 BGB",
+        "purpose": "Tatbestand und Grenzen der Mitberechtigung und Mitverpflichtung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1568b.html",
+        "title": "§ 1568b BGB",
+        "purpose": "Reichweite der Regel über das gemeinsame Eigentum bei Verteilung des Hausrats."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__861.html",
+        "title": "§ 861 BGB",
+        "purpose": "Possessorischer Herausgabeanspruch und Gegeneinrede der Besitzfehlerhaftigkeit."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1011.html",
+        "title": "§ 1011 BGB",
+        "purpose": "Geltendmachung von Ansprüchen durch Miteigentümer."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1007.html",
+        "title": "§ 1007 BGB",
+        "purpose": "Herausgabe bei Bösgläubigkeit und Abhandenkommen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgbeg/art_246a__1.html",
+        "title": "Art. 246a § 1 EGBGB",
+        "purpose": "Gesetzliche Anforderungen an die Widerrufsinformation."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__55.html",
+        "title": "§ 55 HGB",
+        "purpose": "Vorgegebene Handlungsvollmacht des außerhalb der Niederlassung tätigen Angestellten."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gmbhg/__35.html",
+        "title": "§ 35 GmbHG",
+        "purpose": "Empfang der Widerrufserklärung durch den Geschäftsführer."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/jgg/__3.html",
+        "title": "§ 3 JGG",
+        "purpose": "Strafrechtliche Verantwortlichkeit eines Jugendlichen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__303.html",
+        "title": "§ 303 StGB",
+        "purpose": "Tatbestand der Sachbeschädigung als Schutzgesetz."
+      },
+      {
+        "url": "https://www.wiwi.uni-siegen.de/rechtswissenschaften/froeschle/downloads/ausservertragliches_schuldrecht.pdf",
+        "title": "Fröschle, Außervertragliches Schuldrecht",
+        "purpose": "Meinungsstand zur Deliktsfähigkeit bei einer Strafnorm als Schutzgesetz."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/zpo/BJNR005330950.html",
+        "title": "Zivilprozessordnung",
+        "purpose": "Rechtskraft, Rechtsmittelverzicht und Zwangsvollstreckung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/zpo/__883.html",
+        "title": "§ 883 ZPO",
+        "purpose": "Vollstreckung der Herausgabe durch den Gerichtsvollzieher."
+      },
+      {
+        "url": "https://datenbank.nwb.de/Dokument/1099585/",
+        "title": "BGH, Urteil vom 10. Juli 2026 – V ZR 45/25",
+        "purpose": "Kontrolle der aktuellen Rechtsprechung zur Anwendung von §§ 1011 und 432 BGB bei gemeinschaftlichen Ansprüchen."
+      },
+      {
+        "url": "https://www.uni-kiel.de/fileadmin/user_upload/mandanten/rechtswissenschaftliche-fakultaet/Juristisches_Seminar/Fervers/WuV_Mobiliarsachenrecht_SoSe_2025_Skript_Fervers.pdf",
+        "title": "Fervers, Wiederholung und Vertiefung im Mobiliarsachenrecht",
+        "purpose": "Ausfall der aufschiebenden Bedingung des Vorbehaltskaufs bei Wegfall der Kaufpreisforderung."
+      },
+      {
+        "url": "https://dserver.bundestag.de/btd/16/130/1613027.pdf",
+        "title": "BT-Drucksache 16/13027",
+        "purpose": "Übergangsrecht zur Aufhebung der dinglichen Ersatzbeschaffung von Haushaltsgegenständen."
+      },
+      {
+        "url": "https://www.dnoti.de/entscheidungen/details/?cHash=1e1c78a3572fd3757029e5a22642e261&tx_dnotionlineplusapi_decisionsdetails%5Bcontroller%5D=Decisions&tx_dnotionlineplusapi_decisionsdetails%5Bnodeid%5D=42e1fdb8-c27e-40ad-92fd-63996ecec370",
+        "title": "BGH, Urteil vom 26. Juni 2026 – V ZR 92/25",
+        "purpose": "Prüfung des aktuellen Maßstabs für Nachforschungen zur Verfügungsberechtigung und zum Abhandenkommen."
+      }
+    ],
+    "hosts": [
+      "datenbank.nwb.de",
+      "dejure.org",
+      "dserver.bundestag.de",
+      "epub.ub.uni-muenchen.de",
+      "eur-lex.europa.eu",
+      "juris.bundesgerichtshof.de",
+      "lorenz.userweb.mwn.de",
+      "shop.wolterskluwer-online.de",
+      "www.anwalt24.de",
+      "www.dnoti.de",
+      "www.gesetze-im-internet.de",
+      "www.uni-kiel.de",
+      "www.uni-saarland.de",
+      "www.uni-trier.de",
+      "www.wiwi.uni-siegen.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

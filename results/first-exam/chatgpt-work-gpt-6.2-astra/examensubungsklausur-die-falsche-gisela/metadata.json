@@ -1,0 +1,122 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/schuldrecht/examensubungsklausur-die-falsche-gisela",
+  "solver_case_id": "case-037",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/examensubungsklausur-die-falsche-gisela",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/examensubungsklausur-die-falsche-gisela",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:54:01.225496+00:00",
+  "collected_at": "2026-11-20T08:17:27.102845+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 27021,
+      "sha256": "df511f23c24b40102195432ea63204c606e99b4b9e6c614487548c10ab0593d7"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BJNR001950896.html",
+        "title": "Bürgerliches Gesetzbuch",
+        "purpose": "Geltende Vorschriften zu Vertragsschluss, Willensmängeln, Nichtigkeit sowie Dienst- und Werkvertragsrecht."
+      },
+      {
+        "url": "https://recht.nrw.de/system/files/2025-11/gv2025-44-4anlage.pdf",
+        "title": "Siebter Medienänderungsstaatsvertrag, § 31h MStV",
+        "purpose": "Anwendungsbereich und Maßstäbe für die außertarifliche Gesamtvergütung im öffentlich-rechtlichen Rundfunk."
+      },
+      {
+        "url": "https://bilder.deutschlandfunk.de/ad/c2/16/56/adc21656-69e4-4b6b-8afe-1b8e5a179857/siebter-medienstaatsvertrag-dez-2025-100.pdf",
+        "title": "Medienstaatsvertrag in der ab 1. Dezember 2025 geltenden Fassung",
+        "purpose": "Abgleich von § 31h MStV im konsolidierten Staatsvertrag."
+      },
+      {
+        "url": "https://gerichtsentscheidungen.brandenburg.de/gerichtsentscheidung/25492",
+        "title": "LAG Berlin-Brandenburg, Urteil vom 2. Juli 2024 – 7 Sa 1125/23",
+        "purpose": "Gesamtbetrachtung von Befristung, Dienstzeit, Folgevertrag und Anrechnung anderweitigen Erwerbs bei Ruhegeld."
+      },
+      {
+        "url": "https://gesetze.berlin.de/bsbe/document/NJRE001555399",
+        "title": "ArbG Berlin, Urteil vom 1. September 2023 – 21 Ca 1751/23 und 21 Ca 3464/23",
+        "purpose": "Sittenwidrigkeit einer weitgehend anrechnungsfreien Versorgung eines Rundfunkdirektors zulasten der Beitragszahler."
+      },
+      {
+        "url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-270-11/",
+        "title": "BAG, Urteil vom 6. September 2012 – 2 AZR 270/11",
+        "purpose": "Offenbarungspflicht und bedingter Täuschungsvorsatz bei der Einstellung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2019-8-20&Gericht=bgh&anz=18&nr=99181&pos=10",
+        "title": "BGH, Urteil vom 20. August 2019 – II ZR 121/16",
+        "purpose": "Vergütung während des vollzogenen fehlerhaften Anstellungsverhältnisses und Loslösung für die Zukunft."
+      },
+      {
+        "url": "https://datenbank.nwb.de/Dokument/230096/",
+        "title": "BAG, Urteil vom 12. Juli 2006 – 5 AZR 277/06",
+        "purpose": "Befristeter Dienstvertrag als dauerndes Dienstverhältnis mit festen Bezügen im Rahmen des § 627 BGB."
+      },
+      {
+        "url": "https://nrwe.justiz.nrw.de/pdfdownload/downloadEntscheidung.php?entscheidung=%2Fnrwe%2Folgs%2Fkoeln%2Fj2018%2F11_U_71_18_Urteil_20181114.html",
+        "title": "OLG Köln, Urteil vom 14. November 2018 – 11 U 71/18",
+        "purpose": "Bindende Beschaffenheitsvorgaben und künstlerischer Gestaltungsspielraum bei einem bestellten Video."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2016-6&Gericht=bgh&file=dokument.pdf&linked=urt&nr=75498",
+        "title": "BGH, Urteil vom 13. Juli 2016 – VIII ZR 49/15",
+        "purpose": "Bestimmbare Frist bei einem Verlangen nach unverzüglicher Leistung, herangezogen für das Abnahmeverlangen."
+      },
+      {
+        "url": "https://dserver.bundestag.de/btd/18/084/1808486.pdf",
+        "title": "Bundestagsdrucksache 18/8486, S. 48 f.",
+        "purpose": "Gesetzeszweck, Fertigstellung und Anforderungen an die Mangelangabe nach § 640 Abs. 2 BGB."
+      },
+      {
+        "url": "https://www.schleswig-holstein.de/DE/justiz/themen/service/justizministerialblatt/Teil_A/_documents/Vollversion/2022/202205-neu.pdf?__blob=publicationFile&v=5",
+        "title": "OLG Schleswig, Urteil vom 10. Dezember 2021 – 1 U 64/20, Schleswig-Holsteinische Anzeigen, Mai 2022",
+        "purpose": "Bedeutung von Mängelrügen vor der Fristsetzung für die Abnahmefiktion."
+      },
+      {
+        "url": "https://gerichtsentscheidungen.brandenburg.de/gerichtsentscheidung/25499",
+        "title": "OLG Brandenburg, Urteil vom 21. November 2024 – 10 U 131/23",
+        "purpose": "Erneute Benennung eines Beanstandungsgrundes nach Aufforderung zur Abnahme und Bedeutung der Abnahmereife."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2021-N-16207?view=Print",
+        "title": "OLG Nürnberg, Hinweisbeschluss vom 17. Mai 2021 – 13 U 365/21",
+        "purpose": "Unmittelbare Werklohnklage bei unberechtigter Abnahmeverweigerung und Abnahmereife."
+      }
+    ],
+    "hosts": [
+      "bilder.deutschlandfunk.de",
+      "datenbank.nwb.de",
+      "dserver.bundestag.de",
+      "gerichtsentscheidungen.brandenburg.de",
+      "gesetze.berlin.de",
+      "juris.bundesgerichtshof.de",
+      "nrwe.justiz.nrw.de",
+      "recht.nrw.de",
+      "www.bundesarbeitsgericht.de",
+      "www.gesetze-bayern.de",
+      "www.gesetze-im-internet.de",
+      "www.schleswig-holstein.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-ungebetener-gast",
+  "solver_case_id": "case-027",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-ungebetener-gast",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-ungebetener-gast",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:56:28.480638+00:00",
+  "collected_at": "2026-11-20T08:24:05.136220+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 28325,
+      "sha256": "1c0b3e04735e613f1dbedd544e6938a993c31d2b09795a7ef2613878ea97b08e"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/3/19/3-526-19.pdf",
+        "title": "BGH, Beschl. v. 22.01.2020 - 3 StR 526/19",
+        "purpose": "Wohnungseigenschaft nach Tod der Bewohner (§ 244 Abs. 1 Nr. 3 StGB)"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/22/4-265-22.pdf",
+        "title": "BGH, Beschl. v. 25.10.2022 - 4 StR 265/22",
+        "purpose": "Keine dauerhaft genutzte Privatwohnung nach Tod; untauglicher Versuch § 244 Abs. 4; Tateinheit"
+      },
+      {
+        "url": "https://jura-online.de/blog/2023/03/31/versuchter-schwerer-oder-vollendeter-wohnungseinbruchsdiebstahl/",
+        "title": "jura-online: Versuchter schwerer oder vollendeter Wohnungseinbruchsdiebstahl?",
+        "purpose": "Zusammenfassung von 4 StR 265/22"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/3/19/3-2-19.pdf",
+        "title": "BGH, Beschl. v. 19.03.2019 - 3 StR 2/19",
+        "purpose": "Tateinheit versuchter § 244 Abs. 4 mit vollendetem Einbruchdiebstahl"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/3/25/3-546-25.pdf",
+        "title": "BGH, Beschl. v. 21.01.2026 - 3 StR 546/25",
+        "purpose": "Wegnahmevollendung im Wohnhaus, § 252, Mittäterexzess, Raub verdrängt § 244"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/05/4-16-05.pdf",
+        "title": "BGH, Beschl. v. 30.03.2005 - 4 StR 16/05",
+        "purpose": "Gesetzeskonkurrenz Raub und Einbruchdiebstahl"
+      }
+    ],
+    "hosts": [
+      "jura-online.de",
+      "www.hrr-strafrecht.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,162 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/europarecht/fortgeschrittenenklausur-europarecht-autofrei-spass-dabei",
+  "solver_case_id": "case-007",
+  "source_task_dir": "tasks/de/oeffentliches-recht/europarecht/fortgeschrittenenklausur-europarecht-autofrei-spass-dabei",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/europarecht/fortgeschrittenenklausur-europarecht-autofrei-spass-dabei",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T20:52:42.804121+00:00",
+  "collected_at": "2026-11-20T08:17:27.006214+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 21443,
+      "sha256": "7195ce5646a2a238a5d359c498b6d4423d310b9fdfe6d81fe1922e15c2b62de2"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/oj/deu",
+        "title": "AEUV, insbesondere Art. 28–36",
+        "purpose": "Vertragsgrundlagen für Warenverkehr, Vorlage und Gesetzgebungskompetenz."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62014CJ0525",
+        "title": "EuGH, C-525/14, Kommission/Tschechische Republik, Rn. 34 ff.",
+        "purpose": "Waren aus Mitgliedstaaten und Drittlandswaren im freien Verkehr."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A61974CJ0008",
+        "title": "EuGH, 8/74, Dassonville, Rn. 5",
+        "purpose": "Tatbestand der Maßnahme gleicher Wirkung."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=ecli%3AECLI%3AEU%3AC%3A1993%3A905",
+        "title": "EuGH, C-267/91 und C-268/91, Keck und Mithouard, Rn. 15–17",
+        "purpose": "Grenzen der Ausnahme für Verkaufsmodalitäten."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62005CJ0110",
+        "title": "EuGH, C-110/05, Kommission/Italien, Rn. 35–37, 56–58",
+        "purpose": "Marktzugang bei Verwendungsbeschränkungen, Verkehrssicherheit und Darlegung der Verhältnismäßigkeit."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62005CJ0142",
+        "title": "EuGH, C-142/05, Mickelsson und Roos, Rn. 26–28",
+        "purpose": "Einfluss von Gebrauchsbeschränkungen auf die Kaufentscheidung und Rechtfertigung durch Umweltschutz."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=celex%3A61978CJ0120",
+        "title": "EuGH, 120/78, Cassis de Dijon, Rn. 8",
+        "purpose": "Ungeschriebene Rechtfertigungsgründe für unterschiedslos geltende Maßnahmen."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A62021CJ0050",
+        "title": "EuGH, C-50/21, Prestige and Limousine, Rn. 69, zum städtischen Verkehrsraum",
+        "purpose": "Stadtverkehr und Nutzung des öffentlichen Raums als Allgemeininteressen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__124.html",
+        "title": "§ 124 Abs. 1 VwGO",
+        "purpose": "Rechtsmittel gegen das Urteil des Verwaltungsgerichts."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__124a.html",
+        "title": "§ 124a Abs. 4 VwGO",
+        "purpose": "Antrag auf Zulassung der Berufung."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=OJ%3AC_202406008",
+        "title": "Empfehlungen des Gerichtshofs an die nationalen Gerichte, Nrn. 3–9 und 25–29",
+        "purpose": "Zuständigkeit, Vorlagegegenstand und Anforderungen an den Vorlagebeschluss."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__42.html",
+        "title": "§ 42 Abs. 1 VwGO",
+        "purpose": "Klageart bei abgelehnter Zulassung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__113.html",
+        "title": "§ 113 Abs. 5 VwGO",
+        "purpose": "Entscheidung bei begründetem Verpflichtungsbegehren."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=celex%3A61977CJ0106",
+        "title": "EuGH, 106/77, Simmenthal, Rn. 21–24",
+        "purpose": "Anwendungsvorrang des Unionsrechts im nationalen Prozess."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A61998CJ0448",
+        "title": "EuGH, C-448/98, Guimont, Rn. 21–24",
+        "purpose": "Bedeutung eines rein internen Sachverhalts beim Warenverkehr."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=celex%3A62015CJ0268",
+        "title": "EuGH, C-268/15, Ullens de Schooten, Rn. 50–55",
+        "purpose": "Darlegung des Unionsbezugs im konkreten Vorlageverfahren."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A61998CJ0376",
+        "title": "EuGH, C-376/98, Deutschland/Parlament und Rat, Rn. 83–86 und 106–107",
+        "purpose": "Voraussetzungen und Grenzen der Binnenmarktharmonisierung."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A62014CJ0547",
+        "title": "EuGH, C-547/14, Philip Morris Brands u. a., Rn. 57–64",
+        "purpose": "Endgültige Produktverbote als mögliche Angleichungsmaßnahme."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=ecli%3AECLI%3AEU%3AC%3A2009%3A518",
+        "title": "EuGH, C-411/06, Kommission/Parlament und Rat, Rn. 45–47",
+        "purpose": "Abgrenzung der Rechtsgrundlagen nach Ziel und Inhalt."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/resource.html?format=PDF&uri=cellar%3A9e8d52e1-2c70-11e6-b497-01aa75ed71a1.0004.01%2FDOC_3",
+        "title": "Vertrag über die Arbeitsweise der Europäischen Union, konsolidierte Fassung, ABl. C 202 vom 7.6.2016",
+        "purpose": "Amtlicher Wortlaut der verwendeten Vertragsbestimmungen."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=OJ%3AL_202402019",
+        "title": "Verordnung (EU, Euratom) 2024/2019 zur Änderung des Protokolls Nr. 3 über die Satzung des Gerichtshofs der Europäischen Union",
+        "purpose": "Verteilung der Vorabentscheidungszuständigkeit nach Art. 50b der Satzung."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?from=fr&uri=CELEX%3A32012Q1106%2801%29",
+        "title": "Verfahrensordnung des Gerichtshofs, Art. 94",
+        "purpose": "Inhalt des Vorlagebeschlusses."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62004CJ0096",
+        "title": "EuGH, C-96/04, Standesamt Stadt Niebüll",
+        "purpose": "Unionsrechtliche Kriterien für den Gerichtsbegriff."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/de/TXT/?uri=CELEX%3A62015CJ0072",
+        "title": "EuGH, C-72/15, Rosneft",
+        "purpose": "Vermutung der Entscheidungserheblichkeit und Grenzen bei hypothetischen Fragen."
+      }
+    ],
+    "hosts": [
+      "eur-lex.europa.eu",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

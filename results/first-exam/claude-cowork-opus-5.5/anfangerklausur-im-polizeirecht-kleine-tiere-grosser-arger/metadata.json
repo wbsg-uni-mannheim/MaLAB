@@ -1,0 +1,103 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger",
+  "solver_case_id": "case-012",
+  "source_task_dir": "tasks/de/oeffentliches-recht/verwaltungsrecht/anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/verwaltungsrecht/anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T20:53:30.248421+00:00",
+  "collected_at": "2026-11-20T08:24:04.389184+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 24886,
+      "sha256": "683f783a7087f2b7757574c617e985583a1aea96f9de37d04235a22da4e76a91"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://lxgesetze.de/polg/107",
+        "title": "§ 107 PolG BW Allgemeine Polizeibehörden",
+        "purpose": "Ortspolizeibehörden sind die Gemeinden"
+      },
+      {
+        "url": "https://lxgesetze.de/polg/111",
+        "title": "§ 111 PolG BW Allgemeine sachliche Zuständigkeit",
+        "purpose": "Sachliche Zuständigkeit der Ortspolizeibehörde"
+      },
+      {
+        "url": "https://lxgesetze.de/polg/113",
+        "title": "§ 113 PolG BW Örtliche Zuständigkeit",
+        "purpose": "Örtliche Zuständigkeit"
+      },
+      {
+        "url": "https://lxgesetze.de/polg/105",
+        "title": "§ 105 PolG BW Zuständigkeitsabgrenzung",
+        "purpose": "Zuständigkeit der Polizeibehörden"
+      },
+      {
+        "url": "https://lxgesetze.de/polg/1",
+        "title": "§ 1 PolG BW Allgemeines",
+        "purpose": "Generalklausel Aufgabe"
+      },
+      {
+        "url": "https://lxgesetze.de/polg/3",
+        "title": "§ 3 PolG BW Polizeiliche Maßnahmen",
+        "purpose": "Generalklausel Befugnis und Ermessen"
+      },
+      {
+        "url": "https://lxgesetze.de/polg/5",
+        "title": "§ 5 PolG BW Art der Maßnahmen",
+        "purpose": "Verhältnismäßigkeit"
+      },
+      {
+        "url": "https://lxgesetze.de/polg/7",
+        "title": "§ 7 PolG BW Zustandsverantwortlichkeit",
+        "purpose": "Zustandsstörer"
+      },
+      {
+        "url": "https://lxgesetze.de/polg/8",
+        "title": "§ 8 PolG BW Unmittelbare Ausführung",
+        "purpose": "Subsidiarität der Selbstvornahme durch Polizei"
+      },
+      {
+        "url": "https://www.weka.de/ordnungsamt-gewerbeamt/eichenprozessionsspinner-zustandsverantwortlichkeit/",
+        "title": "Eichenprozessionsspinner Zustandsverantwortlichkeit (VGH München 10 CS 19.684)",
+        "purpose": "Rechtsprechung zur Zustandsstörereigenschaft"
+      },
+      {
+        "url": "https://www.weka.de/ordnungsamt-gewerbeamt/eichenprozessionsspinner-verantwortlichkeit-des-eigentuemers/",
+        "title": "Eichenprozessionsspinner: Verantwortlichkeit des Eigentümers (OVG Saarland 2023)",
+        "purpose": "Rechtsprechung zur Inanspruchnahme des Eigentümers"
+      },
+      {
+        "url": "https://medienservice.sachsen.de/medien/news/1088442/download_pdf",
+        "title": "VG Leipzig Pressemitteilung Eichenprozessionsspinner 2025",
+        "purpose": "Aktuelle Rechtsprechung Zustandsstörer, Absperrung als Alternative"
+      }
+    ],
+    "hosts": [
+      "lxgesetze.de",
+      "medienservice.sachsen.de",
+      "www.weka.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

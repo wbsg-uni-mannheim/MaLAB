@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/schuldrecht/examensklausur-ehe-und-espresso",
+  "solver_case_id": "case-034",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/examensklausur-ehe-und-espresso",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/examensklausur-ehe-und-espresso",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T21:37:21.191486+00:00",
+  "collected_at": "2026-11-20T08:24:05.684651+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 43274,
+      "sha256": "b6a17d51bde9fbb78709ce718db1e8eb6ed2358015fec51cfb5dfdde65dba861"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://jura-online.de/blog/2018/05/08/bgh-erfasst-%C2%A7-1357-bgb-auch-die-kuendigung-eines-versicherungsvertrages/",
+        "title": "BGH: Erfasst § 1357 BGB auch die Kündigung eines Versicherungsvertrages? (BGH XII ZR 94/17)",
+        "purpose": "Gestaltungsrechte unter § 1357 BGB; Maßstab des nach außen erkennbaren Lebenszuschnitts"
+      },
+      {
+        "url": "https://www.haufe.de/id/kommentar/pruettingwegenweinreich-bgb-kommentar-bgb-vorbemerk-3-haushaltsgegenstaende-kraftfahrzeug-HI16989273.html",
+        "title": "Prütting/Wegen/Weinreich, Haushaltsgegenstände (BGH FamRZ 91, 923)",
+        "purpose": "Miteigentumserwerb an Hausrat über Geschäft für den, den es angeht"
+      },
+      {
+        "url": "https://www.haufe.de/id/kommentar/pruettingwegenweinreich-bgb-kommentar-bgb-864-bgb-erloeschen-der-besitzansprueche-HI16991126.html",
+        "title": "Prütting/Wegen/Weinreich, § 864 BGB",
+        "purpose": "Zweck des § 864 Abs. 2 BGB"
+      },
+      {
+        "url": "https://lorenz.userweb.mwn.de/urteile/bghz73_355.htm",
+        "title": "BGHZ 73, 355",
+        "purpose": "Analoge Anwendung des § 864 Abs. 2 BGB bei petitorischer Widerklage"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__864.html",
+        "title": "§ 864 BGB",
+        "purpose": "Wortlaut der Norm"
+      }
+    ],
+    "hosts": [
+      "jura-online.de",
+      "lorenz.userweb.mwn.de",
+      "www.gesetze-im-internet.de",
+      "www.haufe.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

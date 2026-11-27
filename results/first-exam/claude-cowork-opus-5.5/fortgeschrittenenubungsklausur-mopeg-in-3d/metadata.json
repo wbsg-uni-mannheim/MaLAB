@@ -1,0 +1,101 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/handels-und-gesellschaftsrecht/fortgeschrittenenubungsklausur-mopeg-in-3d",
+  "solver_case_id": "case-040",
+  "source_task_dir": "tasks/de/zivilrecht/handels-und-gesellschaftsrecht/fortgeschrittenenubungsklausur-mopeg-in-3d",
+  "source_task_dir_relative": "tasks/de/zivilrecht/handels-und-gesellschaftsrecht/fortgeschrittenenubungsklausur-mopeg-in-3d",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-20T07:46:09.455545+00:00",
+  "collected_at": "2026-11-20T08:24:05.363929+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 30567,
+      "sha256": "5da4961873eb767f65c11f0cc5a166d401647380300689bce7cafda40ae02ce3"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__475d.html",
+        "title": "§ 475d BGB",
+        "purpose": "Fristsetzungserfordernis beim Verbrauchsgüterkauf, Ausschluss von § 281 Abs. 2 und § 440"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__721b.html",
+        "title": "§ 721b BGB",
+        "purpose": "Einwendungen und Einreden des Gesellschafters"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__721.html",
+        "title": "§ 721 BGB",
+        "purpose": "Persönliche Haftung der Gesellschafter"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__720.html",
+        "title": "§ 720 BGB",
+        "purpose": "Vertretung der GbR, Umfang der Vertretungsmacht (Abs. 3)"
+      },
+      {
+        "url": "https://lexetius.com/BGB/720,1",
+        "title": "§ 720 Abs. 1 BGB",
+        "purpose": "Gesamtvertretung als gesetzlicher Regelfall"
+      },
+      {
+        "url": "https://www.buzer.de/gesetz/6597/al189201-0.htm",
+        "title": "Änderung § 720 BGB durch MoPeG",
+        "purpose": "Ermächtigung einzelner Gesellschafter nach § 720 Abs. 2 BGB"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__475.html",
+        "title": "§ 475 BGB",
+        "purpose": "Nichtanwendbarkeit von § 442 beim Verbrauchsgüterkauf, Rücksendekosten"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__475b.html",
+        "title": "§ 475b BGB",
+        "purpose": "Sachmangel bei Waren mit digitalen Elementen"
+      },
+      {
+        "url": "https://www.uni-marburg.de/de/fb01/aktuelles/nachrichten/abstract-zu-zpg-2024-1.pdf",
+        "title": "Wertenbruch, Persönliche Haftung und Rückgriff nach MoPeG, ZPG 2024, 1 (Abstract)",
+        "purpose": "Erfüllungstheorie bei § 721 BGB"
+      },
+      {
+        "url": "https://lorenz.userweb.mwn.de/urteile/viizr281_04.htm",
+        "title": "BGH VIII ZR 281/04",
+        "purpose": "Bezugspunkt des Vertretenmüssens bei behebbarem Mangel"
+      },
+      {
+        "url": "https://jura-online.de/lernen/fall-schadensersatz-wegen-nachtraeglicher-unmoeglichkeit/4298/excursus/",
+        "title": "Schadensersatz statt der Leistung, Naturalrestitution",
+        "purpose": "Ausschluss der Naturalrestitution durch Leistungserbringung beim SESL"
+      }
+    ],
+    "hosts": [
+      "jura-online.de",
+      "lexetius.com",
+      "lorenz.userweb.mwn.de",
+      "www.buzer.de",
+      "www.gesetze-im-internet.de",
+      "www.uni-marburg.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

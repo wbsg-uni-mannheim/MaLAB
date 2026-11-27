@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/staatsrecht/examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche",
+  "solver_case_id": "case-011",
+  "source_task_dir": "tasks/de/oeffentliches-recht/staatsrecht/examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/staatsrecht/examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T10:58:22.073355+00:00",
+  "collected_at": "2026-11-20T08:17:27.025444+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 20789,
+      "sha256": "7ea349f75a299a5495b0da83bd084ff75d591cd7a88a119836202c67f1351ec8"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+        "title": "Grundgesetz",
+        "purpose": "Zuständigkeit und verfassungsrechtliche Maßstäbe"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/BJNR002430951.html",
+        "title": "Bundesverfassungsgerichtsgesetz",
+        "purpose": "Verfahrens- und Begründungserfordernisse"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/contstifg/__15.html",
+        "title": "§ 15 ContStifG",
+        "purpose": "Wortlaut von Verzicht und Anrechnung"
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2023/11/ls20231121_1bvl000621.html",
+        "title": "BVerfG, Beschluss vom 21. November 2023 – 1 BvL 6/21",
+        "purpose": "Tragende Entscheidung zur Verfassungsmäßigkeit"
+      },
+      {
+        "url": "https://datenbank.nwb.de/Dokument/1034065/",
+        "title": "BVerfG, 1 BvL 6/21, Volltext bei NWB",
+        "purpose": "Einzelgründe zu Unionsrecht, Eigentumsschutz und Gleichbehandlung"
+      },
+      {
+        "url": "https://dserver.bundestag.de/btd/17/126/1712678.pdf",
+        "title": "BT-Drucksache 17/12678",
+        "purpose": "Kompetenz, Zwecke und Ausgestaltung des Änderungsgesetzes"
+      },
+      {
+        "url": "https://www.bverwg.de/de/110424U5C1.24.0",
+        "title": "BVerwG, Urteil vom 11. April 2024 – 5 C 1.24",
+        "purpose": "Anwendung der Entscheidung im Revisionsverfahren"
+      }
+    ],
+    "hosts": [
+      "datenbank.nwb.de",
+      "dserver.bundestag.de",
+      "www.bundesverfassungsgericht.de",
+      "www.bverwg.de",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/examensubungsklausur-strafrecht-nur-bares-ist-wahres",
+  "solver_case_id": "case-018",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/examensubungsklausur-strafrecht-nur-bares-ist-wahres",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/examensubungsklausur-strafrecht-nur-bares-ist-wahres",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T19:09:03.555838+00:00",
+  "collected_at": "2026-11-20T08:24:04.764910+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 38863,
+      "sha256": "3245a996377119f78e0f99ee770e518333deff9b2c92be4aa4cbaefb6cd22905"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.jura.uni-mannheim.de/buelte/rechtsprechung/strafrecht-bt/2021/bgh-beschl-v-03022021-2-str-279-20-zum-erpresserischen-menschenraub-und-geiselnahme/",
+        "title": "BGH, Beschl. v. 03.02.2021, 2 StR 279/20: Erpresserischer Menschenraub und Geiselnahme",
+        "purpose": "Leitentscheidung zu Zahlungsversprechen, § 239a/§ 239b"
+      },
+      {
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Text=StV+2007%2C+354",
+        "title": "BGH, 14.03.2007, 2 StR 576/06",
+        "purpose": "Zeitlicher Zusammenhang bei § 239a, Leistung nach Freilassung"
+      },
+      {
+        "url": "https://lexetius.com/StPO/158",
+        "title": "§ 158 StPO (Fassung ab 17.07.2024)",
+        "purpose": "Aktueller Wortlaut § 158 Abs. 2 StPO"
+      },
+      {
+        "url": "https://cms.law/de/deu/legal-updates/kleine-fehler-grosse-folgen-wirksam-strafantrag-stellen",
+        "title": "Kleine Fehler, große Folgen: Wirksam Strafantrag stellen",
+        "purpose": "Reform § 158 Abs. 2 StPO, Gesetzesbegründung, Online-Formular"
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2021-N-5624?hl=true",
+        "title": "AG Auerbach, Beschl. v. 26.01.2021, 3 Cs 500 Js 24368/20",
+        "purpose": "Alte Rechtslage: Onlinewache-Strafantrag unwirksam"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/5/21/5-398-21.pdf",
+        "title": "BGH 5 StR 398/21",
+        "purpose": "Alte Rechtslage: einfache E-Mail unwirksam"
+      },
+      {
+        "url": "https://rewis.io/urteile/urteil/6hz-21-08-2024-3-str-9724/",
+        "title": "BGH, Beschl. v. 21.08.2024, 3 StR 97/24",
+        "purpose": "Keine Rückwirkung § 158 Abs. 2 StPO n.F."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Pdf/RiStBV-NN255?all=False",
+        "title": "RiStBV Nr. 229",
+        "purpose": "Öffentliches Interesse bei Beleidigung, Antrag nach § 194 Abs. 3 StGB"
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Pdf/RiStBV-NN258?all=False",
+        "title": "RiStBV Nr. 232",
+        "purpose": "Strafantrag der vorgesetzten Dienststelle, öffentliches Interesse"
+      },
+      {
+        "url": "https://www.rechtsportal.de/Rechtsprechung/Rechtsprechung/2025/BGH/Wer-sein-Opfer-mit-Noetigungsmitteln-zu-einer-Geldzahlung-bewegt-auf-die-zumTeil-ein-Anspruch-besteht-begeht-neben-der-Erpressung-eine-tateinheitliche-Noetigung",
+        "title": "BGH, Beschl. v. 10.06.2025, 3 StR 561/24",
+        "purpose": "Tateinheitliche Nötigung bei teilweise bestehendem Anspruch"
+      }
+    ],
+    "hosts": [
+      "cms.law",
+      "dejure.org",
+      "lexetius.com",
+      "rewis.io",
+      "www.gesetze-bayern.de",
+      "www.hrr-strafrecht.de",
+      "www.jura.uni-mannheim.de",
+      "www.rechtsportal.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

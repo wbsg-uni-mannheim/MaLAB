@@ -1,0 +1,113 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/staatsrecht/anfanger-innenhausarbeit-bundeszwang-und-rededrang",
+  "solver_case_id": "case-008",
+  "source_task_dir": "tasks/de/oeffentliches-recht/staatsrecht/anfanger-innenhausarbeit-bundeszwang-und-rededrang",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/staatsrecht/anfanger-innenhausarbeit-bundeszwang-und-rededrang",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T20:53:04.390772+00:00",
+  "collected_at": "2026-11-20T08:17:27.013667+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 24392,
+      "sha256": "71a6c2cd62e7aec1b4f0b96340b7a45912cb51231b1aac4df2756d36df613223"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html?level=1",
+        "title": "Grundgesetz",
+        "purpose": "Kompetenzordnung, Bundeszwang, Mitwirkungsrechte der Länder und Organstreit."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/asylblg/BJNR107410993.html",
+        "title": "Asylbewerberleistungsgesetz",
+        "purpose": "Leistungsberechtigung und landesrechtliche Bestimmung der zuständigen Behörden."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/asylblg/__3.html",
+        "title": "§ 3 AsylbLG",
+        "purpose": "Anspruchsgrundlage und Absatznummer des wiedergegebenen Normtextes."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gg/art_84.html",
+        "title": "Art. 84 GG",
+        "purpose": "Aufsicht und Mängelrügeverfahren."
+      },
+      {
+        "url": "https://www.bundestag.de/resource/blob/1145858/WD-3-101-25.pdf",
+        "title": "Wissenschaftliche Dienste des Bundestages, WD 3 – 3000 – 101/25, S. 5–7",
+        "purpose": "Tatbestand, Verfahren, Ermessen und Grenzen des Bundeszwangs."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/e/ls20120718_1bvl001010.html",
+        "title": "BVerfG, Urteil vom 18. Juli 2012 – 1 BvL 10/10 u.a., BVerfGE 132, 134",
+        "purpose": "Grundrecht auf Gewährleistung eines menschenwürdigen Existenzminimums."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/__70.html",
+        "title": "§ 70 BVerfGG",
+        "purpose": "Frist für den Angriff gegen den Bundesratsbeschluss."
+      },
+      {
+        "url": "https://www.bundestag.de/resource/blob/1013086/2a104dc897c6ffd8d95a4cc3ee20db80/WD-3-029-24-pdf.pdf",
+        "title": "Wissenschaftliche Dienste des Bundestages, WD 3 – 3000 – 029/24, S. 9–12",
+        "purpose": "Beauftragung, Weisungsrecht und Grenzen der Aufgabenübernahme."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/06/es20200609_2bve000119.html",
+        "title": "BVerfG, Urteil vom 9. Juni 2020 – 2 BvE 1/19, BVerfGE 154, 320",
+        "purpose": "Beteiligtenfähigkeit, Interview und amtliche Weiterverbreitung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/BJNR002430951.html",
+        "title": "Bundesverfassungsgerichtsgesetz",
+        "purpose": "Prozessvoraussetzungen und Feststellungsausspruch."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2022/06/es20220615_2bve000420.html",
+        "title": "BVerfG, Urteil vom 15. Juni 2022 – 2 BvE 4/20, BVerfGE 162, 207, insbesondere Rn. 78–83",
+        "purpose": "Rollenabgrenzung, Staatsbesuch und Rechtfertigung amtlicher Aussagen des Kanzlers."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2014/12/es20141216_2bve000214.html",
+        "title": "BVerfG, Urteil vom 16. Dezember 2014 – 2 BvE 2/14, BVerfGE 138, 102, Rn. 59–62",
+        "purpose": "Amtsbezug bei Interviews am Rande einer amtlichen Veranstaltung."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2018/02/es20180227_2bve000116.html",
+        "title": "BVerfG, Urteil vom 27. Februar 2018 – 2 BvE 1/16, BVerfGE 148, 11",
+        "purpose": "Neutralität und Sachlichkeit der Öffentlichkeitsarbeit."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2013/02/es20130220_2bve001112.html",
+        "title": "BVerfG, Beschluss vom 20. Februar 2013 – 2 BvE 11/12, BVerfGE 133, 100",
+        "purpose": "Parteienprivileg und Grenzen staatlicher Bewertungen."
+      }
+    ],
+    "hosts": [
+      "www.bundestag.de",
+      "www.bundesverfassungsgericht.de",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/schuldrecht/anfangerklausur-zwei-autokaufe",
+  "solver_case_id": "case-044",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/anfangerklausur-zwei-autokaufe",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/anfangerklausur-zwei-autokaufe",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-20T08:02:58.579930+00:00",
+  "collected_at": "2026-11-20T08:24:05.636627+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 25410,
+      "sha256": "13f996249569dfc1023ca4993e88eb0a285070d9e6e210fb020e582c508f87fb"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://lorenz.userweb.mwn.de/urteile/NJW98_976.htm",
+        "title": "BGH, Urteil v. 26.11.1997 - Zugang der mit nicht abgeholtem Einschreiben abgesandten Willenserklärung",
+        "purpose": "Zugangsdefinition (BGHZ 67, 271) und Hinweis auf BGH NJW 2003, 3270 zum Zugang bei Postfach"
+      }
+    ],
+    "hosts": [
+      "lorenz.userweb.mwn.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

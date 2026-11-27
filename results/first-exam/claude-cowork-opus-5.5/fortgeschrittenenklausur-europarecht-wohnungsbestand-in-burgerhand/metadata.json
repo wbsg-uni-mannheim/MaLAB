@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/europarecht/fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand",
+  "solver_case_id": "case-004",
+  "source_task_dir": "tasks/de/oeffentliches-recht/europarecht/fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/europarecht/fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T11:05:49.984959+00:00",
+  "collected_at": "2026-11-20T08:24:04.015520+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 36476,
+      "sha256": "288cceb7f918ca2e873f38bb1fb315ee6074f8755bcdc712a8803c1b81959e37"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://linda.lindeverlag.at/Dokument/638976/",
+        "title": "EuGH 21.05.2019, C-235/17, Kommission/Ungarn (Urteil)",
+        "purpose": "Randnummern zu Art. 63 AEUV, Art. 51 und Art. 17 GRCh, wirtschaftliche Gründe, Missbrauchsvermutung, Entschädigung"
+      },
+      {
+        "url": "https://fra.europa.eu/en/node/37371",
+        "title": "CJEU Case C-235/17 / Judgment (FRA)",
+        "purpose": "ECLI und Tenor C-235/17"
+      },
+      {
+        "url": "https://curia.europa.eu/jcms/jcms/P_98876/hr",
+        "title": "EuGH Pressemitteilung 57/13, Libert C-197/11 und C-203/11",
+        "purpose": "Sozialwohnungspolitik als zwingender Grund des Allgemeininteresses"
+      },
+      {
+        "url": "https://www.otto-schmidt.de/news/zivil-und-zivilverfahrensrecht/genehmigungspflicht-fur-regelmassige-kurzzeitvermietung-einer-wohnung-2020-09-22.html",
+        "title": "EuGH v. 22.9.2020, C-724/18, Cali Apartments",
+        "purpose": "Bekämpfung des Wohnungsmangels als zwingender Grund"
+      }
+    ],
+    "hosts": [
+      "curia.europa.eu",
+      "fra.europa.eu",
+      "linda.lindeverlag.at",
+      "www.otto-schmidt.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

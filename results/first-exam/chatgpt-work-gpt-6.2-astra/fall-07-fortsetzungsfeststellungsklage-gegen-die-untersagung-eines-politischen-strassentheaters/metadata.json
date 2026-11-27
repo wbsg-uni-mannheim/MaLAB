@@ -1,0 +1,84 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/fortsetzungsfeststellungsklage/fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters",
+  "solver_case_id": "case-015",
+  "source_task_dir": "tasks/de/oeffentliches-recht/verwaltungsrecht/fortsetzungsfeststellungsklage/fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/verwaltungsrecht/fortsetzungsfeststellungsklage/fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T11:55:12.219224+00:00",
+  "collected_at": "2026-11-20T08:17:27.043223+00:00",
+  "expected_deliverables": [
+    "fallloesung-sut.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung-sut.md",
+      "found": true,
+      "bytes": 17243,
+      "sha256": "61cddeeaf19d3e4d2d54eebefa80c45b9e7112e2e74780e0012fdfe9ca472352"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__113.html",
+        "title": "§ 113 VwGO",
+        "purpose": "Normtext zur Fortsetzungsfeststellungsklage"
+      },
+      {
+        "url": "https://www.bverwg.de/6C2.22",
+        "title": "BVerwG, Urteil vom 24. April 2024 – 6 C 2.22",
+        "purpose": "Statthaftigkeit und berechtigtes Feststellungsinteresse"
+      },
+      {
+        "url": "https://www.bverwg.de/entscheidungen/pdf/160223U1C19.21.0.pdf",
+        "title": "BVerwG, Urteil vom 16. Februar 2023 – 1 C 19.21, zur Klagefrist",
+        "purpose": "Klagefrist bei vorprozessualer Erledigung"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/versammlg/BJNR006840953.html",
+        "title": "Versammlungsgesetz des Bundes",
+        "purpose": "Versammlungsrechtliche Befugnisse und Verbote"
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/vgh-hessen/2011-03-17/8-a-1188-10",
+        "title": "HessVGH, Urteil vom 17. März 2011 – 8 A 1188/10, Rn. 52–57, unter Bezugnahme auf BVerwG, Urteil vom 8. September 1981 – 1 C 88.77, BVerwGE 64, 55",
+        "purpose": "Minusmaßnahmen, politisches Straßentheater und Gefahrenprognose bei Gewehrattrappen"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/waffg_2002/BJNR397010002.html",
+        "title": "Waffengesetz, § 42a",
+        "purpose": "Führungsverbot und Theaterausnahme"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/waffg_2002/anlage_1.html",
+        "title": "Anlage 1 zum WaffG",
+        "purpose": "Definitionen der Anscheinswaffe und des Führens"
+      },
+      {
+        "url": "https://servat.unibe.ch/fallrecht/bv067213.html",
+        "title": "BVerfG, Beschluss vom 17. Juli 1984 – 1 BvR 816/82, BVerfGE 67, 213, 224 ff. – Anachronistischer Zug",
+        "purpose": "Verfassungsrechtlicher Kunstbegriff und Gesamtbetrachtung des Straßentheaters"
+      }
+    ],
+    "hosts": [
+      "recht.nulegal.eu",
+      "servat.unibe.ch",
+      "www.bverwg.de",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

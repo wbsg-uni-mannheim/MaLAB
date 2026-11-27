@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/staatsrecht/anfangerklausur-caroline-zugleich-ein-beitrag-zur-mittelbaren-drittwirkung-der-grundrechte",
+  "solver_case_id": "case-010",
+  "source_task_dir": "tasks/de/oeffentliches-recht/staatsrecht/anfangerklausur-caroline-zugleich-ein-beitrag-zur-mittelbaren-drittwirkung-der-grundrechte",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/staatsrecht/anfangerklausur-caroline-zugleich-ein-beitrag-zur-mittelbaren-drittwirkung-der-grundrechte",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T20:10:56.353675+00:00",
+  "collected_at": "2026-11-20T08:24:04.201302+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 35392,
+      "sha256": "cf0f0c3f3d27492b30aac8a2923e729360df49a2dd18f5da77319375ba21fafe"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.servat.unibe.ch/DFR/bv111307.html",
+        "title": "BVerfGE 111, 307 - Görgülü (DFR)",
+        "purpose": "Fundstelle und Inhalt der Görgülü-Entscheidung zur Berücksichtigungspflicht von EGMR-Urteilen"
+      },
+      {
+        "url": "https://www.rechtslupe.de/strafrecht/die-europaeische-menschenrechtskonvention-3134613",
+        "title": "Die Europäische Menschenrechtskonvention im Gefüge deutscher Gesetze (BVerfG 2 BvR 745/18)",
+        "purpose": "Bestätigung der fortgeltenden Rechtsprechungslinie und Fundstellen (BVerfGE 111, 307; 120, 180; 128, 326)"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/bverfg/07/2-bvr-2485-07.pdf",
+        "title": "BVerfG 2 BvR 2485/07",
+        "purpose": "Rang der EMRK als Bundesgesetz und methodisch vertretbare Auslegung, Begründungspflicht bei Abweichung"
+      }
+    ],
+    "hosts": [
+      "www.hrr-strafrecht.de",
+      "www.rechtslupe.de",
+      "www.servat.unibe.ch"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

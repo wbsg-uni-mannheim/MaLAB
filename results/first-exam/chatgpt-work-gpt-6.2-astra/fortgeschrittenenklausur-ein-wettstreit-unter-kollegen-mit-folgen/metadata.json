@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen",
+  "solver_case_id": "case-020",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-ein-wettstreit-unter-kollegen-mit-folgen",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T12:46:11.829445+00:00",
+  "collected_at": "2026-11-20T08:17:27.060349+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 15017,
+      "sha256": "604b735eb8eb28fb1a25deac546a516235f90eb09bcb3420b4ff3914a9465d60"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/BJNR001270871.html",
+        "title": "Strafgesetzbuch (StGB)",
+        "purpose": "Wortlaut der Straftatbestände und Konkurrenzen"
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2021&Gericht=bgh&file=dokument.pdf&linked=urt&nr=124611",
+        "title": "BGH, Urteil vom 11. November 2021 – 4 StR 511/20",
+        "purpose": "Begriff des Rennens, Zeitfahren und eigenhändige Gefährdung"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stvo_2013/__29.html",
+        "title": "§ 29 Abs. 2 StVO",
+        "purpose": "Erlaubnispflicht"
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2024&Gericht=bgh&file=dokument.pdf&linked=bes&nr=135917",
+        "title": "BGH, Beschluss vom 8. November 2023 – 4 StR 460/22",
+        "purpose": "Konkrete Gefahr und rennspezifischer Zusammenhang"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stvo_2013/__26.html",
+        "title": "§ 26 StVO",
+        "purpose": "Sorgfaltspflichten am Fußgängerüberweg"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__315c.html",
+        "title": "§ 315c StGB",
+        "purpose": "Katalogverstoß und Vorsatz-Fahrlässigkeits-Kombination"
+      },
+      {
+        "url": "https://burhoff.de/asp_weitere_beschluesse/inhalte/6152.htm",
+        "title": "LG Aachen, Beschluss vom 11. Februar 2021 – 60 Qs 1/21",
+        "purpose": "Verhältnis von Rennteilnahme und Einzelrasen"
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2021-5&Gericht=bgh&file=dokument.pdf&linked=bes&nr=118225",
+        "title": "BGH, Beschluss vom 24. März 2021 – 4 StR 142/20",
+        "purpose": "Situative Grenzgeschwindigkeit und notwendiges Zwischenziel bei Polizeiflucht"
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2022/02/ls20220209_2bvl000120.html",
+        "title": "BVerfG, Beschluss vom 9. Februar 2022 – 2 BvL 1/20",
+        "purpose": "Verfassungsmäßigkeit des Einzelrasertatbestands"
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2022/bvg22-018.html",
+        "title": "BVerfG, Pressemitteilung Nr. 18/2022",
+        "purpose": "Bestätigung der Vereinbarkeit mit dem Bestimmtheitsgebot"
+      }
+    ],
+    "hosts": [
+      "burhoff.de",
+      "juris.bundesgerichtshof.de",
+      "www.bundesverfassungsgericht.de",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

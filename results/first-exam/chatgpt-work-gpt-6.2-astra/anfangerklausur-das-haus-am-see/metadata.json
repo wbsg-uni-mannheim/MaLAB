@@ -1,0 +1,102 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/strafrecht/materielles-strafrecht/anfangerklausur-das-haus-am-see",
+  "solver_case_id": "case-023",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/anfangerklausur-das-haus-am-see",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/anfangerklausur-das-haus-am-see",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T14:28:10.333586+00:00",
+  "collected_at": "2026-11-20T08:17:27.045388+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 16376,
+      "sha256": "88828cbf85c4ee0ada4ddd5897302c40867695144256def55f3144d3e20cbb84"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/BJNR001270871.html",
+        "title": "Strafgesetzbuch (StGB)",
+        "purpose": "Tatbestände, Rechtfertigungs- und Entschuldigungsgründe, Strafanträge und Konkurrenzen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__305.html",
+        "title": "§ 305 StGB – Zerstörung von Bauwerken",
+        "purpose": "Tatobjekt und Taterfolg der Zerstörung von Bauwerken."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stpo/__127.html",
+        "title": "§ 127 StPO – Vorläufige Festnahme",
+        "purpose": "Voraussetzungen der vorläufigen Festnahme durch eine Privatperson."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1952-11-13/3-str-727_51",
+        "title": "BGH, Urteil vom 13. November 1952 – 3 StR 727/51",
+        "purpose": "Bauliche Merkmale des strafrechtlichen Gebäudebegriffs und Bodenverbindung durch Eigengewicht."
+      },
+      {
+        "url": "https://datenbank.nwb.de/Dokument/434505/",
+        "title": "BGH, Urteil vom 1. März 2012 – 3 StR 425/11",
+        "purpose": "Arglosigkeit trotz vorangegangener verbaler Auseinandersetzung und hierdurch bedingte Wehrlosigkeit."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1995-01-31/1-str-780_94",
+        "title": "BGH, Urteil vom 31. Januar 1995 – 1 StR 780/94, BGHSt 41, 8",
+        "purpose": "Verdeckungsabsicht bei der Vermeidung außerstrafrechtlicher Nachteile."
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/3/99/3-147-99.pdf",
+        "title": "BGH, Urteil vom 23. Juni 1999 – 3 StR 147/99",
+        "purpose": "Bestätigung und Begründung der Rechtsprechung zum außerstrafrechtlichen Verdeckungsmotiv."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2011-5&Gericht=bgh&file=dokument.pdf&linked=urt&nr=56371",
+        "title": "BGH, Urteil vom 17. Mai 2011 – 1 StR 50/11",
+        "purpose": "Verhältnis von Verdeckungsabsicht und sonstigen niedrigen Beweggründen."
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/99/4-558-99.pdf",
+        "title": "BGH, Urteil vom 10. Februar 2000 – 4 StR 558/99, BGHSt 45, 378",
+        "purpose": "Voraussetzungen und Grenzen der Gewaltanwendung bei einer privaten Festnahme."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2023-N-4644",
+        "title": "BayObLG, Beschluss vom 2. Februar 2023 – 202 StRR 6/23",
+        "purpose": "Konkreter Einsatz des Schuhs als gefährliches Werkzeug und Anforderungen an eine das Leben gefährdende Behandlung."
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2026-01-14/2-str-364-25",
+        "title": "BGH, Urteil vom 14. Januar 2026 – 2 StR 364/25",
+        "purpose": "Voraussetzungen einer natürlichen Handlungseinheit unter Einbeziehung eines Hausfriedensbruchs."
+      }
+    ],
+    "hosts": [
+      "datenbank.nwb.de",
+      "juris.bundesgerichtshof.de",
+      "recht.nulegal.eu",
+      "www.anwalt24.de",
+      "www.gesetze-bayern.de",
+      "www.gesetze-im-internet.de",
+      "www.hrr-strafrecht.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

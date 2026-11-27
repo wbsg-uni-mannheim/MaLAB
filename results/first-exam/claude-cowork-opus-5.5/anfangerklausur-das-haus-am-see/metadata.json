@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/anfangerklausur-das-haus-am-see",
+  "solver_case_id": "case-023",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/anfangerklausur-das-haus-am-see",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/anfangerklausur-das-haus-am-see",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:17:30.702456+00:00",
+  "collected_at": "2026-11-20T08:24:04.618100+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 31308,
+      "sha256": "f0660425d3e1dfaf3b3f495a36eed60058c33060c2d909318752d2c036ece88d"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/1/94/1-780-94.pdf",
+        "title": "BGHSt 41, 8 - Verdeckungsabsicht bei außerstrafrechtlichen Konsequenzen",
+        "purpose": "Rechtsprechung zur Verdeckungsabsicht"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/3/99/3-147-99.pdf",
+        "title": "BGH 3 StR 147/99",
+        "purpose": "Bestätigung der Rechtsprechung zur Verdeckungsabsicht"
+      },
+      {
+        "url": "https://www.haufe.de/id/entscheidung/bgh-beschluss-vom-12011999-1-str-62298-HI540155.html",
+        "title": "BGH 1 StR 622/98",
+        "purpose": "Bestätigung BGHSt 41, 8"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/3/11/3-425-11.pdf",
+        "title": "BGH 3 StR 425/11 - Heimtücke nach Wortwechsel",
+        "purpose": "Arglosigkeit trotz vorangegangenen Streits"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__305.html",
+        "title": "§ 305 StGB",
+        "purpose": "Aktueller Normtext"
+      }
+    ],
+    "hosts": [
+      "www.gesetze-im-internet.de",
+      "www.haufe.de",
+      "www.hrr-strafrecht.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

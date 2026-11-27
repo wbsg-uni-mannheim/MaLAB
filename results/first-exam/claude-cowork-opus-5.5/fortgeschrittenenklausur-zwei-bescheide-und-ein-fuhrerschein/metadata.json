@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein",
+  "solver_case_id": "case-005",
+  "source_task_dir": "tasks/de/oeffentliches-recht/verwaltungsrecht/fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/verwaltungsrecht/fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T11:15:02.550288+00:00",
+  "collected_at": "2026-11-20T08:24:04.524036+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 30759,
+      "sha256": "f449405cf6661c95378a935f8d8e6df7b088cfb38f214ffbdad3d3c89db2ead7"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__55d.html",
+        "title": "§ 55d VwGO – Nutzungspflicht für Rechtsanwälte, Behörden",
+        "purpose": "Prüfung der elektronischen Einreichungspflicht seit 1.1.2022"
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bverwg/2011-08-25/bverwg-3-c-911",
+        "title": "BVerwG, Urt. v. 25.8.2011 – 3 C 9.11",
+        "purpose": "Fehlende Inlandsberechtigung folgt unmittelbar aus § 28 Abs. 4 S. 1 FeV"
+      },
+      {
+        "url": "https://www.bverwg.de/pm/2011/70",
+        "title": "BVerwG Pressemitteilung 70/2011 zu § 28 Abs. 4 FeV",
+        "purpose": "Wortlaut und Systematik § 28 Abs. 4 FeV, feststellender VA"
+      },
+      {
+        "url": "https://datenbank.nwb.de/Dokument/874804/",
+        "title": "BVerwG zum maßgeblichen Zeitpunkt bei Feststellungsbescheiden",
+        "purpose": "Maßgeblicher Zeitpunkt: Abschluss des Verwaltungsverfahrens"
+      }
+    ],
+    "hosts": [
+      "datenbank.nwb.de",
+      "www.anwalt24.de",
+      "www.bverwg.de",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

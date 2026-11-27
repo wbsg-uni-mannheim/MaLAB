@@ -1,0 +1,70 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/schuldrecht/fortgeschrittenenklausur-wertpapier-werkstatt-und-weed",
+  "solver_case_id": "case-041",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenklausur-wertpapier-werkstatt-und-weed",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenklausur-wertpapier-werkstatt-und-weed",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-20T08:01:31.580947+00:00",
+  "collected_at": "2026-11-20T08:24:05.946248+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 35623,
+      "sha256": "e6dc3531a8b22b5e961900079e65e0bda375b1476f27f75252f489658b431147"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__124.html",
+        "title": "§ 124 HGB Vertretung der Gesellschaft",
+        "purpose": "Prüfung der aktuellen Fassung der Vertretungsregel nach MoPeG"
+      },
+      {
+        "url": "https://www.iww.de/bbp/unternehmensberatung/gesellschaftsrecht-mopeg-neuheiten-und-bewaehrtes-f159494",
+        "title": "MoPeG: Neuheiten und Bewährtes",
+        "purpose": "Bestätigung: Vertretung der KG durch Komplementär nach § 124 Abs. 1 HGB n.F."
+      },
+      {
+        "url": "https://bmgev.de/mietrecht/urteile/aufnahme-des-lebensgefaehrten-in-die-wohnung",
+        "title": "Aufnahme des Lebensgefährten in die Wohnung (BGH)",
+        "purpose": "Lebensgefährte als Dritter, Erlaubnisanspruch § 553 BGB"
+      },
+      {
+        "url": "https://www.ra-kotz.de/fristlose-mietvertragskuendigung-wegen-marihuana-anbaus-in-mietwohnung.htm",
+        "title": "AG Karlsruhe 6 C 2930/16: Fristlose Kündigung wegen Marihuana-Anbaus",
+        "purpose": "Rechtsprechung zur früheren Rechtslage beim Cannabisanbau in Mietwohnung"
+      },
+      {
+        "url": "https://www.hausundgrund.de/verein/itzehoe/node/9325?page=1",
+        "title": "Haus & Grund: Einfluss des Cannabisgesetzes auf das Mietverhältnis",
+        "purpose": "Mietrechtliche Bewertung nach Teillegalisierung"
+      }
+    ],
+    "hosts": [
+      "bmgev.de",
+      "www.gesetze-im-internet.de",
+      "www.hausundgrund.de",
+      "www.iww.de",
+      "www.ra-kotz.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

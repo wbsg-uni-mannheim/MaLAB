@@ -1,0 +1,152 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/schuldrecht/anfangerklausur-ein-gebrochener-arm-und-viele-scherben",
+  "solver_case_id": "case-033",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/anfangerklausur-ein-gebrochener-arm-und-viele-scherben",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/anfangerklausur-ein-gebrochener-arm-und-viele-scherben",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:18:43.189028+00:00",
+  "collected_at": "2026-11-20T08:17:27.096759+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 17618,
+      "sha256": "532740cde73a0876486396f6a503997940d35e2ebf60094946123164a7770a07"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BJNR001950896.html",
+        "title": "Bürgerliches Gesetzbuch (BGB), amtlicher Gesamttext",
+        "purpose": "Prüfung der Anspruchsgrundlagen, des Besitz- und Eigentumserwerbs, der Schadensfolgen sowie der Regeln zu Erfüllung, Vertretung und Genehmigung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__90a.html",
+        "title": "§ 90a BGB – Tiere",
+        "purpose": "Anwendung der Besitzvorschriften auf einen entlaufenen Hund."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__867.html",
+        "title": "§ 867 BGB – Verfolgungsrecht des Besitzers",
+        "purpose": "Reichweite des Anspruchs auf Gestattung von Suche und Wegschaffung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__105a.html",
+        "title": "§ 105a BGB – Geschäfte des täglichen Lebens",
+        "purpose": "Prüfung der Ausnahme bei Geschäftsunfähigkeit."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__833.html",
+        "title": "§ 833 BGB – Haftung des Tierhalters",
+        "purpose": "Gefährdungshaftung für den privat gehaltenen Hund."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__851.html",
+        "title": "§ 851 BGB – Ersatzleistung an Nichtberechtigten",
+        "purpose": "Schuldbefreiende Zahlung an den gutgläubig für den Eigentümer gehaltenen Besitzer."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__816.html",
+        "title": "§ 816 BGB – Verfügung eines Nichtberechtigten",
+        "purpose": "Ansprüche auf Auskehr des Schadensersatzes und des Veräußerungserlöses."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__818.html",
+        "title": "§ 818 BGB – Umfang des Bereicherungsanspruchs",
+        "purpose": "Wertersatz und Abzug der Restaurierungskosten."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__935.html",
+        "title": "§ 935 BGB – Kein gutgläubiger Erwerb von abhanden gekommenen Sachen",
+        "purpose": "Fortbestand des Eigentums nach Diebstahl und privatem Flohmarktverkauf."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__959.html",
+        "title": "§ 959 BGB – Aufgabe des Eigentums",
+        "purpose": "Unterscheidung zwischen Besitzaufgabe des Diebes und Eigentumsaufgabe."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__965.html",
+        "title": "§ 965 BGB – Anzeigepflicht des Finders",
+        "purpose": "Voraussetzungen der Anzeige eines Fundes."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__968.html",
+        "title": "§ 968 BGB – Umfang der Haftung",
+        "purpose": "Haftungsmaßstab bei Verletzung von Finderpflichten."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__973.html",
+        "title": "§ 973 BGB – Eigentumserwerb des Finders",
+        "purpose": "Sechsmonatsfrist und Erfordernis der Fundanzeige."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__993.html",
+        "title": "§ 993 BGB – Haftung des redlichen Besitzers",
+        "purpose": "Schadensersatzprivileg des unverklagten gutgläubigen Besitzers."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__229.html",
+        "title": "§ 229 StGB – Fahrlässige Körperverletzung",
+        "purpose": "Prüfung einer Schutzgesetzverletzung beim Sturz."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1965-01-19/vi-zr-235_63",
+        "title": "BGH, Urteil vom 19. Januar 1965 – VI ZR 235/63",
+        "purpose": "Verkehrssicherung bei vorhersehbarem unbefugtem Zutritt."
+      },
+      {
+        "url": "https://judicialis.de/Oberlandesgericht-D%C3%BCsseldorf_22-U-143-00_Urteil_09.02.2001.html",
+        "title": "OLG Düsseldorf, Urteil vom 9. Februar 2001 – 22 U 143/00",
+        "purpose": "Vergleichsentscheidung zur nächtlichen Verfolgung eines Hundes und zum Schutz vor einem Kellerabgang."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2024-N-15633",
+        "title": "OLG Nürnberg, Endurteil vom 11. Juni 2024 – 14 U 203/23",
+        "purpose": "Zusammenwirken von § 851 und § 816 Abs. 2 BGB bei Leistung an den Besitzer."
+      },
+      {
+        "url": "https://lorenz.userweb.mwn.de/urteile/bghz56_131.htm",
+        "title": "BGH, Urteil vom 6. Mai 1971 – VII ZR 232/69, BGHZ 56, 131",
+        "purpose": "Möglichkeit der Genehmigung nach Untergang des veräußerten Gegenstands."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2005-2-4&Gericht=bgh&anz=6&nr=32078&pos=3",
+        "title": "BGH, Urteil vom 4. Februar 2005 – V ZR 114/04",
+        "purpose": "Herausgabe des tatsächlich erzielten Gegenwerts einschließlich des Mehrerlöses."
+      },
+      {
+        "url": "https://www.juriq.de/juracademy/schuldrecht-bt-gesetzliche-schuldverhaeltnisse/die-entgeltliche-verfuegung-eines-nichtberechtigten-816-abs-1-bgb",
+        "title": "Die entgeltliche Verfügung eines Nichtberechtigten (§ 816 Abs. 1 BGB)",
+        "purpose": "Berücksichtigung werterhöhender Aufwendungen vor der Veräußerung bei § 818 Abs. 3 BGB."
+      }
+    ],
+    "hosts": [
+      "judicialis.de",
+      "juris.bundesgerichtshof.de",
+      "lorenz.userweb.mwn.de",
+      "www.anwalt24.de",
+      "www.gesetze-bayern.de",
+      "www.gesetze-im-internet.de",
+      "www.juriq.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

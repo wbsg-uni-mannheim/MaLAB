@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/zwischenprufungsklausur-rund-um-die-wg-party",
+  "solver_case_id": "case-029",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/zwischenprufungsklausur-rund-um-die-wg-party",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/zwischenprufungsklausur-rund-um-die-wg-party",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T21:04:24.381369+00:00",
+  "collected_at": "2026-11-20T08:24:05.272318+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 36573,
+      "sha256": "cff486eef03022a455ab9b78649155f4a4c06bb62e7f0aa686a21099a5e70182"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/10/4-245-10.pdf",
+        "title": "BGH, Beschl. v. 28.09.2010 - 4 StR 245/10 (Wertgrenze 750 EUR, § 315b)",
+        "purpose": "Wertgrenze Sache von bedeutendem Wert bei § 315b StGB"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/19/4-86-19.pdf",
+        "title": "BGH 4 StR 86/19 (zweistufige Prüfung bedeutender Wert/drohender Schaden)",
+        "purpose": "Prüfungsschritte bedeutender Wert und drohender bedeutender Schaden"
+      },
+      {
+        "url": "https://www.anwaltonline.com/geld-und-recht/urteile/38617/diebstahl-geringwertiger-sachen-wo-liegt-die-geringwertigkeitsgrenze",
+        "title": "OLG Braunschweig, 16.08.2024: Geringwertigkeitsgrenze 40 EUR",
+        "purpose": "Aktueller Stand der Geringwertigkeitsgrenze § 243 Abs. 2 StGB"
+      },
+      {
+        "url": "https://wissen.jurafuchs.de/jqy9op0/fall-anwendung-auf-sachverhalt",
+        "title": "Jurafuchs: OLG Frankfurt Geringwertigkeit 50 EUR",
+        "purpose": "Meinungsstand Geringwertigkeitsgrenze 25/50 EUR"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__320.html",
+        "title": "§ 320 StGB Tätige Reue",
+        "purpose": "Aktuelle Fassung der tätigen Reue (Abs. 2 und 4)"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__315b.html",
+        "title": "§ 315b StGB",
+        "purpose": "Aktuelle Fassung des § 315b StGB"
+      }
+    ],
+    "hosts": [
+      "wissen.jurafuchs.de",
+      "www.anwaltonline.com",
+      "www.gesetze-im-internet.de",
+      "www.hrr-strafrecht.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

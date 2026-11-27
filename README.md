@@ -16,7 +16,7 @@ MaLAB also uses a private test set consisting of 45 German Second State Examinat
 ```text
 tasks/de/<area>/<field>/<case>/   45 cases: task.json, documents/, evals/ (reference solution, rubric)
 studies/de-core-45/               taskset, revisions and the judge validation (JUDGE_VALIDATION.md)
-results/first-exam/<system>/      answers and scores of ten systems on all 45 cases
+results/first-exam/<system>/      answers and scores of twelve systems on all 45 cases
 website/                          project website (static HTML)
 scripts/, evaluation/, prompts/   rubric generation, solver harnesses, judging
 configs/                          judge committee configurations
@@ -39,6 +39,8 @@ tests/                            unit tests
 | `codex-cli-gpt-5.6-sol-web` | Codex CLI | gpt-5.6-sol with web search |
 | `codex-cli-gpt-6-astra` | Codex CLI | GPT-6 Astra |
 | `claude-code-opus-5.5` | Claude Code | Claude Opus 5.5 |
+| `claude-cowork-opus-5.5` | Claude Cowork | Claude Opus 5.5 (medium) with web search |
+| `chatgpt-work-gpt-6.2-astra` | ChatGPT Work | GPT-6.2 Astra (high) with web search |
 
 Each case folder contains the submitted answer (`submission/`), the prompt the
 system received (`prompt.md`), run metadata (`metadata.json`) and the

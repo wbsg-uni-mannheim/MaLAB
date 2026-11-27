@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat",
+  "solver_case_id": "case-025",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-raufhandel-mit-ungewisser-kausalitat",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:55:32.282276+00:00",
+  "collected_at": "2026-11-20T08:24:05.089226+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 32650,
+      "sha256": "6fb9e47370f5df80dc575387addb8b665e8f5882ff6eea637dd717c49ab2927e"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/1/12/1-585-12.pdf",
+        "title": "BGH, Beschl. v. 20.2.2013, 1 StR 585/12 (BGHSt 58, 140)",
+        "purpose": "Sittenwidrigkeit der Einwilligung bei Schlägereien, Eskalationsgefahr, § 228 StGB"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/3/14/3-233-14.pdf",
+        "title": "BGH, Urt. v. 22.1.2015, 3 StR 233/14 (BGHSt 60, 166)",
+        "purpose": "Wertung des § 231 StGB im Rahmen des § 228 StGB"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/2/23/2-337-23.pdf",
+        "title": "BGH, Urt. v. 27.3.2024, 2 StR 337/23",
+        "purpose": "§ 231 Abs. 2 StGB: durchgehende Rechtfertigung der gesamten Beteiligung erforderlich"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/21/4-430-21.pdf",
+        "title": "BGH, Beschl. v. 20.1.2022, 4 StR 430/21",
+        "purpose": "Definition Schlägerei und Angriff mehrerer, objektive Bedingung, Kausalität, keine rechtswidrige Verursachung erforderlich"
+      }
+    ],
+    "hosts": [
+      "www.hrr-strafrecht.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/staatsrecht/anfanger-innenhausarbeit-bundeszwang-und-rededrang",
+  "solver_case_id": "case-008",
+  "source_task_dir": "tasks/de/oeffentliches-recht/staatsrecht/anfanger-innenhausarbeit-bundeszwang-und-rededrang",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/staatsrecht/anfanger-innenhausarbeit-bundeszwang-und-rededrang",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T11:41:27.605993+00:00",
+  "collected_at": "2026-11-20T08:24:04.108107+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 33052,
+      "sha256": "314b04575ca8aae62304c8621c3b29d6db9beb1e6181811d06638326060473ae"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2022/06/es20220615_2bve000420.html",
+        "title": "BVerfG, Urteil vom 15. Juni 2022, 2 BvE 4/20, 2 BvE 5/20 (Merkel/Thüringen)",
+        "purpose": "Maßstäbe Neutralitätsgebot, amtliche Äußerung bei Staatsbesuch, Bundeskanzlerin als Antragsgegnerin, Veröffentlichung auf Internetseiten"
+      },
+      {
+        "url": "https://www.beck-aktuell.de/daily/meldung/detail/bverfg-merkel-aeusserungen-zu-kemmerich-wahl-waren-verfassungswidrig",
+        "title": "beck-aktuell: Merkel-Äußerungen zu Kemmerich-Wahl waren verfassungswidrig",
+        "purpose": "Bestätigung Amtsbezug Pressekonferenz Staatsbesuch"
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/06/es20200609_2bve000119.html",
+        "title": "BVerfG, Urteil vom 9. Juni 2020, 2 BvE 1/19 (Seehofer-Interview)",
+        "purpose": "Veröffentlichung eines Interviews auf amtlicher Homepage mit Bundeswappen als Inanspruchnahme staatlicher Ressourcen"
+      },
+      {
+        "url": "https://www.lto.de/recht/nachrichten/n/bve119-bverfg-seehofer-interview-afd-bmi-regierung-eil",
+        "title": "LTO: Interview zur AfD gehört nicht auf die BMI-Homepage",
+        "purpose": "Einordnung 'staatszersetzend' und Homepage-Veröffentlichung"
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bverfg/2020-06-09/2-bve-1_19",
+        "title": "BVerfG 2 BvE 1/19 Fundstelle",
+        "purpose": "Fundstelle BVerfGE 154, 320"
+      }
+    ],
+    "hosts": [
+      "www.anwalt24.de",
+      "www.beck-aktuell.de",
+      "www.bundesverfassungsgericht.de",
+      "www.lto.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

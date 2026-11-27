@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/staatshaftungsrecht/ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden",
+  "solver_case_id": "case-003",
+  "source_task_dir": "tasks/de/oeffentliches-recht/staatshaftungsrecht/ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/staatshaftungsrecht/ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-20T08:16:09.796221+00:00",
+  "collected_at": "2026-11-20T08:24:04.062287+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 33291,
+      "sha256": "9917e2ee0b31e425c9721d485c3184cec7701730df9cf6deb74dc938eb1bd3ea"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.haufe.de/id/entscheidung/bgh-urteil-vom-09111995-iii-zr-22694-HI2993705.html",
+        "title": "BGH, Urt. v. 9.11.1995 - III ZR 226/94 (BGHZ 131, 163)",
+        "purpose": "Zurechnung, Unmittelbarkeit, Billigkeit nach § 40 Abs. 1 S. 2 OBG NW, Mitverschulden nur bei rechtswidriger Einweisung, Herausgabe der geräumten und gereinigten Wohnung"
+      },
+      {
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Text=NJW+1995%2C+2918",
+        "title": "dejure: BGH, 13.07.1995 - III ZR 160/94 (BGHZ 130, 332)",
+        "purpose": "Fundstellen und Inhalt: Folgenbeseitigungslast, Ermessensreduzierung, Verwahrungsverhältnis, Ablehnung OLG Köln, § 839 Abs. 3 BGB"
+      },
+      {
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Aktenzeichen=III+ZR+226%2F94&Datum=09.11.1995&Gericht=BGH",
+        "title": "dejure: BGH, 09.11.1995 - III ZR 226/94",
+        "purpose": "Bestätigung Anspruch auf Herausgabe der geräumten und gereinigten Wohnung"
+      },
+      {
+        "url": "https://www.jura.fu-berlin.de/fachbereich/einrichtungen/oeffentliches-recht/lehrende/heintzenm/veranstaltungen/archiv/0304ss/v_staatshaftungsrecht/040601_vorlesung_2.pdf",
+        "title": "Heintzen, Vorlesung Staatshaftungsrecht SoSe 2004 (zu BGH NJW 1995, 2918)",
+        "purpose": "Darstellung der BGH-Lösung zum Mietausfall nach Ablauf der Einweisungsfrist"
+      },
+      {
+        "url": "https://lexmea.de/de/gesetz/obg-nrw/39",
+        "title": "§ 39 OBG NRW",
+        "purpose": "Inhalt der Anspruchsgrundlage und Ausschlussgründe"
+      },
+      {
+        "url": "https://lexmea.de/de/gesetz/obg-nrw/40",
+        "title": "§ 40 OBG NRW",
+        "purpose": "Umfang, Abtretung, Mitverschulden, Amtshaftungsvorbehalt"
+      },
+      {
+        "url": "https://lexmea.de/de/gesetz/obg-nrw/43",
+        "title": "§ 43 OBG NRW",
+        "purpose": "Rechtsweg"
+      }
+    ],
+    "hosts": [
+      "dejure.org",
+      "lexmea.de",
+      "www.haufe.de",
+      "www.jura.fu-berlin.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

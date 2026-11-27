@@ -1,0 +1,102 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/schuldrecht/examensubungsklausur-die-falsche-gisela",
+  "solver_case_id": "case-037",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/examensubungsklausur-die-falsche-gisela",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/examensubungsklausur-die-falsche-gisela",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-20T07:44:45.371657+00:00",
+  "collected_at": "2026-11-20T08:24:05.735832+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 43457,
+      "sha256": "45596ead47bdb778abb79ff8099d84c6012b48963986534e28ffd8ed0e89e575"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.berlin.de/gerichte/arbeitsgericht/presse/pressemitteilungen/2023/pressemitteilung.1361539.php",
+        "title": "ArbG Berlin PM: Kündigung des Verwaltungsdirektors des RBB (21 Ca 1751/23)",
+        "purpose": "Sittenwidrigkeit Ruhegeldregelung, § 138 BGB"
+      },
+      {
+        "url": "https://www.berlin.de/gerichte/arbeitsgericht/presse/pressemitteilungen/2023/pressemitteilung.1368057.php",
+        "title": "ArbG Berlin PM: Juristische Direktorin des rbb (22 Ca 13070/22)",
+        "purpose": "Sittenwidrigkeit Ruhegeld"
+      },
+      {
+        "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsprechung/arbg-berlin-ruhegeldregelung-sittenwidrig-rbb-augenstein-2024-01-09",
+        "title": "beck-aktuell: RBB muss für entlassenen Direktor zahlen (60 Ca 1631/23)",
+        "purpose": "Gegenposition keine Sittenwidrigkeit"
+      },
+      {
+        "url": "https://www.lto.de/recht/hintergruende/h/lg-berlin-105o623-patricia-schlesinger-rbb-berlin-ruhegeld-rundfunk",
+        "title": "LTO: Gericht stärkt Patricia Schlesinger",
+        "purpose": "LAG Berlin-Brandenburg 7 Sa 1125/23; Argumente LG Berlin II"
+      },
+      {
+        "url": "https://www.berlin.de/gerichte/presse/pressemitteilungen-der-ordentlichen-gerichtsbarkeit/2025/pressemitteilung.1581016.php",
+        "title": "LG Berlin II PM 28/2025 (105 O 6/23)",
+        "purpose": "Urteil Ruhegeld Ex-Intendantin"
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/MStV-31h",
+        "title": "§ 31h MStV",
+        "purpose": "Grundsätze der außertariflichen Vergütung"
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Pdf/RFinStV-3?all=False",
+        "title": "§ 3 RFinStV",
+        "purpose": "Wirtschaftlichkeit und Sparsamkeit"
+      },
+      {
+        "url": "https://gerichtsentscheidungen.brandenburg.de/gerichtsentscheidung/25499",
+        "title": "OLG Brandenburg, Urt. v. 21.11.2024, 10 U 131/23",
+        "purpose": "Meinungsstreit § 640 Abs. 2 BGB vorherige Mängelrüge"
+      },
+      {
+        "url": "https://www.etl-rechtsanwaelte.de/aktuelles/zur-fiktiven-abnahme-%C2%A7-640-abs-2-bgb/",
+        "title": "OLG Schleswig 1 U 64/20 zur fiktiven Abnahme",
+        "purpose": "§ 640 Abs. 2 BGB"
+      },
+      {
+        "url": "https://cms.law/de/deu/legal-updates/olg-koeln-kuenstlerische-freiheit-schlaegt-auf-werkvertrag-durch",
+        "title": "OLG Köln 11 U 71/18 künstlerische Freiheit",
+        "purpose": "Gestaltungsfreiheit Werkvertrag"
+      },
+      {
+        "url": "https://www.lto.de/recht/nachrichten/n/werkvertrag-abnahme-kunst-gestaltungsfreiheit",
+        "title": "AG München 224 C 33358/10",
+        "purpose": "Gestaltungsfreiheit des Künstlers"
+      }
+    ],
+    "hosts": [
+      "cms.law",
+      "gerichtsentscheidungen.brandenburg.de",
+      "www.beck-aktuell.de",
+      "www.berlin.de",
+      "www.etl-rechtsanwaelte.de",
+      "www.gesetze-bayern.de",
+      "www.lto.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

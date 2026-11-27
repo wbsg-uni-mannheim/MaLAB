@@ -1,0 +1,71 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/anfangerubungsklausur-alte-feindschaft",
+  "solver_case_id": "case-017",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/anfangerubungsklausur-alte-feindschaft",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/anfangerubungsklausur-alte-feindschaft",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T17:41:10.232998+00:00",
+  "collected_at": "2026-11-20T08:24:04.715243+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 31623,
+      "sha256": "5b2f20adb12a0391404cf10d49c04ba5a54d14ce58666271fe3c54252e0a086d"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/2/04/2-281-04.pdf",
+        "title": "BGH 2 StR 281/04 (NStZ-RR 2004, 361) Klingeln an der Wohnungstür",
+        "purpose": "Unmittelbares Ansetzen, subjektiver Vorbehalt, Abgrenzung zu BGHSt 26, 201"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/5/22/5-276-22.pdf",
+        "title": "BGH 5 StR 276/22 Notwehr durch lebensgefährliche Schüsse",
+        "purpose": "Erforderlichkeit beim Schusswaffeneinsatz"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/2/17/2-188-17.pdf",
+        "title": "BGH 2 StR 188/17",
+        "purpose": "Schusswaffe als letztes Mittel, weniger gefährliche Mittel"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/5/05/5-255-05.pdf",
+        "title": "BGH 5 StR 255/05",
+        "purpose": "Androhung/Warnschuss vor Schusswaffeneinsatz"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/1/01/1-48-01.pdf",
+        "title": "BGH 1 StR 48/01",
+        "purpose": "Lebensgefährlicher Schusswaffeneinsatz als letztes Mittel"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/2/93/2-158-93.pdf",
+        "title": "BGH 2 StR 158/93 (BGHSt 39, 236)",
+        "purpose": "Klingeln als Versuchsbeginn nach BGHSt 26, 201"
+      }
+    ],
+    "hosts": [
+      "www.hrr-strafrecht.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

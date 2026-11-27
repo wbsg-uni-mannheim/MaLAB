@@ -1,0 +1,157 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht",
+  "solver_case_id": "case-030",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T19:07:58.888568+00:00",
+  "collected_at": "2026-11-20T08:17:27.058048+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 20198,
+      "sha256": "6a4833cea2a904d56d488404e14b9b6c835a19189a1c77df17d99fa2d4ede08b"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1922.html",
+        "title": "§ 1922 Abs. 1 BGB",
+        "purpose": "Eigentumsübergang im Erbfall."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__857.html",
+        "title": "§ 857 BGB",
+        "purpose": "Abgrenzung von Erbenbesitz und strafrechtlichem Gewahrsam."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2016&Gericht=bgh&anz=3285&nr=77656&pos=28",
+        "title": "BGH, Beschluss vom 21.12.2016 – 3 StR 453/16, Rn. 13",
+        "purpose": "Erlöschen des Gewahrsams mit dem Tod der alleinigen Inhaberin."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2020-1-22&Gericht=bgh&anz=18&nr=105630&pos=10",
+        "title": "BGH, Beschluss vom 22.01.2020 – 3 StR 526/19",
+        "purpose": "Fortbestand der Wohnungswidmung nach dem Tod des letzten Bewohners."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2022-10-25&Gericht=bgh&anz=31&client=13&nr=132514&pos=4",
+        "title": "BGH, Beschluss vom 25.10.2022 – 4 StR 265/22, Rn. 8",
+        "purpose": "Tatsächliche dauerhafte Wohnnutzung und Klarstellungsfunktion der Tateinheit."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__244.html",
+        "title": "§ 244 StGB",
+        "purpose": "Tatbestandsvarianten und Versuchsstrafbarkeit des Wohnungseinbruchdiebstahls."
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/2/22/2-296-22.pdf",
+        "title": "BGH, Beschluss vom 25.10.2022 – 2 StR 296/22, Rn. 6",
+        "purpose": "Erforderlicher Zusammenhang zwischen Werkzeugeinsatz und Zugang."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2021-5-19&Gericht=bgh&anz=20&nr=118783&pos=15",
+        "title": "BGH, Beschluss vom 19.05.2021 – 6 StR 28/21, Rn. 5 f.",
+        "purpose": "Versuchsbeginn beim Angriff auf die Zugangssicherung."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1985-11-18/3-str-291_85",
+        "title": "BGH, Beschluss vom 18.11.1985 – 3 StR 291/85, BGHSt 33, 370, 376",
+        "purpose": "Reichweite der Regelwirkung bei nur begonnenem Einbruch."
+      },
+      {
+        "url": "https://verfassungsgericht.brandenburg.de/verfgbbg/de/entscheidungen/entscheidungssuche/detail-entscheidung/~21-08-1997-vfgbbg-1597_124",
+        "title": "VerfG Brandenburg, Beschluss vom 21.08.1997 – VfGBbg 15/97, zum Schutz eines leerstehenden Hauses",
+        "purpose": "Schutz eines umschlossenen leerstehenden Hauses als befriedetes Besitztum."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/2026-05-12/3-str-2_26",
+        "title": "BGH, Beschluss vom 12.05.2026 – 3 StR 2/26, zum tateinheitlichen Hausfriedensbruch",
+        "purpose": "Tateinheit von vollendetem Hausfriedensbruch und versuchter Qualifikation."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1955-10-24/gsst-1_55",
+        "title": "BGH, Großer Senat für Strafsachen, Beschluss vom 24.10.1955 – GSSt 1/55, BGHSt 8, 301",
+        "purpose": "Abschluss der uneidlichen Aussage vor dem Nacheid und Wirkung der späteren Berichtigung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stpo/BJNR006290950.html",
+        "title": "§§ 59, 64 StPO",
+        "purpose": "Voraussetzungen der Vereidigung, Nacheid und Eidesformeln."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1956-02-28/1-str-536_55",
+        "title": "BGH, Urteil vom 28.02.1956 – 1 StR 536/55, BGHSt 9, 131",
+        "purpose": "Unmittelbares Ansetzen zum Meineid beim Beginn der Schwurworte."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__158.html",
+        "title": "§ 158 StGB",
+        "purpose": "Ort, Rechtzeitigkeit und Rechtsfolgen der Berichtigung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__160.html",
+        "title": "§ 160 StGB",
+        "purpose": "Tatbestand der Verleitung und deren Versuchsstrafbarkeit."
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/1966-07-13/4-str-178-66",
+        "title": "BGH, Urteil vom 13.07.1966 – 4 StR 178/66, BGHSt 21, 116",
+        "purpose": "Vollendete Verleitung bei irrtümlich angenommener Gutgläubigkeit der Beweisperson."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1993-05-18/1-str-209_93",
+        "title": "BGH, Urteil vom 18.05.1993 – 1 StR 209/93",
+        "purpose": "Gesonderter Vorsatz hinsichtlich der Vereidigung und Beihilfe durch Unterlassen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/BJNR001270871.html",
+        "title": "Strafgesetzbuch – Gesamtfassung",
+        "purpose": "Prüfung der einschlägigen Vorschriften zu Versuch, Rücktritt, Teilnahme, Aussagedelikten, Eigentumsdelikten und Konkurrenzen."
+      },
+      {
+        "url": "https://strafrecht-online.org/documents/111060/_51_-_Aussagedelikte_KK_744-768.pdf",
+        "title": "Universität Freiburg, Roland Hefendehl u. a., Aussagedelikte",
+        "purpose": "Abgleich der Auffassungen zur Falschheit, des Vollendungszeitpunkts und der persönlichen Voraussetzungen des Aussagenotstands."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Gericht=bgh&anz=1&nr=137633&pos=0&sid=5dd243db02ae809e3f8c10e446c9c9c7",
+        "title": "BGH, Beschluss vom 05.02.2024 – 3 StR 470/23",
+        "purpose": "Eigenhändigkeit der Aussagedelikte und Funktion des § 160 StGB."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/2012-03-22/4-str-541_11",
+        "title": "BGH, Urteil vom 22.03.2012 – 4 StR 541/11",
+        "purpose": "Maßgeblicher Rücktrittshorizont und Möglichkeit einer Vollendung mit anderen Mitteln."
+      }
+    ],
+    "hosts": [
+      "juris.bundesgerichtshof.de",
+      "recht.nulegal.eu",
+      "strafrecht-online.org",
+      "verfassungsgericht.brandenburg.de",
+      "www.anwalt24.de",
+      "www.gesetze-im-internet.de",
+      "www.hrr-strafrecht.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

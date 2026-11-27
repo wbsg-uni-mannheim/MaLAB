@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/schuldrecht/fortgeschrittenenhausarbeit-kaufrausch-mit-katerstimmung",
+  "solver_case_id": "case-042",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenhausarbeit-kaufrausch-mit-katerstimmung",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenhausarbeit-kaufrausch-mit-katerstimmung",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-20T08:02:13.435160+00:00",
+  "collected_at": "2026-11-20T08:24:05.789973+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 30968,
+      "sha256": "d7b6de95e16f1752668c16e469398399158e798906a62559e2796c128f977483"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://lorenz.userweb.mwn.de/urteile/njw01_3118.htm",
+        "title": "BGH, Urt. v. 22.6.2001, V ZR 128/00 (NJW 2001, 3118)",
+        "purpose": "condictio ob rem des Mieters bei Bebauung in Erwartung des Eigentumserwerbs; Verhältnis zu §§ 994 ff. und § 547 a.F."
+      },
+      {
+        "url": "https://lorenz.userweb.mwn.de/urteile/vzr93_12.htm",
+        "title": "BGH, Urt. v. 19.7.2013, V ZR 93/12",
+        "purpose": "Zweckabrede als tatsächliche Willensübereinstimmung, Bemessung nach Wertzuwachs, § 95 BGB, Mietrecht nicht abschließend"
+      },
+      {
+        "url": "https://lorenz.userweb.mwn.de/urteile/vzr153_23.htm",
+        "title": "BGH, Urt. v. 14.3.2025, V ZR 153/23",
+        "purpose": "Aufgabe des engen Verwendungsbegriffs"
+      },
+      {
+        "url": "https://rewis.io/urteile/urteil/kyd-17-03-2016-v-zr-8915/",
+        "title": "BGH, Urt. v. 18.3.2016, V ZR 89/15",
+        "purpose": "Anwendbarkeit der §§ 280, 281 auf § 985"
+      },
+      {
+        "url": "https://www.uni-saarland.de/fileadmin/upload/lehrstuhl/beckmann/Bereicherungsrecht/Fall_7.pdf",
+        "title": "Fall 7 Haubenkipper (nach BGHZ 75, 203)",
+        "purpose": "Inhalt von BGHZ 75, 203 zu § 818 Abs. 1, Abs. 4, § 281 a.F. und § 687 Abs. 2"
+      },
+      {
+        "url": "https://jura-online.de/lernen/der-anspruch-auf-das-surrogat/4300/excursus/",
+        "title": "Der Anspruch auf das Surrogat (§ 285 BGB)",
+        "purpose": "Keine Anwendung von § 285 auf § 985"
+      },
+      {
+        "url": "https://www.otto-schmidt.de/news//geplatzter-immobilienverkauf-keine-haftung-des-verkaufers-wegen-abbruch-der-vertragsverhandlungen-2017-12-04.html",
+        "title": "BGH, Urt. v. 13.10.2017, V ZR 11/17",
+        "purpose": "Haftung bei Abbruch von Verhandlungen über formbedürftige Verträge"
+      }
+    ],
+    "hosts": [
+      "jura-online.de",
+      "lorenz.userweb.mwn.de",
+      "rewis.io",
+      "www.otto-schmidt.de",
+      "www.uni-saarland.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

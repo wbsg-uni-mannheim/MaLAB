@@ -1,0 +1,175 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/strafrecht/materielles-strafrecht/examensubungsklausur-strafrecht-nur-bares-ist-wahres",
+  "solver_case_id": "case-018",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/examensubungsklausur-strafrecht-nur-bares-ist-wahres",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/examensubungsklausur-strafrecht-nur-bares-ist-wahres",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T12:45:40.880356+00:00",
+  "collected_at": "2026-11-20T08:17:27.052197+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 30240,
+      "sha256": "0ff2f1b0f54f5f8396d7021b0b876f36620f2a1e73ec2f4e6a5b0f6502bbaa43"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "title": "BGH, Beschluss vom 3. Februar 2021 – 2 StR 279/20, Rn. 8–9",
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2021-2-3&Gericht=bgh&anz=23&nr=120427&pos=2",
+        "purpose": "Abgrenzung von erpresserischem Menschenraub und Geiselnahme bei erst später fälligen Raten, fehlender Vermögenswert des Ehrenworts und Konkurrenzen."
+      },
+      {
+        "title": "§ 488 BGB",
+        "url": "https://www.gesetze-im-internet.de/bgb/__488.html",
+        "purpose": "Entstehung und Fälligkeit des Darlehensrückzahlungsanspruchs."
+      },
+      {
+        "title": "BGH, Beschluss vom 10. Juni 2025 – 3 StR 561/24, Rn. 9–12",
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=Aktuell&Gericht=bgh&Seite=7&Sort=12290&anz=1152&nr=142848&pos=215",
+        "purpose": "Beitreibung teilweise geschuldeten Geldes, Rechtswidrigkeit des Vorteils und Verhältnis zur Nötigung."
+      },
+      {
+        "title": "BGH, Großer Senat für Strafsachen, Beschluss vom 4. Februar 2003 – GSSt 2/02, BGHSt 48, 197",
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2003-4&Gericht=bgh&file=dokument.pdf&linked=bes&nr=25858",
+        "purpose": "Geladene Schreckschusspistole mit nach vorn austretendem Explosionsdruck als Waffe."
+      },
+      {
+        "title": "BGH, Urteil vom 7. November 2018 – 5 StR 241/18",
+        "url": "https://www.hrr-strafrecht.de/hrr/5/18/5-241-18-1.php",
+        "purpose": "Verwenden eines Tatmittels und erhebliche Schmerzen als Kriterium der schweren körperlichen Misshandlung."
+      },
+      {
+        "title": "§ 239a StGB",
+        "url": "https://www.gesetze-im-internet.de/stgb/__239a.html",
+        "purpose": "Tatvarianten des erpresserischen Menschenraubs und Voraussetzungen der tätigen Reue."
+      },
+      {
+        "title": "§ 239b StGB",
+        "url": "https://www.gesetze-im-internet.de/stgb/__239b.html",
+        "purpose": "Qualifizierte Drohung und Verweisung auf die Regelung zur tätigen Reue."
+      },
+      {
+        "title": "BGH, Urteil vom 27. September 2001 – 4 StR 245/01",
+        "url": "https://www.hrr-strafrecht.de/hrr/4/01/4-245-01.pdf",
+        "purpose": "Gefährliche Körperverletzung durch das Ausdrücken einer glimmenden Zigarette auf der Haut."
+      },
+      {
+        "title": "BGH, Beschluss vom 16. April 2024 – 3 StR 1/24, zur Verdrängung des § 240 StGB durch § 239b StGB",
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2024-4-16&Gericht=bgh&anz=43&nr=138012&pos=4",
+        "purpose": "Konkurrenz zwischen Geiselnahme und Nötigung."
+      },
+      {
+        "title": "BVerfG, Beschluss vom 19. Mai 2020 – 1 BvR 2397/19",
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/05/rk20200519_1bvr239719.html",
+        "purpose": "Grundrechtliche Abwägung zwischen Kritik an dienstlichem Verhalten und persönlicher Herabsetzung."
+      },
+      {
+        "title": "§ 194 StGB",
+        "url": "https://www.gesetze-im-internet.juris.de/stgb/__194.html",
+        "purpose": "Strafantragserfordernis und Antragsbefugnis der Dienstvorgesetzten."
+      },
+      {
+        "title": "§ 44b Abs. 1 SGB II",
+        "url": "https://www.gesetze-im-internet.juris.de/sgb_2/__44b.html",
+        "purpose": "Öffentliche Aufgabe des Jobcenters und Zuweisung der Tätigkeit an Beschäftigte."
+      },
+      {
+        "title": "§ 158 StPO",
+        "url": "https://www.gesetze-im-internet.de/stpo/__158.html",
+        "purpose": "Empfangsstelle, Dokumentation, Identität und Verfolgungswille nach geltendem Recht."
+      },
+      {
+        "title": "AG Auerbach, Beschluss vom 26. Januar 2021 – 3 Cs 500 Js 24368/20",
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2021-N-5624?view=Print",
+        "purpose": "Frühere Rechtslage bei einem über die Onlinewache gestellten Strafantrag einer vorgesetzten Person."
+      },
+      {
+        "title": "BayObLG, Beschluss vom 20. November 2025 – 206 StRR 374/25, Rn. 8–10",
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2025-N-31535?hl=true",
+        "purpose": "Formfreiheit und Möglichkeit der Klärung von Zweifeln nach der Neufassung des § 158 Abs. 2 StPO."
+      },
+      {
+        "title": "BT-Drs. 20/10943, S. 49–50",
+        "url": "https://dserver.bundestag.de/btd/20/109/2010943.pdf",
+        "purpose": "Gesetzesbegründung zur elektronischen Antragstellung und zu den Möglichkeiten der Identitätsfeststellung."
+      },
+      {
+        "title": "§ 376 StPO",
+        "url": "https://www.gesetze-im-internet.de/stpo/__376.html",
+        "purpose": "Öffentliches Interesse als Voraussetzung der Anklage bei Privatklagedelikten."
+      },
+      {
+        "title": "Nrn. 86, 229 und 232 RiStBV",
+        "url": "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_28032023_BMJRB3313104000060001.htm",
+        "purpose": "Einzelfallprüfung des öffentlichen Interesses, Stellungnahmemöglichkeit der Dienstvorgesetzten und Sonderregel für Justizangehörige."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/BJNR001270871.html",
+        "title": "Strafgesetzbuch",
+        "purpose": "Kontrolle der Strafvorschriften, der allgemeinen Zurechnungs- und Versuchsregeln und der Antragsfristen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stpo/BJNR006290950.html",
+        "title": "Strafprozessordnung",
+        "purpose": "Anklageschwelle, Privatklage und Ausschluss des Klageerzwingungsverfahrens."
+      },
+      {
+        "url": "https://www.buzer.de/gesetz/5815/b15610.htm",
+        "title": "§§ 374 ff. StPO – Privatklage",
+        "purpose": "Wortlaut der Ausnahme für politische Körperschaften und Entfallen des Sühneversuchs bei Antragsbefugnis der Dienstvorgesetzten."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BGB.pdf",
+        "title": "Bürgerliches Gesetzbuch",
+        "purpose": "Zivilrechtliche Grundlagen der Forderungen, Schenkung, Selbsthilfe und Form des Schuldanerkenntnisses."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__780.html",
+        "title": "§ 780 BGB – Schuldversprechen",
+        "purpose": "Schriftform des selbständigen Schuldversprechens."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__250.html",
+        "title": "§ 250 StGB – Schwerer Raub",
+        "purpose": "Prüfung der einzelnen Qualifikationsmerkmale."
+      },
+      {
+        "url": "https://de.openlegaldata.io/case/bgh-2021-02-03-2-str-27920",
+        "title": "BGH, Beschluss vom 3. Februar 2021 – 2 StR 279/20 (Textfassung)",
+        "purpose": "Abgleich der Entscheidungsgründe zu Vermögensbezug, Zwischenziel und Tateinheit."
+      }
+    ],
+    "hosts": [
+      "de.openlegaldata.io",
+      "dserver.bundestag.de",
+      "juris.bundesgerichtshof.de",
+      "www.bundesverfassungsgericht.de",
+      "www.buzer.de",
+      "www.gesetze-bayern.de",
+      "www.gesetze-im-internet.de",
+      "www.gesetze-im-internet.juris.de",
+      "www.hrr-strafrecht.de",
+      "www.verwaltungsvorschriften-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/schuldrecht/fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht",
+  "solver_case_id": "case-031",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T21:05:16.181957+00:00",
+  "collected_at": "2026-11-20T08:24:05.894505+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 29602,
+      "sha256": "974a2ee6679967ceb751fab0c6e397594fdb626879365e532eac286a26ca48bd"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.lto.de/recht/hintergruende/h/bgh-viiizr8316-paypal-kaeuferschutz-zahlung-rueckerstattung-erfuellung",
+        "title": "LTO: BGH stärkt Rechte der Verkäufer: Ziemlich wackeliger PayPal-Käuferschutz",
+        "purpose": "Begründung des BGH zu Erfüllung mit PayPal-Gutschrift und stillschweigender Wiederbegründung; Vorinstanz LG Essen (auflösende Bedingung)"
+      },
+      {
+        "url": "https://rewis.io/urteile/urteil/4h9-21-11-2017-viii-zr-8316/",
+        "title": "BGH, Urteil vom 22.11.2017, VIII ZR 83/16 (rewis)",
+        "purpose": "Leitsatz und Sachverhalt (Mobiltelefon, unversicherter Päckchenversand, Käuferin GbR mit Ladenlokal)"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__475.html",
+        "title": "§ 475 BGB",
+        "purpose": "Prüfung des aktuellen Inhalts von § 475 Abs. 2 BGB"
+      }
+    ],
+    "hosts": [
+      "rewis.io",
+      "www.gesetze-im-internet.de",
+      "www.lto.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

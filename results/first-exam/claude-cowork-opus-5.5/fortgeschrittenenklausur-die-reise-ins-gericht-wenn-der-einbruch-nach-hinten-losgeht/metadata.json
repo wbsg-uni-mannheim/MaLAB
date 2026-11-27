@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht",
+  "solver_case_id": "case-030",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-die-reise-ins-gericht-wenn-der-einbruch-nach-hinten-losgeht",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T21:04:51.371884+00:00",
+  "collected_at": "2026-11-20T08:24:04.857606+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 28449,
+      "sha256": "018f4e708b3d6b85690a92c711b6d861ab626be82b4275fb9f7a36452a9c88cb"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/3/19/3-526-19.pdf",
+        "title": "BGH, Beschl. v. 22.1.2020 - 3 StR 526/19",
+        "purpose": "Wohnungseigenschaft nach Tod des Bewohners (§ 244 Abs. 1 Nr. 3 StGB)"
+      },
+      {
+        "url": "https://datenbank.nwb.de/Dokument/827195/",
+        "title": "NWB: BGH 3 StR 526/19",
+        "purpose": "Wohnungsbegriff, Abgrenzung zu § 306a StGB"
+      },
+      {
+        "url": "https://anwaltspraxis-magazin.de/?p=22547",
+        "title": "Dauerhaft genutzte Privatwohnung, BGH 5 StR 671/19",
+        "purpose": "Keine dauerhaft genutzte Privatwohnung bei Verstorbenen; untauglicher Versuch § 244 Abs. 4"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/22/4-265-22.pdf",
+        "title": "BGH, Beschl. v. 25.10.2022 - 4 StR 265/22",
+        "purpose": "Tateinheit zwischen Vollendung und Versuch der Qualifikation"
+      },
+      {
+        "url": "https://jura-online.de/lernen/problem-gutglaeubigkeit-bei-160-stgb/805/excursus/",
+        "title": "Problem - Gutgläubigkeit bei § 160 StGB",
+        "purpose": "Meinungsstand zu § 160 bei bösgläubigem Aussagenden"
+      },
+      {
+        "url": "https://str1.rw.fau.de/files/2025/01/Safferling_AkteRecht_BGH_3-StR-470-23_als-Zeuge-in-153-kein-Taetermerkmal.pdf",
+        "title": "Safferling zu BGH 3 StR 470/23",
+        "purpose": "Zeugeneigenschaft kein besonderes persönliches Merkmal (§ 28 StGB)"
+      }
+    ],
+    "hosts": [
+      "anwaltspraxis-magazin.de",
+      "datenbank.nwb.de",
+      "jura-online.de",
+      "str1.rw.fau.de",
+      "www.hrr-strafrecht.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/sachenrecht/fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress",
+  "solver_case_id": "case-045",
+  "source_task_dir": "tasks/de/zivilrecht/sachenrecht/fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress",
+  "source_task_dir_relative": "tasks/de/zivilrecht/sachenrecht/fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T21:07:27.819738+00:00",
+  "collected_at": "2026-11-20T08:17:27.092947+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 11850,
+      "sha256": "c5bba40f9a04fa77d16fb9481d5ecf6f6d61329ee40fb011356b0580a2fbd437"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BJNR001950896.html",
+        "title": "Bürgerliches Gesetzbuch",
+        "purpose": "Eigentumserwerb, Schenkung, Briefgrundschuld, Darlehen, Ablösung, Abtretung, Verzug und Schadensersatz."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gbo/BJNR001390897.html",
+        "title": "Grundbuchordnung",
+        "purpose": "Erbnachweis und unmittelbare Eintragung des Erwerbers nach §§ 35, 39, 40 GBO."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gbo/__35.html",
+        "title": "§ 35 GBO",
+        "purpose": "Nachweis der Erbfolge durch Erbschein."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1117.html",
+        "title": "§ 1117 BGB – Erwerb der Briefhypothek",
+        "purpose": "Übergabeersatz durch Aushändigungsabrede."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gmbhg/BJNR004770892.html",
+        "title": "Gesetz betreffend die Gesellschaften mit beschränkter Haftung",
+        "purpose": "Rechtspersönlichkeit, Vertretung und Haftung der GmbH."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/zpo/__794.html",
+        "title": "§ 794 ZPO – Weitere Vollstreckungstitel",
+        "purpose": "Vollstreckbare Unterwerfungsurkunde als möglicher Titel."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/inso/BJNR286600994.html",
+        "title": "Insolvenzordnung",
+        "purpose": "Regulärer Prüfungstermin und Kostenfolge der nachträglichen Anmeldung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/inso/__177.html",
+        "title": "§ 177 InsO – Nachträgliche Anmeldungen",
+        "purpose": "Prüfung und Kostentragung bei Anmeldung erst nach dem Prüfungstermin."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1988-07-14/v-zr-308_86",
+        "title": "BGH, Urteil vom 14. Juli 1988 – V ZR 308/86",
+        "purpose": "Zahlungszweck, Fortbestand der Forderung, Ausschluss eines gesetzlichen Forderungsübergangs und der doppelten Befriedigung."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1989-06-29/ix-zr-175_88",
+        "title": "BGH, Urteil vom 29. Juni 1989 – IX ZR 175/88",
+        "purpose": "Bestätigung des Ausschlusses des gesetzlichen Übergangs der gesicherten Forderung."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1998-11-19/ix-zr-284_97",
+        "title": "BGH, Urteil vom 19. November 1998 – IX ZR 284/97",
+        "purpose": "Unterscheidung zwischen dinglichem Rechtserwerb und schuldrechtlichem Anspruch auf Abtretung der Kreditforderung."
+      },
+      {
+        "url": "https://gerichtsentscheidungen.brandenburg.de/gerichtsentscheidung/15864",
+        "title": "OLG Brandenburg, Urteil vom 21. Dezember 2011 – 4 U 13/11",
+        "purpose": "Auskehrung des Erlöses aus freihändigem Verkauf, Meinungsstreit zu § 1143 BGB und Abtretung aus dem Sicherungsvertrag."
+      },
+      {
+        "url": "https://www.dnoti.de/download/?cHash=613b542709e76192db0c5f09fe69c66e&tx_dnotionlineplusapi_download%5Bnodeid%5D=51675ce1-22bd-4da4-900c-caa3e9c5e897&tx_dnotionlineplusapi_download%5Bpreview%5D=1",
+        "title": "RNotZ 2012, Heft 4, Entscheidung des OLG Brandenburg vom 21. Dezember 2011",
+        "purpose": "Veröffentlichte Entscheidungsfassung zur Zahlung aus Grundstückserlös und zum Streit über den gesetzlichen Forderungsübergang."
+      }
+    ],
+    "hosts": [
+      "gerichtsentscheidungen.brandenburg.de",
+      "www.anwalt24.de",
+      "www.dnoti.de",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

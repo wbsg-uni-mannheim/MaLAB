@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/anfechtungsklage/fall-02-anfechtungsklage-bei-nebenbestimmungen",
+  "solver_case_id": "case-014",
+  "source_task_dir": "tasks/de/oeffentliches-recht/verwaltungsrecht/anfechtungsklage/fall-02-anfechtungsklage-bei-nebenbestimmungen",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/verwaltungsrecht/anfechtungsklage/fall-02-anfechtungsklage-bei-nebenbestimmungen",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T11:53:52.347392+00:00",
+  "collected_at": "2026-11-20T08:24:04.433969+00:00",
+  "expected_deliverables": [
+    "fallloesung-sut.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung-sut.md",
+      "found": true,
+      "bytes": 20332,
+      "sha256": "0709ab5145722594586ef47c12b7ef72798e82438de9c865f20310988513555f"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.uni-saarland.de/fileadmin/upload/lehrstuhl/guckelberger/EKK_PP.pdf",
+        "title": "Ferienklausurenkurs Öffentliches Recht, Universität des Saarlandes",
+        "purpose": "Behördenprinzip im Saarland: § 78 Abs. 1 Nr. 2 VwGO i.V.m. § 19 Abs. 2 AGVwGO; Beteiligungsfähigkeit § 61 Nr. 3 VwGO i.V.m. § 19 Abs. 1 AGVwGO"
+      },
+      {
+        "url": "https://www.sadaba.de/Rsp/GSLR_AGVwGO_19.html",
+        "title": "Rechtsprechung zu § 19 AGVwGO (Saarland)",
+        "purpose": "Klage gegen die erlassende Behörde nach saarländischem Landesrecht"
+      },
+      {
+        "url": "https://www.anwalt24.de/gesetze/lbo-2/73",
+        "title": "§ 73 LBO Saarland - Baugenehmigung, Baubeginn",
+        "purpose": "Wortlaut § 73 Abs. 1, 2 LBO (gebundener Anspruch, Schriftform)"
+      },
+      {
+        "url": "https://uni-saarland.de/fileadmin/upload/lehrstuhl/groepl/Allgemeine_Dokumente/LexLandesRSaarland/LexSLR12_BauOR.pdf",
+        "title": "Gröpl, Bauordnungsrecht im Saarland (Stand Mai 2024)",
+        "purpose": "Überblick saarländisches Bauordnungsrecht, Rechtsanspruch auf Baugenehmigung"
+      }
+    ],
+    "hosts": [
+      "uni-saarland.de",
+      "www.anwalt24.de",
+      "www.sadaba.de",
+      "www.uni-saarland.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

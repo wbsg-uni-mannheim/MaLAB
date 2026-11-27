@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/staatsrecht/anfangerhausarbeit-wie-du-mir-so-ich-dir",
+  "solver_case_id": "case-009",
+  "source_task_dir": "tasks/de/oeffentliches-recht/staatsrecht/anfangerhausarbeit-wie-du-mir-so-ich-dir",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/staatsrecht/anfangerhausarbeit-wie-du-mir-so-ich-dir",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T19:59:50.199463+00:00",
+  "collected_at": "2026-11-20T08:24:04.153162+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 53234,
+      "sha256": "2155c9b7d703e5d4c78da2b38dce2b3fa7c723aa4d14066fe1f3264299c332f9"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/tpg/__2.html",
+        "title": "§ 2 TPG",
+        "purpose": "Wortlaut § 2 Abs. 1a TPG (Erklärung ab 16, keine Erklärungspflicht, ergebnisoffene Beratung)"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/tpg/__12.html",
+        "title": "§ 12 TPG",
+        "purpose": "Wortlaut § 12 Abs. 3 TPG (medizinische Vermittlungskriterien, einheitliche Warteliste)"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gg/art_72.html",
+        "title": "Art. 72 GG",
+        "purpose": "Erforderlichkeitsklausel erfasst Art. 74 Abs. 1 Nr. 26 GG"
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1999/02/rk19990218_1bvr215698",
+        "title": "BVerfG, Beschl. v. 18.2.1999, 1 BvR 2156/98",
+        "purpose": "Abgrenzung Beschwerdebefugnis (Widerspruchsmöglichkeit)"
+      }
+    ],
+    "hosts": [
+      "www.bundesverfassungsgericht.de",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

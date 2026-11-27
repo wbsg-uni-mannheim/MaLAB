@@ -1,0 +1,134 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/schuldrecht/ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles",
+  "solver_case_id": "case-032",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T19:08:35.354523+00:00",
+  "collected_at": "2026-11-20T08:17:27.113384+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 12051,
+      "sha256": "5e8b3728726153de4dd45777eb64dd18f6f6124c47c05aef0be9b803b3e94d26"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BJNR001950896.html",
+        "title": "Bürgerliches Gesetzbuch",
+        "purpose": "Verbrauchervertrag, Kauf, Miete und Rücktrittserklärung sowie ergänzende allgemeine Vorschriften."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__327.html",
+        "title": "§ 327 BGB – Anwendungsbereich",
+        "purpose": "Begriffe des digitalen Inhalts und der digitalen Dienstleistung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__548a.html",
+        "title": "§ 548a BGB – Miete digitaler Produkte",
+        "purpose": "Einordnung der zeitlich beschränkten Softwareüberlassung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__578b.html",
+        "title": "§ 578b BGB – Verträge über die Miete digitaler Produkte",
+        "purpose": "Vorrang der Vorschriften über digitale Produkte."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__327a.html",
+        "title": "§ 327a BGB – Anwendung auf Paketverträge und Verträge über Sachen mit digitalen Elementen",
+        "purpose": "Abgrenzung des Paketvertrags von einer Sache oder Ware mit digitalen Elementen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__475b.html",
+        "title": "§ 475b BGB – Sachmangel einer Ware mit digitalen Elementen",
+        "purpose": "Prüfung der Abgrenzung zum einheitlichen Warenkauf."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.juris.de/bgb/__327b.html",
+        "title": "§ 327b BGB – Bereitstellung digitaler Produkte",
+        "purpose": "Leistungszeit und Zugangscode als Mittel der Bereitstellung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__327c.html",
+        "title": "§ 327c BGB – Rechte bei unterbliebener Bereitstellung",
+        "purpose": "Aufforderung, Beendigung und Lösung vom gesamten Paket."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__327i.html",
+        "title": "§ 327i BGB – Rechte des Verbrauchers bei Mängeln",
+        "purpose": "Abgrenzung von der Nichtbereitstellung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__327o.html",
+        "title": "§ 327o BGB – Erklärung und Rechtsfolgen der Vertragsbeendigung",
+        "purpose": "Formfreie Beendigung und Erstattungsanspruch."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__327n.html",
+        "title": "§ 327n BGB – Minderung",
+        "purpose": "Frist der Erstattung über die Verweisung in § 327o Absatz 4 BGB."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__346.html",
+        "title": "§ 346 BGB – Wirkungen des Rücktritts",
+        "purpose": "Rückgewähr, Wertersatz für Nutzungen und Ausnahme bei erster Ingebrauchnahme."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__348.html",
+        "title": "§ 348 BGB – Erfüllung Zug-um-Zug",
+        "purpose": "Durchsetzbarkeit der Ansprüche aus dem Rücktritt."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__100.html",
+        "title": "§ 100 BGB – Nutzungen",
+        "purpose": "Begriff der Gebrauchsvorteile."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__475.html",
+        "title": "§ 475 BGB – Anwendbare Vorschriften",
+        "purpose": "Beschränkung des Ausschlusses von Nutzungsersatz auf die Ersatzlieferung."
+      },
+      {
+        "url": "https://dserver.bundestag.de/btd/19/276/1927653.pdf",
+        "title": "BT-Drs. 19/27653 – Entwurf eines Gesetzes zur Umsetzung der Richtlinie über bestimmte vertragsrechtliche Aspekte der Bereitstellung digitaler Inhalte und digitaler Dienstleistungen",
+        "purpose": "Abgrenzung der Vertragsgestaltungen, Bereitstellung, Interessewegfall und Rechtsfolgen für den kaufrechtlichen Bestandteil, insbesondere Seiten 45–52."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2009-9&Gericht=bgh&file=dokument.pdf&linked=urt&nr=49646",
+        "title": "BGH, Urteil vom 16. September 2009 – VIII ZR 243/08",
+        "purpose": "Nutzungswertersatz beim Rücktritt vom Verbrauchsgüterkauf."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2017-6&Gericht=bgh&anz=260&nr=79715&pos=0",
+        "title": "BGH, Urteil vom 30. Juni 2017 – V ZR 134/16",
+        "purpose": "Bemessung des Wertersatzes anhand des vereinbarten Erwerbspreises."
+      }
+    ],
+    "hosts": [
+      "dserver.bundestag.de",
+      "juris.bundesgerichtshof.de",
+      "www.gesetze-im-internet.de",
+      "www.gesetze-im-internet.juris.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

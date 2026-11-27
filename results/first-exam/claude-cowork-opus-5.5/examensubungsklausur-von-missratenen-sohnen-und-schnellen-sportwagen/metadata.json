@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/sachenrecht/examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen",
+  "solver_case_id": "case-036",
+  "source_task_dir": "tasks/de/zivilrecht/sachenrecht/examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen",
+  "source_task_dir_relative": "tasks/de/zivilrecht/sachenrecht/examensubungsklausur-von-missratenen-sohnen-und-schnellen-sportwagen",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T21:38:41.733925+00:00",
+  "collected_at": "2026-11-20T08:24:05.453133+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 33520,
+      "sha256": "69960029f5c278209837ecbdea3254e5ac56a2b1e2752aee17c109e299b8c391"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://lorenz.userweb.mwn.de/urteile/vzr8_19.htm",
+        "title": "BGH, Urteil vom 18.9.2020 - V ZR 8/19 (Volltext, Lorenz)",
+        "purpose": "Probefahrt kein Abhandenkommen, Besitzdienerschaft, grobe Fahrlässigkeit beim Gebrauchtwagenkauf, Zulassungsbescheinigung § 952 analog, Zweitschlüssel als Zubehör"
+      },
+      {
+        "url": "https://www.iww.de/va/quellenmaterial/id/217887",
+        "title": "BGH, Urteil vom 18.09.2020 - V ZR 8/19 (IWW Quellenmaterial)",
+        "purpose": "Randnummern zu Besitzlockerung/Besitzverlust und Zweitschlüssel (Rn. 33)"
+      },
+      {
+        "url": "https://www.iww.de/quellenmaterial/id/6838",
+        "title": "Stillschweigender Haftungsausschluss bei Probefahrt (BGH NJW 1972, 1363)",
+        "purpose": "Haftungsprivileg des Probefahrers für leichte Fahrlässigkeit"
+      },
+      {
+        "url": "https://www.haufe.de/id/kommentar/pruettingwegenweinreich-bgb-kommentar-bgb-599-bgb-b-haftung-des-entleihers-HI16994206.html",
+        "title": "PWW, BGB § 599 Haftung des Entleihers",
+        "purpose": "Fundstellen BGH NJW 1980, 1681 zum Haftungsausschluss bei Probefahrt"
+      }
+    ],
+    "hosts": [
+      "lorenz.userweb.mwn.de",
+      "www.haufe.de",
+      "www.iww.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

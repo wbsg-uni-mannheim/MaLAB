@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/staatsrecht/anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn",
+  "solver_case_id": "case-006",
+  "source_task_dir": "tasks/de/oeffentliches-recht/staatsrecht/anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/staatsrecht/anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T11:24:23.420354+00:00",
+  "collected_at": "2026-11-20T08:24:04.249504+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 28348,
+      "sha256": "09800efcbbacfe2d591d3531024552c97ac3d67da104b1d52b340a6d357fafd4"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Rtf/Y-300-Z-BECKRS-B-2023-N-12047?all=False",
+        "title": "VGH München, Beschluss v. 12.05.2023 – 10 CS 23.847",
+        "purpose": "Rechtsprechung zu Fahrraddemonstrationen auf Autobahnen, Abwägung nach Art. 15 Abs. 1 BayVersG"
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2023-N-6174?hl=true",
+        "title": "VGH München, Beschluss v. 24.03.2023 – 10 CS 23.575",
+        "purpose": "Verbot einer Versammlung auf Autobahn, Anforderungen an Gefahrenprognose"
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2021-N-26071?all=False",
+        "title": "VGH München, Beschluss v. 07.09.2021 – 10 CS 21.2282",
+        "purpose": "Radsternfahrt auf Autobahn, praktische Konkordanz, gezielte Behinderung"
+      }
+    ],
+    "hosts": [
+      "www.gesetze-bayern.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

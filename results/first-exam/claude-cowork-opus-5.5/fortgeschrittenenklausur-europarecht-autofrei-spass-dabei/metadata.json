@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/europarecht/fortgeschrittenenklausur-europarecht-autofrei-spass-dabei",
+  "solver_case_id": "case-007",
+  "source_task_dir": "tasks/de/oeffentliches-recht/europarecht/fortgeschrittenenklausur-europarecht-autofrei-spass-dabei",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/europarecht/fortgeschrittenenklausur-europarecht-autofrei-spass-dabei",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T11:30:41.507020+00:00",
+  "collected_at": "2026-11-20T08:24:03.968255+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 35565,
+      "sha256": "1b1704004e65f54323808c27449eb57a52a9d86475b32695b1e351fb5bd1000f"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Text=C-142%2F05",
+        "title": "EuGH, 04.06.2009 - C-142/05, Mickelsson und Roos (dejure.org)",
+        "purpose": "Verifikation von Aktenzeichen und Datum der Entscheidung zu Nutzungsbeschränkungen"
+      },
+      {
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Text=C-110%2F05",
+        "title": "EuGH, 10.02.2009 - C-110/05, Kommission/Italien (dejure.org)",
+        "purpose": "Verifikation von Datum und Inhalt der Anhänger-Entscheidung, Verhältnismäßigkeitsmaßstab"
+      }
+    ],
+    "hosts": [
+      "dejure.org"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

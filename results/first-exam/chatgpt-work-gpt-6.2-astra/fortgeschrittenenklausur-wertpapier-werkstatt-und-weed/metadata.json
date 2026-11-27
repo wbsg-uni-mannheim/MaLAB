@@ -1,0 +1,112 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/schuldrecht/fortgeschrittenenklausur-wertpapier-werkstatt-und-weed",
+  "solver_case_id": "case-041",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenklausur-wertpapier-werkstatt-und-weed",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenklausur-wertpapier-werkstatt-und-weed",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T21:06:26.069869+00:00",
+  "collected_at": "2026-11-20T08:17:27.111114+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 18459,
+      "sha256": "9eadbd878c5c53d75933dcd508699e09b8ed8cf4af270faea8b0d06295ef58e3"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2019-2-7&Gericht=bgh&Sort=6&anz=21&nr=93288&pos=17",
+        "title": "BGH, Urteil vom 7. Februar 2019 – VII ZR 63/18",
+        "purpose": "Umfang der geschuldeten Wartung, Abgrenzung von Mangel und Folgeschaden sowie Entbehrlichkeit der Frist bei einheitlicher Reparatur."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2007-10-23&Gericht=bgh&anz=32&nr=42257&pos=22",
+        "title": "BGH, Urteil vom 23. Oktober 2007 – XI ZR 423/06",
+        "purpose": "Selbständige Anlageentscheidungen im Rahmen der Anlagerichtlinien und Nachweis einer objektiven Pflichtverletzung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/kcang/BJNR06D0B0024.html",
+        "title": "Gesetz zum Umgang mit Konsumcannabis (KCanG)",
+        "purpose": "Abgleich der im Sachverhalt vorgegebenen Vorschriften zu Besitz, privatem Eigenanbau und Strafbarkeit."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2016&Gericht=bgh&file=dokument.pdf&linked=urt&nr=77056",
+        "title": "BGH, Urteil vom 14. Dezember 2016 – VIII ZR 49/16",
+        "purpose": "Mietvertragliche Obhutspflichten bei Nutzung der Mietsache für eine Straftat und Risiko von Schäden durch Ermittlungsmaßnahmen."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Gericht=bgh&anz=1&nr=27598&pos=0&sid=f1273cab522247ed16856edc45b205ca",
+        "title": "BGH, Urteil vom 5. November 2003 – VIII ZR 371/02",
+        "purpose": "Erlaubnispflicht und Anspruch auf Erlaubnis zur Aufnahme eines nichtehelichen Lebensgefährten."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Gericht=bgh&anz=1&nr=55228&pos=0&sid=0f48182d93e381a65b8db1365db32036",
+        "title": "BGH, Urteil vom 2. Februar 2011 – VIII ZR 74/10",
+        "purpose": "Unterscheidung von Erlaubnisanspruch und erteilter Erlaubnis sowie Bedeutung der vorherigen Anfrage für die Kündigung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BJNR001950896.html",
+        "title": "Bürgerliches Gesetzbuch",
+        "purpose": "Prüfung der Vorschriften über Stellvertretung, Werkmängel, Schadensersatz, Auftrag, Sicherungsabtretung, Aufrechnung und Wohnraummiete."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__637.html",
+        "title": "§ 637 BGB – Selbstvornahme",
+        "purpose": "Voraussetzungen des Aufwendungsersatzes und Verweisung auf § 323 Abs. 2 BGB."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/BJNR002190897.html?source=post_page---------------------------",
+        "title": "Handelsgesetzbuch",
+        "purpose": "Ladenvollmacht sowie Rechtsfähigkeit und Vertretung von Personenhandelsgesellschaften."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__105.html",
+        "title": "§ 105 HGB – Begriff der offenen Handelsgesellschaft",
+        "purpose": "Rechtsfähigkeit der OHG."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__124.html",
+        "title": "§ 124 HGB – Vertretung der Gesellschaft",
+        "purpose": "Vertretungsbefugnis der persönlich haftenden Gesellschafterin."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gmbhg/__35.html",
+        "title": "§ 35 GmbHG – Vertretung der Gesellschaft",
+        "purpose": "Organschaftliche Vertretung der Komplementär-GmbH."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/kcang/__9.html",
+        "title": "§ 9 KCanG – Anforderungen an den privaten Eigenanbau",
+        "purpose": "Persönliche Obergrenze gleichzeitig angebauter Cannabispflanzen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/kcang/__34.html",
+        "title": "§ 34 KCanG – Strafvorschriften",
+        "purpose": "Abgleich des an die Pflanzenzahl geknüpften Straftatbestands."
+      }
+    ],
+    "hosts": [
+      "juris.bundesgerichtshof.de",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

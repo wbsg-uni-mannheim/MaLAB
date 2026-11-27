@@ -1,0 +1,115 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/handels-und-gesellschaftsrecht/fortgeschrittenenubungsklausur-mopeg-in-3d",
+  "solver_case_id": "case-040",
+  "source_task_dir": "tasks/de/zivilrecht/handels-und-gesellschaftsrecht/fortgeschrittenenubungsklausur-mopeg-in-3d",
+  "source_task_dir_relative": "tasks/de/zivilrecht/handels-und-gesellschaftsrecht/fortgeschrittenenubungsklausur-mopeg-in-3d",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:54:55.185493+00:00",
+  "collected_at": "2026-11-20T08:17:27.085949+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 17494,
+      "sha256": "0d264740fc541debb91ef44efacde02e22fe67e1f45149b69e51ff248534e327"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.juris.de/bgb/BJNR001950896.html",
+        "title": "BGB",
+        "purpose": "Vertragsschluss, Verbrauchsgüterkauf, Leistungsstörung und Gesellschafterhaftung"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.juris.de/hgb/BJNR002190897.html",
+        "title": "HGB",
+        "purpose": "Abgrenzung zwischen GbR und OHG"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__720.html",
+        "title": "§ 720 BGB",
+        "purpose": "Gesamtvertretung und Einzelermächtigung"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__56.html",
+        "title": "§ 56 HGB",
+        "purpose": "Reichweite der Ladenvollmacht"
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2016-12-6&Gericht=bgh&anz=20&nr=77316&pos=13",
+        "title": "BGH zum evidenten Missbrauch der Vertretungsmacht",
+        "purpose": "Voraussetzungen eines evidenten Vertretungsmissbrauchs"
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A72026L0074DEU_202606252",
+        "title": "BGBl. 2026 I Nr. 212, Art. 2",
+        "purpose": "Zeitlich anwendbares Kaufrecht"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__475b.html",
+        "title": "§ 475b BGB",
+        "purpose": "Prüfung der Ware mit digitalen Elementen"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__477.html",
+        "title": "§ 477 BGB",
+        "purpose": "Vermutung des Mangels bei Gefahrübergang"
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2006-06-07/viii-zr-209-05",
+        "title": "BGH, Urteil vom 7. Juni 2006 – VIII ZR 209/05, Rn. 20 ff.",
+        "purpose": "Ersatzlieferung beim Stückkauf"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__439.html",
+        "title": "§ 439 BGB",
+        "purpose": "Nacherfüllungsarten, Kosten und Verweigerungsrechte"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.juris.de/bgb/__475d.html",
+        "title": "§ 475d BGB",
+        "purpose": "Fristentbehrlichkeit wegen verweigerter Nacherfüllung"
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2022-4&Gericht=bgh&Seite=1&anz=230&client=12&nr=130866&pos=51",
+        "title": "BGH, Beschluss vom 26. April 2022 – VIII ZR 364/20, Rn. 14",
+        "purpose": "Geldersatz statt Naturalleistung"
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2019-12&Gericht=bgh&file=dokument.pdf&linked=urt&nr=116914",
+        "title": "BGH, Urteil vom 12. März 2021 – V ZR 33/19",
+        "purpose": "Berechnung des kleinen Schadensersatzes"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__721.html",
+        "title": "§ 721 BGB",
+        "purpose": "Persönliche Haftung des A"
+      }
+    ],
+    "hosts": [
+      "eur-lex.europa.eu",
+      "juris.bundesgerichtshof.de",
+      "recht.nulegal.eu",
+      "www.gesetze-im-internet.de",
+      "www.gesetze-im-internet.juris.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/staatshaftungsrecht/ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden",
+  "solver_case_id": "case-003",
+  "source_task_dir": "tasks/de/oeffentliches-recht/staatshaftungsrecht/ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/staatshaftungsrecht/ubungsklausur-im-staatshaftungsrecht-raumungsanspruch-und-mietausfallschaden",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T20:12:49.280142+00:00",
+  "collected_at": "2026-11-20T08:17:27.011396+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 20271,
+      "sha256": "79db226cc77c6734f57307ea4936114da0a7b327c0a5660a08a77f455f1e81c3"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://recht.nrw.de/system/files/BH/4245-22818.htm",
+        "title": "Ordnungsbehördengesetz NRW, für März bis September 2018 geltende Fassung",
+        "purpose": "Befugnisse, Nichtstörereigenschaft, Entschädigung, Schuldnerin, Umfang und Verjährung."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bverwg/1984-07-19/bverwg-3-c-8182",
+        "title": "BVerwG, Urteil vom 19. Juli 1984 – 3 C 81.82",
+        "purpose": "Grundlage, Inhalt und Zurechnungsgrenzen des Folgenbeseitigungsanspruchs."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gg/art_14.html",
+        "title": "Art. 14 GG",
+        "purpose": "Schutz der Eigentümerbefugnisse."
+      },
+      {
+        "url": "https://recht.nrw.de/lrgv/gesetz/01012025-verwaltungsverfahrensgesetz-fuer-das-land-nordrhein-westfalen/",
+        "title": "Verwaltungsverfahrensgesetz für das Land Nordrhein-Westfalen",
+        "purpose": "Befristung und Erledigung der Verfügung durch Zeitablauf."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1995-07-13/iii-zr-160_94",
+        "title": "BGH, Urteil vom 13. Juli 1995 – III ZR 160/94",
+        "purpose": "Räumung, Reinigung, Mietausfall nach Fristablauf, Rechtsschutz und Amtspflicht."
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/vg-mainz/2017-11-02/1-k-1462-16-mz",
+        "title": "VG Mainz, Beschluss vom 2. November 2017 – 1 K 1462/16.MZ",
+        "purpose": "Verhandlungen, freiwillige Duldung, Unterbrechung der Zurechnung und unzulässige Rechtsausübung."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bverwg/1989-04-14/bverwg-4-c-3488",
+        "title": "BVerwG, Urteil vom 14. April 1989 – 4 C 34.88",
+        "purpose": "Mitverantwortung bei unteilbarer Folgenbeseitigung, Ausgleich und Ausschluss."
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/olg-hamm/2019-01-18/11-u-153-17",
+        "title": "OLG Hamm, Urteil vom 18. Januar 2019 – 11 U 153/17",
+        "purpose": "Qualifiziertes Unterlassen als haftungsbegründende Maßnahme."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2005-12&Gericht=bgh&anz=291&nr=35162&pos=26",
+        "title": "BGH, Beschluss vom 21. Dezember 2005 – III ZR 148/05",
+        "purpose": "Reichweite der öffentlich-rechtlichen Sonderbeziehung und Abgrenzung zum Mietvertrag."
+      },
+      {
+        "url": "https://recht.nrw.de/lrgv/gesetz/01072026-ordnungsbehoerdengesetz-obg/",
+        "title": "Ordnungsbehördengesetz NRW, Fassung vom 1. Juli 2026",
+        "purpose": "Abgleich der aktuellen Entschädigungsvorschriften mit der 2018 geltenden Fassung."
+      },
+      {
+        "url": "https://recht.nrw.de/lrgv/gesetz/15122016-bekanntmachung-der-neufassung-des-gesetzes-ueber-aufbau-und-befugnisse-der/",
+        "title": "Ordnungsbehördengesetz NRW, historische Fassungsübersicht",
+        "purpose": "Geltungszeitraum der für den Eingriff maßgeblichen Gesetzesfassung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BJNR001950896.html",
+        "title": "Bürgerliches Gesetzbuch",
+        "purpose": "Zivilrechtliche Vorschriften zu Miete, Mitverantwortung, Schadensersatz und Verjährung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/BJNR000170960.html",
+        "title": "Verwaltungsgerichtsordnung",
+        "purpose": "Rechtsschutz gegen eine sofort vollziehbare Einweisung und zur Durchsetzung der Folgenbeseitigung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gg/art_34.html",
+        "title": "Art. 34 GG",
+        "purpose": "Überleitung der Amtshaftung auf die Stadt."
+      },
+      {
+        "url": "https://ra.de/vg-mainz/1-k-146216mz-2017-11-02",
+        "title": "VG Mainz, Beschluss vom 2. November 2017 – 1 K 1462/16.MZ, weiterer Volltextnachweis",
+        "purpose": "Abgleich der Erwägungen zur Zurechnung, Duldung und Verwirkung."
+      },
+      {
+        "url": "https://www.prinz.law/urteile/bgh/III_ZR__63-72",
+        "title": "BGH, Urteil vom 4. Juli 1974 – III ZR 63/72",
+        "purpose": "Bedeutung konkurrierender Ansprüche gegen die öffentliche Hand für § 839 Abs. 1 Satz 2 BGB."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1995-11-09/iii-zr-226_94",
+        "title": "BGH, Urteil vom 9. November 1995 – III ZR 226/94",
+        "purpose": "Abgrenzung der geschuldeten gereinigten Rückgabe von weiteren Schäden."
+      },
+      {
+        "url": "https://urteile.ai/e/d_7jg1z9z45y/olg-hamm-11-u-153-17",
+        "title": "OLG Hamm, Urteil vom 18. Januar 2019 – 11 U 153/17, weiterer Entscheidungsnachweis",
+        "purpose": "Voraussetzungen eines eingriffsgleichen qualifizierten Unterlassens."
+      }
+    ],
+    "hosts": [
+      "juris.bundesgerichtshof.de",
+      "ra.de",
+      "recht.nrw.de",
+      "recht.nulegal.eu",
+      "urteile.ai",
+      "www.anwalt24.de",
+      "www.gesetze-im-internet.de",
+      "www.prinz.law"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

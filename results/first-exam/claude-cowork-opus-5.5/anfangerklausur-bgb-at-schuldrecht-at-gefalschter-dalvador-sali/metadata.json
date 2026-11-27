@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/schuldrecht/anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali",
+  "solver_case_id": "case-035",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/anfangerklausur-bgb-at-schuldrecht-at-gefalschter-dalvador-sali",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T21:37:59.371609+00:00",
+  "collected_at": "2026-11-20T08:24:05.544314+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 32853,
+      "sha256": "903deb3b808576bf96ba284790e211ed89fbabf7f8cc217d1dc38ac09af3fb9b"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://jura.urz.uni-heidelberg.de/mat/file_viewer.php?fid=15523",
+        "title": "BGH, Urt. v. 27.3.2009 - V ZR 30/08, NJW 2009, 2120 (c.i.c. neben Gewährleistung bei Arglist)",
+        "purpose": "Verhältnis culpa in contrahendo zu §§ 434 ff. BGB bei arglistiger Täuschung"
+      },
+      {
+        "url": "https://lexetius.com/BGB/121,1",
+        "title": "§ 121 BGB Anfechtungsfrist",
+        "purpose": "Wortlaut der Anfechtungsfrist (unverzüglich)"
+      },
+      {
+        "url": "https://www.ra-kotz.de/internetauktion32.htm",
+        "title": "Rechtsprechung zur Obergrenze von etwa zwei Wochen bei § 121 BGB",
+        "purpose": "Bestimmung der Unverzüglichkeit und Obergrenze von ca. zwei Wochen"
+      }
+    ],
+    "hosts": [
+      "jura.urz.uni-heidelberg.de",
+      "lexetius.com",
+      "www.ra-kotz.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

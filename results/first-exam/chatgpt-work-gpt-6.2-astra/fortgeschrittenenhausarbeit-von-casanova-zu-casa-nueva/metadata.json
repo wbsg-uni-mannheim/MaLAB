@@ -1,0 +1,206 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/schuldrecht/fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva",
+  "solver_case_id": "case-039",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:54:39.720086+00:00",
+  "collected_at": "2026-11-20T08:17:27.107018+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 30726,
+      "sha256": "ce97cb9c35b13def4566cb52aea80c5af074fb175e03b98bde5d087665a8053d"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2010-5&Gericht=bgh&file=dokument.pdf&linked=urt&nr=52521",
+        "title": "BGH, Urteil vom 12. Mai 2010 – VIII ZR 96/09",
+        "purpose": "Formelle Begründung einer Kündigung wegen Mietrückstands."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__569.html",
+        "title": "§ 569 BGB",
+        "purpose": "Zahlungsschwelle, Umfang und Frist der Schonfristzahlung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2018-9&Gericht=bgh&file=dokument.pdf&linked=urt&nr=88489",
+        "title": "BGH, Urteil vom 19. September 2018 – VIII ZR 231/17",
+        "purpose": "Rückwirkung der Heilung und Auslegung der hilfsweisen ordentlichen Kündigung."
+      },
+      {
+        "url": "https://mieterbund.de/app/uploads/2025/02/5-Markus-Artz-Zahlungsverzug-und-Schonfristzahlung.pdf",
+        "title": "Artz, Zahlungsverzug und Schonfristzahlung, Abschnitt III",
+        "purpose": "Höhe der zur Schonfristheilung erforderlichen Zahlung bei höherer Marktmiete."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2012-10&Gericht=bgh&file=dokument.pdf&linked=urt&nr=62247",
+        "title": "BGH, Urteil vom 10. Oktober 2012 – VIII ZR 107/12",
+        "purpose": "Erheblichkeit des Zahlungsverzugs für die ordentliche Kündigung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__573c.html",
+        "title": "§ 573c BGB",
+        "purpose": "Berechnung des ordentlichen Kündigungstermins."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2021-10-13&Gericht=bgh&anz=29&nr=124521&pos=13",
+        "title": "BGH, Urteil vom 13. Oktober 2021 – VIII ZR 91/20",
+        "purpose": "Fehlende Analogie und Einzelfallprüfung nach Treu und Glauben."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2025&Gericht=bgh&Seite=1&anz=1690&nr=142465&pos=46",
+        "title": "BGH, Urteil vom 23. Juli 2025 – VIII ZR 287/23",
+        "purpose": "Bestätigung der Rechtsprechung zur ordentlichen Kündigung."
+      },
+      {
+        "url": "https://www.buzer.de/gesetz/6597/al209993-0.htm",
+        "title": "§ 574b BGB in den Fassungen vor und ab 1. Januar 2025",
+        "purpose": "Im Juli 2024 maßgebliche Schriftform des Härtewiderspruchs."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2020-7&Gericht=bgh&Sort=1&anz=349&nr=108381&pos=14",
+        "title": "BGH, Urteil vom 1. Juli 2020 – VIII ZR 323/18, Leitsatz b",
+        "purpose": "Ausschluss des Fortsetzungsanspruchs trotz Schonfristzahlung."
+      },
+      {
+        "url": "https://www.bundesbank.de/de/bundesbank/organisation/agb-und-regelungen/basiszinssatz-607820",
+        "title": "Deutsche Bundesbank, historische Basiszinssätze",
+        "purpose": "Verzugszinssätze für das erste und zweite Halbjahr 2024."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__546a.html",
+        "title": "§ 546a BGB",
+        "purpose": "Wahlrecht und Dauer der Nutzungsentschädigung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=Aktuell&Gericht=bgh&Sort=12288&anz=586&nr=79146&pos=2",
+        "title": "BGH, Urteil vom 12. Juli 2017 – VIII ZR 214/16",
+        "purpose": "Rückerlangungswille und Herausgabe von Gebrauchsvorteilen."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=Aktuell&Gericht=bgh&Sort=12288&anz=535&nr=77295&pos=7",
+        "title": "BGH, Urteil vom 18. Januar 2017 – VIII ZR 17/16",
+        "purpose": "Maßgeblichkeit der ortsüblichen Neuvertragsmiete."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__571.html",
+        "title": "§ 571 BGB",
+        "purpose": "Zusätzlicher Schaden bei unterbliebener Wohnraumrückgabe."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2010-2&Gericht=bgh&file=dokument.pdf&linked=urt&nr=51340",
+        "title": "BGH, Urteil vom 17. Februar 2010 – VIII ZR 67/09",
+        "purpose": "Stellen eines von Dritten verfassten Formulars und Wahlfreiheit des Vertragspartners."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bvo_2/__28.html",
+        "title": "§ 28 Abs. 4 II. BV",
+        "purpose": "Gegenständlicher Umfang von Schönheitsreparaturen."
+      },
+      {
+        "url": "https://ra-doerfer.de/wp-content/uploads/2022/02/BGH-VIII-ZR-351-04-Schoenheitsreparaturen-Beispiel-nicht-starrer-Fristenplan.pdf",
+        "title": "BGH, Urteil vom 13. Juli 2005 – VIII ZR 351/04",
+        "purpose": "Auslegung relativierter Renovierungsfristen."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Gericht=bgh&anz=1&client=12&nr=70978&pos=0",
+        "title": "BGH, Urteil vom 18. März 2015 – VIII ZR 185/14",
+        "purpose": "Unrenovierte Übergabe, angemessener Ausgleich und Beweislast."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2020-7&Gericht=bgh&file=dokument.pdf&linked=urt&nr=109002",
+        "title": "BGH, Urteil vom 8. Juli 2020 – VIII ZR 270/18",
+        "purpose": "Anfänglicher Dekorationszustand und Erhaltungspflicht bei wesentlicher Verschlechterung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2020-7&Gericht=bgh&file=dokument.pdf&linked=urt&nr=109038",
+        "title": "BGH, Urteil vom 8. Juli 2020 – VIII ZR 163/18",
+        "purpose": "Kostenbeteiligung und Verzug bei Schönheitsreparaturen."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2008-1&Gericht=bgh&file=dokument.pdf&linked=urt&nr=42804",
+        "title": "BGH, Urteil vom 16. Januar 2008 – VIII ZR 222/06",
+        "purpose": "Rechtsfolgen einer eigenmächtigen Mängelbeseitigung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2009-1&Gericht=bgh&file=dokument.pdf&linked=urt&nr=48418",
+        "title": "BGH, Urteil vom 27. Mai 2009 – VIII ZR 302/07",
+        "purpose": "Leistungskondiktion, Bewertung von Eigenarbeit und Verschulden bei unwirksamen Klauseln."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/zpo/__287.html",
+        "title": "§ 287 ZPO",
+        "purpose": "Gerichtliche Schätzung des Leistungswerts."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2011-4&Gericht=bgh&file=dokument.pdf&linked=urt&nr=56293",
+        "title": "BGH, Urteil vom 4. Mai 2011 – VIII ZR 195/10",
+        "purpose": "Anwendung der kurzen Verjährung auf Renovierungsansprüche."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BJNR001950896.html",
+        "title": "Bürgerliches Gesetzbuch",
+        "purpose": "Prüfung der miet-, bereicherungs- und schadensersatzrechtlichen Anspruchsgrundlagen sowie der Fristen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__574.html",
+        "title": "§ 574 BGB",
+        "purpose": "Fehlender Ersatzwohnraum und Ausschluss der Sozialklausel."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__574b.html",
+        "title": "§ 574b BGB",
+        "purpose": "Frist und Folgen des fehlenden Hinweises, Abgleich der heutigen Gesetzesfassung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__367.html",
+        "title": "§ 367 BGB",
+        "purpose": "Annahme der auf Mieten und Kosten bestimmten Zahlungen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__288.html",
+        "title": "§ 288 BGB",
+        "purpose": "Gesetzlicher Verzugszinssatz."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__556b.html",
+        "title": "§ 556b BGB",
+        "purpose": "Abgleich der gesetzlichen Fälligkeit mit den im Fall vorgegebenen Terminen."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2011-5-4&Gericht=bgh&anz=24&nr=56516&pos=17",
+        "title": "BGH, Beschluss vom 4. Mai 2011 zur Verjährung von Renovierungsansprüchen",
+        "purpose": "Erstreckung des § 548 Abs. 2 BGB auf Schadensersatz und Bereicherung."
+      }
+    ],
+    "hosts": [
+      "juris.bundesgerichtshof.de",
+      "mieterbund.de",
+      "ra-doerfer.de",
+      "www.bundesbank.de",
+      "www.buzer.de",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

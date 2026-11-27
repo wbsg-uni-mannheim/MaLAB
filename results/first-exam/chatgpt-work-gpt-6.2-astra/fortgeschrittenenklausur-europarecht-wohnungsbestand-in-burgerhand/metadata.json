@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/europarecht/fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand",
+  "solver_case_id": "case-004",
+  "source_task_dir": "tasks/de/oeffentliches-recht/europarecht/fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/europarecht/fortgeschrittenenklausur-europarecht-wohnungsbestand-in-burgerhand",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T20:13:09.966548+00:00",
+  "collected_at": "2026-11-20T08:17:27.008672+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 25079,
+      "sha256": "fd119f56818de7a375e9efc3f0e24e2b6853150e3d6a5b4d99f0fb93daf31f01"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/oj?locale=de",
+        "title": "Vertrag über die Europäische Union, konsolidierte Fassung",
+        "purpose": "Primärrechtlicher Rang der Charta, Überwachungsaufgabe der Kommission und Zuständigkeit des Gerichtshofs."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/oj/deu",
+        "title": "Vertrag über die Arbeitsweise der Europäischen Union, konsolidierte Fassung",
+        "purpose": "Kapitalverkehrsfreiheit, ihre Ausnahmen sowie Voraussetzungen und Wirkungen der Vertragsverletzungsklage."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=ecli%3AECLI%3AEU%3AC%3A2011%3A214",
+        "title": "EuGH, Urteil vom 7. April 2011, C-20/09, Kommission/Portugal",
+        "purpose": "Vorverfahren, Eingrenzung des Streitgegenstands und maßgeblicher Zeitpunkt für die Beurteilung der Vertragsverletzung."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A62023CJ0254",
+        "title": "EuGH, Urteil vom 10. Juli 2025, C-254/23, Interzero u. a.",
+        "purpose": "Darlegung der Rechtfertigung einer Beschränkung und Prüfung der unternehmerischen Freiheit bei einer gesetzlichen Neuordnung des Markts."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=ecli%3AECLI%3AEU%3AC%3A2019%3A432",
+        "title": "EuGH, Urteil vom 21. Mai 2019, C-235/17, Kommission/Ungarn (Nießbrauchsrechte an landwirtschaftlichen Flächen)",
+        "purpose": "Schutz von Immobilieninvestitionen, Bindung an die Charta bei der Rechtfertigung von Beschränkungen und Voraussetzungen der Eigentumsentziehung und Entschädigung."
+      },
+      {
+        "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2020-03/cp200020de.pdf",
+        "title": "Gerichtshof der Europäischen Union, Pressemitteilung Nr. 20/20 zu Vodafone Magyarország und Tesco-Global, 3. März 2020",
+        "purpose": "Unterscheidung zwischen einer mittelbaren Benachteiligung und einer aus der Marktstruktur folgenden tatsächlichen Mehrbelastung."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A62017CJ0135",
+        "title": "EuGH, Urteil vom 26. Februar 2019, C-135/17, X",
+        "purpose": "Einordnung von Direkt- und Portfolioanlagen als Kapitalverkehr und Drittstaatenbezug."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A61999CJ0054",
+        "title": "EuGH, Urteil vom 14. März 2000, C-54/99, Église de scientologie",
+        "purpose": "Anforderungen an die Berufung auf die öffentliche Ordnung bei Beschränkungen des Kapitalverkehrs."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A62011CJ0197",
+        "title": "EuGH, Urteil vom 8. Mai 2013, C-197/11 und C-203/11, Libert u. a.",
+        "purpose": "Soziale Wohnungspolitik als zwingender Grund des Allgemeininteresses und Bedeutung gezielter finanzieller Hilfen im Rahmen der Erforderlichkeit."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A62012CJ0105",
+        "title": "EuGH, Urteil vom 22. Oktober 2013, C-105/12 bis C-107/12, Essent u. a.",
+        "purpose": "Abgrenzung rein wirtschaftlicher Zwecke vom Schutz des Wettbewerbs und der Verbraucher."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/treaty/char_2016/oj?locale=de",
+        "title": "Charta der Grundrechte der Europäischen Union",
+        "purpose": "Normtext zu Eigentum, unternehmerischer Freiheit, Gleichheit, Unterstützung für die Wohnung, Anwendungsbereich und Einschränkung von Grundrechten."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/de/TXT/PDF/?uri=ecli%3AECLI%3AEU%3AC%3A2022%3A346",
+        "title": "EuGH, Urteil vom 5. Mai 2022, C-83/20, BPC Lux 2 u. a.",
+        "purpose": "Schutz des Anteilseigentums und Unterscheidung zwischen faktischer Entziehung, Nutzungsregelung und wirtschaftlichem Wertverlust."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/collection/eu-law/treaties/treaties-force.html?locale=de",
+        "title": "EUR-Lex, Derzeit geltende Verträge",
+        "purpose": "Abgleich der geltenden primärrechtlichen Vertrags- und Chartafassungen."
+      }
+    ],
+    "hosts": [
+      "curia.europa.eu",
+      "eur-lex.europa.eu"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

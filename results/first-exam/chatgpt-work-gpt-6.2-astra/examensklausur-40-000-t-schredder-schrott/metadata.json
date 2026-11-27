@@ -1,0 +1,151 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/examensklausur-40-000-t-schredder-schrott",
+  "solver_case_id": "case-013",
+  "source_task_dir": "tasks/de/oeffentliches-recht/verwaltungsrecht/examensklausur-40-000-t-schredder-schrott",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/verwaltungsrecht/examensklausur-40-000-t-schredder-schrott",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T11:54:34.423885+00:00",
+  "collected_at": "2026-11-20T08:17:27.032511+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 23478,
+      "sha256": "5c5726ca32fed1b8cbd2e6e6647060eca658799f96c93ba35830ecd67128dbb0"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__80.html",
+        "title": "§ 80 VwGO",
+        "purpose": "Aufschiebende Wirkung, nachträgliche Vollziehungsanordnung, Notstandsmaßnahme und gerichtlicher Rechtsschutz."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/BJNR000170960.html",
+        "title": "Verwaltungsgerichtsordnung",
+        "purpose": "Zulässigkeit des Rechtsbehelfs, Verfahren und gerichtliche Kontrolle der Räumungsverfügung."
+      },
+      {
+        "url": "https://www.landesrecht-bw.de/bsbw/document/jlr-NNLBW00007EE1/part/X",
+        "title": "Gesetz zur Ausführung der Verwaltungsgerichtsordnung Baden-Württemberg",
+        "purpose": "Gerichtsbezirk des Verwaltungsgerichts Karlsruhe."
+      },
+      {
+        "url": "https://www.landesrecht-bw.de/bsbw/?aiz=1&docId=jlr-NNLBW00007E83&query=JURISLINK%3A%22VwVfG+BW%22",
+        "title": "Landesverwaltungsverfahrensgesetz Baden-Württemberg",
+        "purpose": "Anhörung, Verwaltungsakt, Bestimmtheit, Ermessen und Erledigung durch Zeitablauf."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2023-N-33812",
+        "title": "VG Bayreuth, Beschluss vom 30.06.2023 – B 5 S 23.490",
+        "purpose": "Nachträglicher Sofortvollzug und Meinungsstand zur Anhörung."
+      },
+      {
+        "url": "https://www.landtag-bw.de/resource/blob/75138/0cf179197863f920f7b19495fe062205/GBl199201.pdf",
+        "title": "Gesetzblatt für Baden-Württemberg 1992 Nr. 1 – Polizeigesetz",
+        "purpose": "Für die Fallzeit maßgebliche Befugnis- und Zuständigkeitsvorschriften, Verantwortlichkeit, unmittelbare Ausführung und Notstand."
+      },
+      {
+        "url": "https://www.landesrecht-bw.de/bsbw/document/jlr-NNLBW00007BCBNN00000000216",
+        "title": "§ 65 LBO BW in der Fassung vom 18.07.2019",
+        "purpose": "Abgrenzung des Räumungsgebots von Abbruchsanordnung und Nutzungsuntersagung."
+      },
+      {
+        "url": "https://www.landtag-bw.de/resource/blob/72632/938dad1a4a03b289f94a218641b4db19/GBl201916.pdf",
+        "title": "Gesetz zur Änderung der Landesbauordnung vom 18.07.2019, GBl. S. 313",
+        "purpose": "Zeitlich zutreffende Satz- und Absatzbezeichnung des § 65 LBO."
+      },
+      {
+        "url": "https://judicialis.de/Verwaltungsgerichtshof-Baden-W%C3%BCrttemberg_10-S-2153-01_Urteil_30.07.2002.html",
+        "title": "VGH Baden-Württemberg, Urteil vom 30.07.2002 – 10 S 2153/01",
+        "purpose": "Zurechnung bei Vermietung, Unterlassen, Dereliktion, Forthaftung und Störerauswahl im vergleichbaren Schredderlagerfall."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__928.html",
+        "title": "§ 928 BGB",
+        "purpose": "Grundbucherklärungen bei Eigentumsaufgabe und Aneignung."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1989-07-07/v-zr-76_88",
+        "title": "BGH, Urteil vom 07.07.1989 – V ZR 76/88",
+        "purpose": "Aneignung herrenloser Grundstücke durch Dritte."
+      },
+      {
+        "url": "https://www.bverwg.de/110403B7B141.02.0",
+        "title": "BVerwG, Beschluss vom 11.04.2003 – 7 B 141.02",
+        "purpose": "Aufhebung des VGH-Urteils und Unterscheidung der sittenwidrigen von der wirksamen Dereliktion, Grenzen der Störerauswahl."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2000/08/rk20000824_1bvr008397.html",
+        "title": "BVerfG, Beschluss vom 24.08.2000 – 1 BvR 83/97",
+        "purpose": "Sittenwidrigkeit ausschließlich zur Lastenabwälzung vorgenommener Rechtsgeschäfte."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.juris.de/bgb/__138.html",
+        "title": "§ 138 BGB",
+        "purpose": "Nichtigkeit sittenwidriger Rechtsgeschäfte."
+      },
+      {
+        "url": "https://www.landesrecht-bw.de/bsbw/document/jlr-NNLBW00007D29/part/X",
+        "title": "Polizeigesetz Baden-Württemberg vom 06.10.2020",
+        "purpose": "Abgleich der Neufassung mit den im Fall maßgeblichen Bestimmungen."
+      },
+      {
+        "url": "https://www.landesrecht-bw.de/bsbw/document/jlr-NNLBW00007BCBNN00000000051",
+        "title": "§ 15 LBO BW in der Fassung ab 01.08.2019",
+        "purpose": "Baulicher Brandschutz als Maßstab der materiellen Zulässigkeit."
+      },
+      {
+        "url": "https://www.landesrecht-bw.de/bsbw/document/jlr-NNLBW00007BCC/format/xsl/part/X",
+        "title": "Landesbauordnung für Baden-Württemberg",
+        "purpose": "Abgleich der allgemeinen Sicherheits- und Brandschutzanforderungen mit der aktuellen Fassung."
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/vgh-baden-wuerttemberg/2017-07-11/5-s-2067-15",
+        "title": "VGH Baden-Württemberg, Urteil vom 11.07.2017 – 5 S 2067/15",
+        "purpose": "Unterscheidung der Beseitigung einer baulichen Anlage von der Unterbindung ihrer Nutzung."
+      },
+      {
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Text=3+S+1606%2F84",
+        "title": "VGH Baden-Württemberg, Urteil vom 06.03.1985 – 3 S 1606/84",
+        "purpose": "Räumung zur tatsächlichen Beendigung einer unzulässigen Lagernutzung."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2022-N-1929?all=False",
+        "title": "Bayerischer Verwaltungsgerichtshof, Beschluss zur Zwischenregelung im Eilverfahren",
+        "purpose": "Möglichkeit einer Zwischenentscheidung zur Sicherung effektiven Rechtsschutzes."
+      }
+    ],
+    "hosts": [
+      "dejure.org",
+      "judicialis.de",
+      "recht.nulegal.eu",
+      "www.anwalt24.de",
+      "www.bundesverfassungsgericht.de",
+      "www.bverwg.de",
+      "www.gesetze-bayern.de",
+      "www.gesetze-im-internet.de",
+      "www.gesetze-im-internet.juris.de",
+      "www.landesrecht-bw.de",
+      "www.landtag-bw.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

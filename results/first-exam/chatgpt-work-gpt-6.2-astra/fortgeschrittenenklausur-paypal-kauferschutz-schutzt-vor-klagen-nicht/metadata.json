@@ -1,0 +1,119 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/schuldrecht/fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht",
+  "solver_case_id": "case-031",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenklausur-paypal-kauferschutz-schutzt-vor-klagen-nicht",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T19:08:16.230722+00:00",
+  "collected_at": "2026-11-20T08:17:27.109183+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 15338,
+      "sha256": "8339447edfe38794e84442ed83cac20c822307c67698e875ad8dc07820d2ec37"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2017-2-15&Gericht=bgh&anz=17&nr=77618&pos=11",
+        "title": "BGH, Urteil vom 15. Februar 2017 – VIII ZR 59/16",
+        "purpose": "Auslegung eines eBay-Festpreisangebots anhand der Plattformbedingungen."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2017&Gericht=bgh&file=dokument.pdf&linked=urt&nr=80382",
+        "title": "BGH, Urteil vom 22. November 2017 – VIII ZR 83/16",
+        "purpose": "Erfüllung durch PayPal-Gutschrift, Wiederbegründung bei Rückbelastung, Zeugenbeweis, Gefahrtragung und Ersatzansprüche beim Versandverlust."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__243.html",
+        "title": "Bürgerliches Gesetzbuch – § 243 Gattungsschuld",
+        "purpose": "Konkretisierung durch ordnungsgemäße Versendung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__269.html",
+        "title": "Bürgerliches Gesetzbuch – § 269 Leistungsort",
+        "purpose": "Unterscheidung von Leistungsort und Empfangsort."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__275.html",
+        "title": "Bürgerliches Gesetzbuch – § 275 Ausschluss der Leistungspflicht",
+        "purpose": "Unmöglichkeit der Leistung bei dauerhaftem Verlust."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__447.html",
+        "title": "Bürgerliches Gesetzbuch – § 447 Gefahrübergang beim Versendungskauf",
+        "purpose": "Preisgefahr und vereinbarte Versandart."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2009-9&Gericht=bgh&anz=332&nr=49949&pos=14",
+        "title": "BGH, Urteil vom 30. September 2009 – VIII ZR 7/09",
+        "purpose": "Privater Geschäftszweck bei Verwendung einer beruflichen Lieferanschrift."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__474.html",
+        "title": "Bürgerliches Gesetzbuch – § 474 Verbrauchsgüterkauf",
+        "purpose": "Anwendungsbereich des Verbrauchsgüterkaufrechts."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__475.html",
+        "title": "Bürgerliches Gesetzbuch – § 475 Anwendbare Vorschriften",
+        "purpose": "Besondere Voraussetzungen für den Gefahrübergang beim Privatkauf."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__476.html",
+        "title": "Bürgerliches Gesetzbuch – § 476 Abweichende Vereinbarungen",
+        "purpose": "Halbzwingender Verbraucherschutz bei abweichenden Abreden."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__326.html",
+        "title": "Bürgerliches Gesetzbuch – § 326 Befreiung von der Gegenleistung und Rücktritt beim Ausschluss der Leistungspflicht",
+        "purpose": "Wegfall des Kaufpreisanspruchs und Gegenleistung bei Verlangen des Ersatzes."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__285.html",
+        "title": "Bürgerliches Gesetzbuch – § 285 Herausgabe des Ersatzes",
+        "purpose": "Abtretung der an die Stelle des Geräts getretenen Versicherungsforderung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2020-9-9&Gericht=bgh&anz=19&nr=112329&pos=16",
+        "title": "BGH, Urteil vom 9. September 2020 – VIII ZR 255/19",
+        "purpose": "Allgemeiner Umfang des Ersatzanspruchs nach § 285 BGB und sachliche Zuordnung der Versicherungsleistung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.juris.de/bgb/__241a.html",
+        "title": "Bürgerliches Gesetzbuch – § 241a Unbestellte Leistungen",
+        "purpose": "Warenbegriff in Absatz 1, auf den § 474 Abs. 1 Satz 1 BGB verweist."
+      },
+      {
+        "url": "https://www.jura.uni-wuerzburg.de/fileadmin/02140600/2025/_Skriptum_Grundkurs_BGB_IIa_komplett_-_Juli_2025.pdf",
+        "title": "Florian Bien, Grundkurs Bürgerliches Recht IIa, Sommersemester 2025",
+        "purpose": "Voraussetzungen der Surrogation, Identität von geschuldetem und ersetztem Gegenstand und Versicherungsanspruch als Ersatz."
+      }
+    ],
+    "hosts": [
+      "juris.bundesgerichtshof.de",
+      "www.gesetze-im-internet.de",
+      "www.gesetze-im-internet.juris.de",
+      "www.jura.uni-wuerzburg.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

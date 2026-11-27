@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt",
+  "solver_case_id": "case-026",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-mehr-schein-als-sein-greenwashing-und-probefahrt",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:56:04.365513+00:00",
+  "collected_at": "2026-11-20T08:24:05.043454+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 33199,
+      "sha256": "de1304927aa18f2e800f102aed6400c04482ab54bd02f00cd9498137f2f916e6"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.taylorwessing.com/de/insights-and-events/insights/2026/02/amendment-to-the-german-unfair-competition-act",
+        "title": "Taylor Wessing: Amendment to the German Unfair Competition Act",
+        "purpose": "Verkündung des Dritten UWG-Änderungsgesetzes am 19.2.2026 und Inkrafttreten am 27.9.2026"
+      },
+      {
+        "url": "https://www.ihk.de/hagen/recht/rechtsthemen/wettbewerbsrecht/green-claims-werbung-mit-umweltaussagen-wird-staerker-reguliert-6072046",
+        "title": "IHK Hagen: Green Claims – strengere Regeln für Umweltaussagen",
+        "purpose": "Inhalt der Nr. 4a und 4c Anhang zu § 3 Abs. 3 UWG n.F., Reichweite bei unternehmensbezogenen Aussagen"
+      },
+      {
+        "url": "https://www.otto-schmidt.de/news/zivil-und-zivilverfahrensrecht/unterschlagung-eines-autos-wahrend-probefahrt-durch-vermeintlichen-kaufinteressenten-2020-09-18.html",
+        "title": "Otto Schmidt: BGH V ZR 8/19 – Unterschlagung eines Autos während Probefahrt",
+        "purpose": "Kein Abhandenkommen bei unbegleiteter Probefahrt, gutgläubiger Erwerb möglich"
+      },
+      {
+        "url": "https://rewis.io/urteile/urteil/5xj-18-09-2020-v-zr-819/",
+        "title": "BGH, Urteil vom 18.09.2020, V ZR 8/19 (Volltext)",
+        "purpose": "Leitsätze zum freiwilligen Besitzverlust bei unbegleiteter Probefahrt"
+      }
+    ],
+    "hosts": [
+      "rewis.io",
+      "www.ihk.de",
+      "www.otto-schmidt.de",
+      "www.taylorwessing.com"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

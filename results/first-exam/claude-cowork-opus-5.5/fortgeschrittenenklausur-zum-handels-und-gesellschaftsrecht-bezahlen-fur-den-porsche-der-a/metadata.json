@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/handels-und-gesellschaftsrecht/fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a",
+  "solver_case_id": "case-043",
+  "source_task_dir": "tasks/de/zivilrecht/handels-und-gesellschaftsrecht/fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a",
+  "source_task_dir_relative": "tasks/de/zivilrecht/handels-und-gesellschaftsrecht/fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-20T08:02:34.896613+00:00",
+  "collected_at": "2026-11-20T08:24:05.319213+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 21109,
+      "sha256": "9fcaf1a14ad2fddc5ab93e874c972a254138c3a8332bd6cdc16f1cb07d737264"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__137.html",
+        "title": "§ 137 HGB Nachhaftung des ausgeschiedenen Gesellschafters",
+        "purpose": "Aktueller Wortlaut der Nachhaftung nach MoPeG"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__126.html",
+        "title": "§ 126 HGB Persönliche Haftung der Gesellschafter",
+        "purpose": "Aktuelle Haftungsnorm OHG"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__106.html",
+        "title": "§ 106 HGB Anmeldung der Gesellschaft",
+        "purpose": "Anmeldepflicht des Ausscheidens (Abs. 6, 7)"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__141.html",
+        "title": "§ 141 HGB",
+        "purpose": "Abgrenzung: Anmeldung der Auflösung, nicht des Ausscheidens"
+      },
+      {
+        "url": "https://www.uni-marburg.de/de/fb01/aktuelles/nachrichten/abstract-wertenbruch-doring-gmbhr-2023-649-ff.pdf",
+        "title": "Wertenbruch/Döring, Nachhaftung nach MoPeG",
+        "purpose": "Nachfolge § 160 HGB a.F. durch § 137 HGB n.F."
+      },
+      {
+        "url": "https://betriebs-berater.ruw.de/wirtschaftsrecht/urteile/Haftung-eines-ausgeschiedenen-GbR-Gesellschafters-fuer-Verbindlichkeiten-der-Gesellschaft-15303",
+        "title": "BGH II ZR 197/10 Haftung ausgeschiedener Gesellschafter / Scheingesellschafter",
+        "purpose": "Voraussetzungen der Scheingesellschafterhaftung"
+      },
+      {
+        "url": "https://jura-online.de/lernen/publizitaet-des-handelsregisters-15-hgb/3243/excursus/",
+        "title": "Prüfungsschema § 15 HGB",
+        "purpose": "Ungeschriebenes Merkmal Vorgang im Geschäftsverkehr"
+      }
+    ],
+    "hosts": [
+      "betriebs-berater.ruw.de",
+      "jura-online.de",
+      "www.gesetze-im-internet.de",
+      "www.uni-marburg.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

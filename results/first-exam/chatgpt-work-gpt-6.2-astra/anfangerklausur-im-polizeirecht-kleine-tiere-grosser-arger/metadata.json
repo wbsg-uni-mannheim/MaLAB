@@ -1,0 +1,117 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger",
+  "solver_case_id": "case-012",
+  "source_task_dir": "tasks/de/oeffentliches-recht/verwaltungsrecht/anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/verwaltungsrecht/anfangerklausur-im-polizeirecht-kleine-tiere-grosser-arger",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T10:58:40.191327+00:00",
+  "collected_at": "2026-11-20T08:17:27.027648+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 16937,
+      "sha256": "dc76ad7b2dde98ce7763bcc49b1c13dac3625653a9bebd563a687df105c8f94a"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/BJNR000170960.html",
+        "title": "Verwaltungsgerichtsordnung",
+        "purpose": "Zulässigkeit, Prüfungsmaßstab und gerichtliche Ermessenskontrolle"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/zpo/__222.html",
+        "title": "§ 222 ZPO",
+        "purpose": "Berechnung der Klagefrist und Sonntagsregelung"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__188.html",
+        "title": "§ 188 BGB",
+        "purpose": "Ende der Monatsfrist"
+      },
+      {
+        "url": "https://www.landesrecht-bw.de/bsbw/document/jlr-NNLBW00007D29/part/X",
+        "title": "Polizeigesetz Baden-Württemberg",
+        "purpose": "Generalklausel, Verantwortlichkeit und Zuständigkeit"
+      },
+      {
+        "url": "https://www.landesrecht-bw.de/bsbw/document/jlr-NNLBW00007D29NN00000000001",
+        "title": "PolG BW, Gliederung in der 2024 maßgeblichen Fassung",
+        "purpose": "Zeitliche Zuordnung der Vorschriften"
+      },
+      {
+        "url": "https://www.landtag-bw.de/resource/blob/72948/94250fb4c10ed7593c4c0a5f9928631c/GBl202035.pdf",
+        "title": "Gesetzblatt Baden-Württemberg Nr. 35 vom 16. Oktober 2020",
+        "purpose": "Wortlaut des Polizeigesetzes und seine Zuständigkeitsordnung"
+      },
+      {
+        "url": "https://www.landesrecht-bw.de/bsbw/document/jlr-NNLBW00007E83/part/X",
+        "title": "Landesverwaltungsverfahrensgesetz Baden-Württemberg",
+        "purpose": "Verwaltungsakt, Anhörung, Bestimmtheit, Form und Begründung"
+      },
+      {
+        "url": "https://www.landesrecht-bw.de/bsbw/document/jlr-NNLBW00007D3B/part/X",
+        "title": "Gemeindeordnung Baden-Württemberg",
+        "purpose": "Vertretung der Stadt und Organzuständigkeit"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/ifsg/__2.html",
+        "title": "§ 2 IfSG",
+        "purpose": "Begriffe des Krankheitserregers und Gesundheitsschädlings"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/ifsg/__17.html",
+        "title": "§ 17 IfSG",
+        "purpose": "Abgrenzung der infektionsschutzrechtlichen Befugnis"
+      },
+      {
+        "url": "https://www.umweltbundesamt.de/themen/chemikalien/biozide/biozidprodukte/insektizide/informationen-eichenprozessionsspinner",
+        "title": "Umweltbundesamt, Informationen zum Eichenprozessionsspinner",
+        "purpose": "Abgrenzung des Pflanzenschutzes vom Schutz der Bevölkerung"
+      },
+      {
+        "url": "https://de.openlegaldata.io/case/vg-magdeburg-2018-04-24-1-a-9415",
+        "title": "VG Magdeburg, Urteil vom 24. April 2018 – 1 A 94/15",
+        "purpose": "Gegenansicht zur Unmittelbarkeit des Grundstückszustands"
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/ovg-saarland/2023-08-03/2-a-137-22",
+        "title": "OVG des Saarlandes, Urteil vom 3. August 2023 – 2 A 137/22",
+        "purpose": "Unmittelbarkeit der Gefahr, Naturereignis und Zustandsverantwortlichkeit"
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/entscheidungen/rs20000216_1bvr024291.html",
+        "title": "BVerfG, Beschluss vom 16. Februar 2000 – 1 BvR 242/91, 1 BvR 315/99",
+        "purpose": "Verfassungsrechtliche Grenzen wirtschaftlicher Belastung und Verkehrswert als Orientierung"
+      }
+    ],
+    "hosts": [
+      "de.openlegaldata.io",
+      "recht.nulegal.eu",
+      "www.bundesverfassungsgericht.de",
+      "www.gesetze-im-internet.de",
+      "www.landesrecht-bw.de",
+      "www.landtag-bw.de",
+      "www.umweltbundesamt.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

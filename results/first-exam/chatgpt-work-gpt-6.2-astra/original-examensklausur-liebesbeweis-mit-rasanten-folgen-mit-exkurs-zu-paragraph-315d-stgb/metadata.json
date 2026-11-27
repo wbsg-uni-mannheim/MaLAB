@@ -1,0 +1,160 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/strafrecht/materielles-strafrecht/original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb",
+  "solver_case_id": "case-024",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T14:28:26.254443+00:00",
+  "collected_at": "2026-11-20T08:17:27.079018+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 36093,
+      "sha256": "57412ad3f873a688776d613e349a1e5c44f03cc8bf6bea3a34bed45bb015a9d0"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://servat.unibe.ch/dfr/bs026104.html",
+        "title": "BGH, Urteil vom 3. April 1975 – 4 StR 62/75, BGHSt 26, 104",
+        "purpose": "Einheit des Diebstahls beim Wechsel des Beutegegenstands und Bedeutung der Geringwertigkeit."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__243.html",
+        "title": "§ 243 StGB",
+        "purpose": "Regelbeispiele für Einbruch und besondere Sicherung gegen Wegnahme sowie Geringwertigkeitsklausel."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__244.html",
+        "title": "§ 244 StGB",
+        "purpose": "Abgrenzung von Geschäftsraum und dauerhaft genutzter Privatwohnung sowie Verbrechenscharakter."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__303b.html",
+        "title": "§ 303b StGB",
+        "purpose": "Tatbestand und Versuch der Computersabotage."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2018&Gericht=bgh&Seite=9&anz=2994&nr=90902&pos=274",
+        "title": "BGH, Beschluss vom 27. November 2018 – 2 StR 481/17, BGHSt 63, 253, zur Sachbeschädigung beim Einbruch",
+        "purpose": "Tateinheit von Einbruchdiebstahl und Sachbeschädigung und eigenständiges Unrecht bei verschiedenen Rechtsgutsträgern."
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/2/16/2-362-16-1.php",
+        "title": "BGH, Urteil vom 22. August 2017 – 2 StR 362/16, zum Anstiftervorsatz",
+        "purpose": "Anforderungen an Bestimmen und Konkretisierung der Haupttat im Anstiftervorsatz."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2018-8-1&Gericht=bgh&anz=18&nr=90836&pos=7",
+        "title": "BGH, Urteil vom 1. August 2018 – 3 StR 651/17, Rn. 53, zur Objektverwechslung beim Angestifteten",
+        "purpose": "Reichweite der Zurechnung bei Verwechslung des Angriffsobjekts und Abgrenzung zum bewussten Objektwechsel."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__31.html",
+        "title": "§ 31 StGB",
+        "purpose": "Voraussetzungen des Rücktritts von der versuchten Anstiftung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2001&Gericht=bgh&Seite=3&anz=2408&nr=19542&pos=102",
+        "title": "BGH, Urteil vom 12. Dezember 2001 – 1 StR 441/01",
+        "purpose": "Rücktrittshorizont und Bedeutung unmittelbar verfügbarer weiterer Überzeugungsmittel."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2020-4&Gericht=bgh&file=dokument.pdf&linked=urt&nr=107968",
+        "title": "BGH, Urteil vom 18. Juni 2020 – 4 StR 482/19, BGHSt 65, 42",
+        "purpose": "Tötungsvorsatz, Eigengefährdung, Heimtücke, gemeingefährliches Mittel, niedrige Beweggründe und Grenzen mittäterschaftlicher Zurechnung beim Rennen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stvo_2013/BJNR036710013.html",
+        "title": "Straßenverkehrs-Ordnung",
+        "purpose": "Vorschriften zu Geschwindigkeit und Lichtzeichen auf der innerörtlichen Kreuzung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2018-3&Gericht=bgh&Seite=4&anz=245&nr=82673&pos=128",
+        "title": "BGH, Beschluss vom 15. März 2018 – 4 StR 469/17",
+        "purpose": "Rotlichtverstoß, Vorfahrt und eigenständige Bedeutung überhöhter Geschwindigkeit an der Kreuzung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2008-11&Gericht=bgh&file=dokument.pdf&linked=urt&nr=46501",
+        "title": "BGH, Urteil vom 20. November 2008 – 4 StR 328/08, Rn. 31",
+        "purpose": "Gefährdungsobjekte, Beihilfe eines Beifahrers, Abgrenzung von Selbst- und Fremdgefährdung sowie Zurechnung bei Straßenrennen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/BJNR001270871.html?level=1",
+        "title": "Strafgesetzbuch (StGB), Gesamtausgabe",
+        "purpose": "Gesetzeswortlaut der herangezogenen Vorschriften des StGB, insbesondere der Varianten und Schuldformen der Straßenverkehrsgefährdung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2003-2-20&Gericht=bgh&anz=16&nr=25683&pos=2",
+        "title": "BGH, Urteil vom 20. Februar 2003 – 4 StR 228/02, BGHSt 48, 233",
+        "purpose": "Zweckentfremdung und Schädigungsvorsatz als Voraussetzungen eines verkehrsfeindlichen Inneneingriffs."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2024-6-20&Gericht=bgh&Sort=3&anz=9&nr=138852&pos=3",
+        "title": "BGH, Urteil vom 20. Juni 2024 – 4 StR 15/24, Rn. 11 ff.",
+        "purpose": "Unfallbegriff bei vorsätzlicher Herbeiführung einer Kollision und typischem Verkehrsrisiko."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__142.html",
+        "title": "§ 142 StGB",
+        "purpose": "Feststellungs- und Wartepflicht sowie Begriff der Unfallbeteiligung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2015-9&Gericht=bgh&Seite=6&anz=304&nr=72365&pos=190",
+        "title": "BGH zur Hilfeleistungspflicht nach Eintritt des Todes",
+        "purpose": "Grenze der gebotenen Hilfeleistung bei bereits eingetretenem Tod."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2021&Gericht=bgh&Seite=5&anz=3571&nr=126219&pos=153",
+        "title": "BGH, Beschluss vom 8. Dezember 2021 – 4 StR 224/20, Rn. 21",
+        "purpose": "Eigenständige fahrlässige Tötung durch Rennteilnahme auch ohne unmittelbare Kollision des eigenen Fahrzeugs."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2021&Gericht=bgh&file=dokument.pdf&linked=urt&nr=124611",
+        "title": "BGH, Urteil vom 11. November 2021 – 4 StR 511/20, Rn. 26–28",
+        "purpose": "Eigenhändigkeit, Mitverursachungsbeitrag mehrerer Fahrer und Konkurrenzen der Rennfahrt."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/2012-04-16/4-str-45_12",
+        "title": "BGH, Beschluss vom 16. April 2012 – 4 StR 45/12",
+        "purpose": "Beifahrer als geschützter anderer Mensch und Ausschluss von Teilnehmern der konkreten Gefährdung."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1970-05-14/4-str-131_69",
+        "title": "BGH, Beschluss vom 14. Mai 1970 – 4 StR 131/69, BGHSt 23, 261",
+        "purpose": "Fehlende Rechtfertigungswirkung der Einwilligung des Beifahrers bei § 315c StGB."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2024-2&Gericht=bgh&anz=339&nr=137252&pos=2",
+        "title": "BGH, Urteil vom 29. Februar 2024 – 4 StR 350/23, Rn. 17–23",
+        "purpose": "Gefährdungsvorsatz, Brems- und Kollisionsgefahr sowie Bedeutung des konkret vorgestellten Verlaufs."
+      }
+    ],
+    "hosts": [
+      "juris.bundesgerichtshof.de",
+      "servat.unibe.ch",
+      "www.anwalt24.de",
+      "www.gesetze-im-internet.de",
+      "www.hrr-strafrecht.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

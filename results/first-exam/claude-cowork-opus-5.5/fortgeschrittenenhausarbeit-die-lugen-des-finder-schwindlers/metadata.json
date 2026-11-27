@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenhausarbeit-die-lugen-des-finder-schwindlers",
+  "solver_case_id": "case-021",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenhausarbeit-die-lugen-des-finder-schwindlers",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenhausarbeit-die-lugen-des-finder-schwindlers",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:16:06.308383+00:00",
+  "collected_at": "2026-11-20T08:24:04.811367+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 49238,
+      "sha256": "f6c700e03cbb16f1b997dfeea5e03e182f30f2a62d9490a860abd21bc27b8ced"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__261.html",
+        "title": "§ 261 StGB Geldwäsche (gesetze-im-internet.de)",
+        "purpose": "Aktuelle Fassung und Absatzstruktur des § 261 StGB (Abs. 1 S. 2, 3, Abs. 3, 6, 7, 8, 9, 10)"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/2/15/2-335-15-1.pdf",
+        "title": "BGH, Urteil vom 16.08.2017, 2 StR 335/15",
+        "purpose": "Kein schlechthin schutzunwürdiges Vermögen; Festhalten am wirtschaftlichen Vermögensbegriff"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/2/15/2-335-15.pdf",
+        "title": "BGH, Anfragebeschluss vom 01.06.2016, 2 StR 335/15",
+        "purpose": "Darstellung des Streitstands zum Vermögensschutz rechtswidrigen Besitzes"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/5/16/5-ars-47-16.pdf",
+        "title": "BGH, Beschluss vom 07.02.2017, 5 ARs 47/16",
+        "purpose": "Ablehnende Antwort eines anderen Senats auf die Anfrage"
+      }
+    ],
+    "hosts": [
+      "www.gesetze-im-internet.de",
+      "www.hrr-strafrecht.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

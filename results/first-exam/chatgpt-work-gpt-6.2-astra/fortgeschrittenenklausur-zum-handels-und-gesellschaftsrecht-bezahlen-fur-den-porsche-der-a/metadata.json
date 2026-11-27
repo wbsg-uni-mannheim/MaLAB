@@ -1,0 +1,140 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/handels-und-gesellschaftsrecht/fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a",
+  "solver_case_id": "case-043",
+  "source_task_dir": "tasks/de/zivilrecht/handels-und-gesellschaftsrecht/fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a",
+  "source_task_dir_relative": "tasks/de/zivilrecht/handels-und-gesellschaftsrecht/fortgeschrittenenklausur-zum-handels-und-gesellschaftsrecht-bezahlen-fur-den-porsche-der-a",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T21:06:58.317956+00:00",
+  "collected_at": "2026-11-20T08:17:27.083601+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 11130,
+      "sha256": "26bd9c95f29437984fd2b87102d42ce6c075b1696724caf3f8be6a6675553bef"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__15.html",
+        "title": "Handelsgesetzbuch, § 15",
+        "purpose": "Negative Publizität des Handelsregisters"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__25.html",
+        "title": "Handelsgesetzbuch, § 25",
+        "purpose": "Erwerberhaftung und Ausschluss gegenüber Dritten"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__48.html",
+        "title": "Handelsgesetzbuch, § 48",
+        "purpose": "Ausdrückliche Erteilung der Prokura"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__49.html",
+        "title": "Handelsgesetzbuch, § 49",
+        "purpose": "Umfang der Prokura"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__50.html",
+        "title": "Handelsgesetzbuch, § 50",
+        "purpose": "Unwirksamkeit interner Beschränkungen gegenüber Dritten"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__51.html",
+        "title": "Handelsgesetzbuch, § 51",
+        "purpose": "Zeichnung des Prokuristen"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__53.html",
+        "title": "Handelsgesetzbuch, § 53",
+        "purpose": "Anmeldung der Prokura"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__105.html",
+        "title": "Handelsgesetzbuch, § 105",
+        "purpose": "Rechtsfähigkeit der OHG"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__106.html",
+        "title": "Handelsgesetzbuch, § 106",
+        "purpose": "Anmeldepflicht für das Ausscheiden"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__126.html",
+        "title": "Handelsgesetzbuch, § 126",
+        "purpose": "Persönliche Gesellschafterhaftung"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__137.html",
+        "title": "Handelsgesetzbuch, § 137",
+        "purpose": "Zeitliche und sachliche Begrenzung der Nachhaftung"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/BJNR002190897.html?path=%2F",
+        "title": "Handelsgesetzbuch",
+        "purpose": "Abgleich der handelsrechtlichen Vorschriften, insbesondere §§ 17, 22, 52, 137 und 343 HGB."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BJNR001950896.html",
+        "title": "Bürgerliches Gesetzbuch",
+        "purpose": "Prüfung von Auslegung, Vertretung, Fälligkeit, Missbrauch und Einreden."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__433.html",
+        "title": "BGB, § 433",
+        "purpose": "Vertragliche Hauptpflichten beim Fahrzeugkauf."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.juris.de/bgb/__320.html",
+        "title": "BGB, § 320",
+        "purpose": "Zahlung bei ausstehender Gegenleistung."
+      },
+      {
+        "url": "https://www.leipzig.ihk.de/mb-02-38/",
+        "title": "IHK zu Leipzig, Prokura und Handlungsvollmacht",
+        "purpose": "Bedeutung der ppa.-Zeichnung und Erlöschen der Prokura bei Unternehmensübertragung."
+      },
+      {
+        "url": "https://datenbank.nwb.de/Dokument/211652/",
+        "title": "BGH, Urteil vom 28. November 2005 – II ZR 355/03",
+        "purpose": "Verkehrsauffassung für die Fortführung des Geschäfts und seiner Firma."
+      },
+      {
+        "url": "https://datenbank.nwb.de/Dokument/217075/",
+        "title": "BGH, Urteil vom 9. Oktober 2003 – VII ZR 122/01",
+        "purpose": "Potenzielle Kausalität als Grenze der negativen Publizität."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=Aktuell&Gericht=bgh&Sort=12288&anz=1301&nr=136677&pos=6",
+        "title": "BGH, Urteil vom 9. Januar 2024 – II ZR 220/22",
+        "purpose": "Positive Kenntnis der nicht eingetragenen Tatsache und Grundsätze des Vollmachtsmissbrauchs."
+      }
+    ],
+    "hosts": [
+      "datenbank.nwb.de",
+      "juris.bundesgerichtshof.de",
+      "www.gesetze-im-internet.de",
+      "www.gesetze-im-internet.juris.de",
+      "www.leipzig.ihk.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

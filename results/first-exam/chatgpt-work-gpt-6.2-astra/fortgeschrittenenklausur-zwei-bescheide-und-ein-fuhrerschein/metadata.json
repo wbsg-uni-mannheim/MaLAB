@@ -1,0 +1,166 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein",
+  "solver_case_id": "case-005",
+  "source_task_dir": "tasks/de/oeffentliches-recht/verwaltungsrecht/fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/verwaltungsrecht/fortgeschrittenenklausur-zwei-bescheide-und-ein-fuhrerschein",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T20:52:06.384604+00:00",
+  "collected_at": "2026-11-20T08:17:27.034629+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 24651,
+      "sha256": "ba873d6c126e24c7b21aeaf75a8e4d42a8b019ba4062a0eb36cff2c458a2e1f1"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/BJNR000170960.html",
+        "title": "Verwaltungsgerichtsordnung",
+        "purpose": "Verwaltungsrechtsweg, Klageart, Beteiligte, Vorverfahren, Klagegegenstand und gerichtliche Ermessenskontrolle."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__55a.html",
+        "title": "§ 55a VwGO",
+        "purpose": "Form und Übermittlungswege für elektronische Dokumente."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__55d.html",
+        "title": "§ 55d VwGO",
+        "purpose": "Anwaltliche Pflicht zur elektronischen Übermittlung und Voraussetzungen der Ersatzeinreichung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__57.html",
+        "title": "§ 57 VwGO",
+        "purpose": "Beginn und Berechnung der verwaltungsprozessualen Fristen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__60.html",
+        "title": "§ 60 VwGO",
+        "purpose": "Voraussetzungen der Wiedereinsetzung, Glaubhaftmachung, Antragsfrist und Nachholung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__74.html",
+        "title": "§ 74 VwGO",
+        "purpose": "Monatsfrist ab Zustellung des Widerspruchsbescheids."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__81.html",
+        "title": "§ 81 VwGO",
+        "purpose": "Allgemeine Formen der Klageerhebung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/__113.html",
+        "title": "§ 113 VwGO",
+        "purpose": "Voraussetzungen und Umfang des Aufhebungsurteils."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/zpo/__222.html",
+        "title": "§ 222 ZPO",
+        "purpose": "Fristberechnung und Verschiebung des Fristendes am Sonntag."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__188.html",
+        "title": "§ 188 BGB",
+        "purpose": "Rechnerisches Ende der Monats- und der Wochenfrist."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/zpo/__85.html",
+        "title": "§ 85 ZPO",
+        "purpose": "Zurechnung anwaltlichen Verschuldens."
+      },
+      {
+        "url": "https://www.landesrecht-bw.de/bsbw/document/jlr-NNLBW00007E83/part/X",
+        "title": "Landesverwaltungsverfahrensgesetz Baden-Württemberg",
+        "purpose": "Anhörung, Sachverhaltsermittlung, Verwaltungsakt, Nebenbestimmungen, Ermessen, Nichtigkeit, Rücknahme und Umdeutung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/fev_2010/BJNR198000010.html",
+        "title": "Fahrerlaubnis-Verordnung",
+        "purpose": "Abgleich der Vorschriften über Anerkennung, Wohnsitzausnahme, Feststellungsbefugnis, Entziehung und Zuständigkeit."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/fev_2010/__7.html",
+        "title": "§ 7 FeV – Ordentlicher Wohnsitz im Inland",
+        "purpose": "Wohnsitzkriterien und Sonderregel für den Schul- oder Hochschulbesuch."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stvg/__3.html",
+        "title": "§ 3 StVG – Entziehung der Fahrerlaubnis",
+        "purpose": "Nachgewiesene fehlende Befähigung und territoriale Grenze der Entziehung."
+      },
+      {
+        "url": "https://www.bverwg.de/entscheidungen/pdf/081222B8B49.22.0.pdf",
+        "title": "BVerwG, Beschluss vom 8. Dezember 2022 – 8 B 49.22",
+        "purpose": "Unwirksamkeit der anwaltlichen Papiereinreichung, Rechtsbehelfsbelehrung und Wiedereinsetzung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2014-2-5&Gericht=bgh&Sort=3&anz=15&nr=66923&pos=10",
+        "title": "BGH, Beschluss vom 5. Februar 2014 – IV ZB 26/13",
+        "purpose": "Delegation eines Botengangs an zuverlässiges Kanzleipersonal aufgrund einer konkreten Weisung."
+      },
+      {
+        "url": "https://www.bverwg.de/250210U3C15.09.0",
+        "title": "BVerwG, Urteil vom 25. Februar 2010 – 3 C 15.09",
+        "purpose": "Erkenntnisse des Ausstellungsstaats und gerichtliche Verwertung nachträglich eingegangener Beweise über den früheren Wohnsitz."
+      },
+      {
+        "url": "https://www.bverwg.de/250811U3C9.11.0",
+        "title": "BVerwG, Urteil vom 25. August 2011 – 3 C 9.11",
+        "purpose": "Gesetzliche Nichtgeltung von Anfang an bei nachgewiesenem Wohnsitzverstoß und deklaratorische Feststellung."
+      },
+      {
+        "url": "https://www.bverwg.de/250811U3C28.10.0",
+        "title": "BVerwG, Urteil vom 25. August 2011 – 3 C 28.10",
+        "purpose": "Zweck der behördlichen Klarstellung und Wirkungsweise des § 28 Abs. 4 FeV."
+      },
+      {
+        "url": "https://www.bverwg.de/290518U7C34.15.0",
+        "title": "BVerwG, Urteil vom 29. Mai 2018 – 7 C 34.15",
+        "purpose": "Abgrenzung einer anlassbezogenen bedingten Regelung vom Verwaltungsakt auf Vorrat."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bverwg/1988-12-15/bverwg-5-c-6785",
+        "title": "BVerwG, Urteil vom 15. Dezember 1988 – 5 C 67.85",
+        "purpose": "Besonderer gesetzlicher Entscheidungsbedarf für einen vorsorglichen Verwaltungsakt im Kündigungsschutz."
+      },
+      {
+        "url": "https://www.bverwg.de/160615U10C15.14.0",
+        "title": "BVerwG, Urteil vom 16. Juni 2015 – 10 C 15.14",
+        "purpose": "Objektive Erkennbarkeit des Bedingungseintritts und Grenze zur behördlichen Wertung."
+      },
+      {
+        "url": "https://burhoff.de/asp_weitere_beschluesse/inhalte/1374.htm",
+        "title": "VGH Baden-Württemberg, Beschluss vom 30. Mai 2011 – 10 S 2640/10",
+        "purpose": "Grundsätzlich maßgeblicher Zeitpunkt der letzten Verwaltungsentscheidung für den Feststellungsbescheid."
+      }
+    ],
+    "hosts": [
+      "burhoff.de",
+      "juris.bundesgerichtshof.de",
+      "www.anwalt24.de",
+      "www.bverwg.de",
+      "www.gesetze-im-internet.de",
+      "www.landesrecht-bw.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

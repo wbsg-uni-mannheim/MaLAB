@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m",
+  "solver_case_id": "case-028",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:56:51.072381+00:00",
+  "collected_at": "2026-11-20T08:24:05.181226+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 27632,
+      "sha256": "af200ef7308ad1ac51bd1917be075d02e7b983adf7e60e546e34af2a7b1e51f8"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__315.html",
+        "title": "§ 315 StGB Gefährliche Eingriffe in den Bahn-, Schiffs- und Luftverkehr",
+        "purpose": "Aktueller Wortlaut und Strafrahmen von § 315 StGB, insbesondere Abs. 3 Nr. 1 lit. b"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__315b.html",
+        "title": "§ 315b StGB Gefährliche Eingriffe in den Straßenverkehr",
+        "purpose": "Verweis in § 315b Abs. 3 auf § 315 Abs. 3 und Strafrahmen"
+      },
+      {
+        "url": "https://lexmea.de/en/gesetz/stgb/315e",
+        "title": "§ 315e StGB Schienenbahnen im Straßenverkehr",
+        "purpose": "Aktuelle Verortung der Schienenbahn-Regel in § 315e StGB"
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Pdf/Y-300-Z-BECKRS-B-2021-N-34090",
+        "title": "Entscheidung BeckRS 2021, 34090 zu straßenbündigem Bahnkörper",
+        "purpose": "Abgrenzung straßenbündiger und besonderer Bahnkörper nach BOStrab"
+      }
+    ],
+    "hosts": [
+      "lexmea.de",
+      "www.gesetze-bayern.de",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

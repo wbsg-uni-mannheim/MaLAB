@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/schuldrecht/ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles",
+  "solver_case_id": "case-032",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/ubungsfall-zu-vertragen-uber-digitale-produkte-motivation-ist-alles",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T21:05:52.460908+00:00",
+  "collected_at": "2026-11-20T08:24:05.996180+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 26146,
+      "sha256": "d3dac9e393e8dadf022a1f48803eba95ce58e2e4208f6db2c7e1a29446a5ded2"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__327c.html",
+        "title": "§ 327c BGB Rechte bei unterbliebener Bereitstellung",
+        "purpose": "Wortlaut und Struktur des Beendigungsrechts und der Lösung vom Paketvertrag (Abs. 1, 4, 6, 7)"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__327a.html",
+        "title": "§ 327a BGB Anwendung auf Paketverträge und Verträge über Sachen mit digitalen Elementen",
+        "purpose": "Abgrenzung Paketvertrag, Sachen mit digitalen Produkten, Waren mit digitalen Elementen"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__327o.html",
+        "title": "§ 327o BGB Erklärung und Rechtsfolgen der Vertragsbeendigung",
+        "purpose": "Beendigungserklärung und Erstattungsanspruch"
+      }
+    ],
+    "hosts": [
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

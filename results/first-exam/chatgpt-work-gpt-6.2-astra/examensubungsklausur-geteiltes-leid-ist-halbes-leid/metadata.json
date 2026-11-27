@@ -1,0 +1,279 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/sachenrecht/examensubungsklausur-geteiltes-leid-ist-halbes-leid",
+  "solver_case_id": "case-038",
+  "source_task_dir": "tasks/de/zivilrecht/sachenrecht/examensubungsklausur-geteiltes-leid-ist-halbes-leid",
+  "source_task_dir_relative": "tasks/de/zivilrecht/sachenrecht/examensubungsklausur-geteiltes-leid-ist-halbes-leid",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:54:22.575148+00:00",
+  "collected_at": "2026-11-20T08:17:27.088404+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 26915,
+      "sha256": "16e776d642f353673c8595b826ef18aff512b3ade58fc066d5edcfe5ff25a27b"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://lorenz.userweb.mwn.de/urteile/NJW96_1467.html",
+        "title": "BGH, Urteil vom 29. Februar 1996 – IX ZR 153/95, BGHZ 132, 119",
+        "purpose": "Schriftform der Ausfüllungsermächtigung und Haftung für die vollständig vorgelegte Blankobürgschaft."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgbeg/art_247__6.html",
+        "title": "Art. 247 § 6 EGBGB",
+        "purpose": "Pflichtangaben zum Widerrufsrecht im Allgemein-Verbraucherdarlehensvertrag."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BJNR001950896.html",
+        "title": "Bürgerliches Gesetzbuch (BGB)",
+        "purpose": "Gesetzeswortlaut zum Verbraucherdarlehen, zur Gesamtfälligstellung, zur Rückgewähr, zur Bürgschaft und zum Pfandrecht."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__772.html",
+        "title": "§ 772 BGB – Vollstreckungs- und Verwertungspflicht",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__773.html",
+        "title": "§ 773 BGB – Ausschluss der Einrede der Vorausklage",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__356b.html",
+        "title": "§ 356b BGB",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2006&Gericht=bgh&Seite=103&anz=3113&nr=35254&pos=3106",
+        "title": "BGH, Urteil vom 10. Januar 2006 – XI ZR 169/05, Rn. 13",
+        "purpose": "Entsprechende Anwendung von § 770 Abs. 1 BGB auf das Widerrufsrecht des Hauptschuldners."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2019-9-24&Gericht=bgh&anz=25&nr=102323&pos=22",
+        "title": "BGH, Urteil vom 24. September 2019 – XI ZR 322/18, Rn. 23",
+        "purpose": "Reichweite einer Darlehenssicherheit für Rückgewähransprüche nach einem Widerruf."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=Aktuell&Gericht=bgh&Sort=12288&anz=626&nr=111345&pos=26",
+        "title": "BGH, Urteil vom 22. September 2020 – XI ZR 219/19",
+        "purpose": "Fehlendes eigenes Verbraucherwiderrufsrecht des Bürgen nach § 312g BGB."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2002-1-15&Gericht=bgh&anz=18&nr=21094&pos=13",
+        "title": "BGH, Urteil vom 15. Januar 2002 – XI ZR 98/01, unter III 1 b",
+        "purpose": "Kriterien der Drittstellung des Hauptschuldners bei der Beschaffung einer Kreditsicherheit."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1250.html",
+        "title": "§ 1250 BGB",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1251.html",
+        "title": "§ 1251 BGB",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2008-12-09/xi-zr-588-07",
+        "title": "BGH, Urteil vom 9. Dezember 2008 – XI ZR 588/07, Rn. 13–16",
+        "purpose": "Gleichrang der Sicherungsgeber und Ausgleich nach dem Verhältnis der übernommenen Haftungsrisiken."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1215.html",
+        "title": "§ 1215 BGB",
+        "purpose": "Gesetzliche Verwahrungspflicht als Grundlage des Ersatzes für den Rostschaden."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1230.html",
+        "title": "§ 1230 BGB",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1234.html",
+        "title": "§ 1234 BGB",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://www.buzer.de/771_ZPO.htm",
+        "title": "§ 771 ZPO",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/zpo/__870a.html",
+        "title": "§ 870a ZPO",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/zpo/__6.html",
+        "title": "§ 6 ZPO",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gvg/__23.html",
+        "title": "§ 23 GVG",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gvg/__71.html",
+        "title": "§ 71 GVG",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__929a.html",
+        "title": "§ 929a BGB",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/inso/__51.html",
+        "title": "§ 51 InsO",
+        "purpose": "Gesetzliche Voraussetzungen und Rechtsfolgen der in der Falllösung geprüften Vorschrift."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2007-1&Gericht=bgh&Seite=6&anz=268&nr=38897&pos=206",
+        "title": "BGH, Urteil vom 11. Januar 2007 – IX ZR 181/05",
+        "purpose": "Intervention des Sicherungseigentümers und Grenzen eines Einwands aus dem Sicherungszweck."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__491.html",
+        "title": "§ 491 BGB – Verbraucherdarlehensvertrag",
+        "purpose": "Einordnung des privat veranlassten Yachtkredits und Prüfung der Pfandkreditausnahme."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__770.html",
+        "title": "§ 770 BGB – Einreden der Anfechtbarkeit und der Aufrechenbarkeit",
+        "purpose": "Wortlaut und Ausgangspunkt für die Anwendung auf ein Gestaltungsrecht des Hauptschuldners."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1211.html",
+        "title": "§ 1211 BGB – Einreden des Verpfänders",
+        "purpose": "Abgrenzung der eigenen und abgeleiteten Einreden des P."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1228.html",
+        "title": "§ 1228 BGB – Befriedigung durch Pfandverkauf",
+        "purpose": "Anspruchsgrundlage für die Duldung und Voraussetzungen der Pfandreife."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__350.html",
+        "title": "§ 350 HGB – Formfreiheit der kaufmännischen Bürgschaft",
+        "purpose": "Fehlendes Handelsgeschäft aufseiten des Bürgen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__368.html",
+        "title": "§ 368 HGB – Pfandverkauf im Handelsverkehr",
+        "purpose": "Prüfung der Monatsfrist bei privatem Verpfänder."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/zpo/__802.html",
+        "title": "§ 802 ZPO – Ausschließlichkeit der Gerichtsstände",
+        "purpose": "Ausschließliche örtliche Zuständigkeit in Kiel."
+      },
+      {
+        "url": "https://ruessmann.jura.uni-saarland.de/bvr2006/Entscheidungen/IX_ZR_153_95.htm",
+        "title": "BGH, IX ZR 153/95 – Blankobürgschaft",
+        "purpose": "Kontrolle der Leitsätze zum gutgläubigen Empfang der vervollständigten Urkunde."
+      },
+      {
+        "url": "https://www.haufe.de/id/kommentar/pruettingwegenweinreich-bgb-kommentar-bgb-766-bgb-1-entstehung-der-buergschaft-HI16992329.html",
+        "title": "Prütting/Wegen/Weinreich, BGB § 766 – Entstehung der Bürgschaft",
+        "purpose": "Streitstand zur nachträglichen formlosen Genehmigung."
+      },
+      {
+        "url": "https://www.haufe.de/id/kommentar/pruettingwegenweinreich-bgb-kommentar-bgb-143-bgb-i-vertrag-143-ii-HI17000675.html",
+        "title": "Prütting/Wegen/Weinreich, BGB § 143 – Anfechtungsgegner beim Vertrag",
+        "purpose": "Anfechtungsadressat nach einer Einzelrechtsnachfolge."
+      },
+      {
+        "url": "https://www.haufe.de/id/kommentar/pruettingwegenweinreich-bgb-kommentar-bgb-765-bgb-1-irrtum-nach-119-HI16992366.html",
+        "title": "Prütting/Wegen/Weinreich, BGB § 765 – Irrtum nach § 119",
+        "purpose": "Risikozuweisung beim Irrtum des Sicherungsgebers über die Bonität des Hauptschuldners."
+      },
+      {
+        "url": "https://www.haufe.de/id/kommentar/pruettingwegenweinreich-bgb-kommentar-bgb-1215-bg-b-verwahrungspflicht-HI16989512.html",
+        "title": "Prütting/Wegen/Weinreich, BGB § 1215 – Verwahrungspflicht",
+        "purpose": "Sorgfaltsmaßstab und Haftung des Pfandgläubigers."
+      },
+      {
+        "url": "https://www.uni-kiel.de/fileadmin/user_upload/mandanten/rechtswissenschaftliche-fakultaet/Juristisches_Seminar/Fervers/Vertiefung_zum_Recht_der_Kreditsicherheiten.pdf",
+        "title": "Fervers, Vertiefung zum Recht der Kreditsicherheiten",
+        "purpose": "Eigeninteresse des Pfandgläubigers als Grund gegen eine Analogie zu § 690 BGB."
+      },
+      {
+        "url": "https://www.dnoti.de/entscheidungen/details/?cHash=41e074e3965c043ac9bed190ff43c5f3&tx_dnotionlineplusapi_decisions%5Bnodeid%5D=cf393cf3-4ba5-4ca1-a590-b4d85979d866",
+        "title": "BGH, Urteil vom 24. September 1992 – IX ZR 195/91",
+        "purpose": "Begründung der Gleichrangigkeit von persönlicher und dinglicher Sicherheit."
+      },
+      {
+        "url": "https://www.bverwg.de/de/170714U5C20.13.0",
+        "title": "BVerwG, Urteil vom 17. Juli 2014 – 5 C 20.13",
+        "purpose": "Abgrenzung nicht registrierter Schiffe im Sachen- und Vollstreckungsrecht."
+      },
+      {
+        "url": "https://www.uni-kiel.de/fileadmin/user_upload/mandanten/rechtswissenschaftliche-fakultaet/Juristisches_Seminar/Fervers/Zwangsollstreckungsrecht_im_UEberblick_Vorlesungsskript.pdf",
+        "title": "Fervers, Zwangsvollstreckungsrecht im Überblick",
+        "purpose": "Einordnung der Gegenansicht zu §§ 771 und 805 ZPO bei Sicherungseigentum."
+      },
+      {
+        "url": "https://olg.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/MJ/MJ/olg/pdf/Ausbildungsmappe_Ref/2026/Leitfaden_Rechtsanwaltsstation_Stand_2025.pdf",
+        "title": "OLG Naumburg, Leitfaden für die Rechtsanwaltsstation",
+        "purpose": "Bestimmung des Zuständigkeitsstreitwerts einer Drittwiderspruchsklage."
+      },
+      {
+        "url": "https://www.jura.uni-mannheim.de/media/Lehrstuehle/jura/Bitter/Dateien/Veranstaltungen/Kreditsicherungsrecht/kreditsicherung-personalsicherheiten-skript-2016.pdf",
+        "title": "Bitter, Kreditsicherungsrecht – Personalsicherheiten",
+        "purpose": "Anwendbarkeit der Einrede nach § 770 Abs. 1 BGB auf andere Gestaltungsrechte."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/2001-03-15/ix-zr-273_98",
+        "title": "BGH, Urteil vom 15. März 2001 – IX ZR 273/98",
+        "purpose": "Auslegung des Sicherungsumfangs anhand des konkreten Rückzahlungsrisikos."
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/olg-hamm/2009-01-29/5-u-152-08",
+        "title": "OLG Hamm, Urteil vom 29. Januar 2009 – 5 U 152/08",
+        "purpose": "Abgleich der Voraussetzungen eines Zurückbehaltungsrechts wegen eines Schadensersatzanspruchs gegenüber einem dinglichen Duldungsanspruch."
+      },
+      {
+        "url": "https://de.openlegaldata.io/case/olgd-2005-10-21-i-16-u-16104",
+        "title": "OLG Düsseldorf, Urteil vom 21. Oktober 2005 – I-16 U 161/04",
+        "purpose": "Einordnung der Anwendbarkeit des Zurückbehaltungsrechts auf Unterlassungspflichten."
+      }
+    ],
+    "hosts": [
+      "de.openlegaldata.io",
+      "juris.bundesgerichtshof.de",
+      "lorenz.userweb.mwn.de",
+      "olg.sachsen-anhalt.de",
+      "recht.nulegal.eu",
+      "ruessmann.jura.uni-saarland.de",
+      "www.anwalt24.de",
+      "www.buzer.de",
+      "www.bverwg.de",
+      "www.dnoti.de",
+      "www.gesetze-im-internet.de",
+      "www.haufe.de",
+      "www.jura.uni-mannheim.de",
+      "www.uni-kiel.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

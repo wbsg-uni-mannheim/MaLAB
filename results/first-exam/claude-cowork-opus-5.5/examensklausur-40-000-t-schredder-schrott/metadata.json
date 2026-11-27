@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/examensklausur-40-000-t-schredder-schrott",
+  "solver_case_id": "case-013",
+  "source_task_dir": "tasks/de/oeffentliches-recht/verwaltungsrecht/examensklausur-40-000-t-schredder-schrott",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/verwaltungsrecht/examensklausur-40-000-t-schredder-schrott",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T10:57:02.214371+00:00",
+  "collected_at": "2026-11-20T08:24:04.478883+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 35520,
+      "sha256": "386503b57d82509dcab84aa5917b9ce0ab61f7c574480b79ac938bad1dbde8f1"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://lxgesetze.de/polg/9",
+        "title": "§ 9 PolG BW (Maßnahmen gegenüber unbeteiligten Personen), Fassung 2020",
+        "purpose": "Wortlaut und Aktualität § 9 PolG BW n.F."
+      },
+      {
+        "url": "https://lxgesetze.de/polg/7",
+        "title": "§ 7 PolG BW (Zustandsverantwortlichkeit)",
+        "purpose": "Prüfung, dass § 7 PolG BW keine Regelung zu herrenlosen Sachen enthält"
+      },
+      {
+        "url": "https://lxgesetze.de/polg/111",
+        "title": "§ 111 PolG BW (Allgemeine sachliche Zuständigkeit)",
+        "purpose": "Zuständigkeit der Ortspolizeibehörden nach PolG n.F."
+      },
+      {
+        "url": "https://lxgesetze.de/polg/107",
+        "title": "§ 107 PolG BW (Allgemeine Polizeibehörden)",
+        "purpose": "Gemeinden als Ortspolizeibehörden, Pflichtaufgaben nach Weisung"
+      },
+      {
+        "url": "https://www.policinglaw.info/assets/downloads/Baden-Württemberg.pdf",
+        "title": "Polizeigesetz Baden-Württemberg (Inhaltsübersicht)",
+        "purpose": "Nummerierung der Organisations- und Zuständigkeitsvorschriften §§ 104 ff. PolG n.F."
+      },
+      {
+        "url": "https://www.uni-trier.de/fileadmin/fb5/prof/BRZIPR/veranstaltungen/examen/examen_mat105.pdf",
+        "title": "BGH, Urteil vom 30.3.2007 - V ZR 179/06",
+        "purpose": "Zivilrechtliche Zustandsstörerhaftung trotz Eigentumsverzicht als Gegenargument"
+      }
+    ],
+    "hosts": [
+      "lxgesetze.de",
+      "www.policinglaw.info",
+      "www.uni-trier.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/anfangerklausur-erbe-auf-umwegen",
+  "solver_case_id": "case-022",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/anfangerklausur-erbe-auf-umwegen",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/anfangerklausur-erbe-auf-umwegen",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:16:53.436735+00:00",
+  "collected_at": "2026-11-20T08:24:04.664026+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 20847,
+      "sha256": "1766b09c9ff2e29867d06bacf5c318359712f951b117401ce8edeb3cca832cb9"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.jura.uni-bonn.de/fileadmin/Fachbereich_Rechtswissenschaft/Einrichtungen/Lehrstuehle/Kindhaeuser/Strafrecht_AT/s-at-11.pdf",
+        "title": "Kindhäuser, Skript Strafrecht AT § 11: Objektive Zurechnung",
+        "purpose": "Abgleich der Fallgruppe Risikoverringerung"
+      },
+      {
+        "url": "https://strafrecht-online.org/documents/111379/9_-_Der_objektive_Unrechtstatbestand_Teil_2_KK_159-191.pdf",
+        "title": "Hefendehl, Der objektive Unrechtstatbestand Teil 2",
+        "purpose": "Abgleich Definition und Fallgruppen der objektiven Zurechnung"
+      }
+    ],
+    "hosts": [
+      "strafrecht-online.org",
+      "www.jura.uni-bonn.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

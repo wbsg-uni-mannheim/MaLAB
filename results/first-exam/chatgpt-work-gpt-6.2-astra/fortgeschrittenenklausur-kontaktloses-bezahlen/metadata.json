@@ -1,0 +1,131 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-kontaktloses-bezahlen",
+  "solver_case_id": "case-019",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-kontaktloses-bezahlen",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-kontaktloses-bezahlen",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T12:45:56.022204+00:00",
+  "collected_at": "2026-11-20T08:17:27.065238+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 23117,
+      "sha256": "f8c91fd849d447b3de3dec97a854d0b8b917b9c383a4fa70766a3651bf11182a"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/2025-12-03/5-str-362_25",
+        "title": "BGH, Beschluss vom 3. Dezember 2025 – 5 StR 362/25",
+        "purpose": "Täuschungsäquivalenz, Händlerbetrug und subjektive Voraussetzungen der Datendelikte."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/2026-01-28/4-str-672_25",
+        "title": "BGH, Beschluss vom 28. Januar 2026 – 4 StR 672/25",
+        "purpose": "Bestätigung der BGH-Rechtsprechung zum kontaktlosen Bezahlen und Abgrenzung der subjektiven Voraussetzungen von §§ 274, 303a StGB."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__675j.html",
+        "title": "§ 675j BGB",
+        "purpose": "Zustimmung des Zahlers als Voraussetzung der Autorisierung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__675u.html",
+        "title": "§ 675u BGB",
+        "purpose": "Berichtigungsanspruch des Kontoinhabers und fehlender Aufwendungsersatzanspruch."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__675v.html",
+        "title": "§ 675v BGB",
+        "purpose": "Verteilung des Missbrauchsrisikos beim Verzicht auf starke Kundenauthentifizierung."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A02018R0389-20230912",
+        "title": "Art. 11 Delegierte Verordnung (EU) 2018/389",
+        "purpose": "Ausnahme von der starken Kundenauthentifizierung für kontaktlose Zahlungen an der Verkaufsstelle."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__263a.html",
+        "title": "§ 263a StGB",
+        "purpose": "Tatvarianten und Versuchsstrafbarkeit des Computerbetrugs."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__971.html",
+        "title": "§ 971 BGB",
+        "purpose": "Rechtsnatur des Finderlohnanspruchs."
+      },
+      {
+        "url": "https://nrwe.justiz.nrw.de/pdfdownload/downloadEntscheidung.php?entscheidung=%2Fnrwe%2Folgs%2Fhamm%2Fj2020%2F4_RVs_12_20_Beschluss_20200407.html",
+        "title": "OLG Hamm, Beschluss vom 7. April 2020 – 4 RVs 12/20",
+        "purpose": "Beweisfunktion von Transaktions- und Bestandsdaten, Veränderungen bei der Zahlung und Reichweite der Ausspähung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__303a.html",
+        "title": "§ 303a StGB",
+        "purpose": "Tatbestand der rechtswidrigen Datenveränderung."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2024-N-29382",
+        "title": "BayObLG, Beschluss vom 29. Juli 2024 – 201 StRR 49/24",
+        "purpose": "Datenveränderung, Vorsatzerfordernis und Voraussetzungen einer Zueignung bei einer Fundkarte."
+      },
+      {
+        "url": "https://www.servat.unibe.ch/dfr/bs035152.html",
+        "title": "BGH, Beschluss vom 16. Dezember 1987 – 3 StR 209/87, BGHSt 35, 152, 153 ff.",
+        "purpose": "Unterscheidung zwischen verkörpertem Sachwert und Nutzung der Karte als Zugangsmittel."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__929.html",
+        "title": "§ 929 BGB",
+        "purpose": "Übereignung der Waren an der Kasse."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/BJNR001270871.html?level=1",
+        "title": "Strafgesetzbuch",
+        "purpose": "Prüfung der einschlägigen Eigentums-, Vermögens-, Urkunden- und Datendelikte sowie des Antragserfordernisses."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__269.html",
+        "title": "§ 269 StGB – Fälschung beweiserheblicher Daten",
+        "purpose": "Voraussetzungen der hypothetischen unechten oder verfälschten Urkunde."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__780.html",
+        "title": "§ 780 BGB – Schuldversprechen",
+        "purpose": "Selbständige Zahlungsverpflichtung der Sparkasse."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__350.html",
+        "title": "§ 350 HGB – Formfreiheit im Handelsverkehr",
+        "purpose": "Form des bankseitigen Zahlungsversprechens."
+      }
+    ],
+    "hosts": [
+      "eur-lex.europa.eu",
+      "nrwe.justiz.nrw.de",
+      "www.anwalt24.de",
+      "www.gesetze-bayern.de",
+      "www.gesetze-im-internet.de",
+      "www.servat.unibe.ch"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

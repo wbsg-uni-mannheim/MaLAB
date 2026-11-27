@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-geldabheben-mit-hindernissen",
+  "solver_case_id": "case-016",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-geldabheben-mit-hindernissen",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-geldabheben-mit-hindernissen",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T14:24:45.582010+00:00",
+  "collected_at": "2026-11-20T08:24:04.949788+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 27371,
+      "sha256": "d3d49b8ffc345d58fcf4249ec94b4aa90eb7c0899e534bf0e6b70d337b3b2e50"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.str1.rw.fau.de/files/2021/01/safferling_akte-recht_olg-koeln-beschl-v-18-05-2020-nstz-2021-48.pdf",
+        "title": "Safferling, Akte Recht: OLG Köln, Beschl. v. 18.05.2020, NStZ 2021, 48 (Versuchsbeginn Cash Trapping)",
+        "purpose": "Versuchsbeginn beim Cash-Trapping"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/3/18/3-333-18.pdf",
+        "title": "BGH 3 StR 333/18, Beschluss vom 21.03.2019 (HRRS 2019 Nr. 917)",
+        "purpose": "Gewahrsam der Bank, Einigungsangebot nur an Berechtigten"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/20/4-338-20.pdf",
+        "title": "BGH 4 StR 338/20, Beschluss vom 03.03.2021 (BGHSt 66, 55)",
+        "purpose": "Gewahrsam des Bankkunden am Geld im Ausgabefach; Verweis auf 2 StR 154/17"
+      },
+      {
+        "url": "https://kripoz.de/Schlagwort/geldautomat/",
+        "title": "KriPoZ-RR Beitrag 29/2021 zu BGH 4 StR 338/20",
+        "purpose": "Zusammenfassung des Senatsstreits"
+      },
+      {
+        "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsprechung/bgh-gewahrsamsbruch-am-geldautomaten-2021-04-15",
+        "title": "beck-aktuell: Gewahrsamsbruch am Geldautomaten",
+        "purpose": "Bestätigung Inhalt BGH 4 StR 338/20"
+      }
+    ],
+    "hosts": [
+      "kripoz.de",
+      "www.beck-aktuell.de",
+      "www.hrr-strafrecht.de",
+      "www.str1.rw.fau.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

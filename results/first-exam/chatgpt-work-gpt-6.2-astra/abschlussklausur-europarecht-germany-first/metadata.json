@@ -1,0 +1,139 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/europarecht/abschlussklausur-europarecht-germany-first",
+  "solver_case_id": "case-002",
+  "source_task_dir": "tasks/de/oeffentliches-recht/europarecht/abschlussklausur-europarecht-germany-first",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/europarecht/abschlussklausur-europarecht-germany-first",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T20:11:48.693821+00:00",
+  "collected_at": "2026-11-20T08:17:27.003266+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 25166,
+      "sha256": "dd8688c31ba8f1ce50257f0773867eea3c6ce0e895a50b30a0734d60acce9222"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/oj?locale=de",
+        "title": "Vertrag über die Europäische Union, konsolidierte Fassung",
+        "purpose": "Unionswerte, Solidarität, loyale Zusammenarbeit, Aufgaben der Kommission und Gerichtszuständigkeit."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/2025-03-15/deu/pdf",
+        "title": "Vertrag über die Arbeitsweise der Europäischen Union einschließlich Protokoll Nr. 3, konsolidierte Fassung",
+        "purpose": "Verfahrens- und Kompetenzordnung, Warenverkehr, Gesundheitsschutz sowie Solidaritätsklauseln und Satzung des Gerichtshofs."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62022CJ0769",
+        "title": "EuGH, Kommission/Ungarn (Werte der Union), C-769/22, 21. April 2026",
+        "purpose": "Justiziabilität der Unionswerte und qualifizierte Voraussetzungen eines eigenständigen Verstoßes gegen Art. 2 EUV."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62017CJ0715",
+        "title": "EuGH, Kommission/Polen u. a., verbundene Rechtssachen C-715/17, C-718/17 und C-719/17",
+        "purpose": "Objektive Vertragskontrolle, Verteidigungsmöglichkeiten und Eingrenzung des Streitgegenstands im Vorverfahren."
+      },
+      {
+        "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2024-08/rdp-cour-de.pdf",
+        "title": "Verfahrensordnung des Gerichtshofs, konsolidierte Fassung",
+        "purpose": "Schriftliche Klage und Verbindung zusammenhängender Rechtssachen."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=celex%3A61979CJ0015",
+        "title": "EuGH, Groenveld, Rs. 15/79",
+        "purpose": "Spezifische Benachteiligung der Ausfuhr gegenüber dem inländischen Absatz."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62007CJ0205",
+        "title": "EuGH, Gysbrechts und Santurel Inter, C-205/07",
+        "purpose": "Einbeziehung von Regelungen mit stärkerer tatsächlicher Belastung der Ausfuhr."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62023CJ0499",
+        "title": "EuGH, Kommission/Ungarn (Baumaterialien für kritische Infrastrukturen), C-499/23",
+        "purpose": "Ausfuhrformalität mit staatlichem Erwerbsvorrang sowie Kompetenz für Kontrollen bei Drittlandsausfuhren."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A62018CJ0222",
+        "title": "EuGH, VIPA, C-222/18",
+        "purpose": "Bedeutung der Arzneimittelversorgung und nationaler Wertungsspielraum bei der Rechtfertigung einer Ausfuhrbeschränkung."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62022CJ0128",
+        "title": "EuGH, Nordic Info, C-128/22",
+        "purpose": "Präventive Schutzmaßnahmen und gefahrenbezogene Verhältnismäßigkeitsprüfung bei COVID-19."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A52020DC0112",
+        "title": "Europäische Kommission, Die koordinierte wirtschaftliche Reaktion auf die COVID-19-Pandemie, COM(2020) 112 final, Anhang 2",
+        "purpose": "Berücksichtigung von Engpässen in anderen Mitgliedstaaten bei Beschränkungen des Handels mit medizinischen Gütern."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62019CJ0848",
+        "title": "EuGH, Deutschland/Polen, C-848/19 P",
+        "purpose": "Solidarität als allgemeiner Rechtsgrundsatz und ihre Konkretisierung in der Energiepolitik."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_222/oj/deu",
+        "title": "Art. 222 AEUV, Solidaritätsklausel",
+        "purpose": "Tatbestand der Katastrophenhilfe und Ersuchen der politischen Organe."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_168/oj/deu",
+        "title": "Art. 168 AEUV, Gesundheitswesen",
+        "purpose": "Koordinierung der nationalen Gesundheitspolitiken und fortbestehende mitgliedstaatliche Verantwortung."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A12016E259",
+        "title": "Art. 259 AEUV, Klage eines Mitgliedstaats",
+        "purpose": "Kontradiktorisches Vorverfahren und Dreimonatsfrist."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A61980CJ0269",
+        "title": "EuGH, Tymen, Rs. 269/80",
+        "purpose": "Beispiel für selbständige Klagen eines Mitgliedstaats und der Kommission gegen dieselben nationalen Vorschriften."
+      },
+      {
+        "url": "https://dserver.bundestag.de/btd/19/305/1930500.pdf",
+        "title": "Deutscher Bundestag, BT-Drs. 19/30500, S. 188, Verfahren der Staatenklage",
+        "purpose": "Eigenständigkeit des Vorverfahrens nach Art. 259 AEUV gegenüber dem Kommissionsverfahren."
+      },
+      {
+        "url": "https://www.bundestag.de/resource/blob/1105882/EU-6-059-25.pdf",
+        "title": "Deutscher Bundestag, Fragen zum Vertragsverletzungsverfahren der Europäischen Union gemäß Art. 258 AEUV",
+        "purpose": "Mahnschreiben, begründete Stellungnahme und angemessene Frist zur Abhilfe."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62021CC0121",
+        "title": "Schlussanträge in der Rechtssache C-121/21, Tschechische Republik/Polen",
+        "purpose": "Bedeutung der Befassung für Anhörung und Beginn der Dreimonatsfrist nach Art. 259 AEUV."
+      }
+    ],
+    "hosts": [
+      "curia.europa.eu",
+      "dserver.bundestag.de",
+      "eur-lex.europa.eu",
+      "www.bundestag.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/schuldrecht/anfangerklausur-ein-gebrochener-arm-und-viele-scherben",
+  "solver_case_id": "case-033",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/anfangerklausur-ein-gebrochener-arm-und-viele-scherben",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/anfangerklausur-ein-gebrochener-arm-und-viele-scherben",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T21:36:17.380479+00:00",
+  "collected_at": "2026-11-20T08:24:05.591448+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 28807,
+      "sha256": "dc8311211fb492e77a49c66e6745228bb2c8cd61efc9de879c35cdd8374a766d"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__851.html",
+        "title": "§ 851 BGB",
+        "purpose": "Wortlaut Ersatzleistung an Besitzer (Abwandlung 1)"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__935.html",
+        "title": "§ 935 BGB",
+        "purpose": "Abhandenkommen, aktuelle Fassung Abs. 2 (Abwandlung 2)"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__1823.html",
+        "title": "§ 1823 BGB",
+        "purpose": "Vertretungsmacht des Betreuers (aktuelles Recht)"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__965.html",
+        "title": "§ 965 BGB",
+        "purpose": "Anzeigepflicht des Finders, Wertgrenze zehn Euro"
+      },
+      {
+        "url": "https://www.ra-kotz.de/teich.htm",
+        "title": "Verkehrssicherungspflicht Privatgarten gegenüber Unbefugten",
+        "purpose": "Umfang Verkehrssicherungspflicht gegenüber unbefugt Eindringenden"
+      }
+    ],
+    "hosts": [
+      "www.gesetze-im-internet.de",
+      "www.ra-kotz.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

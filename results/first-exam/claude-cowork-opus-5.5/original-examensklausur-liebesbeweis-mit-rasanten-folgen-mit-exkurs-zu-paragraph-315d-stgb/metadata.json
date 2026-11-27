@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb",
+  "solver_case_id": "case-024",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/original-examensklausur-liebesbeweis-mit-rasanten-folgen-mit-exkurs-zu-paragraph-315d-stgb",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T20:18:05.266150+00:00",
+  "collected_at": "2026-11-20T08:24:05.226811+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 45575,
+      "sha256": "441010754552fb4b146db785f9f01ec9561b89456d0701911c1d03ad49f91d30"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/19/4-482-19-1.pdf",
+        "title": "BGH, Urt. v. 18.6.2020 - 4 StR 482/19 (HRRS 2020 Nr. 1008)",
+        "purpose": "Bedingter Tötungsvorsatz bei Raserfällen, Eigengefährdung, Mordmerkmale Heimtücke, niedrige Beweggründe, gemeingefährliche Mittel, Mittäterschaft"
+      },
+      {
+        "url": "https://kripoz.de/?p=17567",
+        "title": "KriPoZ-RR Beitrag 40/2020 zu BGH 4 StR 482/19",
+        "purpose": "Zusammenfassung der Ku'damm-Entscheidung, insb. fehlender Vorsatz bzgl. gemeingefährlicher Mittel"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/2/17/2-481-17-1.pdf",
+        "title": "BGH 2 StR 481/17 - Tateinheit zwischen Sachbeschädigung und Einbruchdiebstahl",
+        "purpose": "Konkurrenzverhältnis Sachbeschädigung / Einbruchdiebstahl"
+      },
+      {
+        "url": "https://rewis.io/urteile/urteil/ygv-11-12-2018-2-str-4817/",
+        "title": "BGH, Beschl. v. 11.12.2018 - 2 StR 48/17",
+        "purpose": "Tateinheit Sachbeschädigung bei § 243 Abs. 1 S. 2 Nr. 1 StGB; einheitlicher Diebstahl bei Objektwechsel"
+      },
+      {
+        "url": "https://www.beck-aktuell.de/daily/meldung/detail/bgh-verbotenes-kfz-rennen-fahrlaessige-toetung-auch-durch-nicht-an-kollision-beteiligten-angeklagten",
+        "title": "BGH, Urt. v. 11.11.2021 - 4 StR 511/20 (beck-aktuell)",
+        "purpose": "Fahrlässige Tötung und Gefährdung durch nicht kollidierten Rennteilnehmer, Nebentäterschaft, Eigenhändigkeit"
+      },
+      {
+        "url": "https://www.lto.de/recht/nachrichten/n/bgh-4str415-16-koelner-raser-fahrlaessige-toetung-bewaehrung-aufgehoben",
+        "title": "BGH, Urt. v. 6.7.2017 - 4 StR 415/16 (Kölner Raserfall, LTO)",
+        "purpose": "Verurteilung beider Rennteilnehmer wegen fahrlässiger Tötung"
+      }
+    ],
+    "hosts": [
+      "kripoz.de",
+      "rewis.io",
+      "www.beck-aktuell.de",
+      "www.hrr-strafrecht.de",
+      "www.lto.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

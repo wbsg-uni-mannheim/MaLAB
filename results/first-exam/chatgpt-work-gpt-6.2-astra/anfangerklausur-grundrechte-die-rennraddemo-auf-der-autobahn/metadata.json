@@ -1,0 +1,187 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/staatsrecht/anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn",
+  "solver_case_id": "case-006",
+  "source_task_dir": "tasks/de/oeffentliches-recht/staatsrecht/anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/staatsrecht/anfangerklausur-grundrechte-die-rennraddemo-auf-der-autobahn",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T20:52:25.469443+00:00",
+  "collected_at": "2026-11-20T08:17:27.020797+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 19610,
+      "sha256": "d83c77d7272bc65150f9d8b19351357ed0353b602d1b702e0b88e006c53ea155"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/gg/art_94.html",
+        "title": "Art. 94 GG",
+        "purpose": "Zuständigkeit für die Individualverfassungsbeschwerde nach der heutigen Fassung des Grundgesetzes."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/__90.html",
+        "title": "§ 90 BVerfGG",
+        "purpose": "Beschwerdefähigkeit, Beschwerdebefugnis und Erschöpfung des Rechtswegs."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gg/BJNR000010949.html",
+        "title": "Grundgesetz",
+        "purpose": "Prüfung der Art. 2, 3, 8 und 20a GG sowie der Grundrechtsbindung und der deutschen Staatsangehörigkeit."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/03/rs20210324_1bvr265618.html",
+        "title": "BVerfG, Klimabeschluss vom 24. März 2021 – 1 BvR 2656/18 u. a.",
+        "purpose": "Rechtsnatur und Gewicht des Klimaschutzgebots aus Art. 20a GG."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/entscheidungen/rk20121220_1bvr279410.html",
+        "title": "BVerfG, Beschluss vom 20. Dezember 2012 – 1 BvR 2794/10",
+        "purpose": "Fortbestehendes Rechtsschutzbedürfnis bei konkreter Gefahr einer gleichartigen versammlungsrechtlichen Maßnahme."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2004/03/rs20040303_1bvr046103.html",
+        "title": "BVerfG, Beschluss vom 3. März 2004 – 1 BvR 461/03",
+        "purpose": "Bedeutung eines tatsächlich durchgesetzten Versammlungsverbots für den nachträglichen Rechtsschutz."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/__22.html",
+        "title": "§ 22 BVerfGG",
+        "purpose": "Umfang des Vertretungszwangs im verfassungsgerichtlichen Verfahren."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/__23.html",
+        "title": "§ 23 BVerfGG",
+        "purpose": "Schriftformerfordernis und Begründungspflicht."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2002/07/rk20020704_2bvr216800.html",
+        "title": "BVerfG, Beschluss vom 4. Juli 2002 – 2 BvR 2168/00, unter Hinweis auf BVerfGE 15, 288 (291)",
+        "purpose": "Funktion des Schriftformerfordernisses und Entbehrlichkeit der Unterschrift bei eindeutig erkennbarer Urheberschaft und endgültiger Erklärung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/__92.html",
+        "title": "§ 92 BVerfGG",
+        "purpose": "Anforderungen an die Bezeichnung von Hoheitsakt und verletztem Recht."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/__93.html",
+        "title": "§ 93 BVerfGG",
+        "purpose": "Monatsfrist für die Erhebung und Begründung."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2016/10/rs20161027_1bvr045810.html",
+        "title": "BVerfG, Beschluss vom 27. Oktober 2016 – 1 BvR 458/10",
+        "purpose": "Objektives Gesamtgepräge von Veranstaltungen mit kommunikativen und unterhaltenden Elementen sowie Zweifelsregel."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2011/03/rk20110307_1bvr038805.html",
+        "title": "BVerfG, Beschluss vom 7. März 2011 – 1 BvR 388/05",
+        "purpose": "Friedlichkeit trotz Behinderung Dritter und Kriterien der Abwägung bei einer Verkehrsstörung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/fstrg/__1.html",
+        "title": "§ 1 FStrG",
+        "purpose": "Widmungszweck und Verkehrsbestimmung der Bundesautobahn."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2011/02/rs20110222_1bvr069906.html",
+        "title": "BVerfG, Fraport-Urteil vom 22. Februar 2011 – 1 BvR 699/06",
+        "purpose": "Reichweite der Ortswahl und Begriff der Versammlung unter freiem Himmel auch an überdachten Orten."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2023-N-6174?hl=true",
+        "title": "BayVGH, Beschluss vom 24. März 2023 – 10 CS 23.575, Rn. 13 f.",
+        "purpose": "Einzelfallprüfung bei Autobahnversammlungen, Tatsachengrundlage der Gefahrenprognose und mögliche Verkehrslenkung."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/BayVersG08-15",
+        "title": "Art. 15 BayVersG",
+        "purpose": "Gesetzliche Grundlage für Beschränkungen und Verbote in Bayern."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2023-N-12047?hl=true",
+        "title": "BayVGH, Beschluss vom 12. Mai 2023 – 10 CS 23.847, Rn. 16 f.",
+        "purpose": "Gefahren eines Fahrradkorsos für den Gegenverkehr und Grenzen von Geschwindigkeitsbegrenzungen und Umleitungen."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2003/09/qk20030905_1bvq003203.html",
+        "title": "BVerfG, Beschluss vom 5. September 2003 – 1 BvQ 32/03",
+        "purpose": "Vorrang geeigneter Beschränkungen vor einem Versammlungsverbot, einschließlich räumlich veränderter oder ortsfester Durchführung."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/BayVersG08-14",
+        "title": "Art. 14 BayVersG",
+        "purpose": "Bedeutung der Kooperation bei der Wahl versammlungsrechtlicher Maßnahmen."
+      },
+      {
+        "url": "https://de.openlegaldata.io/case/vg-karlsruhe-2017-06-22-7-k-866217",
+        "title": "VG Karlsruhe, Beschluss vom 22. Juni 2017 – 7 K 8662/17, zur abgelehnten Alternativroute",
+        "purpose": "Gerichtliche Würdigung der ausdrücklichen Ablehnung einer angebotenen Alternativroute bei einer geplanten Fahrraddemonstration."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2021-N-26071?hl=true",
+        "title": "BayVGH, Beschluss vom 7. September 2021 – 10 CS 21.2282, Rn. 32 f.",
+        "purpose": "Gewichtung des Interesses an einer gezielten Verkehrsunterbrechung und des Widmungszwecks einer Autobahn."
+      },
+      {
+        "url": "https://www.recht.bund.de/bgbl/1/2024/439/regelungstext.pdf?__blob=publicationFile&v=3",
+        "title": "Gesetz zur Änderung des Grundgesetzes (Artikel 93 und 94), BGBl. 2024 I Nr. 439",
+        "purpose": "Verlagerung der verfassungsgerichtlichen Zuständigkeitsnorm gegenüber dem Fallzeitpunkt."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/__13.html",
+        "title": "§ 13 BVerfGG – Zuständigkeiten",
+        "purpose": "Einfachgesetzliche Zuständigkeit des Bundesverfassungsgerichts."
+      },
+      {
+        "url": "https://www.bundestag.de/resource/blob/953324/7816a49aa6299a2f9335f5651c9fd59c/WD-3-039-23-pdf-data.pdf",
+        "title": "Deutscher Bundestag, Wissenschaftliche Dienste, WD 3 – 039/23",
+        "purpose": "Bindung des jeweiligen Hoheitsträgers im eigenen Zuständigkeitsbereich an Art. 3 Abs. 1 GG."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/BayVersG08/true",
+        "title": "Bayerisches Versammlungsgesetz – Gesamtausgabe",
+        "purpose": "Abgleich der bayerischen Regelungen über Versammlungen, Kooperation und Eingriffsbefugnisse."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/BJNR002430951.html",
+        "title": "Bundesverfassungsgerichtsgesetz – Gesamtausgabe",
+        "purpose": "Abgleich der Verfahrensvorschriften für die Verfassungsbeschwerde."
+      },
+      {
+        "url": "https://verwaltungsgericht-karlsruhe.justiz-bw.de/pb/%2CLde/5886571/?LISTPAGE=5886434",
+        "title": "VG Karlsruhe, Mitteilung zur Fahrraddemonstration zwischen Heidelberg und Mannheim",
+        "purpose": "Abgleich des Gegenstands des Verbots und der angebotenen Alternativroute im Vergleichsfall."
+      }
+    ],
+    "hosts": [
+      "de.openlegaldata.io",
+      "verwaltungsgericht-karlsruhe.justiz-bw.de",
+      "www.bundestag.de",
+      "www.bundesverfassungsgericht.de",
+      "www.gesetze-bayern.de",
+      "www.gesetze-im-internet.de",
+      "www.recht.bund.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

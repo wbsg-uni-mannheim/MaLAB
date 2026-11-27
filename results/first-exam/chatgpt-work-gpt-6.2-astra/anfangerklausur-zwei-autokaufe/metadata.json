@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/zivilrecht/schuldrecht/anfangerklausur-zwei-autokaufe",
+  "solver_case_id": "case-044",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/anfangerklausur-zwei-autokaufe",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/anfangerklausur-zwei-autokaufe",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T21:07:13.208796+00:00",
+  "collected_at": "2026-11-20T08:17:27.098810+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 13041,
+      "sha256": "b19a25d22d21043e2626ae50d08c12ed97d721161c6b63ab6b9e63d83293d9d6"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BGB.pdf",
+        "title": "Bürgerliches Gesetzbuch",
+        "purpose": "Kaufvertrag, Stellvertretung, Zugang, Haftung und Gegenleistung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__177.html",
+        "title": "§ 177 BGB",
+        "purpose": "Genehmigungsverfahren."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__54.html",
+        "title": "§ 54 HGB",
+        "purpose": "Umfang der Handlungsvollmacht."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/hgb/__56.html",
+        "title": "§ 56 HGB",
+        "purpose": "Verkaufsbefugnis von Ladenangestellten."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gmbhg/__35.html",
+        "title": "§ 35 GmbHG",
+        "purpose": "Vertretung der H durch den Geschäftsführer."
+      },
+      {
+        "url": "https://www.czarnetzki.eu/assets/Downloads/Urteile/BGH_VIII_ZR_289-09_eBayKonto.pdf",
+        "title": "BGH, Urteil vom 11. Mai 2011 – VIII ZR 289/09",
+        "purpose": "Voraussetzungen der Duldungs- und Anscheinsvollmacht."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2001-5&Gericht=bgh&Seite=3&anz=174&nr=23126&pos=107",
+        "title": "BGH, Urteil vom 10. Mai 2001 – III ZR 111/99",
+        "purpose": "Anlassbezogene Erkundigungspflicht nach § 179 Abs. 3 Satz 1 BGB."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2016-1&Gericht=bgh&file=dokument.pdf&linked=urt&nr=75241",
+        "title": "BGH, Urteil vom 14. Januar 2016 – I ZR 65/14",
+        "purpose": "Grundgedanke der Organisation des innerbetrieblichen Informationsaustauschs."
+      }
+    ],
+    "hosts": [
+      "juris.bundesgerichtshof.de",
+      "www.czarnetzki.eu",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

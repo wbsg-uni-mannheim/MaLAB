@@ -1,0 +1,100 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-geldabheben-mit-hindernissen",
+  "solver_case_id": "case-016",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-geldabheben-mit-hindernissen",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-geldabheben-mit-hindernissen",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T11:55:30.629784+00:00",
+  "collected_at": "2026-11-20T08:17:27.062470+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 19363,
+      "sha256": "d8d1437eb5b4c0ea94d063c28b0441f5da28c35a786e77f3b66f49285894849b"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/olg-koeln/2020-05-18/2-ws-161-20",
+        "title": "OLG Köln, Beschluss vom 18. Mai 2020 – 2 Ws 161/20",
+        "purpose": "Versuchsbeginn bei einer Klebefalle am Geldautomaten."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__303b.html",
+        "title": "§ 303b StGB",
+        "purpose": "Voraussetzungen der erheblichen Störung einer Datenverarbeitung."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2021-3-3&Gericht=bgh&Sort=1&anz=24&nr=117052&pos=8",
+        "title": "BGH, Beschluss vom 3. März 2021 – 4 StR 338/20, BGHSt 66, 55",
+        "purpose": "Mitgewahrsam des abgelenkten Kunden bei Eingabe des Betrags durch den Täter."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2024-11-12&Gericht=bgh&anz=37&nr=140047&pos=9",
+        "title": "BGH, Beschluss vom 12. November 2024 – 3 StR 301/24, Rn. 4–7, mit Darstellung der Senatsrechtsprechung",
+        "purpose": "Fortbestand des Bankgewahrsams und personell beschränktes Einverständnis."
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/lg-duisburg/2018-01-31/33-kls-722-js-115-17-24-17",
+        "title": "LG Duisburg, Urteil vom 31. Januar 2018 – 33 KLs-722 Js 115/17-24/17, zur Betragseingabe während der Ablenkung des Kunden",
+        "purpose": "Abgrenzung von Computerbetrug und Trickdiebstahl bei Betragseingabe."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__935.html",
+        "title": "§ 935 Abs. 2 BGB",
+        "purpose": "Gutgläubiger Erwerb gestohlenen Bargelds durch den Restaurantinhaber."
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/1956-04-12/4-str-60-56",
+        "title": "BGH, Urteil vom 12. April 1956 – 4 StR 60/56, BGHSt 9, 137",
+        "purpose": "Verfügungsmacht über Beutegeld bei einer Einladung."
+      },
+      {
+        "url": "https://recht.nulegal.eu/rechtsprechung/bgh/2001-03-08/1-str-43-01",
+        "title": "BGH, Beschluss vom 8. März 2001 – 1 StR 43/01",
+        "purpose": "Sachidentität bei mit gestohlenem Geld bezahlten Speisen."
+      },
+      {
+        "url": "https://www.burhoff.de/rspr/texte/aa_00012.htm",
+        "title": "OLG Hamm, Beschluss – 4 Ss 1166/00",
+        "purpose": "Fehlende Sachidentität nach dem Wechsel gestohlenen Geldes."
+      },
+      {
+        "title": "Strafgesetzbuch",
+        "url": "https://www.gesetze-im-internet.de/stgb/BJNR001270871.html?level=1",
+        "purpose": "Überprüfung der Tatbestände, Versuchs- und Subsidiaritätsregelungen."
+      },
+      {
+        "title": "BGH, Urteil vom 14. Juli 1959 – 1 StR 296/59",
+        "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Aktenzeichen=1+StR+296%2F59&Datum=1959-07-14&Gericht=BGH",
+        "purpose": "Erheblichkeit einer Beeinträchtigung der Brauchbarkeit ohne Substanzverletzung."
+      }
+    ],
+    "hosts": [
+      "dejure.org",
+      "juris.bundesgerichtshof.de",
+      "recht.nulegal.eu",
+      "www.burhoff.de",
+      "www.gesetze-im-internet.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

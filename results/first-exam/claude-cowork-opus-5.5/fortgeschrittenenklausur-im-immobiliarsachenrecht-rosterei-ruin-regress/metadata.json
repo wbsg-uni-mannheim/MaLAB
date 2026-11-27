@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/sachenrecht/fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress",
+  "solver_case_id": "case-045",
+  "source_task_dir": "tasks/de/zivilrecht/sachenrecht/fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress",
+  "source_task_dir_relative": "tasks/de/zivilrecht/sachenrecht/fortgeschrittenenklausur-im-immobiliarsachenrecht-rosterei-ruin-regress",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-20T08:03:23.038023+00:00",
+  "collected_at": "2026-11-20T08:24:05.499820+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 19856,
+      "sha256": "f64dbc368833ba8221ca4c425be25a911336e36e8d41220ff320436354644186"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1991-02-05/xi-zr-45_90",
+        "title": "BGH, Urteil vom 5.2.1991 - XI ZR 45/90",
+        "purpose": "Zahlung auf die Grundschuld fuehrt nicht zum Erloeschen der gesicherten Forderung; Abtretung der Darlehensforderung an den Sicherungsgeber"
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/2013-04-19/v-zr-47_12",
+        "title": "BGH, Urteil vom 19.4.2013 - V ZR 47/12",
+        "purpose": "Schadensersatzpflicht des Sicherungsnehmers nach allgemeinem Schuldrecht bei schuldhafter Nichterfuellung von Pflichten aus dem Sicherungsvertrag"
+      },
+      {
+        "url": "https://lorenz.userweb.mwn.de/urteile/ixzr79_16.htm",
+        "title": "BGH, IX ZR 79/16",
+        "purpose": "Ansprueche des Sicherungsgebers aus dem Sicherungsvertrag, Einrede gegen §§ 1192, 1147 BGB"
+      }
+    ],
+    "hosts": [
+      "lorenz.userweb.mwn.de",
+      "www.anwalt24.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

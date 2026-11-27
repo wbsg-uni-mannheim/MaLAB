@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-kontaktloses-bezahlen",
+  "solver_case_id": "case-019",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-kontaktloses-bezahlen",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenklausur-kontaktloses-bezahlen",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T19:09:36.659072+00:00",
+  "collected_at": "2026-11-20T08:24:04.996817+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 28026,
+      "sha256": "39dacf5ca376551485ab82070479d2c1146756409e85c8f22465beccd8ee841a"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/5/25/5-362-25.pdf",
+        "title": "BGH, Beschluss vom 3.12.2025 - 5 StR 362/25",
+        "purpose": "Leitentscheidung zu § 263a Abs. 1 Var. 3, § 263, § 261, § 274, § 303a beim kontaktlosen Zahlen ohne PIN"
+      },
+      {
+        "url": "https://datenbank.nwb.de/Dokument/1093067/",
+        "title": "BGH, Beschluss vom 28.1.2026 - 4 StR 672/25",
+        "purpose": "Bestätigung der Rechtsprechung; Hinweise zu § 274 Abs. 1 Nr. 2 und § 303a"
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Rtf/Y-300-Z-BECKRS-B-2024-N-29382?all=False",
+        "title": "BayObLG, Beschluss vom 29.7.2024 - 201 StRR 49/24",
+        "purpose": "Kein § 263a bei PIN-freier Zahlung mit aufgefundener EC-Karte"
+      },
+      {
+        "url": "https://www.ferner-alsdorf.de/thema/nfc-strafbarkeit/",
+        "title": "Ferner Alsdorf: NFC-Strafbarkeit (OLG Hamm 4 RVs 12/20)",
+        "purpose": "Inhalt OLG Hamm zu §§ 263a, 269 (keine Datenurkunde)"
+      }
+    ],
+    "hosts": [
+      "datenbank.nwb.de",
+      "www.ferner-alsdorf.de",
+      "www.gesetze-bayern.de",
+      "www.hrr-strafrecht.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

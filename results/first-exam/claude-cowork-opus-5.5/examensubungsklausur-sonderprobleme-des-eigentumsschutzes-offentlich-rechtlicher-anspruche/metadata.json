@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/staatsrecht/examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche",
+  "solver_case_id": "case-011",
+  "source_task_dir": "tasks/de/oeffentliches-recht/staatsrecht/examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/staatsrecht/examensubungsklausur-sonderprobleme-des-eigentumsschutzes-offentlich-rechtlicher-anspruche",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T20:17:11.740251+00:00",
+  "collected_at": "2026-11-20T08:24:04.342766+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 34622,
+      "sha256": "ffbaa0f812e7d7f30dcf71624d046fdcac14de041143e24525a2f01c4b6dfa9e"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.servat.unibe.ch/Dfr/bv167163.html",
+        "title": "BVerfGE 167, 163 (Contergan II), Beschluss vom 21.11.2023, 1 BvL 6/21",
+        "purpose": "Volltext der maßgeblichen BVerfG-Entscheidung: Zulässigkeit, Unionsrecht, Eigentumsschutz, Verhältnismäßigkeit, Art. 3 Abs. 1 GG"
+      },
+      {
+        "url": "https://www.beck-aktuell.de/daily/meldung/detail/bverfg-contergan-geschaedigte-muessen-anrechnung-auslaendischer-hilfen-hinnehmen",
+        "title": "beck-aktuell: Contergan-Geschädigte müssen Anrechnung ausländischer Hilfen hinnehmen",
+        "purpose": "Bestätigung von Aktenzeichen, Datum und Ergebnis"
+      },
+      {
+        "url": "https://www.bverwg.de/pm/2021/22",
+        "title": "BVerwG Pressemitteilung 22/2021: Vorlage an das BVerfG",
+        "purpose": "Inhalt des Vorlagebeschlusses 5 C 2.20"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/contstifg/__15.html",
+        "title": "§ 15 ContStifG",
+        "purpose": "Aktueller Normtext und Hinweis auf BVerfG-Entscheidungsformel"
+      },
+      {
+        "url": "https://www.bverwg.de/de/110424U5C1.24.0",
+        "title": "BVerwG, Urteil vom 11.04.2024, 5 C 1.24",
+        "purpose": "Fortgang des Ausgangsverfahrens nach der BVerfG-Entscheidung"
+      }
+    ],
+    "hosts": [
+      "www.beck-aktuell.de",
+      "www.bverwg.de",
+      "www.gesetze-im-internet.de",
+      "www.servat.unibe.ch"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/zivilrecht/schuldrecht/fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva",
+  "solver_case_id": "case-039",
+  "source_task_dir": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva",
+  "source_task_dir_relative": "tasks/de/zivilrecht/schuldrecht/fortgeschrittenenhausarbeit-von-casanova-zu-casa-nueva",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-20T07:45:44.579515+00:00",
+  "collected_at": "2026-11-20T08:24:05.841990+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 34887,
+      "sha256": "929be89d43a61de1db940d5d1f4c954591d69b137bfedfdd382324c2936cd724"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.haufe.de/immobilien/verwaltung/bgh-schonfristzahlung-ermoeglicht-keinen-kuendigungswiderspruch_258_521640.html",
+        "title": "Schonfristzahlung ermöglicht Widerspruch gegen ordentliche Kündigung nicht (BGH VIII ZR 323/18)",
+        "purpose": "§ 574 Abs. 1 S. 2 BGB trotz Schonfristzahlung"
+      },
+      {
+        "url": "https://www.haufe.de/id/entscheidung/bgh-urteil-vom-01072020-viii-zr-32318-HI13951241.html",
+        "title": "BGH, Urt. v. 1.7.2020, VIII ZR 323/18",
+        "purpose": "Leitsatz zu § 574 Abs. 1 S. 2 BGB"
+      },
+      {
+        "url": "https://www.haufe.de/id/entscheidung/bgh-urteil-vom-05102022-viii-zr-30721-HI15443372.html",
+        "title": "BGH, Urt. v. 5.10.2022, VIII ZR 307/21",
+        "purpose": "Schonfristzahlung wirkt nicht auf ordentliche Kündigung"
+      },
+      {
+        "url": "https://www.gegen-hartz.de/?p=247522",
+        "title": "BGH VIII ZR 21/26: Schonfristzahlung lässt ordentliche Kündigung unberührt",
+        "purpose": "Aktuelle Bestätigung und Gesetzgebungsstand"
+      },
+      {
+        "url": "https://www.forvismazars.com/de/en/who-we-are/news/press-media/newsletters/newsletter-immobilienrecht/newsletter-update-immobilienrecht-1-2026/geplante-grosse-mieterschutzreform-im-mietrecht",
+        "title": "Geplante Mieterschutzreform im Mietrecht",
+        "purpose": "BGH VIII ZR 177/23 und Reformvorhaben"
+      },
+      {
+        "url": "https://dserver.bundestag.de/brd/2026/0265-26.pdf",
+        "title": "BR-Drs. 265/26, Gesetzentwurf Mietrecht II",
+        "purpose": "Stand der geplanten Ausweitung der Schonfristzahlung"
+      },
+      {
+        "url": "https://www.berliner-mieterverein.de/?p=2525",
+        "title": "BGH v. 27.5.2009, VIII ZR 302/07",
+        "purpose": "Wertbemessung Bereicherungsanspruch Schönheitsreparaturen"
+      },
+      {
+        "url": "https://lorenz.userweb.mwn.de/urteile/viiizr302_07.htm",
+        "title": "BGH, Urteil vom 27. Mai 2009, VIII ZR 302/07 (Lorenz)",
+        "purpose": "Höherer Wert bei beruflicher Tätigkeit; Verweis VIII ZR 12/12 zu § 548 II"
+      },
+      {
+        "url": "https://www.iww.de/mk/quellenmaterial/id/40373",
+        "title": "BGH VIII ZR 302/07 Volltext (IWW)",
+        "purpose": "c.i.c.-Haftung bei Verwendung unwirksamer Klauseln"
+      }
+    ],
+    "hosts": [
+      "dserver.bundestag.de",
+      "lorenz.userweb.mwn.de",
+      "www.berliner-mieterverein.de",
+      "www.forvismazars.com",
+      "www.gegen-hartz.de",
+      "www.haufe.de",
+      "www.iww.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/europarecht/abschlussklausur-europarecht-germany-first",
+  "solver_case_id": "case-002",
+  "source_task_dir": "tasks/de/oeffentliches-recht/europarecht/abschlussklausur-europarecht-germany-first",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/europarecht/abschlussklausur-europarecht-germany-first",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T10:31:44.732748+00:00",
+  "collected_at": "2026-11-20T08:24:03.921647+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 33993,
+      "sha256": "1d701b81b28813f68b64175ab29817aec97a2de4a0d9edc979051ed23d41d070"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-04/cp260059de.pdf",
+        "title": "EuGH Pressemitteilung Nr. 59/26 zu C-769/22 Kommission/Ungarn (Werte der Union)",
+        "purpose": "Eigenständige Justiziabilität von Art. 2 EUV und Schwelle für einen Verstoß"
+      },
+      {
+        "url": "https://www.lto.de/recht/nachrichten/n/eugh-c76922-grundsatzurteil-ungarn-lgbtq-verstoss-werte-eu",
+        "title": "LTO: Grundsatzurteil des EuGH zum LGBTI+-Gesetz",
+        "purpose": "Bestätigung Datum und Inhalt des Urteils C-769/22"
+      },
+      {
+        "url": "https://verfassungsblog.de/verordnete-werte/",
+        "title": "Verfassungsblog: Verordnete Werte. Art. 2 EUV nach dem Ungarn-Urteil",
+        "purpose": "Einordnung der bisherigen Rechtsprechung zu Art. 2 EUV"
+      }
+    ],
+    "hosts": [
+      "curia.europa.eu",
+      "verfassungsblog.de",
+      "www.lto.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

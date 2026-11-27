@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-cowork",
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/fortsetzungsfeststellungsklage/fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters",
+  "solver_case_id": "case-015",
+  "source_task_dir": "tasks/de/oeffentliches-recht/verwaltungsrecht/fortsetzungsfeststellungsklage/fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/verwaltungsrecht/fortsetzungsfeststellungsklage/fall-07-fortsetzungsfeststellungsklage-gegen-die-untersagung-eines-politischen-strassentheaters",
+  "system_name": "COWORK OPUS 5.5 MEDIUM",
+  "model": "Claude Opus 5.5",
+  "reasoning_effort": "medium",
+  "settings_note": "Claude Cowork desktop app, remote sessions, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T12:47:54.897898+00:00",
+  "collected_at": "2026-11-20T08:24:04.573177+00:00",
+  "expected_deliverables": [
+    "fallloesung-sut.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung-sut.md",
+      "found": true,
+      "bytes": 26378,
+      "sha256": "460e939fa55bf3e03164bff95a8bd3d8d2382ea0eeb731aca606768971a90d65"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.rechtslupe.de/verwaltungsrecht/protestaktion-mit-anscheinswaffen-328517",
+        "title": "Rechtslupe: Protestaktion mit Anscheinswaffen (HessVGH 8 A 1188/10)",
+        "purpose": "Rechtsprechung zur Auslegung von Theateraufführung in § 42a Abs. 2 Nr. 1 WaffG"
+      },
+      {
+        "url": "https://www.lto.de/recht/nachrichten/n/vgh-kassel-gewehrattrappen-koennen-auf-einer-demo-erlaubt-sein",
+        "title": "LTO: VGH Kassel, Gewehrattrappen können auf einer Demo erlaubt sein",
+        "purpose": "Datum und Aktenzeichen der VGH-Entscheidung"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/waffg_2002/__42a.html",
+        "title": "§ 42a WaffG (gesetze-im-internet.de)",
+        "purpose": "Aktuelle Fassung von § 42a WaffG"
+      },
+      {
+        "url": "https://lexmea.de/de/gesetz/waffg/53",
+        "title": "§ 53 WaffG (lexmea)",
+        "purpose": "Aktuelle Nummerierung der Bußgeldvorschrift (§ 53 Abs. 1 Nr. 21b WaffG)"
+      },
+      {
+        "url": "https://www.bverwg.de/de/pm/2024/22",
+        "title": "BVerwG Pressemitteilung 22/2024, 6 C 2.22",
+        "purpose": "Fortsetzungsfeststellungsinteresse bei qualifiziertem Grundrechtseingriff"
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Rtf/Y-300-Z-BECKRS-B-2024-N-36821?all=False",
+        "title": "VGH München, Urt. v. 06.12.2024, 10 B 22.2178",
+        "purpose": "Fortsetzungsfeststellungsinteresse im Versammlungsrecht, Modalitäten"
+      }
+    ],
+    "hosts": [
+      "lexmea.de",
+      "www.bverwg.de",
+      "www.gesetze-bayern.de",
+      "www.gesetze-im-internet.de",
+      "www.lto.de",
+      "www.rechtslupe.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

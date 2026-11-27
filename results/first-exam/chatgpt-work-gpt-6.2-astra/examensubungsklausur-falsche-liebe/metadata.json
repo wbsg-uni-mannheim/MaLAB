@@ -1,0 +1,172 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/staatsrecht/examensubungsklausur-falsche-liebe",
+  "solver_case_id": "case-001",
+  "source_task_dir": "tasks/de/oeffentliches-recht/staatsrecht/examensubungsklausur-falsche-liebe",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/staatsrecht/examensubungsklausur-falsche-liebe",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-18T20:01:37.730428+00:00",
+  "collected_at": "2026-11-20T08:17:27.023130+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 24105,
+      "sha256": "5a435185580430cea2183866aed93e2cb183711ffed7f3ff5449c649d9f81007"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/gg/art_94.html",
+        "title": "Art. 94 GG",
+        "purpose": "Heutige Zuständigkeit für die Individualverfassungsbeschwerde."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/BJNR002430951.html",
+        "title": "Bundesverfassungsgerichtsgesetz",
+        "purpose": "Beschwerdegegenstand, Form, Begründung, Annahme und Entscheidungsfolgen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stvollzg/__115.html",
+        "title": "§ 115 StVollzG",
+        "purpose": "Feststellung nach Erledigung und gerichtliche Ermessenskontrolle."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stvollzg/__119.html",
+        "title": "§ 119 StVollzG",
+        "purpose": "Endgültigkeit, Prüfungsumfang und Entscheidungsform der Rechtsbeschwerde."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bverfgg/__93.html",
+        "title": "§ 93 BVerfGG",
+        "purpose": "Monatsfrist, Wiedereinsetzungsgrund, Antragsfrist, Glaubhaftmachung und Nachholung."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/__187.html",
+        "title": "§ 187 BGB",
+        "purpose": "Berechnung der Ereignisfrist."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/bgb/BGB.pdf?ad=dirN&l=dir&o=0&q=bgb+gesetzestext&qsrc=0",
+        "title": "Bürgerliches Gesetzbuch, §§ 187 und 188",
+        "purpose": "Ende der Monats- und Wochenfrist."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/09/rk20200903_1bvr178620.html",
+        "title": "BVerfG, Beschluss vom 3. September 2020 – 1 BvR 1786/20",
+        "purpose": "Krankheitsbedingte Unfähigkeit zur Einlegung selbst oder durch einen Bevollmächtigten."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2023/02/rk20230215_1bvr234922.html",
+        "title": "BVerfG, Beschluss vom 15. Februar 2023 – 1 BvR 2349/22",
+        "purpose": "Fristgebundener Tatsachenvortrag zur Wiedereinsetzung und Vorlage entscheidungserheblicher Unterlagen."
+      },
+      {
+        "url": "https://www.servat.unibe.ch/dfr/bv033001.html",
+        "title": "BVerfGE 33, 1 – Strafgefangene",
+        "purpose": "Grundrechtsgeltung in der Haft, Briefkontrolle, Meinungsfreiheit und fehlender Zusammenhang zwischen Ausgangspost und Gefahr innerhalb der Anstalt."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/gg/art_10.html",
+        "title": "Art. 10 GG",
+        "purpose": "Briefgeheimnis und Gesetzesvorbehalt."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2011/10/rk20111025_2bvr097910.html",
+        "title": "BVerfG, Beschluss vom 25. Oktober 2011 – 2 BvR 979/10",
+        "purpose": "Schutz von Inhalt und Übermittlungsumständen, Anforderungen an einen freiwilligen Verzicht."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1994/04/rs19940426_1bvr168988.html",
+        "title": "BVerfGE 90, 255 – Vertrauliche Äußerungen in einem Brief",
+        "purpose": "Beleidigungsfreie Sphäre und Erhalt der Vertraulichkeit bei staatlicher Briefkontrolle."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2006/11/rk20061123_1bvr028506.html",
+        "title": "BVerfG, Beschluss vom 23. November 2006 – 1 BvR 285/06",
+        "purpose": "Schutz enger freundschaftlicher Vertrauensverhältnisse."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/03/rk20210317_2bvr019420.html",
+        "title": "BVerfG, Beschluss vom 17. März 2021 – 2 BvR 194/20",
+        "purpose": "Leitentscheidung zur Anhaltung eines Gefangenenbriefs, Sinnermittlung, grundrechtlichem Vertrauensschutz und effektivem Rechtsschutz."
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/bverfg/20/2-bvr-194-20.pdf",
+        "title": "BVerfG 2 BvR 194/20, Entscheidungsabdruck bei HRRS",
+        "purpose": "Volltextkontrolle von Tenor und Entscheidungsgründen."
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/bverfg/20/2-bvr-194-20.php",
+        "title": "BVerfG 2 BvR 194/20, HTML-Entscheidungsabdruck bei HRRS",
+        "purpose": "Zuordnung der Entscheidungsgründe zu Vertrauensverhältnis, Schmähkritik und Art. 19 Abs. 4 GG."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/05/rk20200519_1bvr245919.html",
+        "title": "BVerfG, Beschluss vom 19. Mai 2020 – 1 BvR 2459/19",
+        "purpose": "Abwägung zwischen Machtkritik und persönlichem Ehrschutz, enge Ausnahmefälle."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2022/12/rs20221209_1bvr134521.html",
+        "title": "BVerfGE 165, 1 – Polizeiliche Befugnisse nach dem SOG MV",
+        "purpose": "Kernbereichsschutz bei taktisch begründeten intimen Beziehungen."
+      },
+      {
+        "url": "https://www.servat.unibe.ch/fallrecht/bv165001.html",
+        "title": "BVerfGE 165, 1, Entscheidungsabdruck im DFR",
+        "purpose": "Abgleich der Kriterien für intime Beziehungen beim verdeckten Einsatz."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__90a.html",
+        "title": "§ 90a StGB",
+        "purpose": "Kundgabeformen der Verunglimpfung eines Landes."
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2024/04/rk20240411_1bvr229023.html",
+        "title": "BVerfG, Beschluss vom 11. April 2024 – 1 BvR 2290/23",
+        "purpose": "Grenzen des Ehrenschutzes staatlicher Einrichtungen und Schutz ihrer Funktionsfähigkeit."
+      },
+      {
+        "url": "https://lexaris.de/book/version/documentflat/head/1313262",
+        "title": "Erstes Buch Justizvollzugsgesetzbuch Sachsen-Anhalt",
+        "purpose": "Kontrolle der Gesetzessystematik und des Vollzugsziels. Maßgeblich sind die im Sachverhalt abgedruckten Vorschriften."
+      },
+      {
+        "url": "https://www.nomos.de/wp-content/uploads/2026/09/100n_LSAJStVollzG.pdf",
+        "title": "Erstes Buch Justizvollzugsgesetzbuch Sachsen-Anhalt, Gesetzesabdruck zu §§ 1 und 2",
+        "purpose": "Wortlaut des Vollzugsziels in § 2 Abs. 1 JVollzGB I LSA."
+      },
+      {
+        "url": "https://www.doctrine.de/decisions/deudecygdu64l0kihht20",
+        "title": "BVerfG, Beschluss vom 12. September 1994 – 2 BvR 291/94",
+        "purpose": "Weiterleitung vertraulicher Post und Grenzen des Vollzugsziels als Eingriffsgrund."
+      }
+    ],
+    "hosts": [
+      "lexaris.de",
+      "www.bundesverfassungsgericht.de",
+      "www.doctrine.de",
+      "www.gesetze-im-internet.de",
+      "www.hrr-strafrecht.de",
+      "www.nomos.de",
+      "www.servat.unibe.ch"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

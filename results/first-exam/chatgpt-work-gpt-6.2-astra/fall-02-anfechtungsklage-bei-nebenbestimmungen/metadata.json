@@ -1,0 +1,185 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/oeffentliches-recht/verwaltungsrecht/anfechtungsklage/fall-02-anfechtungsklage-bei-nebenbestimmungen",
+  "solver_case_id": "case-014",
+  "source_task_dir": "tasks/de/oeffentliches-recht/verwaltungsrecht/anfechtungsklage/fall-02-anfechtungsklage-bei-nebenbestimmungen",
+  "source_task_dir_relative": "tasks/de/oeffentliches-recht/verwaltungsrecht/anfechtungsklage/fall-02-anfechtungsklage-bei-nebenbestimmungen",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T11:54:54.816968+00:00",
+  "collected_at": "2026-11-20T08:17:27.030239+00:00",
+  "expected_deliverables": [
+    "fallloesung-sut.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung-sut.md",
+      "found": true,
+      "bytes": 15642,
+      "sha256": "63940676a0abd84933fd38e8c967b7dab3e337f40c548d51ac0bc9333aa378ca"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/vwgo/BJNR000170960.html",
+        "title": "Verwaltungsgerichtsordnung",
+        "purpose": "Verwaltungsrechtsweg, Zuständigkeit, Sachentscheidungsvoraussetzungen und gerichtlicher Prüfungsmaßstab."
+      },
+      {
+        "url": "https://www.umwelt-online.de/regelwerk/allgemei/laender/srl/vwvfg25.htm",
+        "title": "Saarländisches Verwaltungsverfahrensgesetz vom 27. August 2025",
+        "purpose": "Verweisung des § 1 Abs. 1 SVwVfG auf das Verwaltungsverfahrensgesetz des Bundes."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwvfg/BJNR012530976.html",
+        "title": "Verwaltungsverfahrensgesetz",
+        "purpose": "Verwaltungsakt, Zuständigkeit, Anhörung, Bestimmtheit und Ermessen."
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/vwvfg/__36.html",
+        "title": "§ 36 VwVfG – Nebenbestimmungen zum Verwaltungsakt",
+        "purpose": "Ermächtigung bei gebundener Entscheidung und Abgrenzung der Auflage von der Bedingung."
+      },
+      {
+        "url": "https://saarheim.de/Gesetze/svwvg.htm",
+        "title": "Saarländisches Verwaltungsvollstreckungsgesetz",
+        "purpose": "Vollstreckung von Handlungs- und Unterlassungspflichten."
+      },
+      {
+        "url": "https://gesetze.co/SL/AGVwGO/19",
+        "title": "§ 19 AGVwGO Saar – Beteiligung von Behörden",
+        "purpose": "Beteiligtenfähigkeit und richtige Beklagte."
+      },
+      {
+        "url": "https://www.saarland.de/SharedDocs/Downloads/DE/mibs/tp_bauen_und_wohnen/ba_bt_gesetze/bauordnungen/LBO_2025_neu.pdf?__blob=publicationFile&v=2",
+        "title": "Landesbauordnung des Saarlandes",
+        "purpose": "Brandschutz, Verantwortung des Bauherrn, Bauaufsicht, Genehmigungsanspruch, Form und Prüfprogramm. § 6 Abs. 1 wurde der Aufgabenstellung entnommen."
+      },
+      {
+        "url": "https://www.bverwg.de/de/310119B8B10.18.0",
+        "title": "BVerwG, Beschluss vom 31. Januar 2019 – 8 B 10.18",
+        "purpose": "Statthaftigkeit der isolierten Anfechtung, offenkundig fehlende Teilbarkeit."
+      },
+      {
+        "url": "https://www.bverwg.de/de/290322B4C4.20.0",
+        "title": "BVerwG, Beschluss vom 29. März 2022 – 4 C 4.20",
+        "purpose": "Umfang der Prüfung bei isolierter Anfechtung."
+      },
+      {
+        "url": "https://www.bverwg.de/de/121022B8AV1.22.0",
+        "title": "BVerwG, Beschluss vom 12. Oktober 2022 – 8 AV 1.22",
+        "purpose": "Aufgabe der Forderung nach umfassender Rechtmäßigkeit des verbleibenden Verwaltungsakts."
+      },
+      {
+        "url": "https://www.lbo-saar.de/rechtsprechung/ovg-2-a-351-20-2021-06-23.html",
+        "title": "OVG des Saarlandes, Beschluss vom 23. Juni 2021 – 2 A 351/20",
+        "purpose": "Zufahrtsprüfung im vereinfachten Verfahren über § 73 Abs. 1 Satz 1 Halbsatz 2 LBO."
+      },
+      {
+        "url": "https://ssl.bverwg.de/091215U6C37.14.0",
+        "title": "BVerwG, Urteil vom 9. Dezember 2015 – 6 C 37.14",
+        "purpose": "Sicherstellung der Genehmigungsvoraussetzungen und Grenzen der Vorsorge gegen spätere Verstöße."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bverwg/1984-02-17/bverwg-4-c-7080",
+        "title": "BVerwG, Urteil vom 17. Februar 1984 – 4 C 70.80",
+        "purpose": "Materielle Teilbarkeit einer Brandschutzauflage zu einer Holzlagerhalle."
+      },
+      {
+        "url": "https://www.saarheim.de/Gesetze_Laender/lbo_laender.htm",
+        "title": "Landesbauordnungen der Länder",
+        "purpose": "Ländervergleich in der Fußnote."
+      },
+      {
+        "url": "https://www.gesetze-bayern.de/Content/Document/BayBO-5",
+        "title": "Art. 5 BayBO – Zugänge und Zufahrten auf den Grundstücken",
+        "purpose": "Bayerische Vergleichsnorm."
+      },
+      {
+        "url": "https://bravors.brandenburg.de/gesetze/bbgbo_2016",
+        "title": "Brandenburgische Bauordnung",
+        "purpose": "Brandenburgische Vergleichsnorm."
+      },
+      {
+        "url": "https://www.baden-wuerttemberg.de/index.php?dl=1&eID=dumpFile&fn=GBl._2026_Nr._44_vom_15.04.2026_signed.pdf&r=474227&t=r&token=a904bb49d9fb6fa3696ddbb450496de838545779",
+        "title": "Gesetzblatt für Baden-Württemberg 2026 Nr. 44",
+        "purpose": "Aktuelle Fassung der baden-württembergischen Vergleichsnorm."
+      },
+      {
+        "url": "https://www.mw.niedersachsen.de/download/223572/Verwaltungsvorschrift_Technische_Baubestimmungen_VV_TB_Fassung_November_2025_.pdf",
+        "title": "Niedersachsen, Verwaltungsvorschrift Technische Baubestimmungen",
+        "purpose": "Verweis auf §§ 1 und 2 DVO-NBauO."
+      },
+      {
+        "url": "https://mkbwk.rlp.de/fileadmin/07/Bilder/Themen/Baurecht_und_Bautechnik/Bauvorschriften/Bauordnungsrecht/Synopse_LBauO.pdf",
+        "title": "Rheinland-Pfalz, Synopse zur Landesbauordnung",
+        "purpose": "Zuordnung der Zufahrtsregelung zu § 7 LBauO."
+      },
+      {
+        "url": "https://dokumente.hamburg.de/resource/blob/1231192/f72fd5750a37f10791dd5c89bd239fc3/2026-09-09-gesamtsynopse-hbauo-2005-hbauo-2025-mit-bauturbo-farbig-data.pdf",
+        "title": "Freie und Hansestadt Hamburg, Gesamtsynopse HBauO",
+        "purpose": "Verortung der Hamburger Regelung in § 5 HBauO."
+      },
+      {
+        "url": "https://recht.nrw.de/lrgv/gesetz/01092026-landesbauordnung-2018-bauo-nrw-2018/?trk=article-ssr-frontend-pulse_little-text-block",
+        "title": "Bauordnung für das Land Nordrhein-Westfalen",
+        "purpose": "Nordrhein-westfälische Vergleichsnorm."
+      },
+      {
+        "url": "https://www.recht.sachsen.de/vorschrift/1779.10",
+        "title": "Sächsische Bauordnung",
+        "purpose": "Sächsische Vergleichsnorm."
+      },
+      {
+        "url": "https://www.architektenkammer-hessen.de/fileadmin/Beratung/Recht/Gesetze/HBO/HBO-2024.pdf?_=1739877291",
+        "title": "Hessische Bauordnung",
+        "purpose": "Zuordnung der Feuerwehrzufahrten zu § 5 HBO."
+      },
+      {
+        "url": "https://openlex.de/sachsen-anhalt/bauo-lsa/5",
+        "title": "§ 5 BauO LSA",
+        "purpose": "Vergleichsvorschrift in Sachsen-Anhalt."
+      },
+      {
+        "url": "https://openlex.de/thueringen/thurbo/5",
+        "title": "§ 5 ThürBO",
+        "purpose": "Thüringer Vergleichsnorm."
+      }
+    ],
+    "hosts": [
+      "bravors.brandenburg.de",
+      "dokumente.hamburg.de",
+      "gesetze.co",
+      "mkbwk.rlp.de",
+      "openlex.de",
+      "recht.nrw.de",
+      "saarheim.de",
+      "ssl.bverwg.de",
+      "www.anwalt24.de",
+      "www.architektenkammer-hessen.de",
+      "www.baden-wuerttemberg.de",
+      "www.bverwg.de",
+      "www.gesetze-bayern.de",
+      "www.gesetze-im-internet.de",
+      "www.lbo-saar.de",
+      "www.mw.niedersachsen.de",
+      "www.recht.sachsen.de",
+      "www.saarheim.de",
+      "www.saarland.de",
+      "www.umwelt-online.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

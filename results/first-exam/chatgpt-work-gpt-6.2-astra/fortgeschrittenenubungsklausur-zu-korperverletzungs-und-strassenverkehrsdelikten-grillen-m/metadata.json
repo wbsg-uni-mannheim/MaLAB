@@ -1,0 +1,114 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m",
+  "solver_case_id": "case-028",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/fortgeschrittenenubungsklausur-zu-korperverletzungs-und-strassenverkehrsdelikten-grillen-m",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T17:42:43.419123+00:00",
+  "collected_at": "2026-11-20T08:17:27.075359+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 18065,
+      "sha256": "ebe9d932d5a6f40ef065fe50b8c5ba37c9579ee2d15473a9cda2d44b723adae5"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/BJNR001270871.html?level=1",
+        "title": "§ 223 StGB und weitere Vorschriften des StGB",
+        "purpose": "Gesetzeswortlaut der angewandten Strafvorschriften"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/25/4-281-25.pdf",
+        "title": "BGH, Beschluss vom 14. Juli 2025 – 4 StR 281/25, Rn. 7–8",
+        "purpose": "Mittelbare Individualisierung des Opfers bei einer Distanzfalle"
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&nr=143325",
+        "title": "BGH, Beschluss vom 29. Juli 2025 – 4 StR 280/25, Rn. 26",
+        "purpose": "Unmittelbarkeit der Werkzeugwirkung und Bewegungsrichtung"
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&nr=138951",
+        "title": "BGH, Urteil vom 7. August 2024 – 1 StR 430/23, Rn. 24",
+        "purpose": "Voraussetzungen der planmäßigen Verdeckung beim Überfall"
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/3/20/3-386-20.php",
+        "title": "BGH, Beschluss vom 15. Dezember 2020 – 3 StR 386/20, Rn. 6–10",
+        "purpose": "Bedingter Verletzungsvorsatz beim hinterlistigen Überfall und Reichweite der Entscheidung"
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&nr=138131",
+        "title": "BGH, Urteil vom 23. Mai 2024 – 4 StR 234/23",
+        "purpose": "Vorsatz bei der lebensgefährdenden Behandlung"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__315e.html",
+        "title": "§ 315e StGB",
+        "purpose": "Abgrenzung zwischen Bahn- und Straßenverkehr"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__315b.html",
+        "title": "§ 315b Abs. 1 Nr. 2 StGB",
+        "purpose": "Grundtatbestand und Qualifikationsverweisung"
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&nr=54603",
+        "title": "BGH, Beschluss vom 28. September 2010 – 4 StR 245/10",
+        "purpose": "Wert des Gefährdungsobjekts und Höhe des drohenden Sachschadens"
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&nr=80663",
+        "title": "BGH, Beschluss vom 19. Dezember 2017 – 4 StR 483/17",
+        "purpose": "Eingriffshandlung als Mittel der Verdeckung"
+      },
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/__142.html",
+        "title": "§ 142 StGB",
+        "purpose": "Feststellungs- und Wartepflicht sowie nachträgliche Feststellungen"
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2007/03/rk20070319_2bvr227306.html",
+        "title": "BVerfG, Beschluss vom 19. März 2007 – 2 BvR 2273/06",
+        "purpose": "Wortlautgrenze beim unvorsätzlichen Sichentfernen"
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&nr=137992",
+        "title": "Bundesgerichtshof – Verkehrsspezifische Gefahr bei § 315b StGB",
+        "purpose": "Zusammenhang zwischen Fortbewegungskräften und konkreter Sachgefahr"
+      },
+      {
+        "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2007/bvg07-035.html",
+        "title": "BVerfG, Pressemitteilung Nr. 35/2007",
+        "purpose": "Verfassungsgerichtliche Begründung zur unterlassenen Unfallnachmeldung"
+      }
+    ],
+    "hosts": [
+      "juris.bundesgerichtshof.de",
+      "www.bundesverfassungsgericht.de",
+      "www.gesetze-im-internet.de",
+      "www.hrr-strafrecht.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}

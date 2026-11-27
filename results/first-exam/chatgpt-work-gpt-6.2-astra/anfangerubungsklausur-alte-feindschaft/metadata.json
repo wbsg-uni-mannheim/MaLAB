@@ -1,0 +1,105 @@
+{
+  "schema_version": "0.1",
+  "harness": "consumer-chatgpt-work",
+  "task_id": "de/strafrecht/materielles-strafrecht/anfangerubungsklausur-alte-feindschaft",
+  "solver_case_id": "case-017",
+  "source_task_dir": "tasks/de/strafrecht/materielles-strafrecht/anfangerubungsklausur-alte-feindschaft",
+  "source_task_dir_relative": "tasks/de/strafrecht/materielles-strafrecht/anfangerubungsklausur-alte-feindschaft",
+  "system_name": "WORK GPT 6.2 ASTRA HIGH",
+  "model": "GPT-6.2 Astra",
+  "reasoning_effort": "high",
+  "settings_note": "ChatGPT Work desktop app, 18.-20.11.2026, web search on",
+  "live_web_search": true,
+  "blocking_enforced": false,
+  "started_at": "2026-11-19T12:45:18.734314+00:00",
+  "collected_at": "2026-11-20T08:17:27.050037+00:00",
+  "expected_deliverables": [
+    "fallloesung.md"
+  ],
+  "actual_deliverables": [
+    {
+      "path": "fallloesung.md",
+      "found": true,
+      "bytes": 16833,
+      "sha256": "cedf8bf5039d9b6aa3910c1fb80c41caf16e2477479f84ffa64ae56d330127a2"
+    }
+  ],
+  "missing_deliverables": [],
+  "used_final_message_fallback": false,
+  "unexpected_files": [],
+  "source_audit": {
+    "sidecar_found": true,
+    "sidecar_valid": true,
+    "sources": [
+      {
+        "url": "https://www.gesetze-im-internet.de/stgb/BJNR001270871.html",
+        "title": "Strafgesetzbuch, amtliche Gesamtfassung",
+        "purpose": "Amtlicher Wortlaut der geprüften Straftatbestände und der Vorschriften des Allgemeinen Teils, einschließlich Strafantrag und Konkurrenzen."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2011-11&Gericht=bgh&file=dokument.pdf&linked=urt&nr=58793",
+        "title": "BGH, Urteil vom 2. November 2011 – 2 StR 375/11, Rn. 21–25",
+        "purpose": "Rechtsfolge des Erlaubnistatbestandsirrtums und Maßstab für die Erforderlichkeit einer Warnung in der vorgestellten Angriffslage."
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/5/05/5-255-05.pdf",
+        "title": "BGH, Urteil vom 25. August 2005 – 5 StR 255/05",
+        "purpose": "Erforderlichkeit der Androhung bei gefährlichem Schusswaffengebrauch auch ohne Tötungsvorsatz."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2003-2&Gericht=bgh&file=dokument.pdf&linked=urt&nr=25812",
+        "title": "BGH, Urteil vom 12. Februar 2003 – 1 StR 403/02, Gründe III.6",
+        "purpose": "Abgrenzung eines Tatsachenirrtums von einem Verbotsirrtum über die rechtlichen Grenzen der Notwehr."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2008-4&Gericht=bgh&file=dokument.pdf&linked=urt&nr=43555",
+        "title": "BGH, Urteil vom 3. April 2008 – 3 StR 394/07",
+        "purpose": "Individueller Maßstab für die Vermeidbarkeit des Verbotsirrtums."
+      },
+      {
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2003-1-23&Gericht=bgh&Sort=1024&anz=22&nr=25554&pos=1",
+        "title": "BGH, Urteil vom 23. Januar 2003 – 4 StR 267/02, Gründe II.2",
+        "purpose": "Fehlende Anwendbarkeit des § 33 StGB auf den Putativnotwehrexzess."
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/2/24/2-381-24-1.pdf",
+        "title": "BGH, Beschluss vom 3. Dezember 2024 – 2 StR 381/24, zur Abgrenzung von Gewalt und Nötigungserfolg",
+        "purpose": "Eigenständiger Nötigungserfolg gegenüber der bloßen Hinnahme körperlicher Gewalt."
+      },
+      {
+        "url": "https://beckassets.blob.core.windows.net/product/readingsample/10216403/hilgendorf-strafrecht-allgemeiner-teil-9783406636691.pdf",
+        "title": "Hilgendorf/Valerius, Strafrecht Allgemeiner Teil, zum Tatentschluss auf unsicherer Tatsachengrundlage",
+        "purpose": "Abgrenzung eines Tatentschlusses auf unsicherer Tatsachengrundlage von bloßer Tatgeneigtheit."
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/99/4-76-99.pdf",
+        "title": "BGH, Urteil vom 22. April 1999 – 4 StR 76/99, NStZ 1999, 395",
+        "purpose": "Versuchsbeginn beim Klingeln, wenn der Angriff vom Erscheinen des Opfers ohne sein Kleinkind abhängt."
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/2/04/2-281-04.php",
+        "title": "BGH, Beschluss vom 20. August 2004 – 2 StR 281/04, zur Bedeutung des Tatplans beim Klingeln",
+        "purpose": "Abgrenzung des sofortigen Überraschungsangriffs vom Klingeln unter einem Ausführungsvorbehalt."
+      },
+      {
+        "url": "https://www.anwalt24.de/urteile/bgh/1997-10-07/1-str-635_96",
+        "title": "BGH, Urteil vom 7. Oktober 1997 – 1 StR 635/96",
+        "purpose": "Mittelbare Opferindividualisierung durch die Auswahl des präparierten Gegenstands."
+      },
+      {
+        "url": "https://www.hrr-strafrecht.de/hrr/4/25/4-281-25.php",
+        "title": "BGH, Beschluss vom 14. Juli 2025 – 4 StR 281/25, Rn. 6–8",
+        "purpose": "Aktuelle Bestätigung der Abgrenzung zwischen Identitätsirrtum und aberratio ictus beim Einsatz einer Falle."
+      }
+    ],
+    "hosts": [
+      "beckassets.blob.core.windows.net",
+      "juris.bundesgerichtshof.de",
+      "www.anwalt24.de",
+      "www.gesetze-im-internet.de",
+      "www.hrr-strafrecht.de"
+    ],
+    "blocked_hits": []
+  },
+  "exit_code": 0
+}
